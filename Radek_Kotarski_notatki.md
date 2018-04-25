@@ -15,3 +15,15 @@ znajdują się w materiałach do nauki.
 
 * Nie popłyń zbyt daleko i nie przeładuj się dodatkową wiedzą. Trzymaj się głównych wątków, których masz się uczyć. To one są bazą. Pozostałe informacje 
 mają jedynie wspomagać to, co chcesz przyswoić na dłużej.
+
+* Wcielaj w życie rzeczy, o których się uczysz, czyli od razu zamieniaj teorię w praktykę. To bardzo pomaga w zapamiętywaniu, bo wzmacnia ślad 
+nowej wiedzy w pamięci.
+
+* Nie musisz idealnie odwzorowywać teorii w praktyce. Często wystarczy jedynie odpowiednie symulowanie jakiejś czynności, np. udawanie prowadzenia
+samochodu przy rozwiązywaniu testów na kolejność ruchu na skrzyżowaniach.
+
+* Pamiętaj, że nie chodzi o nauczenie się jakiegoś praktycznego działania. Ono tylko i aż służy teorii.
+
+* Zadbaj, aby to, co odwzorowujesz, fizycznie odnosiło się bezpośrednio do materiału, który chcesz przyswoić.
+
+* Metodą terminatora da się uatrakcyjnić nawet wyjątkowo nudne informacje, których się uczymy.
