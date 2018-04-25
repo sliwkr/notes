@@ -16,6 +16,8 @@ znajdują się w materiałach do nauki.
 * Nie popłyń zbyt daleko i nie przeładuj się dodatkową wiedzą. Trzymaj się głównych wątków, których masz się uczyć. To one są bazą. Pozostałe informacje 
 mają jedynie wspomagać to, co chcesz przyswoić na dłużej.
 
+## Metoda terminatora
+
 * Wcielaj w życie rzeczy, o których się uczysz, czyli od razu zamieniaj teorię w praktykę. To bardzo pomaga w zapamiętywaniu, bo wzmacnia ślad 
 nowej wiedzy w pamięci.
 
@@ -27,3 +29,22 @@ samochodu przy rozwiązywaniu testów na kolejność ruchu na skrzyżowaniach.
 * Zadbaj, aby to, co odwzorowujesz, fizycznie odnosiło się bezpośrednio do materiału, który chcesz przyswoić.
 
 * Metodą terminatora da się uatrakcyjnić nawet wyjątkowo nudne informacje, których się uczymy.
+
+## Metoda testu zderzeniowego
+
+* Sprawdź swoją wiedzę prostymi testami o małą stawkę. Takie sprawdziany badacze uznają za jedną z najskuteczniejszych technik nauki, choć wciąż 
+za rzadko się ją stosuje.
+
+* Wysiłek umysłowy związany z próbą przypomnienia sobie poprawnej odpowiedzi i wyciąganie jej z odmętów pamięci to podstawa dobroczynnego 
+działania testow. Informacje, które zdobyliśmy w ten sposób, utrwalają się naprawdę silnie.
+
+* Najlepszy test to prosty test. Nie wymyślaj skomplikowanego systemu, ale zwyczajnie postaw sobie podstawowe pytania lub wypisz w ciągu kilku 
+minut wszystko, co wiesz na dany temat.
+
+* Zamiast kolejny raz czytać biernie jakiś tekst, sprawdź, ile z niego pamiętasz. W ten sposób nauczysz się dużo więcej.
+
+* Aby osiągać korzyści z samodzielnego sprawdzania swojej wiedzy, nie musisz nawet podać właściwej odpowiedzi!
+
+* Co więcej, sprawdź się... zanim jeszcze zaczniesz naukę. W ten sposób dowiesz się, na co zwrócić szczególną uwagę.
+
+* Ucz się na swoich pomyłkach, nie próbuj im na siłę zapobiegać.
