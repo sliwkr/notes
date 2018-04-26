@@ -48,3 +48,22 @@ minut wszystko, co wiesz na dany temat.
 * Co więcej, sprawdź się... zanim jeszcze zaczniesz naukę. W ten sposób dowiesz się, na co zwrócić szczególną uwagę.
 
 * Ucz się na swoich pomyłkach, nie próbuj im na siłę zapobiegać.
+
+## Metoda fiszek
+
+* Zweryfikuj swoją wiedzę za pomocą fiszek - to stara metoda, która nie ma daty przydatności. Stanowi prosty sprawdzian bez stresu i oszukiwania. 
+
+* Fiszka to zwykły kartonik, na którym na jednej stronie napisane jest zadanie lub pytanie, a na drugiej widnieje odpowiedź. Przeczytaj polecenie, spróbuj 
+znaleźć właściwe rozwiązanie i sprawdź, czy masz rację!
+
+* W nauce z fiszkami pomaga pudełko z pięcioma przegródkami. Po poprawnej odpowiedzi przenieś fiszkę do następnej przegrody, aż powtórzysz każdą informację 
+co najmniej pięć razy.
+
+* Dlaczego tyle? Nie wystarczy Ci jedna trafna odpowiedź. Musisz po czasie sprawdzić, czy faktycznie wciąż pamiętasz właściwe rozwiązanie. W ten sposób 
+unikniesz pułapki pozorów posiadania wiedzy.
+
+* Fiszki pozwolą Ci skupić uwagę na rzeczach, z którymi masz większy problem. Po prostu powtarzasz je dużo częściej. Do momentu gdy nie opuszczą 
+ostatniej przegródki.
+
+* Daj sobie chwilę przerwy i nie zamień się w fiszkowego narkomana. Skorzystaj z dobrodziejstwa, które w nauce daje Ci zapominanie.
+
