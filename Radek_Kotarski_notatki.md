@@ -67,3 +67,25 @@ ostatniej przegródki.
 
 * Daj sobie chwilę przerwy i nie zamień się w fiszkowego narkomana. Skorzystaj z dobrodziejstwa, które w nauce daje Ci zapominanie.
 
+## Metoda tancerki
+
+* Mądrze rozłożona w czasie nauka to nie to samo co bliżej niesprecyzowany nakaz *systematycznego uczenia się*, powtarzany przez wielu.
+
+* Rozproszenie powtórek w czasie pozwoli Ci zapamiętać na znacznie dłużej, nawet przez całe życie.
+
+* Twoim sprzymierzeńcem paradoksalnie jest także... zapominanie. Planuj naukę tak, aby przy następnej sesji nieco się wysilić i musieć przypomnieć sobie to, 
+co ostatnio było przerabiane.
+
+* Nie ma jednej odpowiedzi na pytanie, jak długo powinny być przerwy między sesjami nauki. Musisz dać sobie chwilę na zapomnienie, aby w kolejnej sesji 
+zapisać informacje w pamięci na dłużej. Sprawdź, jaki oddech między ćwiczeniami jest dla Ciebie najlepszy. 
+
+* Rozproszenie nauki na wiele dni wcale nie zabierze Ci więcej czasu niż kucie na blachę w jednym momencie, najczęściej na ostatnią chwilę. 
+Stanie się wręcz przeciwnie - zaoszczędzisz w ten sposób cenne minuty, które wykorzystasz, jak tylko zechcesz!
+
+* Uczenie się tuż przzed sprawdzianem wiedzy (tets, egzamin, prezentacja) to ostatnia deska ratunku, której jednak musisz się wystrzegać. Jest to 
+zwyczajnie mało efektywna metoda, przy której wiedza wychodzi z głowy jeszcze szybciej, niż tam weszła.
+
+* Rozpraszając w czasie uczenie się, eliminujesz złudne poczucie posiadania wiedzy, które wynika z bycia na świeżo z materiałami. Mamy niesłychaną 
+zdolność dod przeceniania swoich możliwości i stanu wiedzy.
+
+* Dzięki tej metodzie pogodzisz naukę z obowiązkami życia codziennego i pracą.
