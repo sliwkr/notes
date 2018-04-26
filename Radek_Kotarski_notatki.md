@@ -89,3 +89,14 @@ zwyczajnie mało efektywna metoda, przy której wiedza wychodzi z głowy jeszcze
 zdolność dod przeceniania swoich możliwości i stanu wiedzy.
 
 * Dzięki tej metodzie pogodzisz naukę z obowiązkami życia codziennego i pracą.
+
+## Metoda zmiany miejsca
+
+* Zmieniaj okoliczności, w których się uczysz. Oklepana zasada stałego i cichego miejsca nauki nie znajduje oparcia w rzetelnych pracach naukowych.
+
+* Różnorodność miejsc do nauki tworzy dodatkowe miejsce w pamięci, o które może się zahaczyć przyswajana informacja.
+
+* Nie musisz rzucać wszystkiego i jechać się uczyć w Bieszczady. Wystarczy nawet drobna zmziana, np. nauka raz w pokoju, raz na balkonie, 
+a innym razem w parku.
+
+* Badacze wciąż się spierają, czy akompaniament muzyczny przeszkadza, czy pomaga w nauce. Sprawdź, co najlepiej sprawdza się w Twoim przypadku.
