@@ -48,3 +48,55 @@ minut wszystko, co wiesz na dany temat.
 * Co więcej, sprawdź się... zanim jeszcze zaczniesz naukę. W ten sposób dowiesz się, na co zwrócić szczególną uwagę.
 
 * Ucz się na swoich pomyłkach, nie próbuj im na siłę zapobiegać.
+
+## Metoda fiszek
+
+* Zweryfikuj swoją wiedzę za pomocą fiszek - to stara metoda, która nie ma daty przydatności. Stanowi prosty sprawdzian bez stresu i oszukiwania. 
+
+* Fiszka to zwykły kartonik, na którym na jednej stronie napisane jest zadanie lub pytanie, a na drugiej widnieje odpowiedź. Przeczytaj polecenie, spróbuj 
+znaleźć właściwe rozwiązanie i sprawdź, czy masz rację!
+
+* W nauce z fiszkami pomaga pudełko z pięcioma przegródkami. Po poprawnej odpowiedzi przenieś fiszkę do następnej przegrody, aż powtórzysz każdą informację 
+co najmniej pięć razy.
+
+* Dlaczego tyle? Nie wystarczy Ci jedna trafna odpowiedź. Musisz po czasie sprawdzić, czy faktycznie wciąż pamiętasz właściwe rozwiązanie. W ten sposób 
+unikniesz pułapki pozorów posiadania wiedzy.
+
+* Fiszki pozwolą Ci skupić uwagę na rzeczach, z którymi masz większy problem. Po prostu powtarzasz je dużo częściej. Do momentu gdy nie opuszczą 
+ostatniej przegródki.
+
+* Daj sobie chwilę przerwy i nie zamień się w fiszkowego narkomana. Skorzystaj z dobrodziejstwa, które w nauce daje Ci zapominanie.
+
+## Metoda tancerki
+
+* Mądrze rozłożona w czasie nauka to nie to samo co bliżej niesprecyzowany nakaz *systematycznego uczenia się*, powtarzany przez wielu.
+
+* Rozproszenie powtórek w czasie pozwoli Ci zapamiętać na znacznie dłużej, nawet przez całe życie.
+
+* Twoim sprzymierzeńcem paradoksalnie jest także... zapominanie. Planuj naukę tak, aby przy następnej sesji nieco się wysilić i musieć przypomnieć sobie to, 
+co ostatnio było przerabiane.
+
+* Nie ma jednej odpowiedzi na pytanie, jak długo powinny być przerwy między sesjami nauki. Musisz dać sobie chwilę na zapomnienie, aby w kolejnej sesji 
+zapisać informacje w pamięci na dłużej. Sprawdź, jaki oddech między ćwiczeniami jest dla Ciebie najlepszy. 
+
+* Rozproszenie nauki na wiele dni wcale nie zabierze Ci więcej czasu niż kucie na blachę w jednym momencie, najczęściej na ostatnią chwilę. 
+Stanie się wręcz przeciwnie - zaoszczędzisz w ten sposób cenne minuty, które wykorzystasz, jak tylko zechcesz!
+
+* Uczenie się tuż przzed sprawdzianem wiedzy (tets, egzamin, prezentacja) to ostatnia deska ratunku, której jednak musisz się wystrzegać. Jest to 
+zwyczajnie mało efektywna metoda, przy której wiedza wychodzi z głowy jeszcze szybciej, niż tam weszła.
+
+* Rozpraszając w czasie uczenie się, eliminujesz złudne poczucie posiadania wiedzy, które wynika z bycia na świeżo z materiałami. Mamy niesłychaną 
+zdolność dod przeceniania swoich możliwości i stanu wiedzy.
+
+* Dzięki tej metodzie pogodzisz naukę z obowiązkami życia codziennego i pracą.
+
+## Metoda zmiany miejsca
+
+* Zmieniaj okoliczności, w których się uczysz. Oklepana zasada stałego i cichego miejsca nauki nie znajduje oparcia w rzetelnych pracach naukowych.
+
+* Różnorodność miejsc do nauki tworzy dodatkowe miejsce w pamięci, o które może się zahaczyć przyswajana informacja.
+
+* Nie musisz rzucać wszystkiego i jechać się uczyć w Bieszczady. Wystarczy nawet drobna zmziana, np. nauka raz w pokoju, raz na balkonie, 
+a innym razem w parku.
+
+* Badacze wciąż się spierają, czy akompaniament muzyczny przeszkadza, czy pomaga w nauce. Sprawdź, co najlepiej sprawdza się w Twoim przypadku.
