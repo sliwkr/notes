@@ -100,3 +100,22 @@ zdolność dod przeceniania swoich możliwości i stanu wiedzy.
 a innym razem w parku.
 
 * Badacze wciąż się spierają, czy akompaniament muzyczny przeszkadza, czy pomaga w nauce. Sprawdź, co najlepiej sprawdza się w Twoim przypadku.
+
+## Metoda papugi
+
+* Bierne kilkukrotne czytanie jednego materiału do nauki to zdecydowanie najmniej efektywna strategia uczenia się. Oszczędzaj czas i jej nie stosuj!
+
+* Mimo to wielokrotne czytanie tego samego tekstu jest ciągle najpopularniejszą metodą nauki na świecie. Co gorsza, często jedyną w arsenale młodszych i 
+dorosłych uczniów. Jej popularność wynika z rozbrajającej wręcz prostoty.
+
+* 10-, 100- lub 1000- krotne zapoznanie się z jakąś informacją nie zagwarantuje Ci zachowania szczegółów w pamięci na długi czas.
+
+* Powtórki są jednak niezbędne przy nauce. Każdą kolejną sesje nauki traktuj jako okazję do nowego spojrzenia na przyswajane treści. Zaskakuj swój mózg! 
+Wtedy dużo łatwiej będzie Ci się do niego włamać.
+
+* Aby głębiej wgryźć się w sam tekst, który czytasz, możesz opracować jego najważniejsze punkty, przeredagować go, znaleźć przykłady lub wyjątki, stworzyć 
+grafiki itd. Korzystaj ze swoich pokładów kreatywności!
+
+* Twoje skuteczne uczenie się jest nierozerwalnie związane z tym, jak głęboko przetwarzasz informacje. Zamiast kolejnego przeczytania tych samych materiałów 
+zwyczajnie zastosuj inną metodą opisaną w tej książce.
+
