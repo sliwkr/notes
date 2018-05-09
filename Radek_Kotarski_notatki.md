@@ -119,3 +119,20 @@ grafiki itd. Korzystaj ze swoich pokładów kreatywności!
 * Twoje skuteczne uczenie się jest nierozerwalnie związane z tym, jak głęboko przetwarzasz informacje. Zamiast kolejnego przeczytania tych samych materiałów 
 zwyczajnie zastosuj inną metodą opisaną w tej książce.
 
+## Metoda majstersztyku
+
+* Stwórz mistrzowskie dzieło, które będzie Twoim opracowaniem materiału do nauki. Nie posiłkuj się pracą innych - to nieefektywne; zaangażuj własne zasoby.
+
+* Znacznie lepiej zapamiętasz treści, które zorganizujesz i przetworzysz na własną rękę. Pobudzisz w ten sposób skojarzenia między poszczególnymi elementami 
+materiałów do nauki.
+
+* Nie ograniczaj się tylko do podkreślania lub zakreślania zdań w książce. To na dłuższą metę niewiele pomaga. Im więcej zrobisz i głębiej przetworzysz 
+przyswajane informacje, tym lepiej.
+
+* Kluczowe znaczenie ma jakość tak wyprodukowanych materiałów. Staraj się, aby była to prawdziwa esencja kodowanych treści nastawiona na najważniejsze kwestie.
+
+* W nauce pomoże Ci także odniesienie tych treści do własnych doświadczeń. Postaraj się skojarzyć materiały do nauki z pamiętanymi sytuacjami z Twojego życia.
+
+* Przy tworzeniu majstersztyku wykorzystaj materiały graficzne. Mogą to być na przykład mapy myśli:globe_with_meridians:, strzałki:twisted_rightwards_arrows:, 
+rysunki:bank:, kolory:art: itd.:shipit:. Nie liczy się poziom artystyczny.
+
