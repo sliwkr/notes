@@ -136,3 +136,23 @@ przyswajane informacje, tym lepiej.
 * Przy tworzeniu majstersztyku wykorzystaj materiały graficzne. Mogą to być na przykład mapy myśli:globe_with_meridians:, strzałki:twisted_rightwards_arrows:, 
 rysunki:bank:, kolory:art: itd.:shipit:. Nie liczy się poziom artystyczny.
 
+## Metoda króla boksu:neckbeard:
+
+* Ludzie lubią się uczyć blokowo - układają sobie materiały, powtarzają poszczególne części aż do skutku i dopiero wtedy przechodzą do kolejnego zagadnienia. 
+Takie podejście nie jest najskuteczniejsze oraz daje złudne poczucie biegłości i bycia w ciągu nauki.
+
+* Znacznie lepiej działa przeplatanie ćwiczeń z różnych działów. Zamiast przechodzić przez wszystkie elementy składowe jakiegoś zagadnienia, zwyczajnie 
+wymieszaj ich kolejność. Kto Ci zabroni ćwiczyć jak Muhammad Ali?
+
+* Przemieszanie materiału sprawi, że Twój mózg będzie zmuszony do pracy na wysokich obrotach. To dla niego bardzo dobre!
+
+* Rozsądnie utrudniaj sobie naukę. Doprowadź do sytuacji, w której mózg się nieco zmęczy. Taki zwiększony wysiłek nie jest wrogiem, wręcz przeciwnie - jednym z 
+najważniejszych elementów długotrwałego zapamiętywania.
+
+* Mimo dowodów na skuteczność mieszania ćwiczeń i materiałów do nauki większośći uczniów wciąż takie przyswajanie wiedzy wydaje się nieintuicyjne 
+i niewłaściwe. Nie bądź jak większość uczniów! Gdy sprawdzisz to na własną rękę, możesz się zdziwić jak skutecznie to działa.
+
+* *Walka jest wygrana lub przegrana z dala od wszystkich świadków. Za kulisami, w sali treningowej i na całej ścieżce przygotowań.*
+
+* *Jeśli można było zrobić penicylinę ze spleśniałego chleba, to z ciebie też na pewno da się coś zrobić.*
+
