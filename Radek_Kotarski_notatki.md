@@ -156,3 +156,27 @@ i niewłaściwe. Nie bądź jak większość uczniów! Gdy sprawdzisz to na wła
 
 * *Jeśli można było zrobić penicylinę ze spleśniałego chleba, to z ciebie też na pewno da się coś zrobić.*
 
+## Metoda walenia
+
+* Zdecydowana większość uczniów wierzy, że notowanie jest ważne dla skutecznej nauki. Słusznie! Notuj, ale nie rób tego bezmyślnie i zbyt nadgorliwie. 
+Napisanie kolejnej książki na podstawie wykładu nie ma żadnego sensu i nie daje większych efektów.
+
+* Najlepiej na egzaminach radzą sobie ci notujący, którzy podsumowują i parafrazują to, co usłyszą. Przefiltruj więc zasłyszane słowa i zamień czyjeś myśli 
+na własne.
+
+* Wykorzystaj notatki dla wyłapywania kluczowych niuansów. Szczególnie skup się na związkach między przekazywanymi informacjami, na analogiach, przykładach 
+i spostrzeżeniach nauczyciela. To one poszerzają treści z podręcznika i ułatwiają ci naukę. 
+
+* Nie wyrobisz się z notowaniem wszystkiego, co usłyszysz na wykładzie lub prezentacji. Dlatego nawet nie próbuj zapisywać treści słowo w słowo. 
+
+* Nie musisz mieć przepięknych notatek. Ważne, aby łatwo ci było się w nich odnaleźć. Dostosuj formę do swoich preferencji - nieważne, czy lubisz pisać krzywo, 
+z góry na dół lub notujesz w formie obrazków. 
+
+* Wróć do notatek wkrótce po zakończeniu słuchania wykładu. Wtedy masz szansę uzupełnić je o dodatkowe przemyślenia. To kluczowa zasada, a często bywa pomijana.
+
+* Dobrym sposobem notowania jest metoda Cornella. Łatwo ją zastosować, a pozwoli ci na wypisanie wskazówek, kluczowych pojęć i krótkich podsumowań z 
+zasłyszanego wywodu.
+
+* Nie można jednoznacznie rozstrzygnąć, czy lepsze są notatki na komputerze, czy na papierze. Najlepszy sposób na notatki to.. twój sposób, czyli ten, 
+z którym się dobrze czujesz!
+
