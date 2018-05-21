@@ -180,3 +180,18 @@ zasłyszanego wywodu.
 * Nie można jednoznacznie rozstrzygnąć, czy lepsze są notatki na komputerze, czy na papierze. Najlepszy sposób na notatki to.. twój sposób, czyli ten, 
 z którym się dobrze czujesz!
 
+## Metoda pałacu pamięci
+
+* Mnemotechniki to sztuczki pamięciowe, które ułatwiają zapamiętywanie różnych wiadomości.
+
+* Pomyśl o doskonale znanym sobie miejscu, w którym bez problemu się odnajdujesz - np. w domu rodzinnym. W kolejnych pomieszczeniach umieszczaj przedmioty 
+kojarzące się z informacjami, które chcesz zapamiętać. W ten sposób stworzysz własny pałac pamięci.
+
+* zapamiętywanie: 93,1% pałac pamięci - 81% wielokrotne czytanie
+
+* Korzystaj z jak najbardziej przesadzonych, wyolbrzymionych, zabawnych lub nawet oburzających skojarzeń. Takie łatwiej zapadną ci w pamięć w porównaniu z 
+"grzecznymi" pokojami w pałacu. 
+
+* Uważaj na skojarzenia, które mogą sprowadzić cię na manowce. Korzystaj z takich, które są najbardziej jednoznaczne.
+
+* zapamiętywanie: 72% skojarzenia - 46% wielokrotne czytanie
