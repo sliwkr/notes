@@ -195,3 +195,19 @@ kojarzące się z informacjami, które chcesz zapamiętać. W ten sposób stworz
 * Uważaj na skojarzenia, które mogą sprowadzić cię na manowce. Korzystaj z takich, które są najbardziej jednoznaczne.
 
 * zapamiętywanie: 72% skojarzenia - 46% wielokrotne czytanie
+
+## Metoda immersji
+
+* Dysponujesz pamięcią jawną i utajoną. Z tej drugiej też możesz skorzystać w nauce, nawet gdy nie masz do niej świadomego dostępu. Ba, widzisz już jej 
+efekty, czytając tę książkę napisaną przecież w języku polskim!
+
+* Rozróżnij dwa kluczowe pojęcia - immersja, czyli częściowe zanurzenie np. w przyswajanym języku obcym oraz submersja, czyli całkowite zanurzenie.
+
+* Wbrew pozorom to częsciowe zanurzenie (immersja) najczęściej daje lepsze rezultaty w nauce niż całkowite zanurzenie (submersja). To efekt mniejszego stresu 
+oraz braku frustracji. Nie rzucaj się na zbyt głębokie wody, jeśli nie wiesz jeszcze, jak pływać. 
+
+* Aby nauczyć się obcego jęzka, wcale nie musisz wjeżdżać do kraju, w którym się go używa. Skuteczna, często nawet z lepszymi rezultatami, bedzie także nauka 
+w domu, gdy odpowiednio otoczysz się obcojęzycznymi bodźcami. 
+
+* Nauka języka obcego u dorosłch przebiega inaczej niż uczenie się mowy ojczystej w dzieciństwie. Zastosuj bardziej "dojrzałe" metody oparte na świadomości 
+uczonego języka.
