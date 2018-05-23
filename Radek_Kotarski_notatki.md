@@ -211,3 +211,19 @@ w domu, gdy odpowiednio otoczysz się obcojęzycznymi bodźcami.
 
 * Nauka języka obcego u dorosłch przebiega inaczej niż uczenie się mowy ojczystej w dzieciństwie. Zastosuj bardziej "dojrzałe" metody oparte na świadomości 
 uczonego języka.
+
+## Metoda nauczyciela
+
+* Ucz się z myślą, że w następnym kroku musisz przekazać komuś zdobytą wiedzę. W ten sposób dużo skuteczniej kodujesz informacje.
+
+* Podobnie dzieje się, gdy w rzeczywistości wykładasz innej osobie jakieś informacje. Możliwe, że wtedy uczysz się nawet lepej niż osoba, która Cię słucha!
+
+* Korzystaj z tej metody także wtedy, gdy uczysz się na własną rękę. Wtedy zwyczajnie na głos wypowiadaj wyjaśnienia, powiązania z innymi informacjami 
+czy swoje spostrzeżenia.
+
+* Analizuj i opisuj(także na głos) to, w jaki sposób zostało rozwiązane prawidłowo jakieś zadanie. W podobny sposób zbadaj, gdzie w innym przykładzie został 
+popełniony błąd.
+
+* Bądź nauczycielem dla siebie i innych! Niezależnie od tego czy uczysz się w samotności czy w grupie.
+
+* "Przy czym takie lekcje wzmagają naszą koncentrację i są piekielnie skuteczne, jak dobre tabletki na zaparcia - przeczyszczają, nie przerywając snu." - wat
