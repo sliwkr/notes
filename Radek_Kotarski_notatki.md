@@ -227,3 +227,20 @@ popełniony błąd.
 * Bądź nauczycielem dla siebie i innych! Niezależnie od tego czy uczysz się w samotności czy w grupie.
 
 * "Przy czym takie lekcje wzmagają naszą koncentrację i są piekielnie skuteczne, jak dobre tabletki na zaparcia - przeczyszczają, nie przerywając snu." - wat
+
+## Bottom line
+
+* Należy raz na zawsze skończyć z niedziałąjącymi metodami, które stosujemy z przyzwyczajenia.
+
+* Dobrze rozróżnić metody nauki na trudne dla nas i trudne dla naszego mózgu. Warto dobierać te drugie, by nauka była przyjemniejsza.
+
+ | Metoda odpoczynku			| Spadek ogólnego napięcia |
+ |:----------------------------:|:------------------------:|
+ | Czytanie przez 6 min  		| 68%			  		   |
+ | Słuchanie ulubionej muzyki 	| 61%			  		   |
+ | Kubek herbaty				| 54%			  		   |
+ | Spacer						| 42%			  		   |
+ | Granie na komputerze			| 21%			  		   |
+
+* Sen porządkuje nabytą wiedzę, odsiewa śmieci i poprawia jakość wykonywanej czynności o ok. 20% (eksperyment z wystukiwaniem palcami sekwencji 41324)
+
