@@ -31,14 +31,21 @@
 * Identify with your employer - their problems are *your* problems. Understand them and work to develop the solution
 * "Programming is an act of supreme arrogance"
 ## Chapter 2: Saying No
-### Adversarial Roles
-### High Stakes
-### Being a "Team Player"
-### The Cost of Saying Yes
-### Code Impossible
+* "Do; or do not. There is no trying." - Yoda
+** When you say you'll try, you're telling you'll use some unused reservoir of energy you've been holding back
+* Stop being afraid of confrontation
+* Facts > why. 
+* The higher the stakes, the more important No becomes
+* A team player communicates frequently, keeps an eye for his teammates and does his responsibilities the best he can
+* Mind the cost of saying yes. Sometimes the only way to get to the right Yes is to be unafraid to say No
+* Don't try to be a hero
 ## Chapter 3: Saying Yes
+* You're not obliged to say Yes to everything, but it's good to work to find ways to make Yes possible
 ### A Language of Commitment
-### Learning How to Say "Yes"
+* Say. Mean. Do. 
+** Lack of commitment: Need/Should; Hope/wish; Let's
+* You can only commit to things you have full control of
+* As a professional you're obliged to write code that passes certain standards. Do not cut corners
 ## Chapter 4: Coding
 ### Preparedness
 ### The Flow Zone
