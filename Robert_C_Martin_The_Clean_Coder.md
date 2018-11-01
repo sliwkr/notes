@@ -81,12 +81,28 @@
 	* It forces you to apply good design patterns
 	* The unittests you write after the fact are *defense*. The ones you write before are offense
 ## Chapter 6: Practicing
-### Some Background on Practicing
-### The Coding Dojo
-### Broadening Your Experience
+* Although you don't have to, it's sometimes wiser to slow down and just think
+* In programming and martial arts, speed depends on practice
+* Exercises
+	* Kata: a precise set of choreographed keystrokes that simulates the solving of some programing problem
+		* You're not solving the problem - you're practicing movements and decisions involved in solving the problem
+		* A good way to get familiar with IDE's, learn keyboard shortcuts or CI & TDD 
+	* Wasa: Two-man kata
+	* Randori: Multi-man wasa. Screen projected on the TV, one person writes a unit test, other makes it pass
+* Open source is a cool way to broaden your experience in different technologies. 
+* Practice when you're not getting paid, so you can get paid and get paid well
+* Professionals practice because they care about doing the best job they can
 ## Chapter 7: Acceptance Testing
-### Communication Requirements
-### Acceptance Tests
+* Avoid premature precision. Once customer sees requirement running, he'll have a better idea of what he really want
+* Defer precision as long as possible, but watch out for late ambiguities that stem out of wague communication
+* Acceptance tests should be created by stakeholders and QA, and reviewed by developers for consistency
+	* Business analyst writes a happy path
+	* QA imagines what can go wrong and writes unhappy paths
+	* Developer executes test for the new feature and see it fail, then make it pass
+* As a professional developer, it is your job to negotiate with a QA for a better test. Avoid being passive-agressive
+* Writing an automated acceptance test might seem like an extra work, but it's saving your future time
+* Single Responsibility Principle: group things that change for the same reason
+* A broken CI build should be viewed as emergency
 ## Chapter 8: Testing Strategies
 ### QA Should Find Nothing
 ### The Test Automation Pyramid
