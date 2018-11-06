@@ -104,15 +104,48 @@
 * Single Responsibility Principle: group things that change for the same reason
 * A broken CI build should be viewed as emergency
 ## Chapter 8: Testing Strategies
-### QA Should Find Nothing
-### The Test Automation Pyramid
+* The goal of development should be that QA finds nothing wrong
+* Unit tests
+	* By programmer, for programmers
+	* Specify system at the lowest level
+* Component tests
+	* By QA and Business with developer assistance
+	* Test individual components of the system, specify the happy paths rather than unhappy paths
+	* Any other component besides the one being tested are be mocked
+* Integration tests
+	* Assemble group of components and test their behaviour, make sure they work together
+	* Any other components besides the tested ones are mocked
+* System tests
+	* Ultimate integration tests, they contain performance tests
+	* Test the correct system construction, not the correct behaviour
+* Manual exploratory tests
+	* There's no plan
+	* Find unexpected system behaviours with humanz 
 ## Chapter 9: Time Managment
-### Meetings
-### Focus-Manna
-### Time Boxing and Tomatoes
-### Avoidance
-### Blind Alleys
-### Marshes, Bogs, Swamps, and Other Messes
+* Meetings 
+	* Necessary, but a huge time waster. Send your invites wisely
+	* It's okay to decline a meeting invitation and it's ok to leave if it gets boring
+	* Meeting should have an agenda with times for each topic and a stated goal
+	* Planning is meant to select items from backlog that'll be executed in the next iteration
+		* Estimates should be already done
+		* No more than 10 minutes on a given item
+		* Meeting should take no more than 5% of total iteration time (5% of 1 week = 2h)
+	* Retrospective & Demo
+		* Discuss what went right and what went wrong
+		* Show off
+		* Often abused, can steal a lot of time, schedule smartly
+* "Any argument that can't be settled in 5 minutes can't be settled by arguing"
+* Strong character, yelling or charisma doesn't settle disagreements for long. Data does
+* If you agree, you must engage
+* Focus resembles manna closely. Find time to recharge it
+	* Beware of manna-soaking meetings
+	* You propably heard it, but get enough sleep.
+	* More caffeine isn't always a good idea
+	* Manna can be recharged by de-focussing, that is long walks, mediation, power naps, podcasts and variety of others
+	* Physical excersise can help to recharge
+* Consider the pomodoro technique
+* You might want to avoid something you're scared or plain don't want to do, but it's unprofessional, so don't
+* When you realize the path you've chosen is a blind alley, have the courage to back out immediately
 ## Chapter 10: Estimation
 ### What Is an Estimate?
 ### PERT
