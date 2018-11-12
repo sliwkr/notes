@@ -147,10 +147,15 @@
 * You might want to avoid something you're scared or plain don't want to do, but it's unprofessional, so don't
 * When you realize the path you've chosen is a blind alley, have the courage to back out immediately
 ## Chapter 10: Estimation
-### What Is an Estimate?
-### PERT
-### Estimating Tasks
-### The Law of Large Numbers
+* Business view estimates as commitment wheras developers tend to view them as guesses
+* Professionals do not make commitments unless they *know* they can achieve them. Don't make promises you can't keep
+* There's no secret skill to estimation
+* Estimate is not a number - it's a propability distribution (days * percent)
+* PERT's Trivariage analysis: Optimistic, Nominal(most propable) and Pessimistic estimate
+	* time it'll take t = (O + 4N + P)/6
+		* more tasks: sum all the times 
+	* standard deviation d = (P - O)/6
+		* more tasks: square root of the sum of the squares of deviations
 ## Chapter 11: Pressure
 ### Avoiding Pressure
 ### Handling Pressure
