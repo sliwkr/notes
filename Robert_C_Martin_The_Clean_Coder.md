@@ -157,8 +157,18 @@
 	* standard deviation d = (P - O)/6
 		* more tasks: square root of the sum of the squares of deviations
 ## Chapter 11: Pressure
-### Avoiding Pressure
-### Handling Pressure
+* Imagine how surgeons deal with pressure
+* The best way to stay calm and decisive under pressure is to minimize situations that cause pressure
+* Professionals help business meet their commitments, but they're not obliged to accept their commitments
+* Stay clean; quick & dirty fix is an oxymoron - dirty means slow
+* You know what you belive in by observing yourself in a crisis. 
+	* Choose ways of working you feel comfortable following during a crisis and stick to them all the time
+	* Trust your ways of working to get you where you want; do not question or abandon them during a crisis
+* Panic won't make it better or faster; slow down. 
+	* Think the problem through
+	* Plan a course to the best possible outcome
+	* Drive towards the outcome in a reasonable and steady pace
+* Communicate the trouble with your peers, help peers out of the trouble if they're in some
 ## Chapter 12: Collaboration
 ### Programmers versus People
 ### Cerebellums
