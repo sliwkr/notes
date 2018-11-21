@@ -170,8 +170,14 @@
 	* Drive towards the outcome in a reasonable and steady pace
 * Communicate the trouble with your peers, help peers out of the trouble if they're in some
 ## Chapter 12: Collaboration
-### Programmers versus People
-### Cerebellums
+* "We didn't become programmers because we like working with people. As a rule we find interpersonal relationships
+messy and unpredictable. We like the clean and predictable behavior of the machines that we program. We are happiest
+when we're alone in a room for hours deeply focusing on some really interesting problem."
+* Perhaps you didn't get into programming to work with people. Tough luck for you; programming is all about it
+* Understanding business and office conventions will help you not get fired
+* Don't build a wall of ownership around your code; make the team own the code
+* Pairing is simply one of the most efficient tools to solve the problem or share knowledge; use it
+* Professionals work together. You can't work together while sitting in the corner wearing headphones
 ## Chapter 13: Teams and Projects
 ### Does It Blend?
 ## Chapter 14: Mentoring, Apprenticeship, and Craftsmanship
