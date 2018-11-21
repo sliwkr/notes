@@ -179,9 +179,7 @@ when we're alone in a room for hours deeply focusing on some really interesting 
 * Pairing is simply one of the most efficient tools to solve the problem or share knowledge; use it
 * Professionals work together. You can't work together while sitting in the corner wearing headphones
 ## Chapter 13: Teams and Projects
-### Does It Blend?
-## Chapter 14: Mentoring, Apprenticeship, and Craftsmanship
-### TODO
-## Appendix A: Tooling
-### TODO
+* There's no such thing as half a person
+* It takes time for a team to form; usually a good team consists of around 12 people; good tester ratio is 2:1
+* It's harder to form a team than to build a project; think of a team as an engine you feed projects to
 
