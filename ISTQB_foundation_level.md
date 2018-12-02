@@ -198,4 +198,76 @@
 		* May be done on any test level and for any test type
 		* May be difficult to perform if specifications are out of date or testers with sufficient knowledge are missing
 # Chapter 3 - Static Techniques
+* Preface
+	* Manual examination (code reviews) and automated analysis (static analysis) can be performed without executing code
+	* Any software work product can be reviewed
+	* Benefits of reviews:
+		* Early detection & correction
+		* Improvement of development productivity
+		* Reduced development timescales
+		* Reduced testing cost & time
+		* Improved communication
+		* Ability to find omissions, deviations from standards, design defects, incorrect specifications
+	* Static analysis rather finds potential/actual cause of defects than defects themselves
+* Typical review
+	* Planning - Define criteria, find people, allocate roles, define entry & exit criteria, select subject, check entry criteria
+	* Kick-off - Distribute documents, explain the objectives & process to participants
+	* Individual preparation - review documents, note potential defects and questions
+	* Examination/evaluation/recording of results - discuss, note defects, make recommendations, make decisions
+	* Rework - Fix found defects, record updated defect status
+	* Follow-up - Gather metrics, make sure defects have been adressed, check exit criteria
+* Roles and responsibilities
+	* Manager - decides on execution of reviews, allocates time for it, determines if objectives have been met
+	* Moderator - leads review process(planning, running meeting & follow-up), mediator of different points of view
+	* Author - writer or person with chief responsibility for the reviewed code
+	* Reviewers - have appropriate technical/business background, identify & describe defects, they should take part in review
+	* Scribe - documents issues, problems & open points that were identified during the meeting
+* Review types
+	* Informal
+		* May take the form of pair programming
+		* Results may be documented
+		* Purpose: inexpensive way to get some benefit
+	* Walkthrough
+		* Meeting led by author
+		* May take the form of scenarios, dry runs, peer group participation
+		* Open-ended sessions
+		* Optional scribe (not author)
+		* May vary in formality
+		* Purpose: learning, gaining understanding, finding defects
+	* Technical review
+		* Documented & defined defect-detection process which involves peers & tech experts
+		* May be performed as a peer review
+		* Ideally led by trained moderator, not the author
+		* Required pre-meeting reviewer preparation
+		* Optional checklists
+		* Report containing list of findings, verdict whether software meets requirements, reccomendations related to findings
+		* Purpose: discuss, make decisions, evaluate alternatives, solve tech problems, check conformance to specifications
+	* Inspection
+		* Led by moderator (not the author)
+		* Can be performed within peer group (peer review)
+		* Conducted as peer examination
+		* Defined roles
+		* Gathering metrics
+		* Formal process based on rules and checklists
+		* Specified entry & exit criteria for acceptance of software product
+		* Required pre-meeting preparation
+		* Report containing list of findings
+		* Formal follow-up process
+		* Purpose: find defects
+* Success factors for reviewers
+	* Review has clear, predefined objectives
+	* Right people are involed
+	* Testers are valued reviewers who contribute to review and learn about the product which enables em to prepate tests
+	* Defects found are welcomed and expressed objectively
+	* People/psychologial issues are dealth with (positive experience for the author)
+	* Outcome of review will not be used to evaluate author (atmosphere of trust)
+	* Review techniques are suited to the objective, product and reviewers
+	* Checklists are used if appropriate to increase effectiveness
+	* Training reviewers in more formal review techniques
+	* Management supports the good review process
+	* Emphasis on learning and process improvement
+* Static analysis by tools
+	* Purpose: find defects (obviously) that are hard to locate by dynamic (people) testing
+	* Typicaly used by developers before and during component testing or when checking-in code
+# Chapter 4 - Test design techniques
 
