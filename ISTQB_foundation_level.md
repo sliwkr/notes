@@ -270,4 +270,72 @@
 	* Purpose: find defects (obviously) that are hard to locate by dynamic (people) testing
 	* Typicaly used by developers before and during component testing or when checking-in code
 # Chapter 4 - Test design techniques
+* Test development process
+	* Test analysis - test basis documentation is analyzed to determine test conditions & establish traceability
+	* Test design - test cases & data are created & speicified, expected results should be defined
+	* Test implementation - test cases are developed, implemented, prioritized, organized & formed into a schedule
+* Categories of test design techniques
+	* The purpose of a test design technique is to identify test conditions, cases and test data
+	* Black box(specification-based) techniques derive test cases based on analysis of documentation
+	* White box(structure-based) techniques derive test cases after analysis of structure of the component or system
+	* Experience-based techniques are based on the knowlegde of the product by the one who invents them
+* Black-box techniques
+	* Equivalence partitioning
+		* Inputs to the software are divided into groups that exhibit similar behaviour to be processed in a similar way
+		* Partitioning is based on valid/invalid data, response times, interface parameters 
+	* Boundary value analysis
+		* Behaviour at the edge of an equivalence partition is more likely to be invalid than within the partition
+		* Maximum and minimum values of a partition are its boundary values
+		* Relatively easy to apply, with high defect detection rate
+	* Decision table design
+		* Good way to capture requirements containing logical conditions (often boolean)
+		* Analyze specification, derive expected conditions and actions of the system
+		* Coverage standard is to have at least one test case per condidion in the table
+		* Main strength: creates combindations of conditions that otherwise would not be very likely to check against
+	* State transition testing
+		* See software in terms of its states, transision between states and inputs that trigger state changes
+		* System may exhibit different behaviour depending on current conditions or previous history(state)
+		* The states of the system or object under test are separate, identifiable and finite
+		* A state table shows the relationship between states and inputs, and can highlight possible transitions that are not valid
+		* Approaches: test typical sequence of states, cover every state, exercise every transition, test invalid transitions
+	* Use case testing
+		* Use case describes interactions between actors(users or systems) which produce result of value
+		* Each use case has preconditions which need to be met for the use case to work
+		* Each use case terminates with postconditions(observable results)
+		* Useful for designing acceptance tests, helps uncover integration defects caused by integration or interference
+* White-box techniques
+	* Based on and identified structure of the software
+		* component level (code)
+		* integration level (diagram of calls)
+		* system level (business process)
+	* Statement testing and coverage
+		* Percentage of executable statements that have been exercised by the test suite
+		* Test cases derived to execute specific code statements
+		* Coverage determined by the number of executable statements
+	* Decision testing and coverage
+		* Percentage of decision outcomes that have been exercised by the test suite (ex. true/false IF statements)
+		* Test cases derived to execute specific decision outcome
+		* Branches originate from different decision points and show transfer of control to different locations in the code
+		* 100% decision coverage guarantees 100% statement coverage, but not vice versa
+* Experience-based techniques
+	* Test cases derived from tester's skill, intuition & experience with similar applications or technologies
+	* Yields varying degrees of effectiveness depending on tester's experience
+	* Error guessing - enumerate list of possible defects, then design tests to attack these (fault attack)
+	* Exploratory testing - concurrent test design, execution, logging and learning based on test objectives
+		* Carried out in time boxes
+		* Most useful when theres inadequate specifications or one's under time pressure, or to complement formal methods
+* Choosing test techniques
+	* Generally one should use a combination of methods. The choice should be based on the following factors:
+		* Type of system
+		* Regulatory stndards
+		* Customer/contractual requirements
+		* Level & type of risk
+		* Test objective
+		* Documentation available
+		* Knowledge of testers
+		* Time & budget
+		* Development life cycle
+		* Use case models
+		* Previous experience with types of defects found
+# Chapter 5 - Test Management
 
