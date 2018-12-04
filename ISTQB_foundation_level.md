@@ -504,4 +504,119 @@
 		* Global issues, such as other areas affected
 		* References, including the identity of the test case specification that revealed the problem
 # Chapter 6 - Tool support for Testing
-
+* Test tools can be used for many activities to support testing:
+	* Test execution tools used direcly in testing, data generation tools, result comparison tools
+	* Tools that help managing the testing process, test results, data, requirements, monitoring, reporting test execution
+	* Exploration testing tools used in reconnaissance
+	* Any other tools that aids in testing (a spreadsheet, a notepad)
+* Tool support can have the following purposes:
+	* Improve efficiency of test activities by automating repetitive tasks or supporting manual test activities
+	* Automate activities that require significant resources when done manually (ex. static testing)
+	* Automate activities that cannot be executed manually (ex. large scale performance testing)
+	* Increase reliability of testing (ex. automating large data comparisons or simulating behavior)
+* Test frameworks - reusable libraries, type of automation design, overall process of execution of testing
+* Test tool classification
+	* Tools can be classified on several ctiteria (ex. commercial/open source, technology, technical activites supported)
+	* Some tools support one activity, some may support more but are associated with the most closely associated
+	* Some tools may be intrusive (affect the test outcome). The consequence of them is called the probe effect
+	* Some tools offer support for developers (ex. compontent testing tools, linters
+	* Tool support for management of testing and tests - apply to testing over the entire software life cycle
+		* Test management tools
+			* Provide interfaces for executing tests, tracking defects, managing requirements
+			* Support quantitative analysis and reporting
+			* Support tracing the test object to requirement specifications
+		* Requirement management tools
+			* Store requirement statements
+			* Store attributes for requirements
+		* Incident management tools (defect tracking)
+			* Store & manage incidents
+			* Help managing the life cycle of an incident
+		* Configuration management tools
+			* Necessary for storage & version management of testware
+	* Tool support for static testing
+		* Cost-effective way of finding more defect at an earlier sstage in the development process
+		* Review tools
+		* Static analysis tools - helps enforcing coding standards, providing metrics
+		* Modeling tools - used to validate software models by enumeratinig inconsistencies
+	* Tool support for test specification
+		* Test design tools - generating test inputs, oracles from requirements, design models, code
+		* Test data preparation tools - manipulating databases to set up test data to maintain data anonymity
+	* Tool support for test execution and logging
+		* Test execution tools
+			* Enable tests to be executed automatically using stored data inputs & expected outcomes
+			* Can be used to record tests
+		* Test harness/unit test framework tools
+			* Facilitates the component testing by simulating the environment through the provision of mock objects
+		* Test comparators
+			* Determine differences between files, databases or test results
+			* May use a test oracle
+		* Coverage measurement tools
+			* Through intrusive or non-intrusive means easure percentage of code structures exercised by unit tests
+		* Security testing tools
+			* Evaluate the ability of the software to protect data confidentiality, integrity, authentication, authorization
+			* Mostly focused on particular technology, platform and purpose
+	* Tool support for performance and monitoring
+		* Dynamic analysis tools
+			* Find defects occuring when software is executing, such as time dependencies or memory leaks
+			* Usually used during integration testing and when testing middleware
+		* Performance testing/load testing/stress testing tools
+			* Monitor and report on how a system behaves under variety of simulated usage conditions (ex. concurrent users)
+			* Simulated load carried out by load generators
+		* Monitoring tools
+			* Continous analysis, verification and report on usage of specific system resources
+			* Warnings of possible service problems
+	* Tool support for specific testing needs
+		* Data quality assessment
+			* Used when data is at the center of a project (data conversion/migration projects, data warehouses)
+* Effective use of tools: Potential benefits and risks
+	* Potential benefits of tool support
+		* Repetitive work is reduced
+		* Greater consistency and repeatability
+		* Objective assessment (static measures, coverage)
+		* Ease of access to information about tests or testing (statistics, graphs, incident rates, performance)
+	* Potential risks of tool support
+		* Unrealistic expectations for the tool (functionality, ease of use)
+		* Underestimating the time, cost and effort for the initial introduction of a tool
+		* Underestimating the time and effort needed to achieve significant and continuing benefits from the tool
+		* Underestimating the effort required to maintain the test assets generated by the tool
+		* Over-reliance on the tool(replacement for test design or use of automation where manual testing would've been better)
+		* Neglecting verison control of test assets within the tool
+		* Neglecting relationships and interoperability issues between critical tools
+		* Risk of tool vendor going out of business, retiring the tool, selling the tool to a different vendor
+		* Poor response from vendor for support/upgrades/defect fixes
+		* Risk of suspension of open source/free tool project
+		* Unforeseen, such as the inability to support a new platform
+	* Special consideration for some types of tools	
+		* Test execution tools
+			* Often requires significant effort to achieve significant benefits
+			* Simply automating the actions of a manual tester tend to work out poorly (poor unexpected events handling)
+			* Data-driven testing approach separates out the test inputs and uses a more generic test script to execute tests
+			* Keyword-driven testing approach uses action-words to derive test cases from
+			* Technical expertise is needed
+		* Static analysis tools
+			* Can enforce coding standards, but applied to existing code may generate large quantity of messages
+			* Gradual implementation of the analysis tool with initial filters to exclude some messages is an effective approach
+		* Test management tools
+			* Needs to interface with other tools or spreadsheets in order to produce useful information
+* Introducing a tool into an organization
+	* Main considerations include:
+		* Assessment of organizational maturity, strengths, weaknesses, identification of opportunities
+		* Evaluation against clear requirements and objective criteria
+		* A proof-of-concept by using the tool during the evaluation phase to find out whether it performs effectively
+		* Evaluation of the vendor or service support suppliers in case of non-commercial tools
+		* Evaluation of training needs
+		* Estimation of cost-benefit ratio based on concrete business case
+	* Introducing a tool starts with a pilot, which has the following objectives:
+		* Learn more detail about the tool
+		* Evaluate how the tool fits with existing processes and practices, determine what would need to change
+		* Decide on standard ways of using, managing, storing and maintaining the tool and the test assets
+		* Assess whether the benefits will be achieved at a reasonable cost
+	* Success factors for the deployment of the tool within an organization:
+		* Rolling out the tool to the rest of the organization incrementally
+		* Adapting and improving processes to fit with the use of the tool
+		* Providing training/coaching/mentoring to new users
+		* Defining usage guidelines
+		* Implementing a way to gather usage information from actual use
+		* Monitoring tool use and benefits
+		* Providing support for the test team for a given tool
+		* Gathering lessons learned from all teams
