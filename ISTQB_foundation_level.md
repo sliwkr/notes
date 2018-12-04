@@ -338,4 +338,170 @@
 		* Use case models
 		* Previous experience with types of defects found
 # Chapter 5 - Test Management
+* Test Organization and independence
+	* Test effeciveness can be improved by using independent testers
+	* For large, complex or safety critical projects it's usually best to have multiple levels of testing
+	* Lack of development staff objectiveness can limit effectiveness
+	* Pros: independent testers are unbiased & can verify assumptions people made during specification/implementation
+	* Cons: they're isolated from development team & may be seen as a bottleneck, developers may lose sense of responsibility 
+* Tasks of the test leader and tester
+	* Test leader tasks
+		* Coordinate the strategy, plan with PM and others
+		* Write or reviews test strategy for the project and test policy for the organization
+		* Contribute the testing perspective to other project activities
+		* Plan the tests
+		* Initiate the specification, preparation, implementation and execution of tests, monitor results and checks exit criteria
+		* Adapt planning based on test results and progress, take actions to correct issues
+		* Set up adequate configuration management of testware for traceability
+		* Introduce suitable metrics for measuring progress & evaluating quality
+		* Decide what should be automated
+		* Decide about implementation of test environment
+		* Write test summary reports based on the information gathered during testing
+	* Tester tasks
+		* Review and contribute to test plans
+		* Analyze, review and assess user requirements, specifications and models for testability
+		* Create test specifications
+		* Set up the test environment
+		* Prepare and acquire test data
+		* Implement tests at all levels, execute and log tests, evaluate results, document deviations
+		* Use test administration or management tools and test monitoring tools
+		* Automate tests
+		* Measure performance of components
+		* Review tests developed by others
+* Test planning & estimation
+	* Planning is a continous activity, performed in all life cycle processes and activites
+	* Feedback from test activities is used to recognize chaning risks so planning can be adjusted
+	* Test planning activities
+		* Determine the scope and risk and identify objectives of testing
+		* Define overall approach to testing, including definition of test levels
+		* Integrating & coordinating testing activities into the software life cycle activities
+		* Making decisions about
+			* What to test
+			* What roles will perform the test activites
+			* How the test activities should be done
+			* How the test results will be evaluated
+		* Scheduling test analysis and design activities
+		* Scheduling test implementation, execution and evaluation
+		* Assigning resources for the different activities defined
+		* Defining the amount, level of detail, structure and templates for the test documentation
+		* Selecting metrics for monitoring and controlling test preparation, execution, defect resolution and risk issues
+		* Setting the level of detail for test procedures in order to provide enough information to support tests
+	* Entry criteria - decide when to start testing
+		* Test environment availability and readiness
+		* Test tool readiness in the test environment
+		* Testable code availability
+		* Test data availability
+	* Exit criteria - decide when to stop testing
+		* Throughouness measures, such as code coverage, functionality or risk
+		* Estimates of defect density or reliability measures
+		* Cost
+		* Residual risks (ex. defects not fixed, lack of coverage)
+		* Schedules such as those based on time to market
+	* Test estimation
+		* Based on metrics of former or similar projects, or based on typical values
+		* Based on expert's or owner's opinion
+		* Testing effort may vary depending on:
+			* Characteristics of the product
+			* Characteristics of the development process
+			* The outcome of testing
+	* Test strategy, test approach
+		* Test approach is the implementation of test strategy, defined in test plans and designs
+		* It is the starting point for planning test process, selecting techniques, defining entry & exit criteria
+		* Typical approaches:
+			* Analytical (ex. risk based testing)
+			* Model-based (ex. testing using statistical information about failures or usage)
+			* Methodical, such as failure based, experience based, checklist based, quality characteristic based
+			* Process/standard compliant - specified by industry standards or various agile methodologies
+			* Dynamic & heuristic (ex. exploratory testing) (testing more reactive to events than pre-planned)
+			* Consultative (ex. test coverage driven by advice and guidance of technology experts outside of the test team)
+			* Regression-averse (automation, standard test suites)
+* Test progress monitoring & control
+	* Monitoring
+		* Provides feedback and visibility about test activities
+		* Common metrics:
+			* Percentage of test cases prepared
+			* Percentage of environment prepared
+			* Number of test cases running, passing/failing
+			* Defect information (density, found/fixed, failure rate, re-test results)
+			* Test coverage of requirements, risks or code
+			* Subjective confidence of testers in the product
+			* Dates of test milestones
+			* Testing costs
+	* Reporting
+		* Summarize information about testing endeavour
+			* What happened during a period of testing
+			* Information and metrics to support recommendations and decisions about future actions
+		* Information should be collected during and at the end of a test level in order to assess:
+			* The adequacy of the test objectives for that test level
+			* The adequacy of the test approached taken
+			* The effectiveness of the testing with respect to the objectives
+	* Test control
+		* Describes any actions taken as a result of information and metrics reported
+		* Re-prioritizing tests when an identified risk occurs
+		* Chaning the test schedule due to availability or unavailability of a test environment
+		* Setting an entry criterion requiring fixes to have been confimation-tested before accepting them into a build
+* Configuration management 
+	* Ensures that:
+		* Integrity is maintained through the project & life cycle
+		* All items of testware are identified, version controlled, tracked for changes, related to each other
+		* All identified documents and software items are referenced unambiguosly in documentation
+	* Helps testers uniquely identify & reproduce the tested items, documents and tests
+	* During planning, configuration management procedures should be chosen, documented & implemented
+* Risk and testing
+	* Risk is a chance of an event occuring and resulting in undesirable consequences or a potential problem
+	* Risks management provides approach to:
+		* Assess (on a regular basis) what can go wrong
+		* Determine what risks are the most important
+		* Implement actions to deal with those risks
+	* Projecct risks
+		* Organizational factors
+			* Skill/training/staff shortages
+			* Personell issues
+			* Political issues (communication, team failing to follow information found in testing & reviews, attitude)
+		* Technical issues
+			* Problems with defining right requirements
+			* The extent to which requirements cannot be met given existing constraints
+			* Test environment not ready on time
+			* Late data conversion, migration planning, development and testing data conversion/migration tools
+			* Low quality of design, code, configuration data, test data, tests
+		* Supplier issues
+			* Third party failure
+			* Contractual issues
+		* IEE Std 829-1998 "Standard for Software Test Documentation" should be followed when investigating
+	* Product risks
+		* Potential failure areas in the software or system
+			* Failure-prone software delivered
+			* The potential that the software could cause harm to an individual or company
+			* Poor software characteristics (functionality, reliability, usability and performance)
+			* Poor data integrity and quality (migration issues, data conversion problems, violation of data standards)
+			* Software not performing it's intended functions
+		* Risks are used to investigate where to test more; testing is used to reduce risk or impact of a bug
+		* Risk-based approach provies proactive opportunities to reduce level or product risk, starting at the initial stages
+		* Identified risks may be used to:
+			* Determine test techniques to be employed
+			* Determine the extent of testing to be carried out
+			* Prioritize testing in an attempt to find critical risk as early as possible
+			* Determine whether any non-testing activities can be employed to redcue risk (ex. providing training)
+* Incident management
+	* Incidents are discrepancies between actual and expected outcome	
+	* After investigation, an incident may turn to a defect
+	* Incidents can be raised during development, review, testing or use of the software
+	* Incident reporting:
+		* Provide developers and other parties with feedback about the problem to enable identification, isolation and correction
+		* Provide test leaders a means of tracking the quality of the system under test and the progress of testing
+		* Provide ideas for test process improvement
+	* Issues may include:
+		* Date of the issue, issuing organization and author
+		* Expected & actual results
+		* Identification of the test item and environment
+		* Software or system life cycle process in which the incident was observed
+		* Description of the incident to enable reproduction and resolution (logs, screenshots)
+		* Scope or degree of impact of stakeholder's interests
+		* Severity of the impact on the system
+		* Urgency/priority to fix
+		* Status of the incident (open/deferred/duplicate/waiting to be fixed, fixed awaiting re-test, closed)
+		* Conclusions, recommendations, approvals
+		* Global issues, such as other areas affected
+		* References, including the identity of the test case specification that revealed the problem
+# Chapter 6 - Tool support for Testing
 
