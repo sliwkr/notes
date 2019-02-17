@@ -17,13 +17,23 @@ In order to change the process, there needs to be a honest resistance to it
 Five dysfunctions of a team:
 - dysfunction
   - result
+  - properties of the opposite of dysfunction
 - lack of trust
-  - invulnerability
+  - results in invulnerability
+  - trust is the confidence among team members that their peers intentions are good and that there's no reason to act protective
+  - to allow for trust to happen, team members ought expose their vulnerabilities(skill deficiencies, mistakes, weaknesses) to peers and see whether they'll attack or coexist
+  - team leader should do it first to show it's ok
 - fear of conflict
-  - artificial harmony
+  - results in artificial harmony
+  - conflict can be productive although teams avoid it
+  - passionate debates seeded in facts are essential for any great team
+  - the purpose of a conflict is to produce the best possible solution in the shortest period of time
+  - unresolved issue will pop up again(if it's important)
+  - after resolving conflict team can confidently commit to decision and assume it's the best that they've got
+  - team leader should watch for the tendency of being overprotective. Instead, allow team members to develop their own coping skills for dealing with conflict
 - lack of commitment
-  - ambiguity
+  - results in ambiguity
 - avoidance of accountability
-  - low standards
+  - results low standards
 - inattention to results
-  - status and ego
+  - results in increase of status and ego
