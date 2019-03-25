@@ -71,7 +71,7 @@
 ## Chapter 5: Test Driven Development
 * The three laws of TDD
 	* You're not allowed to write any production code until you have first written a failing unit test
-	* You're not allowed to write more of a unit test than it is sufficient to fail - and noy compiling is failing
+	* You're not allowed to write more of a unit test than it is sufficient to fail - and not compiling is failing
 	* You're not allowed to write more production code that is sufficient to pass the currently failing unit test
 * Benefits
 	* Certainty that your code works
@@ -139,7 +139,7 @@
 * If you agree, you must engage
 * Focus resembles manna closely. Find time to recharge it
 	* Beware of manna-soaking meetings
-	* You propably heard it, but get enough sleep.
+	* You probably heard it, but get enough sleep.
 	* More caffeine isn't always a good idea
 	* Manna can be recharged by de-focussing, that is long walks, mediation, power naps, podcasts and variety of others
 	* Physical excersise can help to recharge
@@ -150,8 +150,8 @@
 * Business view estimates as commitment wheras developers tend to view them as guesses
 * Professionals do not make commitments unless they *know* they can achieve them. Don't make promises you can't keep
 * There's no secret skill to estimation
-* Estimate is not a number - it's a propability distribution (days * percent)
-* PERT's Trivariage analysis: Optimistic, Nominal(most propable) and Pessimistic estimate
+* Estimate is not a number - it's a probability distribution (days * percent)
+* PERT's Trivariage analysis: Optimistic, Nominal(most probable) and Pessimistic estimate
 	* time it'll take t = (O + 4N + P)/6
 		* more tasks: sum all the times 
 	* standard deviation d = (P - O)/6
