@@ -36,7 +36,7 @@ samochodu przy rozwiązywaniu testów na kolejność ruchu na skrzyżowaniach.
 za rzadko się ją stosuje.
 
 * Wysiłek umysłowy związany z próbą przypomnienia sobie poprawnej odpowiedzi i wyciąganie jej z odmętów pamięci to podstawa dobroczynnego 
-działania testow. Informacje, które zdobyliśmy w ten sposób, utrwalają się naprawdę silnie.
+działania testów. Informacje, które zdobyliśmy w ten sposób, utrwalają się naprawdę silnie.
 
 * Najlepszy test to prosty test. Nie wymyślaj skomplikowanego systemu, ale zwyczajnie postaw sobie podstawowe pytania lub wypisz w ciągu kilku 
 minut wszystko, co wiesz na dany temat.
@@ -82,7 +82,7 @@ zapisać informacje w pamięci na dłużej. Sprawdź, jaki oddech między ćwicz
 * Rozproszenie nauki na wiele dni wcale nie zabierze Ci więcej czasu niż kucie na blachę w jednym momencie, najczęściej na ostatnią chwilę. 
 Stanie się wręcz przeciwnie - zaoszczędzisz w ten sposób cenne minuty, które wykorzystasz, jak tylko zechcesz!
 
-* Uczenie się tuż przzed sprawdzianem wiedzy (tets, egzamin, prezentacja) to ostatnia deska ratunku, której jednak musisz się wystrzegać. Jest to 
+* Uczenie się tuż przed sprawdzianem wiedzy (test, egzamin, prezentacja) to ostatnia deska ratunku, której jednak musisz się wystrzegać. Jest to 
 zwyczajnie mało efektywna metoda, przy której wiedza wychodzi z głowy jeszcze szybciej, niż tam weszła.
 
 * Rozpraszając w czasie uczenie się, eliminujesz złudne poczucie posiadania wiedzy, które wynika z bycia na świeżo z materiałami. Mamy niesłychaną 
@@ -96,7 +96,7 @@ zdolność dod przeceniania swoich możliwości i stanu wiedzy.
 
 * Różnorodność miejsc do nauki tworzy dodatkowe miejsce w pamięci, o które może się zahaczyć przyswajana informacja.
 
-* Nie musisz rzucać wszystkiego i jechać się uczyć w Bieszczady. Wystarczy nawet drobna zmziana, np. nauka raz w pokoju, raz na balkonie, 
+* Nie musisz rzucać wszystkiego i jechać się uczyć w Bieszczady. Wystarczy nawet drobna zmiana, np. nauka raz w pokoju, raz na balkonie, 
 a innym razem w parku.
 
 * Badacze wciąż się spierają, czy akompaniament muzyczny przeszkadza, czy pomaga w nauce. Sprawdź, co najlepiej sprawdza się w Twoim przypadku.
@@ -149,7 +149,7 @@ wymieszaj ich kolejność. Kto Ci zabroni ćwiczyć jak Muhammad Ali?
 * Rozsądnie utrudniaj sobie naukę. Doprowadź do sytuacji, w której mózg się nieco zmęczy. Taki zwiększony wysiłek nie jest wrogiem, wręcz przeciwnie - jednym z 
 najważniejszych elementów długotrwałego zapamiętywania.
 
-* Mimo dowodów na skuteczność mieszania ćwiczeń i materiałów do nauki większośći uczniów wciąż takie przyswajanie wiedzy wydaje się nieintuicyjne 
+* Mimo dowodów na skuteczność mieszania ćwiczeń i materiałów do nauki większości uczniów wciąż takie przyswajanie wiedzy wydaje się nieintuicyjne 
 i niewłaściwe. Nie bądź jak większość uczniów! Gdy sprawdzisz to na własną rękę, możesz się zdziwić jak skutecznie to działa.
 
 * *Walka jest wygrana lub przegrana z dala od wszystkich świadków. Za kulisami, w sali treningowej i na całej ścieżce przygotowań.*
@@ -203,25 +203,25 @@ efekty, czytając tę książkę napisaną przecież w języku polskim!
 
 * Rozróżnij dwa kluczowe pojęcia - immersja, czyli częściowe zanurzenie np. w przyswajanym języku obcym oraz submersja, czyli całkowite zanurzenie.
 
-* Wbrew pozorom to częsciowe zanurzenie (immersja) najczęściej daje lepsze rezultaty w nauce niż całkowite zanurzenie (submersja). To efekt mniejszego stresu 
+* Wbrew pozorom to częściowe zanurzenie (immersja) najczęściej daje lepsze rezultaty w nauce niż całkowite zanurzenie (submersja). To efekt mniejszego stresu 
 oraz braku frustracji. Nie rzucaj się na zbyt głębokie wody, jeśli nie wiesz jeszcze, jak pływać. 
 
-* Aby nauczyć się obcego jęzka, wcale nie musisz wjeżdżać do kraju, w którym się go używa. Skuteczna, często nawet z lepszymi rezultatami, bedzie także nauka 
+* Aby nauczyć się obcego języka, wcale nie musisz wjeżdżać do kraju, w którym się go używa. Skuteczna, często nawet z lepszymi rezultatami, będzie także nauka 
 w domu, gdy odpowiednio otoczysz się obcojęzycznymi bodźcami. 
 
-* Nauka języka obcego u dorosłch przebiega inaczej niż uczenie się mowy ojczystej w dzieciństwie. Zastosuj bardziej "dojrzałe" metody oparte na świadomości 
+* Nauka języka obcego u dorosłych przebiega inaczej niż uczenie się mowy ojczystej w dzieciństwie. Zastosuj bardziej "dojrzałe" metody oparte na świadomości 
 uczonego języka.
 
 ## Metoda nauczyciela
 
 * Ucz się z myślą, że w następnym kroku musisz przekazać komuś zdobytą wiedzę. W ten sposób dużo skuteczniej kodujesz informacje.
 
-* Podobnie dzieje się, gdy w rzeczywistości wykładasz innej osobie jakieś informacje. Możliwe, że wtedy uczysz się nawet lepej niż osoba, która Cię słucha!
+* Podobnie dzieje się, gdy w rzeczywistości wykładasz innej osobie jakieś informacje. Możliwe, że wtedy uczysz się nawet lepiej niż osoba, która Cię słucha!
 
 * Korzystaj z tej metody także wtedy, gdy uczysz się na własną rękę. Wtedy zwyczajnie na głos wypowiadaj wyjaśnienia, powiązania z innymi informacjami 
 czy swoje spostrzeżenia.
 
-* Analizuj i opisuj(także na głos) to, w jaki sposób zostało rozwiązane prawidłowo jakieś zadanie. W podobny sposób zbadaj, gdzie w innym przykładzie został 
+* Analizuj i opisuj (także na głos) to, w jaki sposób zostało rozwiązane prawidłowo jakieś zadanie. W podobny sposób zbadaj, gdzie w innym przykładzie został 
 popełniony błąd.
 
 * Bądź nauczycielem dla siebie i innych! Niezależnie od tego czy uczysz się w samotności czy w grupie.
@@ -230,7 +230,7 @@ popełniony błąd.
 
 ## Bottom line
 
-* Należy raz na zawsze skończyć z niedziałąjącymi metodami, które stosujemy z przyzwyczajenia.
+* Należy raz na zawsze skończyć z niedziałającymi metodami, które stosujemy z przyzwyczajenia.
 
 * Dobrze rozróżnić metody nauki na trudne dla nas i trudne dla naszego mózgu. Warto dobierać te drugie, by nauka była przyjemniejsza.
 
