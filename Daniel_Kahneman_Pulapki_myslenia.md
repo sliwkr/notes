@@ -14,7 +14,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 * [2. Heurystyki i błędy (skrzywienia) poznawcze](#2.-heurystyki-i-błędy(skrzywienia)-poznawcze)
     * 2.1 Prawo małych liczb
     * 2.2 Kotwice
-    * 2.3 Naukowe badanie dostępności umysłowej
+    * [2.3 Naukowe badanie dostępności umysłowej](#2.3-naukowe-badanie-dostępności-umysłowej)
     * 2.4 Umysłowa dostępność, emocje i ryzyko
     * 2.5 Co studiuje Tomasz W.
     * 2.6 Linda: mniej znaczy więcej
@@ -47,6 +47,9 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 
 # 1. Dwa systemy
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
+## 2.3 Naukowe badanie dostępności umysłowej
+* Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
+* Pamięć łatwiej przywołuje zdarzenia dobitne(gafa), zwracające uwagę(celebryci), dramatyczne(wypadek samochodowy) i osobiste doświadczenia.
 # 3. Nadmierna pewność siebie
 # 4. Wybory
 # 5. Dwie jaźnie
