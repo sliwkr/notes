@@ -3,7 +3,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 # Spis treści
 * [1. Dwa systemy](#1.-dwa-systemy)
     * [1.1 Poznaj bohaterów opowieści](##1.1-Poznaj-bohaterów-opowieści)
-    * 1.2 Uwaga i wysiłek
+    * [1.2 Uwaga i wysiłek](##1.2-Uwaga-i-wysiłek)
     * 1.3 Leniwy kontroler
     * 1.4 Maszyneria skojarzeniowa
     * 1.5 Łatwość poznawcza
@@ -52,6 +52,13 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * System 2 - wolny, analityczny, subiektywne poczucie skupienia, wysiłku, wolności wyboru i świadomego działania
 * System 2 w ograniczonym stopniu może wpływać na działanie Systemu 1 (np. poprzez sterowanie uwagą, zapamiętywanie)
 * W złudzniu Muller-Lyera(google it) System 1 odpowiada za postrzeganie jednej z linii za którszą, pomimo że System 2 "wie", że są równe. W podobny sposób działają złudzenia kognitywne
+## 1.2 Uwaga i wysiłek
+* System 2 jest niechętny do wysiłku większego, niż to konieczne
+* Podczas myślenia według Systemu 2 źrenice rozszerzają się tym bardziej, im trudniejsze zadanie
+* Eksperyment "The Invisible Gorilla"(liczenie liczby podań)
+* System 2 potrafi przestrzegać zasad, porównywać rzeczy pod kątem kilku cech albo dokonywać przemyślanego wyboru
+* System 1 wykrywa proste prawidłowości(np. przedmioty są takie same) i dobrze radzi sobie z integrowaniem informacji dotyczących jednej rzeczy. Nie potrafi za to korzystać z informacji czysto statystycznych
+* System 1 wykryje, że stereotyp osoby "potulna, porządna, odczuwająca potrzebę porządku" to prawdopodobnie bibliotekarz. System 2 potrafi tę intuicję połączyć z wiedzą, jak nieliczna część populacji to bibliotekarze.
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
