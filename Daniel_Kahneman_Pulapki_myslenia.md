@@ -4,7 +4,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 * [1. Dwa systemy](#1.-dwa-systemy)
     * [1.1 Poznaj bohaterów opowieści](##1.1-Poznaj-bohaterów-opowieści)
     * [1.2 Uwaga i wysiłek](##1.2-Uwaga-i-wysiłek)
-    * 1.3 Leniwy kontroler
+    * [1.3 Leniwy kontroler](##1.3-Leniwy-kontroler)
     * 1.4 Maszyneria skojarzeniowa
     * 1.5 Łatwość poznawcza
     * 1.6 Normy, niespodzianki i przyczyny
@@ -59,6 +59,15 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 * System 2 potrafi przestrzegać zasad, porównywać rzeczy pod kątem kilku cech albo dokonywać przemyślanego wyboru
 * System 1 wykrywa proste prawidłowości(np. przedmioty są takie same) i dobrze radzi sobie z integrowaniem informacji dotyczących jednej rzeczy. Nie potrafi za to korzystać z informacji czysto statystycznych
 * System 1 wykryje, że stereotyp osoby "potulna, porządna, odczuwająca potrzebę porządku" to prawdopodobnie bibliotekarz. System 2 potrafi tę intuicję połączyć z wiedzą, jak nieliczna część populacji to bibliotekarze.
+## 1.3 Leniwy kontroler
+* Osoby obciążone poznawczo mają obniżoną samokontrolę, większą skłonność do zachowań samolubnych, korzystania ze stereotypów. Samokontrola wymaga uwagi i wysiłku - jednym z zadań Systemu 2 jest kontrolowanie myśli i zachowań.
+* Ego depletion - jeśli przymusisz się(czyli stłumisz naturalną skłonność) do czegoś raz, to stając przed tym samym wyzwaniem ponownie, będziez mniej zdolny i chętny do samokontroli (eksperymenty Roya Baumeistera). Można opierać się skutkom wyczerpywania ego, o ile mamy wystarczającą zachętę (np. zwiększającą poziom glukozy we krwi, która jest głównym odpowiedzialnym za spadek chęci).
+* Zbadano wyroki wydawane przez 8 sędziów i skoorelowano czas ich wydawania z czasem przerwy na posiłek - śniadaniowy, obiadowy i poobiedni. Odsetek wyroków pozytywnych po posiłku wynosił 65%, następnie stopniowo malał, aż tuż przed posiłkiem odrzucane były prawie wszystkie.
+* Kij do bejsbola i piłka kosztują razem 1 dolara 10 centów. Kij kosztuje o dolara więcej niż piłka. Ile kosztuje piłka?
+* "Wszystkie róże to kwiaty. Niektóre kwiaty szybko więdną. Zatem niektóre róże szybko więdną." - Kiedy uznajemy wnioski płynące z jakiegoś rozumowania za prawdziwe, prawdopodobnie uwierzymy też w przemawiające za nim argumenty
+* Ciastko teraz lub 2 ciastka za 15 minut - eksperyment Waltera Mischela
+* Inteligencja pomaga rozwiązywać problemy i myśleć w sposób algorytmiczny. Racjonalność(pracowitość Systemu 2) to umiejętność która chroni przez błędami poznawczymi.
+
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
