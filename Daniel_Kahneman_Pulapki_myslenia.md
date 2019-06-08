@@ -5,7 +5,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * [1.1 Poznaj bohaterów opowieści](#11-Poznaj-bohaterów-opowieści)
     * [1.2 Uwaga i wysiłek](#12-Uwaga-i-wysiłek)
     * [1.3 Leniwy kontroler](#13-Leniwy-kontroler)
-    * 1.4 Maszyneria skojarzeniowa
+    * [1.4 Maszyneria skojarzeniowa](#14-Maszyneria-skojarzeniowa)
     * 1.5 Łatwość poznawcza
     * 1.6 Normy, niespodzianki i przyczyny
     * 1.7 Maszyna do wyciągania pochopnych wniosków
@@ -67,6 +67,23 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 * "Wszystkie róże to kwiaty. Niektóre kwiaty szybko więdną. Zatem niektóre róże szybko więdną." - Kiedy uznajemy wnioski płynące z jakiegoś rozumowania za prawdziwe, prawdopodobnie uwierzymy też w przemawiające za nim argumenty
 * Ciastko teraz lub 2 ciastka za 15 minut - eksperyment Waltera Mischela
 * Inteligencja pomaga rozwiązywać problemy i myśleć w sposób algorytmiczny. Racjonalność(pracowitość Systemu 2) to umiejętność która chroni przez błędami poznawczymi.
+## 1.4 Maszyneria skojarzeniowa
+* Umysł odbiera idee jako reprezentacje rzeczywistości, dlatego napotykając jakąś możesz poczuć pewne objawy somatyczne.
+* Pojęcie idei można wyrazić jako węzeł w sieci zwanej "pamięcią skojarzeniową", gdzie każda idea łączy się z wieloma innymi.
+* Kojarzenie(myślenie asocjacyjne) to proces aktywowania połączeń między ideami, gdzie aktywowana idea aktywuje wiele kolejnych, rozchodząc się jak kręgi po powierzchni wody. Świadomie rejestrujemy tylko niektóre z tych aktywacji.
+* Efekt torowania to zjawisko łatwiejszego kojarzenia idei należących do tej samej kategorii co poprzednio napotkana.
+* Torowanie nie dotyczy tylko wyrazów i pojęć, ale może wpływać też na zachowanie kojarzące się z ideami, poddając w wątpliwość pogląd jakoby ludzie byli świadomymi i autonomicznymi autorami swoich osądów:
+    * Efekt florydy: Student układa czterowyrazowe zdanie mając do wyboru 5 wyrazów. Następnie przechodzi korytarzem do drugiego pokoju. Jeśli student trafi na zbiór wyrazów zawierający słowa kojarzące się ze starością, przejście korytarzem zajmie mu znacznie więcej czasu.
+    * Osoby zaciskające w zębach ołówek w poprzek uznają żarty za śmieszniejsze.
+    * Badanym dano do przetestowania słuchawki, puszczając im felieton. Osoby kiwające głową na "tak" zwykle zgadzały się z usłyszanymi informacjami, zaś osoby kiwające na "nie" - zwykle nie.
+    * Utorowanie idei pieniędzy(poprzez pokazanie badanym wygaszacza ekranu z pieniędzmi) sprawia że badani stają się bardziej niezależni/samodzielni i nieskłonni do pomocy:
+        * mając do rozwiązania trudne zadanie, prawie 2 razy dłużej próbują je rozgryźć bez zwracania się o pomoc,
+        * kiedy prowadzącemu spadła na podłogę garść ołówków, podnosili mniej ołówków niż osoby z nieutorowaną ideą  pieniędzy
+* Efekt Lady Makbet: Poczucie winy wywołuje pragnienie oczyszczenia ciała.
+    * Myśl o dźgnięciu kolegi nożem w plecy sprawia, że badani byli bardziej skłonni do zakupu środków dezynfekcyjnych.
+    * Osoby które właśnie skłamały przez telefon, chętniej kupią płyn do ust niż mydło.
+    * Osoby które właśnie skłamały przez e-mail, chętniej kupią mydło niż płyn do ust.
+* Ludzie działają w sposób mniej logiczny niż nam się wydaje.
 
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
