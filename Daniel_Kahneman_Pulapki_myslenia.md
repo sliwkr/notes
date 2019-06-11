@@ -6,7 +6,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * [1.2 Uwaga i wysiłek](#12-Uwaga-i-wysiłek)
     * [1.3 Leniwy kontroler](#13-Leniwy-kontroler)
     * [1.4 Maszyneria skojarzeniowa](#14-Maszyneria-skojarzeniowa)
-    * 1.5 Łatwość poznawcza
+    * [1.5 Łatwość poznawcza](#15-Łatwość-poznawcza)
     * 1.6 Normy, niespodzianki i przyczyny
     * 1.7 Maszyna do wyciągania pochopnych wniosków
     * 1.8 Skąd się biorą osądy
@@ -84,7 +84,23 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * Osoby które właśnie skłamały przez telefon, chętniej kupią płyn do ust niż mydło.
     * Osoby które właśnie skłamały przez e-mail, chętniej kupią mydło niż płyn do ust.
 * Ludzie działają w sposób mniej logiczny niż nam się wydaje.
-
+## 1.5 Łatwość poznawcza
+* Brak łatwości poznawczej sygnalizuje, że istnieje problem, który będzie wymagał zwiększonego wysiłku Systemu 2. 
+    * Większy wysiłek poznawczy oznacza zmianę podejścia do problemu na bardziej zaangażowane i analityczne oraz większy sceptyzm.
+* Doświadczenie powtarzające się, przejrzysta szata graficzna, utorowana idea, dobry nastrój -> **łatwość** -> uczucie znajomości, prawdziwości, przyjemności, łatwości:
+    * Sprawdzoną metodą przekonywania ludzi o prawdziwości kłamstwa jest jego częste powtarzanie,
+    * Użycie rymów zwiększa szanse uznania komunikatu za prawdziwy(aforyzmy),
+    * Prace autorów badań z łatwym do wymówienia nazwiskiem są częściej uznawane za wiarygodne,
+    * W pierwszym tygodniu po wejściu na giełde akcje spółek o nazwach łatwych do wymówienia radzą sobie lepiej od innych (z czasem ten efekt zanika, chyba że skrót nazwy spółki[KAR vs PXG] jest również łatwy do wymówienia).
+* "Consequences of Erudite Vernacular Utilized Irrespective of Necessity: Problems with Using Long Words Needlessly" - znajome idee sformułowane w skomplikowany sposób są odbierane jako oznaka niskiej inteligencji i małej wiarygodności.
+* Cognitive Reflection Test(3 zagadki) na próbie 40 studentów: 90% popełniło co najmniej 1 błąd; gdy zmieniono czcionkę na mniej czytelną, odsetek spadł do 35%(większy wysiłek poznawczy -> zmiana podejścia do problemu).
+* Robert Zajonc, Efekt czystej ekspozycji: znajome słowa, twarze ludzkie, przypadkowe wielokąty czy chińskie ideogramy są odbierane jako oznaczające coś dobrego(wystarczy że znajoma idea pojawia się regularnie i nie dzieje się nic złego).
+    * W przypadku idei których świadomie nie zarejestrowaliśmy, efekt jest silniejszy.
+    * Wytłumaczenie: Zwierze, które nie obawia się nieznanych bodźców w swoim środowisku ma marne szanse na przeżycie.
+    * *"Skutki powtarzającej się ekpozycji na bodziec przynoszą organizmowi korzyści w kontaktach zarówno ze środowiskiem ożywionym jak i nieożywionym. Pozwalają mu odróżniać bezpieczne obiekty i habitaty od niebezpiecznych, budując najpierwotniejsze podstawy powiązań społecznych. Są więc one podstawą spójności i organizacji społecznej, czyli podstawowych źródeł stabilności psychologicznej i społecznej."*
+* Będąc wystarczająco zmotywowani jesteśmy zdolni przełamać wþływ powierzchownych czynników wywołujących złudzenie prawdziwości - jednak w większości przypadków System 2 przyjmuje sugestie Systemu 1 i idzie dalej.
+* Dobry nastrój, łatwośc poznawczą oraz intuicje spójności łączy korelacja (ale nie przyczynowość):
+    * Dobry nastroj rozluźnia kontrolę Systemu 2 nad wykonywanymi zadaniami, dzięki czemu sprzyja myśleniu intuicyjnemu, wymyślaniu skojarzeń i kreatywności.
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
