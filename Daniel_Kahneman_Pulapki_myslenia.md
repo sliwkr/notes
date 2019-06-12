@@ -7,7 +7,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * [1.3 Leniwy kontroler](#13-Leniwy-kontroler)
     * [1.4 Maszyneria skojarzeniowa](#14-Maszyneria-skojarzeniowa)
     * [1.5 Łatwość poznawcza](#15-Łatwość-poznawcza)
-    * 1.6 Normy, niespodzianki i przyczyny
+    * [1.6 Normy, niespodzianki i przyczyny](#16-Normy,-niespodzianki-i-przyczyny)
     * 1.7 Maszyna do wyciągania pochopnych wniosków
     * 1.8 Skąd się biorą osądy
     * 1.9 Odpowiadanie na łatwiejsze pytanie
@@ -101,6 +101,16 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 * Będąc wystarczająco zmotywowani jesteśmy zdolni przełamać wþływ powierzchownych czynników wywołujących złudzenie prawdziwości - jednak w większości przypadków System 2 przyjmuje sugestie Systemu 1 i idzie dalej.
 * Dobry nastrój, łatwośc poznawczą oraz intuicje spójności łączy korelacja (ale nie przyczynowość):
     * Dobry nastroj rozluźnia kontrolę Systemu 2 nad wykonywanymi zadaniami, dzięki czemu sprzyja myśleniu intuicyjnemu, wymyślaniu skojarzeń i kreatywności.
+## 1.6 Normy, niespodzianki i przyczyny
+* Główną funkcją Systemu 1 jest utrzymywanie i aktualizowanie modelu twojej osobistej rzeczywistości. Zaburzenie modelu owocuje wrażeniem zaskoczenia i aktualizacją kategorii do której należy idea wywołująca zaburzenie.
+* System 1 jest również odpowiedzialny za wrażenie przyczynowości, które wywołuje kiedy znajdzie związek przyczynowo skutkowy w danej sytacji; korzysta przy tym z sieci skojarzeń, by zaspokoić potrzebę spójności.
+    * Przykład: "Rodzice Freda przyjechali spóźnieni. Niedługo mieli przyjechać ludzie z firmy cateringowej. Fred był wściekły" - na podstawie skojarzeń rozumie się, że przyczyną wściekłości było spóźnienie, a nie spodziewane przybycie firmy cateringowej.
+* Postrzeganie przyczynowości intencjonalnej
+    * Przykład: *Experimental study of apparent behavior* - Fritz Heider, Marianne Simmel, 1944
+        * Film w którym figury geometyczne poruszają się po ekranie w taki sposób, że odbieramy je jako ścigające się nawzajem
+        * Osoby autystyczne nie dostrzegają *intencjonalności* figur
+    * Przykład: Personifikacja różniących się procesów myślowych(System 1, System 2) by ułatwić ich zrozumienie
+    * https://www.granicenauki.pl/intencjonalnosc-czyli-co-odroznia-szekspira-od-szympansa-25965
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
