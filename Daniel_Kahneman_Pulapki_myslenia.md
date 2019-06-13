@@ -8,7 +8,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * [1.4 Maszyneria skojarzeniowa](#14-Maszyneria-skojarzeniowa)
     * [1.5 Łatwość poznawcza](#15-Łatwość-poznawcza)
     * [1.6 Normy, niespodzianki i przyczyny](#16-Normy,-niespodzianki-i-przyczyny)
-    * 1.7 Maszyna do wyciągania pochopnych wniosków
+    * [1.7 Maszyna do wyciągania pochopnych wniosków](#17-Maszyna-do-wyciągania-pochopnych-wniosków)
     * 1.8 Skąd się biorą osądy
     * 1.9 Odpowiadanie na łatwiejsze pytanie
 * [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy(skrzywienia)-poznawcze)
@@ -111,6 +111,34 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
         * Osoby autystyczne nie dostrzegają *intencjonalności* figur
     * Przykład: Personifikacja różniących się procesów myślowych(System 1, System 2) by ułatwić ich zrozumienie
     * https://www.granicenauki.pl/intencjonalnosc-czyli-co-odroznia-szekspira-od-szympansa-25965
+## 1.7 Maszyna do wyciągania pochopnych wniosków
+* Wyciąganie pochopnych wniosków jest korzystne w sytuacji, w której koszt ewentualnego błędu jest do przyjęcia, a odpowiedź intuicyjna zapewni dużą oszczędność czasu. Nie powinno się za to przeskakiwać do odpowiedzi intuicyjnej w nieznanych sytuacjach i kiedy stawka jest wysoka.
+* System 1 jest niezdolny do świadomych wątpliwości - wymaga to równoczesnego przechowywania w pamięci sprzecznych interpretacji, a to z kolei wymaga wysiłku. Niepewność i wątpliwości to domena Systemu 2.
+* Daniel Gilbert, *How mental Systems Believe*: Gdy System 2 jest zajęty / gdy mamy wyczerpane ego, jesteśmy skłonni wierzyć prawie we wszystko.
+    * Ludzie zmęczeni łatwiej ulegają pustej perswazji(reklamom).
+* Błędy poznawcze wynikające z faktu, że System 1 poszukuje połączeń w sieci skojarzeniowej:
+    * Efekt potwierdzenia (confirmation bias): Znajdowanie argumentów potwierdzających postawioną hipotezę / wyznawany pogląd
+        * Jeśli uda nam się wystarczająco łatwo znaleźć argumenty, umocnimy się w wierze w daną hipotezę. Jeśli napotkamy trudności, przeciwnie.
+            * Przypomnij sobie 3 sytuacje, w których zachowałeś się asertywnie
+            * Przypomnij sobie 9 sytuacji, w których uległeś wpływowi otoczenia
+        * Broń: Hipotezy należy sprawdzać poprzez próby ich obalenia.
+    * Efekt halo: skłonność do (nie)lubienia wszystkich aspektów danej osoby - nawet tych, których nie zauważamy.
+        * Jeśli odpowiadają Ci poglądy polityczne premiera, pewnie podoba Ci się też jego wygląd i głos
+        * Nadajemy większą wagę cechom, które zauważymy jako pierwsze (pierwsze wrażenie)
+            * Alan: Inteligeny, pracowity, impulsywny, krytyczny, uparty, zazdrosny
+            * Ben: Zazdrosny, uparty, krytyczny, impulsywny, pracowity, inteligentny
+            * Nauczyciel oceniający test składający się z kilku zadań jest skłonny przymknąć oko na błędy w dalszej części egzaminu, jeśli pierwsze zadania zostały doskonale rozwiązane
+        * Kolejność, w której zauważamy cechy osoby, jest często przypadkowa
+        * Broń: Usuwanie korelacji między błędami poprzez:
+            * Fragmentacja i rozpatrywanie cech/zadań niezależnie,
+            * Korzystanie z niezależnych od siebie źródeł,
+            * W przypadku wielu źródeł informacji, wyeliminowanie źródeł dublujących się.
+* Maszyneria skojarzeniowa podsuwa umysłowi tylko te idee, które zostały wcześniej aktywowane - informacje, które nie zostały choćby nieświadomie przywołane z pamięci, praktycznie mogą nie istnieć.
+* Dla Systemu 1 miarą sukcesu jest spójność opowieści, jaką udaje mu się stworzyć - niezależnie od ilości i wiarygodności danych. ***What you see is all there is.***
+    * Pewność, że mamy rację, zależy głównie od tego, cz umiemy połączyć to, co widzimy, w spójną opowieść - nawet jeśli widzimy niewiele.
+* Efekt ram interpretacyjnych (framing effect): te same informacje przedstawione w różny sposób mogą budzić różne emocje u odbiorców:
+    * Szansa przeżycia w miesiąc po operacji wynosi 90%
+    * Wpółczynnik umieralności w ciagu miesiąca od operacji wynosi 10%
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
