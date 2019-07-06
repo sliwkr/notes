@@ -1,5 +1,5 @@
-Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
-===============================================================
+# Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
+
 # Spis treści
 * [1. Dwa systemy](#1-dwa-systemy)
     * [1.1 Poznaj bohaterów opowieści](#11-Poznaj-bohaterów-opowieści)
@@ -9,7 +9,7 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
     * [1.5 Łatwość poznawcza](#15-Łatwość-poznawcza)
     * [1.6 Normy, niespodzianki i przyczyny](#16-Normy,-niespodzianki-i-przyczyny)
     * [1.7 Maszyna do wyciągania pochopnych wniosków](#17-Maszyna-do-wyciągania-pochopnych-wniosków)
-    * 1.8 Skąd się biorą osądy
+    * [1.8 Skąd się biorą osądy](#18-Skąd-się-biorą-osądy)
     * 1.9 Odpowiadanie na łatwiejsze pytanie
 * [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy(skrzywienia)-poznawcze)
     * 2.1 Prawo małych liczb
@@ -139,6 +139,31 @@ Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 * Efekt ram interpretacyjnych (framing effect): te same informacje przedstawione w różny sposób mogą budzić różne emocje u odbiorców:
     * Szansa przeżycia w miesiąc po operacji wynosi 90%
     * Wpółczynnik umieralności w ciagu miesiąca od operacji wynosi 10%
+
+## 1.8 Skąd się biorą osądy
+
+* System 2 poszukuje odpowiedzi na pytania w pamięci. System 1 monitoruje otoczenie i bez przerwy(oraz wysiłku i intencji) generuje oceny rozmaitych aspektów sytuacji
+* System 2 potrafi analizować zbiory, System 1 - prototypy
+  * Badanie: ankietowanych spytano, ile byliby w stanie zapłacić za uratowanie grupy ptaków po wycieku ropy z tankowca Exxon Valdez. Uczestnicy zareagowali na prototyp bezradnego ptaka tonącego w ropie naftowej; ich liczba była bez znaczenia. Wyniki:
+    * 2 000 ptaków: 80 dolarów
+    * 20 000 ptaków: 78 dolarów
+    * 200 000 ptaków: 88 dolarów
+* System 1 potrafi korzystać z intuicji do konwertowania wartości z jednego wymiaru na inny. Potrafi dzięki temu do pewnego stopnia tworzyć skale intensywności
+  * *Jeśli przestępstwa miałyby kolory, jakim odcieniem czerwieni byłoby morderstwo a jakim kradzież?*
+  * *Ile wzrostu miałby Stefan, gdyby miał go tyle ile inteligencji?*
+  * *W wieku 4 lat Julia umie płynnie czytać.*
+    * *Jak wysoki musiałby być mężczyzna, by był tak wysoki jak Julia była ponad wiek rozwinięta?*
+    * *Jakie dochody w Twoim zawodzie byłyby odpowiednikiem osiągnięcia Julii pod względem czytania?*
+* Dobry nastrój i łatwość poznawcza są odpowiednikami oceny bezpieczeństwa i znajomości sytuacji
+  * Jeden rzut oka na twarz nieznajomej osoby pozwala stwierdzić jej skłonność do dominowania(kształt szczęki) i jej zamiary(wyraz twarzy). Ocena jest daleka od doskonałej(ktoś może sztucznie sie uśmiechać), jednak wystarczała nam do przetrwania.
+  * Badanie, Alex Todorov: Badanym pokazywano na ułamek sekundy twarz osoby i proszono o ocenę poziomu sympatyczności i kompetencji. Twarze należały do polityków, z których wynikami skoorelował następnie oceny. Trafność: 70%
+    * Ocena kompetencji pozwalała lepiej przewidywać wyborcze zwycięstwo
+    * Ludzie oceniają kompetencje na podstawie siły i zaufania
+    * Ocena atrakcyjności(nie tylko fizycznej) drugiej osoby to jedna z ocen podstawowych. Czy tego chcesz, czy nie, robisz to automatycznie i wpływa to na twoje zachowanie.
+* System 1 "Strzela śrutem" - ma trudności w ograniczeniu swoich działań do tego, co polecił mu System 2:
+  * Badanie: Uczestnicy słuchali par słów, mając za zadanie jak najszybciej nacisnąć klawisz gdy usłyszą słowa rymujące się. Badani, mimo że tylko słyszeli słowa, naciskali klawisz wyraźnie wolniej, gdy rymy miały różną pisownie (vote - note vs. vote - goat)
+  * Badanie: Uczestnicy mieli nacisnąć czerwony przycisk gdy zdanie było prawdziwe w sensie dosłownym, albo niebieski, gdy zdanie było nieprawdziwe w sensie dosłownym. Uczestnicy mieli dłuższy czas reakcji gdy zdanie było dosłownie nieprawdziwe, ale miało sens w przenośni.
+
 # 2. Heurystyki i błędy (skrzywienia) poznawcze
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
