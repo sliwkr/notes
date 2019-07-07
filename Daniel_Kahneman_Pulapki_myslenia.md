@@ -10,7 +10,7 @@
     * [1.6 Normy, niespodzianki i przyczyny](#16-Normy,-niespodzianki-i-przyczyny)
     * [1.7 Maszyna do wyciągania pochopnych wniosków](#17-Maszyna-do-wyciągania-pochopnych-wniosków)
     * [1.8 Skąd się biorą osądy](#18-Skąd-się-biorą-osądy)
-    * 1.9 Odpowiadanie na łatwiejsze pytanie
+    * [1.9 Odpowiadanie na łatwiejsze pytanie](#19-Odpowiadanie-na-łatwiejsze-pytanie)
 * [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy(skrzywienia)-poznawcze)
     * 2.1 Prawo małych liczb
     * 2.2 Kotwice
@@ -164,7 +164,44 @@
   * Badanie: Uczestnicy słuchali par słów, mając za zadanie jak najszybciej nacisnąć klawisz gdy usłyszą słowa rymujące się. Badani, mimo że tylko słyszeli słowa, naciskali klawisz wyraźnie wolniej, gdy rymy miały różną pisownie (vote - note vs. vote - goat)
   * Badanie: Uczestnicy mieli nacisnąć czerwony przycisk gdy zdanie było prawdziwe w sensie dosłownym, albo niebieski, gdy zdanie było nieprawdziwe w sensie dosłownym. Uczestnicy mieli dłuższy czas reakcji gdy zdanie było dosłownie nieprawdziwe, ale miało sens w przenośni.
 
-# 2. Heurystyki i błędy (skrzywienia) poznawcze
+## 1.9 Odpowiadanie na łatwiejsze pytanie
+
+* W naszym życiu umysłowym statystycznie rzadko czujemy się zbici z tropu. W normalnym stanie umysłu prawie nie ma rzeczy, co do której nie mamy jakichś intuicyjnych odczuć albo opinii.
+
+* Jeśli zbyt szybko nie przychodzi nam do głowy zadowalająca odpowiedź na trudne pytanie właściwe, często nieświadomie zastępujemy je prostszym pytaniem heurystycznym.
+  * "Jeśli nie możesz rozwiązać jakiegoś problemu, musi istnieć prostszy, który potrafisz rozwiązać - znajdź go." - George Pólya, *How to Solve it*
+  * Heurystyka - prosta prodecura, która pomaga udzielić adekwatnych, choć niedoskonałych odpowiedzi na trudne pytania.
+
+|          Pytanie właściwe           |        Pytanie heurystyczne       |
+| ----------------------------------- | --------------------------------- |
+| Jaką kwotę byłbyś skłonny przekazać | Jak silne emocje budzi we mnie    |
+| na uratowanie zagrożonego gatunku?  | myśl o umierających delfinach?    |
+|                                     |                                   |
+| Jak karać doradców finansowych,     | Jak silny gniew budzi we mnie     |
+| którzy żerują na naiwności osób     | myśl o doradcach finansowych      |
+| starszych?                          | żerujących na ludzkiej naiwności? |
+|                                     |                                   |
+| W jakim stopniu jesteś zadowolona   | W jakim jestem teraz nastroju?    |
+| ze swojego życia w ostatnim czasie? |                                   |
+|                                     |                                   |
+| Określ wielkość osoby na zdjęciu    | Jakiego wzrostu jest ta osoba?    |
+| w formie liczbowej                  | lub: Ile waży ta osoba?           |
+
+* Pytania heurystyczne często prowadzą do poważnych) błędów, ale czasami sprawdzają się całkiem nieźle:
+  * Heurystyka trójwymiarowości - złudzenia optyczne.
+  * Heurstyka nastroju a ocena poziomu szczęścia.
+    * Poziom szczęścia "w ostatnim czasie" nie poddaje się łatwej ani naturalnej ocenie. Aktualny stan umysłu silnie wpływa na jego ocenę.
+    * Badanie: studentom zadano pytania o poziom szczęścia i ilość randek w ostatnim czasie:
+      * Grupa 1, w której najpierw spytano o poziom szczęścia a później o ilość randek, wykazała niemal zerową koorelacje.
+      * Grupa 2, w której najpierw spytano o ilośc randek a później o poziom szczęścia, wykazała koorelacje bliską 1:1
+        * Studenci w grupie 2 nieświadomie odpowiadali na pokrewne pytanie heurystyczne: "Jak zadowolony jestem ze swojego życia uczuciowego?".
+      * To samo zjawisko jest widoczne, gdy pytanie o randki zastąpimy pytaniem o stan finansów albo jakość relacji z rodzicami.
+  * Heurystyka afektu - ludzie pozwalają, by o ich poglądach na rzeczywistość decydowały upodobania i niechęci (Paul Slovic):
+    * Twoje poglądy polityczne decydują o tym, jakie argumenty uznasz za przekonujące.
+    * Twoja emocjonalna reakcja w kwesii jazdy na motocyklu albo energii atomowej decyduje o tym co sądzisz o płynących z niej korzyściach i ryzykach jakie się z nią wiążą.
+    * Twoje poglądy i postawa emocjonalna zmienią się(przynajmniej trochę), jeśli dowiesz się, że ryzyko związane z budzącą niechęć kwestią jest mniejsze niż sądziłeś. Uznasz też, że korzyści są większe, nawet jeśli nowe informacje nie zawierają o nich wzmianki.
+    * W konktekście postaw emocjonalnych System 2 raczej usprawiedliwia emocje Systemu 1 niż je krytykuje; poszukuje informacji i argumentów nie po to, by dowiedzieć się czy jego przekonania są słuszne, ale by znaleźć informacje i argumenty zgodne z przekonaniami.
+
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
 * Pamięć łatwiej przywołuje zdarzenia dobitne(gafa), zwracające uwagę(celebryci), dramatyczne(wypadek samochodowy) i osobiste doświadczenia.
