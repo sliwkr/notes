@@ -12,7 +12,7 @@
     * [1.8 Skąd się biorą osądy](#18-Skąd-się-biorą-osądy)
     * [1.9 Odpowiadanie na łatwiejsze pytanie](#19-Odpowiadanie-na-łatwiejsze-pytanie)
 * [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy(skrzywienia)-poznawcze)
-    * 2.1 Prawo małych liczb
+    * [2.1 Prawo małych liczb](#29-Prawo-małych-liczb)
     * 2.2 Kotwice
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
     * 2.4 Umysłowa dostępność, emocje i ryzyko
@@ -201,6 +201,29 @@
     * Twoja emocjonalna reakcja w kwesii jazdy na motocyklu albo energii atomowej decyduje o tym co sądzisz o płynących z niej korzyściach i ryzykach jakie się z nią wiążą.
     * Twoje poglądy i postawa emocjonalna zmienią się(przynajmniej trochę), jeśli dowiesz się, że ryzyko związane z budzącą niechęć kwestią jest mniejsze niż sądziłeś. Uznasz też, że korzyści są większe, nawet jeśli nowe informacje nie zawierają o nich wzmianki.
     * W konktekście postaw emocjonalnych System 2 raczej usprawiedliwia emocje Systemu 1 niż je krytykuje; poszukuje informacji i argumentów nie po to, by dowiedzieć się czy jego przekonania są słuszne, ale by znaleźć informacje i argumenty zgodne z przekonaniami.
+
+# 2. Heurystyki i błędy (skrzywienia) poznawcze
+
+## 2.1 Prawo małych liczb
+
+* Statystyki i koorelacje
+  * *Badanie zapadalności na raka nerek przeprowadzone we wszystkich 3 141 hrabstwach USA wykazało, że zapadalność jest najniższa na wiejskich, rzadko zaludnionych obszarach stanów Środkowego Zachodu, Zachodu i Południa, gdzie tradycyjnie głosuje się na Partię Republikańską. Badanie wykazało również, że tereny w których zapadalnośc jest najwyższa, to również obszary Środkowego Zachodu, Zachodu i Południa, gdzie tradycyjnie głosuje się na Partię Republikańską*
+    * Przyczyna: małe zaludnienie wykrzywia wyniki statystyk. Gdybyśmy rok później powtórzyli badanie, pewnie okazałoby się że niektóre hrabstwa z najwyższą zachorowalnością rok wcześniej, tym razem mają najniższą.
+    * Wyniki skrajne z większym prawdopodobieństwem pojawiają się w małych próbkach danych.
+  * System 1 nie radzi sobie z faktami czysto statystycznymi - czyli takimi które zmieniają prawdopodobieństwo wyników, ale nie w sposób przyczynowo-skutkowy
+    * Fakt statystyczny bez przyczynowości: losuje 4 kulki z urny wypełnionej w połowie czerwonymi, a w połowie czarnymi kulkami; następnie zapisuje wynik i wrzuca kulki do urny i powtarza losowanie. Wynik *2 czerwone, 2 czarne* będzie występował 6 razy częściej niż wynik *4 czerwone* lub *4 czarne*.
+    * Fakt statystyczny z przyczynowością: Osoba silnie uderza młotkiem w kurze jajo. Jajo rozbije się na 100%, ale nie jesteśmy w stanie szczegółowo powiedzieć, na jakie kawałki rozbije się skorupka.
+    * System 1 nie jest odpowiednio wrażliwy na wielkość próby statystycznej.
+* System 1 jest nieskory do wątpienia; jeśli komunikat nie zostanie natychmiast zanegowany, wywołane nim skojarzenia rozprzestrzeniają się w umyśle tak, jakby był prawdziwy. Pielęgnowanie wątpliwości wymaga większego wysiłku niż uleganie poczuciu pewności.
+* Mamy tendencję do postrzegania rzeczywistości w sposób spójny i uładzony:
+  * Wiara badaczy, że kilka badań statystycznych może dostarczyć wartościowej wiedzy o całej populacji *wink-wink*
+* Przy ocenie zdarzeń autentycznie losowych, myślenie przyczynowe naraża nas na poważne błędy. W myśleniu statystycznym zamiast skupiać się nad tym, jak doszło do pewnego zdarzenia, pytamy raczej "Co mogło się wydarzyć innego"
+  * Skłonność do zakładania przyczyny wiąże się z ewolucyjnymi korzyściami i jest częścią naszej ogólnej czujności odziedziczonej po przodkach (tak jak pesymizm)
+    * Badanie: W czasie drugiej wojny światowej na Londyn spadł ostrzał rakietowy. Rozkład uderzeń naniesiony na mapę zawierał wyraźne luki, wierzono więc że w tych miejscach mogą przebywać niemieccy szpiedzy. Tymczasem staranna analiza statystyczna dowiodła, że rozkład trafień był typowy dla losowego procesu - typowe było nawet to, że wywołał silne wrażenie nielosowości.
+      * *Niewyszkolone oko postrzega losowość jako regularność lub skłonność do tworzenia skupisk* - William Feller
+    * Badanie: W koszykówce powszechnie wierzy się, że zawodnik ma *gorącą rękę*, czyli że skuteczność jego rzutów chwilowo wzrasta. Kiedy gracz zdobywa kilka koszów z rzędu, koledzy z zespołu podają mu częściej piłkę a przeciwnicy częściej ratują się podwojeniem. Oczywiście jedni zawodnicy są skuteczniejsi od innych, ale analiza tysięcy sekwencji rzutów dowiodła, że zjawisko *gorącej ręki* nie istnieje w rzeczywistości, a w umysłach obserwatorów zbyt skłonnych widzieć ład i przyczynowość w losowych zdarzeniach (złudzenie poznawcze).
+      * Świadomość wyników badań nie likwiduje tego złudzenia.
+* Nadmierne zaufanie do małych prób statystycznych to jeden z przykładów złudzenia poznawczego polegającego na tym, że bardziej skupiamy się na treści komunikatu niż na jakości źródła, z jakiego pochodzi.
 
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
