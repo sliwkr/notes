@@ -12,8 +12,8 @@
     * [1.8 Skąd się biorą osądy](#18-Skąd-się-biorą-osądy)
     * [1.9 Odpowiadanie na łatwiejsze pytanie](#19-Odpowiadanie-na-łatwiejsze-pytanie)
 * [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy(skrzywienia)-poznawcze)
-    * [2.1 Prawo małych liczb](#29-Prawo-małych-liczb)
-    * 2.2 Kotwice
+    * [2.1 Prawo małych liczb](#21-Prawo-małych-liczb)
+    * [2.2 Kotwice](#22-Kotwice)
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
     * 2.4 Umysłowa dostępność, emocje i ryzyko
     * 2.5 Co studiuje Tomasz W.
@@ -224,6 +224,38 @@
     * Badanie: W koszykówce powszechnie wierzy się, że zawodnik ma *gorącą rękę*, czyli że skuteczność jego rzutów chwilowo wzrasta. Kiedy gracz zdobywa kilka koszów z rzędu, koledzy z zespołu podają mu częściej piłkę a przeciwnicy częściej ratują się podwojeniem. Oczywiście jedni zawodnicy są skuteczniejsi od innych, ale analiza tysięcy sekwencji rzutów dowiodła, że zjawisko *gorącej ręki* nie istnieje w rzeczywistości, a w umysłach obserwatorów zbyt skłonnych widzieć ład i przyczynowość w losowych zdarzeniach (złudzenie poznawcze).
       * Świadomość wyników badań nie likwiduje tego złudzenia.
 * Nadmierne zaufanie do małych prób statystycznych to jeden z przykładów złudzenia poznawczego polegającego na tym, że bardziej skupiamy się na treści komunikatu niż na jakości źródła, z jakiego pochodzi.
+
+## 2.2 Kotwice
+
+* Jesteśmy o wiele bardziej podatni na sugestie, niżbyśmy sobie tego życzyli, a całkiem sporo ludzi che i potrafi zrobić użytej z naszej łatwowierności.
+* Aktualny stan naszego otoczenia wpływa na nasze myśli i zachowania o wiele bardziej, niż sobie to uświadamiamy.
+* Efekt zakotwiczenia - odnoszenie konkretnej wartości liczbowej do niewiadomej wielkości, a następnie szacowanie tej niewiadomej. Oszacowania utrzymują się w okolicy liczby, o której ludzie pomyśleli wcześniej. Jedno z najbardziej przewidywalnych ustaleń psychologii eksperymentalnej.
+  * Badanie: Uczestnikom kazano zakręcić kołem fortuny zmanipulowanym w ten sposób, by zatrzymywało się na liczbach 10 albo 65. Następnie spytano, jaki procent wśród członków ONZ stanowią zdaniem uczestnika kraje afrykańskie. Bezwartościowa i niepowiązana liczba wpłyneła na udzielane odpowiedzi:
+    * Osoby, które trafiły wynik 10, obstawiały że kraje afrykańskie stanowią 25%,
+    * Osoby, które trafiły wynik 65, obstawiały że kraje afrykańskie stanowią 45%.
+  * Efekt zakotwiczenia jest wywoływany przez dwa różne mechanizmy: mechanizm korekty (System 2) i mechanizm torowania (System 1)
+  * Mechanizm korekty:
+    * Eksperyment z kartką:
+      * Weź kartkę i narysuj na niej odcinek zaczynający sie na oko 5 centymetrów od dołu kartki
+      * Następnie weź inną kartkę i z pomocą linijki narysuj odcinek od góry do dołu, kończący się 5 centymetrów przed końcem kartki
+      * Istnieje spora szansa, że za pierwszym razem oszacowałeś odległość jako mniejszą niż 5cm.
+    * Prośba rodziców o ściszenie muzyki do rozsądnego poziomu skierowana do dziecka jest problematyczna, bo pojęcie rozsądnej głośności różni się w zależności od punktu wyjścia. Dziecko (jeśli posłucha) dopasuje głośność od górnego zakresu i zatrzyma się przedwcześnie.
+  * Mechanizm torowania (sugestii):
+    * Umysł selektywnie przywołuje tylko pasujące dane dzięki pamięci skojarzeniowej.
+  * Profesjonaliści są tak samo podatni na efekt zaktowiczenia jak osoby bez doświadczenia
+  * Wskaźnik zakotwiczenia: procentowy stosunek różnicy szacunków do różnicy wartości kotwic:
+    * 1:
+      * "Czy najwyższa sekwoja na świecie ma więcej niż 365 metrów?"
+      * "Jak ci się wydaje, jaką wysokość może mieć najwyższa sekwoja na świecie?"
+        * Średnia odpowiedź: 257 metrów
+    * 2:
+      * "Czy najwyższa sekwoja na świecie ma więcej niż 55 metrów?"
+      * "Jak ci się wydaje, jaką wysokość może mieć najwyższa sekwoja na świecie?"
+        * Średnia odpowiedź: 86 metrów
+    * (257 - 86) / (365 - 55) = 171 / 310 = 0.55 = 55%
+    * Inny przykład: Sędziowie rzucali parą kostek, a później podawali wymiar kary, jaką dostanie osoba, której opis przewinienia wcześniej przeczytali. Kostki były obciążone w taki sposób, że za każdym rzutem wypadała określona liczba (3 albo 9). Sędziowie, którzy wrzucili dziewiątkę, średnio dawali osobie 8 miesięcy; ci, którzy wyrzucili trójkę - 5 miesięcy. Wskaźnik zakotwiczenia wynosił 50%.
+* Każdy komunikat niezależnie od miarodajności wpływa na system skojarzeniowy, chyba że zostanie natychmiast odrzucony jako fałsz. Zakotwiczenie wynika właśnie z tej aktywacji skojarzeń, a skrajnym przykładem jest silne działanie niepowiązanych lub losowych wartości kotwiczących.
+  * Widzisz kotwicę i zwracasz na nią uwagę, ale nie jesteś w stanie wyobrazić sobie własnych myśli, gdyby jej nie było lub gdyby była inna.
 
 ## 2.3 Naukowe badanie dostępności umysłowej
 * Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
