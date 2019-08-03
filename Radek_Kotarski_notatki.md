@@ -18,6 +18,8 @@ mają jedynie wspomagać to, co chcesz przyswoić na dłużej.
 
 ## Metoda terminatora
 
+* Terminator, czyli uczeń pobierający nauki rzemiosła pod okiem mistrza. Kończąc naukę staje się czeladnikiem. Nie strzela (zwykle) 
+
 * Wcielaj w życie rzeczy, o których się uczysz, czyli od razu zamieniaj teorię w praktykę. To bardzo pomaga w zapamiętywaniu, bo wzmacnia ślad 
 nowej wiedzy w pamięci.
 
