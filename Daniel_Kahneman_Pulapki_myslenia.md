@@ -258,8 +258,24 @@
   * Widzisz kotwicę i zwracasz na nią uwagę, ale nie jesteś w stanie wyobrazić sobie własnych myśli, gdyby jej nie było lub gdyby była inna.
 
 ## 2.3 Naukowe badanie dostępności umysłowej
-* Heurystyka dostępności - łatwość, z jaką odpowiednie przykłady przychodzą nam do głowy podczas szacowania wielkości danej kategorii. Angażuje obydwa systemy. W gruncie rzeczy jest to zastępowanie pytania o wielkość kategorii pytaniem o to, jak łatwo przypominają nam się przykłady z kategorii.
+
+* Heurystyka dostępności - ocena częstości występowania na podstawie tego, jak łatwo nam przypomnieć sobie sytuacje z danej kategorii. Angażuje obydwa systemy.
+  * Badani uważają, że rzadziej korzystają z roweru gdy mają sobie przypomnieć wiele przykładów zamiast kilku;
+  * są tym mniej pewni dokonanego wyboru, im więcej argumentów mają wyliczyć na jego poparcie
 * Pamięć łatwiej przywołuje zdarzenia dobitne(gafa), zwracające uwagę(celebryci), dramatyczne(wypadek samochodowy) i osobiste doświadczenia.
+  * Wiadomośc o katastrofie lotniczej chwilowo zmienia nasze myślenie o bezpieczeństwie lotów.
+  * Błąd sędziego bardziej podważy Twoją wiarę w system sprawiedliwości niż artykuł w gzecie o niesprawiedliwym wyroku
+* Przykład: Małżonków spytano o to, jak procentowo oceniają swój wkład w inicjujowanie spotkań towarzyskich, wynoszenia śmieci, utrzymania porządku w domu itp. Suma odpowiedzi na zdrowy rozsądek powinna dać 100%, jednak w badaniu suma była wyższa.
+* Heurystyka dostępności czyli "heurystyka niewytłumaczonej niedostępnosci" - efekt jest niwelowany gdy zracjonalizujemy sobie trudność w przypominaniu
+* Gdy dokonujemy osądów na temat, który dotyka nas osobiście, częściej kierujemy się liczbą przykładów niż łatwością przypominania ich sobie
+* Część populacji, która bardziej kieruje się łatwością niż treścią:
+  * Posiada władzę
+  * Duże zaufanie do intuicji
+  * Dobrze poinformowany nowicjucsz (efekt Dunninga-Kruegera)
+  * Bez depresji
+  * W dobrym nastroju wynikającm z przypomnienia sobie szczęśliwego zdarzenia z własnego życia
+  * Wykonuje w tym samym czasie inne zadanie wymagające wysiłku umysłowego
+
 # 3. Nadmierna pewność siebie
 # 4. Wybory
 # 5. Dwie jaźnie
