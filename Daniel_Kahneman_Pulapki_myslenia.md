@@ -15,7 +15,7 @@
     * [2.1 Prawo małych liczb](#21-Prawo-małych-liczb)
     * [2.2 Kotwice](#22-Kotwice)
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
-    * 2.4 Umysłowa dostępność, emocje i ryzyko
+    * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-umysłowa-dostepnosc,-emocje-i-ryzyko)
     * 2.5 Co studiuje Tomasz W.
     * 2.6 Linda: mniej znaczy więcej
     * 2.7 Przyczyny mają pierwszeństwo przed statystykami
@@ -275,6 +275,16 @@
   * Bez depresji
   * W dobrym nastroju wynikającm z przypomnienia sobie szczęśliwego zdarzenia z własnego życia
   * Wykonuje w tym samym czasie inne zadanie wymagające wysiłku umysłowego
+
+## 2.4 Umysłowa dostępność, emocje i ryzyko
+  * Umysł ma trudności z wyobrażeniem sobie katastrofy gorszej niż te, które miały miejsce do tej pory
+  * Świat istniejący w naszej głowie nie jest dokładną repliką rzeczywistości; oczekiwania na temat częstotliwości konkretnych zdarzeń są zniekształcone przez dostępność umysłową danego zdarzenia (częstość i emocjonalną intensywność przekazów, z którymi się spotykamy)
+    * Ocenimy ryzyko jako niższe, jeśli jesteśmy przychylnie nastawieni do danego wydarzenia lub widzimy płynące z niego korzyści
+    * Szczególnie silne są obrazy budzące lęk, przy czym lęk wzmaga się tym bardziej im bardziej myśli o konkretnym zdarzeniu są wyraźne i płynne
+  * Badanie *Antonio Damasio*: Zdolność podejmowania dobrych decyzji jest osłabiona u osób, które przy podejmowaniu decyzji nie wykazują odpowiednich emocji
+  * Ocena ryzyka wśród ekspertów oraz reszty ludzi może się różnić; wynika to z różnicy wartości oraz obranej miary 
+    * **"Ryzyko" nie istnieje niezależnie od ludzkich umysłów i kultur i nie czeka biernie, aż je zmierzymy. Ludzie wymyślili pojęcie "ryzyka" po to, żeby im pomagało w zrozumieniu życiowych niebezpieczeństw i niepewności oraz w radzeniu sobie z nimi. Niebezpieczeństwa są realne, jednak nie istnieje coś takiego jak "realne" czy "obiektywne" ryzyko.** - Paul Slovic
+    * O ile rozsądną miarą ryzyka wydaje się liczba utraconych istnień ludzkich lub lat życia, stosowane są też inne miary jak "liczba istnień utraconych przy wytworzeniu produktu o wartości 1mln USD". Należy zwracać uwagę na jednostkę pomiaru.
 
 # 3. Nadmierna pewność siebie
 # 4. Wybory
