@@ -69,16 +69,18 @@ ostatniej przegródki.
 
 * Daj sobie chwilę przerwy i nie zamień się w fiszkowego narkomana. Skorzystaj z dobrodziejstwa, które w nauce daje Ci zapominanie.
 
+* Elektroniczny wariant fiszek nazywa się *Anki*
+
 ## Metoda tancerki
 
-* Mądrze rozłożona w czasie nauka to nie to samo co bliżej niesprecyzowany nakaz *systematycznego uczenia się*, powtarzany przez wielu.
+* Mądrze rozłożona w czasie nauka to nie to samo co nieprecyzyjny nakaz *systematycznego uczenia się*, powtarzany przez wielu.
 
 * Rozproszenie powtórek w czasie pozwoli Ci zapamiętać na znacznie dłużej, nawet przez całe życie.
 
 * Twoim sprzymierzeńcem paradoksalnie jest także... zapominanie. Planuj naukę tak, aby przy następnej sesji nieco się wysilić i musieć przypomnieć sobie to, 
 co ostatnio było przerabiane.
 
-* Nie ma jednej odpowiedzi na pytanie, jak długo powinny być przerwy między sesjami nauki. Musisz dać sobie chwilę na zapomnienie, aby w kolejnej sesji 
+* Nie ma jednej odpowiedzi na pytanie, jak długo powinny trwać przerwy między sesjami nauki. Musisz dać sobie chwilę na zapomnienie, aby w kolejnej sesji 
 zapisać informacje w pamięci na dłużej. Sprawdź, jaki oddech między ćwiczeniami jest dla Ciebie najlepszy. 
 
 * Rozproszenie nauki na wiele dni wcale nie zabierze Ci więcej czasu niż kucie na blachę w jednym momencie, najczęściej na ostatnią chwilę. 
@@ -144,14 +146,14 @@ rysunki:bank:, kolory:art: itd.:shipit:. Nie liczy się poziom artystyczny.
 Takie podejście nie jest najskuteczniejsze oraz daje złudne poczucie biegłości i bycia w ciągu nauki.
 
 * Znacznie lepiej działa przeplatanie ćwiczeń z różnych działów. Zamiast przechodzić przez wszystkie elementy składowe jakiegoś zagadnienia, zwyczajnie 
-wymieszaj ich kolejność. Kto Ci zabroni ćwiczyć jak Muhammad Ali?
+wymieszaj ich kolejność. Tak trenował Muhammad Ali. Kto Ci zabroni ćwiczyć jak Muhammad Ali?
 
 * Przemieszanie materiału sprawi, że Twój mózg będzie zmuszony do pracy na wysokich obrotach. To dla niego bardzo dobre!
 
 * Rozsądnie utrudniaj sobie naukę. Doprowadź do sytuacji, w której mózg się nieco zmęczy. Taki zwiększony wysiłek nie jest wrogiem, wręcz przeciwnie - jednym z 
 najważniejszych elementów długotrwałego zapamiętywania.
 
-* Mimo dowodów na skuteczność mieszania ćwiczeń i materiałów do nauki większości uczniów wciąż takie przyswajanie wiedzy wydaje się nieintuicyjne 
+* Mimo dowodów na skuteczność mieszania ćwiczeń i materiałów do nauki, większości uczniów wciąż takie przyswajanie wiedzy wydaje się nieintuicyjne 
 i niewłaściwe. Nie bądź jak większość uczniów! Gdy sprawdzisz to na własną rękę, możesz się zdziwić jak skutecznie to działa.
 
 * *Walka jest wygrana lub przegrana z dala od wszystkich świadków. Za kulisami, w sali treningowej i na całej ścieżce przygotowań.*
