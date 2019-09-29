@@ -15,7 +15,7 @@
     * [2.1 Prawo małych liczb](#21-Prawo-małych-liczb)
     * [2.2 Kotwice](#22-Kotwice)
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
-    * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-umysłowa-dostepnosc,-emocje-i-ryzyko)
+    * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność,-emocje-i-ryzyko)
     * 2.5 Co studiuje Tomasz W.
     * 2.6 Linda: mniej znaczy więcej
     * 2.7 Przyczyny mają pierwszeństwo przed statystykami
