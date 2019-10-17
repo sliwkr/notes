@@ -16,7 +16,7 @@
     * [2.2 Kotwice](#22-Kotwice)
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
     * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność,-emocje-i-ryzyko)
-    * 2.5 Co studiuje Tomasz W.
+    * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W.)
     * 2.6 Linda: mniej znaczy więcej
     * 2.7 Przyczyny mają pierwszeństwo przed statystykami
     * 2.8 Powrót do średniej
@@ -285,6 +285,14 @@
   * Ocena ryzyka wśród ekspertów oraz reszty ludzi może się różnić; wynika to z różnicy wartości oraz obranej miary 
     * **"Ryzyko" nie istnieje niezależnie od ludzkich umysłów i kultur i nie czeka biernie, aż je zmierzymy. Ludzie wymyślili pojęcie "ryzyka" po to, żeby im pomagało w zrozumieniu życiowych niebezpieczeństw i niepewności oraz w radzeniu sobie z nimi. Niebezpieczeństwa są realne, jednak nie istnieje coś takiego jak "realne" czy "obiektywne" ryzyko.** - Paul Slovic
     * O ile rozsądną miarą ryzyka wydaje się liczba utraconych istnień ludzkich lub lat życia, stosowane są też inne miary jak "liczba istnień utraconych przy wytworzeniu produktu o wartości 1mln USD". Należy zwracać uwagę na jednostkę pomiaru.
+
+## 2.5 Co studiuje Tomasz W.
+
+* Wartość bazowa - wielkość opisująca proporcjonalny stosunek podzbiorów wobec nadzbioru, np. wartość bazowa dla czarnych kulek w urnie z kulkami białymi i czarnymi.
+* Reprezentatywność - podobieństwo podmiotu do stereotypu.
+* Pomiędzy zdarzeniami pewnymi (np. "dziś rano wzeszło słońce") a niemożliwymi ("w jednej chwili zamarznie cały Ocean Spokojny") istnieje sfera zdarzeń prawdopodobnych.
+* W przewidywaniach statystycznych oprócz reprezentatywności znaczącą rolę odgrywa wartość bazowa:
+  * Ludzie mają tendencję do ignorowania wartości bazowej i problem określenia prawdopodobieństwa zastępują problemem podobieństwa.
 
 # 3. Nadmierna pewność siebie
 # 4. Wybory
