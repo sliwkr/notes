@@ -294,6 +294,20 @@
 * W przewidywaniach statystycznych oprócz reprezentatywności znaczącą rolę odgrywa wartość bazowa:
   * Ludzie mają tendencję do ignorowania wartości bazowej i problem określenia prawdopodobieństwa zastępują problemem podobieństwa.
 
+## 2.6 Linda: mniej znaczy więcej
+
+* Błąd koniunkcji - błąd polegający na przypisaniu koniunkcji zdarzeń wyższego prawdopodobieństwa niż pojedyńczym zdarzeniom należącym do tej koniunkcji.
+  * *Linda ma trzydzieści jeden lat, jest niezamężna, wygadana i bardzo inteligentna. Skończyła filozofię. Na studiach bardzo się angażowała w zwalczanie dyskryminacji i promowanie sprawiedliwości społecznej, a także brała udział w demonstracjach przeciw energii jądrowej.*
+  * Co jest bardziej bardziej prawdopodobne:
+    * Linda jest kasjerką bankową.
+    * Linda jest kasjerką bankową i działa w ruchu feministycznym.
+  * W kontekście tego błędu, znacznie trudniej wybrać właściwą odpowiedź gdy mamy do wyboru więcej opcji niż 2
+  * Podobnie jak w [2.5](#25-Co-studiuje-Tomasz-W.) zastępujemy problem określenia prawdopodobieństwa problemem reprezentatywności (podobieństwa do stereotypu)
+  * Podobny przykład:
+    * Marek ma włosy.
+    * Marek ma włosy koloru blond.
+  * Kiedy logika nie musi konkurować z intuicją, wygrywa. Zdania o wyższym poziomie szczegółowości nie wywołują błędu koniunkcji
+
 # 3. Nadmierna pewność siebie
 # 4. Wybory
 # 5. Dwie jaźnie
