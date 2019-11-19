@@ -17,8 +17,7 @@
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
     * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność,-emocje-i-ryzyko)
     * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W.)
-    * 2.6 Linda: mniej znaczy więcej
-    * 2.7 Przyczyny mają pierwszeństwo przed statystykami
+    * [2.6 Linda: mniej znaczy więcej](#26-Linda:-mniej-znaczy-więcej)
     * 2.8 Powrót do średniej
     * 2.9 Poskramianie prognoz intuicyjnych
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
@@ -302,11 +301,18 @@
     * Linda jest kasjerką bankową.
     * Linda jest kasjerką bankową i działa w ruchu feministycznym.
   * W kontekście tego błędu, znacznie trudniej wybrać właściwą odpowiedź gdy mamy do wyboru więcej opcji niż 2
-  * Podobnie jak w [2.5](#25-Co-studiuje-Tomasz-W.) zastępujemy problem określenia prawdopodobieństwa problemem reprezentatywności (podobieństwa do stereotypu)
-  * Podobny przykład:
-    * Marek ma włosy.
-    * Marek ma włosy koloru blond.
-  * Kiedy logika nie musi konkurować z intuicją, wygrywa. Zdania o wyższym poziomie szczegółowości nie wywołują błędu koniunkcji
+  * Podobnie jak w [2.5](#25-Co-studiuje-Tomasz-W.) zastępujemy problem określenia prawdopodobieństwa problemem reprezentatywności (podobieństwa do stereotypu / wiarygodności)
+  * Podobne przykłady:
+    * Dodanie taniego dodatku do drogiego prezentu sprawi, że prezent zostanie oceniony gorzej
+    * Marek ma włosy / Marek ma włosy koloru blond.
+      * Kiedy logika nie musi konkurować z intuicją, wygrywa. Zdania o wyższym poziomie szczegółowości jak to nie wywołują błędu koniunkcji
+  * W grupach równoległych oceną rządzi intuicja; w ocenach łącznych - logika
+  * Ograniczanie błędu koniunkcji:
+    * sformułowanie pytania w inny sposób:
+      * zastąpienie reprezentacji procentowej reprezentacją liczbową - ludzie inaczej interpretują pytanie "ile?" od "jaki procent?"
+    * diagram Venna
+    * prośba o logiczne zastanowienie się
+
 
 # 3. Nadmierna pewność siebie
 # 4. Wybory
