@@ -18,6 +18,7 @@
     * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność,-emocje-i-ryzyko)
     * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W.)
     * [2.6 Linda: mniej znaczy więcej](#26-Linda:-mniej-znaczy-więcej)
+    * [2.7 Przyczyny mają pierwszeństwo przed statystykami](#27-Przyczyny-mają-pierwszeństwo-przed-statystykami)
     * 2.8 Powrót do średniej
     * 2.9 Poskramianie prognoz intuicyjnych
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
@@ -261,7 +262,7 @@
 * Heurystyka dostępności - ocena częstości występowania na podstawie tego, jak łatwo nam przypomnieć sobie sytuacje z danej kategorii. Angażuje obydwa systemy.
   * Badani uważają, że rzadziej korzystają z roweru gdy mają sobie przypomnieć wiele przykładów zamiast kilku;
   * są tym mniej pewni dokonanego wyboru, im więcej argumentów mają wyliczyć na jego poparcie
-* Pamięć łatwiej przywołuje zdarzenia dobitne(gafa), zwracające uwagę(celebryci), dramatyczne(wypadek samochodowy) i osobiste doświadczenia.
+* Pamięć łatwiej przywołuje zdarzenia dobitne(gafa), zwracające uwagę(celebryci), dramatyczne(wypadek samochodowy) i osobiste doświadczenia.
   * Wiadomośc o katastrofie lotniczej chwilowo zmienia nasze myślenie o bezpieczeństwie lotów.
   * Błąd sędziego bardziej podważy Twoją wiarę w system sprawiedliwości niż artykuł w gzecie o niesprawiedliwym wyroku
 * Przykład: Małżonków spytano o to, jak procentowo oceniają swój wkład w inicjujowanie spotkań towarzyskich, wynoszenia śmieci, utrzymania porządku w domu itp. Suma odpowiedzi na zdrowy rozsądek powinna dać 100%, jednak w badaniu suma była wyższa.
@@ -313,6 +314,24 @@
     * diagram Venna
     * prośba o logiczne zastanowienie się
 
+## 2.7 Przyczyny mają pierwszeństwo przed statystykami
+
+* Statystyczna wartość bazowa - fakty, które dotyczą populacji, do której należy dany przypadek, ale które nie są odbierane jako istotne dla konkretnego przypadku (myślenie o kategorii)
+* Przyczynowe wartości bazowe - zmieniają pogląd na temat tego, jak doszło do zaistnienia konkretnego przypadku: (myślenie o konkretnych przypadkach)
+  * Gdy nimi dysponujemy, statystyczne wartości bazowe zazwyczaj zostają niedoszacowane, a nawet całkowicie zlekceważone,
+  * Dają się łatwo połączyć z innymi informacjami dotyczącymi tego samego przypadku.
+* Nasze myślenie o kategoriach opiera się na stereotypach, czyli rzutowaniu wyobrażenia jednego lub kilku przykładów z danej kategorii na nią całą.
+* By dane statystyczne zostały poprawnie zrozumiane, należy zaskoczyć/zrobić wrażenie na odbiorcy - na przykład opisami kilku osób, które te dane reprezentują:
+  * "Eksperyment z udzieleniem pomocy" Richarda Nisbetta i Eugene'a Borgidy: dwóm grupom studentów opowiedziano o następującym eksperymencie:
+    * Uczestnicy eksperymentu wchodzą do indywidualnych kabin, w których mają rozmawiać ze sobą przez system mikrofonów, opowiadając o swoich problemach i życiu osobistym
+    * 3 grupy, 6 uczestników w każdej grupie z czego 1 podstawiony, każdy uczestnik ma około 2 minut na opowieść
+    * Tura 1: Podstawiony uczestnik zabiera głos 1. Opowiada o problemach związanych z adaptacją do nowojorskiego stylu życia, z zażenowaniem wspomina o tym że cierpi na ataki padaczki w stresujących sytuacjach. Następnie wypowiadają się kolejni uczestnicy
+    * Tura 2: Podstawiony uczestnik wypowiada się bezładnie, po czym słychać odgłosy dławienia się, wołanie o pomoc i słowa w stylu "atak", "padaczka". Mikrofon uczestnika wyłącza się.
+    * Wyniki: z 15 uczestników 4 od razu zareagowało, 6 w ogóle nie wyszło z kabin, 5 wyszło dopiero gdy podstawiony się udławił
+    * Jednej grup studentów ujawniono wynik eksperymentu, drugiej nie
+    * Obydwóm grupom pokazano krótki film z wypowiedziami 2 uczestników eksperymentu - nie wnosił on istotnych informacji, wypowiedzi były konwencjonalne, osoby opowiadały co lubią robić w wolnym czasie i jakie mają plany na przyszłość
+    * (!) Zarówno grupa znająca jak i nieznająca wyników jednoznacznie stwierdziły, że osoby należały do tych, które pomogły cierpiącemu
+  * Rozwiązanie: studentom wytłumaczono na czym polega eksperyment bez ujawniania wyników. Następnie pokazano film i powiedziano, że żadna z osób nie pomogła cierpiącemu, i poproszono o odgadnięcie jaki był wynik eksperymentu - oceny studentów okazały się niezmiernie trafne.
 
 # 3. Nadmierna pewność siebie
 # 4. Wybory
