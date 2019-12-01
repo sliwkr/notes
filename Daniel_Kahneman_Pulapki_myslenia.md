@@ -19,7 +19,7 @@
     * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W.)
     * [2.6 Linda: mniej znaczy więcej](#26-Linda:-mniej-znaczy-więcej)
     * [2.7 Przyczyny mają pierwszeństwo przed statystykami](#27-Przyczyny-mają-pierwszeństwo-przed-statystykami)
-    * 2.8 Powrót do średniej
+    * [2.8 Powrót do średniej](#28-Powrót-do-średniej)
     * 2.9 Poskramianie prognoz intuicyjnych
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
     * 3.1 Złodzenie zrozumienia
@@ -332,6 +332,23 @@
     * Obydwóm grupom pokazano krótki film z wypowiedziami 2 uczestników eksperymentu - nie wnosił on istotnych informacji, wypowiedzi były konwencjonalne, osoby opowiadały co lubią robić w wolnym czasie i jakie mają plany na przyszłość
     * (!) Zarówno grupa znająca jak i nieznająca wyników jednoznacznie stwierdziły, że osoby należały do tych, które pomogły cierpiącemu
   * Rozwiązanie: studentom wytłumaczono na czym polega eksperyment bez ujawniania wyników. Następnie pokazano film i powiedziano, że żadna z osób nie pomogła cierpiącemu, i poproszono o odgadnięcie jaki był wynik eksperymentu - oceny studentów okazały się niezmiernie trafne.
+
+## 2.8 Powrót do średniej
+
+* U ludzi, podczas uczenia umiejętności, nagradzanie za poprawę wyników jest skuteczniejsze niż karanie za błędy
+  * Gdy ktoś popełni spory błąd i dostanie karę, następnym razem zazwyczaj wychodzi mu lepiej. Tak samo, gdy ćwiczenie pójdzie komuś wyjątkowo dobrze i zostanie pochwalony, następnym razem zazwyczaj pójdzie mu słabiej. Ta obserwacja nie jest zaprzeczeniem poprzedniego punktu, a przykładem nieuniknionych wahań losowego procesu (w którym wynik dąży do średniej)
+  * Zazwyczaj jesteśmy mili dla innych, gdy zrobią coś po naszej myśli, a niemili, gdy sprawią nam przykrość. Ze statystycznego punktu widzenia więc, jesteśmy karani za bycie miłymi i nagradzani za bycie nieprzyjemnymi
+* W turniejach, wyjątkowy wynik pierwszego dnia jest wynikiem talentu i szczęścia. W kolejnych dniach dobrze jest zakładać szczęście na poziomie średnim i mniej więcej taki sam talent
+  * Uczestnik, któremu 1 dnia poszło wyjątkowo dobrze, kolejnego pójdzie słabiej
+  * Uczestnik, któremu 1 dnia poszło wyjątkowo słabo, kolejnego dnia pójdzie lepiej
+  * Zjawisko jest obserwowalne nawet wtedy, gdy odwrócimy kierunek czasu prognozując wyniki dnia 1 na podstawie wyników z dnia 2 - szczęście jest losowe, "powraca do średniej". Różnica w wynikach nie wymaga wyjaśnienia przyczynowo-skutkowego - jest nieuniknionym, matematycznym skutkiem faktu, że na wynik wpłynęła losowość.
+    * Zapis w postaci noty standardowej: wynik = talent + szczęście
+* Francis Galton po raz pierwszy opisał zjawisko powrotu do średniej w 1886 roku, w artykule "Regression towards Mediocrity in Hereditary Stature", gdzie pisał o pomiarach wielkości kolejnych pokoleń ziaren oraz porównywał wzrost dzieci do wzrostu rodziców
+* Współczynik korelacji - miara stosunkowej wagi czynników wspólnych pomiędzy dwoma miarami, mierzony od 0 do 1
+  * Wszyscy otrzymujemy od rodziców po połowie genów, jeśli więc czynniki środowiskowe mają na jakąś cechę stosunkowo niewielki wpływ, korelacja między rodzicem i dzieckiem nie jest daleka od 0.50
+  * Korelacja pomiędzy poziomem dochodów a wykształceniem w USA wynosi około 0.40
+  * Zawsze kiedy korelacja między dwiema miarami nie jest idealna, pojawi się zjawisko powrotu do średniej
+* Aby móc stwierdzić, że dany lek ma rzekomy skutek, musimy porównać przyjmującą go grupę z grupą kontrolną (która go nie przyjmuje lub przyjmuje placebo). Należy sądzić, że grupa kontrolna dozna poprawy dzięki powrotowi do średniej; eksperyment ma ustalić, czy grupa przyjmująca lek doświadcza większej poprawy, niżby to wynikało z samego powrotu do średniej
 
 # 3. Nadmierna pewność siebie
 # 4. Wybory
