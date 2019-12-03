@@ -20,7 +20,7 @@
     * [2.6 Linda: mniej znaczy więcej](#26-Linda:-mniej-znaczy-więcej)
     * [2.7 Przyczyny mają pierwszeństwo przed statystykami](#27-Przyczyny-mają-pierwszeństwo-przed-statystykami)
     * [2.8 Powrót do średniej](#28-Powrót-do-średniej)
-    * 2.9 Poskramianie prognoz intuicyjnych
+    * [2.9 Poskramianie prognoz intuicyjnych](#2-Poskramianie-prognoz-intuicyjnych)
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
     * 3.1 Złodzenie zrozumienia
     * 3.2 Złudzenie trafności
@@ -349,6 +349,28 @@
   * Korelacja pomiędzy poziomem dochodów a wykształceniem w USA wynosi około 0.40
   * Zawsze kiedy korelacja między dwiema miarami nie jest idealna, pojawi się zjawisko powrotu do średniej
 * Aby móc stwierdzić, że dany lek ma rzekomy skutek, musimy porównać przyjmującą go grupę z grupą kontrolną (która go nie przyjmuje lub przyjmuje placebo). Należy sądzić, że grupa kontrolna dozna poprawy dzięki powrotowi do średniej; eksperyment ma ustalić, czy grupa przyjmująca lek doświadcza większej poprawy, niżby to wynikało z samego powrotu do średniej
+
+## 2.9 Poskramianie prognoz intuicyjnych
+
+* Prognozy intuicyjne są prawie niewrażliwe na jakość danych oraz tak samo skrajne jak dane, na których się opierają (zgodnie z zasadą "Istnieje tylko to, co widzisz")
+  * Im mniej danych, tym większa spójność, tym większa skrajność w prognozie
+* Mamy tendencję do zastępowania prognoz oceną danych z jakimi mamy do czynienia:
+  * Student jest inteligentny, pewny siebie, oczytany, pracowity, dociekliwy
+    * Jakie wrażenie robi na tobie powyższy opis z punktu widzenia zdolności do studiowania?
+    * Na ile szacujesz średnią ocen, którą osiągnie opisywany student?
+* Korelacja pomiędzy dwoma miarami zależy od ilości wspólnych wyznaczników między nimi
+* Sposób na prognozę nieobarczoną błędem poznawczym (intuicja miarkowana powrotem do średniej):
+  * Poznaj wartośc odniesienia
+    * np. Średnia ocen statystycznego studenta: 3.5
+  * Wyznacz swoją intuicyjną prognozę
+    * np. Julia będzie mieć w tym roku średnią 4.8
+  * Oszacuj korelacje K pomiędzy dwoma miarami
+    * np. korelacja pomiędzy płynnym czytaniem w wieku 4 lat a średnią 4.4 na studiach wynosi K = 0.3
+  * Nanieś korektę: wychodząc od średniej dla całości, przesuń się o średnia*K w kierunku swojej intuicyjnej prognozy
+    * 3.5 + (3.5*0.3) = 4.55
+  * Jeśli masz dobre powody, by ufać trafności swoich intuicyjnych prognoz (bo między dostępnymi danymi i prognozowanym rezultatem istnieje silna korelacja) - korekta będzie niewielka
+* Prognozy intuicyjne są nadmiernie optymistyczne wobec osób, którym na początku poszło dobrze, i nadmiernie pesymistyczne wobec tych, którzy zaczeli kiepsko.
+* By prognozy miały przyzwoitą trafność, należy unikać prognozowania zdarzeń rzadkich albo odległych od średniej. Kiedy twoje prognozy nie są obarczone błędem, możesz pożegnać się z przyjemnym poczuciem płynącym z mówienia "Spodziewałem się tego". Niektórzy ludzie potrzebują poczucia bezpieczeństwa płynącego z obarczonej błędem prognozy; jeśli chcesz się łudzić i oszukiwać, przyjmując skrajne prognozy, miej świadomość że jest to folgowanie sobie, a nie racjonalny wybór.
 
 # 3. Nadmierna pewność siebie
 # 4. Wybory
