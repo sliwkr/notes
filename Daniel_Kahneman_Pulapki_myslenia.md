@@ -22,7 +22,7 @@
     * [2.8 Powrót do średniej](#28-Powrót-do-średniej)
     * [2.9 Poskramianie prognoz intuicyjnych](#2-Poskramianie-prognoz-intuicyjnych)
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
-    * 3.1 Złodzenie zrozumienia
+    * [3.1 Złudzenie zrozumienia](#31-Złudzenie-zrozumienia)
     * 3.2 Złudzenie trafności
     * 3.3 Intuicja kontra wzory
     * 3.4 Intuicja ekspertów: kiedy możemy jej ufać
@@ -373,5 +373,29 @@
 * By prognozy miały przyzwoitą trafność, należy unikać prognozowania zdarzeń rzadkich albo odległych od średniej. Kiedy twoje prognozy nie są obarczone błędem, możesz pożegnać się z przyjemnym poczuciem płynącym z mówienia "Spodziewałem się tego". Niektórzy ludzie potrzebują poczucia bezpieczeństwa płynącego z obarczonej błędem prognozy; jeśli chcesz się łudzić i oszukiwać, przyjmując skrajne prognozy, miej świadomość że jest to folgowanie sobie, a nie racjonalny wybór.
 
 # 3. Nadmierna pewność siebie
+
+## 3.1 Złudzenie zrozumienia
+
+* Błąd narracji - poglądy na temat teraźniejszości i oczekiwania na przyszłość kształtujemy na podstawie nieprawdziwych mentalnych opowieści na temat przeszłości. Opowieści są wynikiem potrzeby wyjaśnienia rzeczywistości, są raczej proste niż złożone, raczej konkretne niż abstrakcyjne, przypisują większą rolę talentowi, głupocie, zamiarom ludzkim niż ślepemu trafowi; skupiają się na niewielkiej liczbie istotnych wydarzeń, które miały miejsce, a nie na niezliczonych wydarzeniach, które nie nastąpiły, mimo że mogły.
+* Umysł ludzki jest niedoskonały w rekonstruowaniu minionych stanów wiedzy oraz poglądów, które uległy zmianie. Kiedy przyjmujesz nowy pogląd na temat rzeczywistości, natychmiast w dużej mierze tracisz możliwość przypomnienia sobie swoich wcześniejszych przekonań (zjawisko zastępowania).
+  * Dobra opowieść zawiera prostą i spójną relację ludzkich zamiarów i działań;
+  * Źródło: Nassim Taleb, *The Black Swan*
+* Chętnie odbieramy ludzie zachowania jako przejawy ogólnych skłonności i cech charakteru - przyczyn, którym chętnie przypisujemy skutki:
+  * Efekt halo sprawia, że kiedy oceniamy czyjąś istotną cechę, często dopasowujemy ją do pozostałych cech tej osoby:
+    * Ludzie dobrzy robią wyłącznie dobre rzeczy, a ludzie źli są podli do szpiku kości.
+    * Hitler uwielbiał psy i małe dzieci.
+* Najlepszym testem każdego wyjaśnienia jest pytanie, czy takie wyjaśnienie pozwoliłoby przewidzieć z wyjaśniane zdarzenie
+  * Nie przejdzie go historia o założeniu Google, bo nie da się stworzyć opowieści, w której zmieściłyby się wszystkie niezliczone wydarzenia, które mogły po drodze zmienić ostateczny rezultat.
+  * Ludzki umysł nie radzi sobie dobrze ze zdarzeniami, które nie miały miejsca:
+    * Wiele istotnych wydarzeń które miały miejsce, wiązało się z podjęciem wyborów, co sprawi, że przecenisz rolę umiejętności i nie docenisz roli, którą w ostatecznym rozrachunku odegrał ślepy traf.
+* Błąd oceny z perspektywy czasu (*hindsight bias*, efekt "wiedziałem od początku"):
+  * Słowa "wiedzieć" używamy wtedy, gdy wiadoma nam rzecz była prawdziwa i można to wykazać.
+    * Nadużyte, sugeruje że świat jest bardziej poznawalny niż w rzeczywistości. Mówiąc tak utrwalamy kojące, lecz szkodliwe złudzenie; przeszłość rozumiemy mniej, niż nam się wydaje.
+  * Ludzie mają tendencję do przeszacowywania trafności swoich prognoz, oraz prognoz innych osób.
+  * Błąd bardzo utrudnia sprawiedliwą ocenę osób podejmujących decyzje; szukają one więc schronienia w biurokracji i cechuje ich niechęć do podejmowania ryzyka.
+    * Liderów, którym się poszczęściło, nie spotyka kara za podjęcie nadmiernego ryzyka - zamiast tego podziwiamy ich polot i intuicję.
+* Opowieści o sukcesach i porażkach regularnie przeceniają wpływ stylu przywództwa i praktyki zarządzania na wyniki spółki - zatem ich przesłanie jest rzadko przydatne. Uderzają jednak w czułą strunę czytelników, bo zapewniają coś, czego umysł potrzebuje - proste przesłanie na temat triumfu i klęski, jasno wskazujące przyczyny oraz ignorujące decyzyjną rolę trafu i nieuniknionego powrotu do średniej.
+  * Źródło: Philip Rosenzweig, *The Halo Effect*
+
 # 4. Wybory
 # 5. Dwie jaźnie
