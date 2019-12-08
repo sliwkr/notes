@@ -23,7 +23,7 @@
     * [2.9 Poskramianie prognoz intuicyjnych](#2-Poskramianie-prognoz-intuicyjnych)
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
     * [3.1 Złudzenie zrozumienia](#31-Złudzenie-zrozumienia)
-    * 3.2 Złudzenie trafności
+    * [3.2 Złudzenie trafności](#32-Złudzenie-trafności)
     * 3.3 Intuicja kontra wzory
     * 3.4 Intuicja ekspertów: kiedy możemy jej ufać
     * 3.5 Spojrzenie z zewnątrz
@@ -396,6 +396,27 @@
     * Liderów, którym się poszczęściło, nie spotyka kara za podjęcie nadmiernego ryzyka - zamiast tego podziwiamy ich polot i intuicję.
 * Opowieści o sukcesach i porażkach regularnie przeceniają wpływ stylu przywództwa i praktyki zarządzania na wyniki spółki - zatem ich przesłanie jest rzadko przydatne. Uderzają jednak w czułą strunę czytelników, bo zapewniają coś, czego umysł potrzebuje - proste przesłanie na temat triumfu i klęski, jasno wskazujące przyczyny oraz ignorujące decyzyjną rolę trafu i nieuniknionego powrotu do średniej.
   * Źródło: Philip Rosenzweig, *The Halo Effect*
+
+## 3.2 Złudzenie trafności
+
+* Poczucie zaufania do wydawanych osądów zależy od spójności opowieści, którą wspólnymi siłami tworzą System 1 i System 2. W przypadku niektórych najważniejszych przekonań nie mamy absolutnie żadnych danych które by za nimi przemawiały - poza tym, że tak samo myślą ludzie, których kochamy lub którym ufamy.
+  * Jeśli ktoś jest bardzo pewnym swojego zdania, znaczy to że skonstruował sobie bardzo spójną opowieść - ale już niekoniecznie, że taka opowieść jest prawdziwa
+* Kupowanie i sprzedawanie akcji giełdowych: kupujący uważa, że cena aukcji jest za niska i pójdzie w górę; sprzedający uważa, że akcje są przeszacowane i cena pewnie spadnie. Co każe obydwóm sądzić, że wiedzą lepiej od rynku, ile powinna kosztować akcja?
+  * W większości przypadków takie przekonanie jest złudzeniem.
+  * W cenie akcji mieści się pełna wiedza na temat wartości spółki i w miarę najściślejsza prognoza jej przyszłości.
+    * Źródło: Burton Malkiel, *A Random Walk Down Wall Street*
+* Złudzenie umiejętności: eksperyment autora - analiza wyników 25 doradców finansowych z ostatnich 8 lat:
+  * Autor stworzył ranking doradców dla każdego roku, by zbadać czy istnieją między nimi trwałe różnice. Uzyskał 28 współczynników koorelacji, porównując pozycje w rankingu dla każdej pary lat (pomiędzy 1 a 2, pomiędzy 2 a 3, itd... aż do 7..8)
+  * Średnia wyciągnięta ze wszystkich współczynników koorelacji: 0.01. Wniosek: praca doradcy finansowego bardziej przypomina grę w kości niż w pokera.
+  * Statystyka podważająca podstawowe założenia firmy z której pochodziły dane, i kłócąca się z osobistym wrażeniem opartym na doświadczeniu, nie została przyswojona przez kierownictwo któremu została zaprezentowana.
+  * Najsilniejszą psychologiczną przyczyną złudzenia jest to, że ludzie podejmujący decyzje na temat obrotu akcjami posługują się zaawansowanymi umiejętnościami; niestety, tak się składa że umiejętnośc oceniania perspektyw spółki nie wystarcza do skutecznego obracania akcjami - gdzie kluczową kwestią jest to, czy takie informacje o spółce zostały wliczone w obecną cenę akcji.
+* Myśl, że o poważnych wydarzeniach historycznych decyduje ślepy traf, jest dogłębnie szokująca, jednak bezspornie prawdziwa.
+* Przeprowadzono wywiad z 284 osobami zajmującymi się zawodowo "komentowaniem lub doradztwem w dziedzinie trendów politycznych". Spytano o ocenę prawdopodobieństwa zaistnienia pewnych wydarzeń w nieodległej przyszłości, zarówno w obszarach ich specjalizacji jak i poza. Spytano jak dochodzili do swoich wniosków, jak regowali gdy prognozy okazywały się błędne, jak oceniali dane sprzeczne z ich stanowiskiem. W sumie zgromadzono ok. 80 000 prognoz. W każdym z przypadków respondenci oceniali prawdopodobieństwo 3 możliwych wariantów: utrzymania się obecnego stanu rzeczy, wzmożenia się czegoś albo osłabienia się czegoś. Wniosek: eksperci poradzili sobie gorzej, niż gdyby po prostu przypisywali jednakowe prawdopodobieństwo do każdego z 3 możliwych wyników. Eksperci, nawet w najlepiej im znanych obszarach, byli niewiele lepsi od niespecjalistów. "Pod względem zdolności prognozowania wiedza niepokojąco szybko osiąga punkt malejących przychodów krańcowych". Eksperci niechętnie przyjmowali do wiadomości, że się pomylili; gdy musieli przyznać się do błędu, wymyślali szereg wymówek; koniec końców, są tylko ludźmi - olśniewa ich własna błyskotliwośc i nie znoszą być w błędzie.
+  * Źródło: Philip Tetlock, *Expert Political Judgment: How Good Is It? How Can We Know?*
+* Ludzie potrafią tkwić w najbardziej absurdalnym przekonaniu, jeśli czują przy tym wsparcie społeczności podobnie myślących osób.
+  * Nie można traktować wysokiej subiektywnej pewności siebie jako miarodajnego wskaźnika trafności prognoz.
+* Błędy w przewidywaniach są nieuniknione, bo rzeczywistośc jest nieprzewidywalna.
+  * Nie wiemy, gdzie dokładnie leży linia oddzielająca przyszłośc w miarę przewidywalną od przyszłości odległej i nieprzewidywalnej.
 
 # 4. Wybory
 # 5. Dwie jaźnie
