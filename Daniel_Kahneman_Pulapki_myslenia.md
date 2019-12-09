@@ -24,7 +24,7 @@
 * [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
     * [3.1 Złudzenie zrozumienia](#31-Złudzenie-zrozumienia)
     * [3.2 Złudzenie trafności](#32-Złudzenie-trafności)
-    * 3.3 Intuicja kontra wzory
+    * [3.3 Intuicja kontra wzory](#33-Intuicja-kontra-wzory)
     * 3.4 Intuicja ekspertów: kiedy możemy jej ufać
     * 3.5 Spojrzenie z zewnątrz
     * 3.6 Motor kapitalizmu
@@ -417,6 +417,26 @@
   * Nie można traktować wysokiej subiektywnej pewności siebie jako miarodajnego wskaźnika trafności prognoz.
 * Błędy w przewidywaniach są nieuniknione, bo rzeczywistośc jest nieprzewidywalna.
   * Nie wiemy, gdzie dokładnie leży linia oddzielająca przyszłośc w miarę przewidywalną od przyszłości odległej i nieprzewidywalnej.
+
+## 3.3 Intuicja kontra wzory
+
+* Eksperyment: 14 doradców zawodowych miało za zadanie przewidzieć oceny studentów na koniec pierwszego roku na podstawie wyników świadectw ze szkoły średniej, wynikami kilku testów zdolnościowych i 4-stronnicowym listem motywacyjnym każdego studenta. Porównano predykcje doradców z algorytmem statystycznym, który operował na ocenach z liceum i wynikiem jednego testu zdolnościowego. Wyniki wzoru statystycznego okazały się trafniejsze od prognoz 11 z 14 doradców.
+  * Kontrowersyjny eksperyment zapoczątkował liczne badania, na dziś dzień jest ich ponad 200 z przeróżnych dziedzin. Około 60% badań wskazuje, że algorytmy są znacząco trafniejsze, inne badania wskazują na remis (na korzyść wzoru statystycznego, bo jest tańszy niż doradca). Nie udało się w przekonujący sposób udokumentować ani jednego wyjątku.
+  * Źródło: Paul Meehl, *Statistical Prediction: A Theoretical Analysis and a Review of the Evidence*
+* Cenę wina da się przewidzieć dekady wprzód na podstawie 3 czynników pogodowych: średniej temperatury powietrza w sezonie letnim, wielkości opadów w okresie zbiorów oraz łącznych opadów poprzedniej zimy. Korelacja pomiędzy prognozami a rzeczywistymi cenami: ~0.90
+  * Źródło: Orley Ashenfelter
+* Eksperci sa gorsi od algorytmów, bo:
+  * Próbują myśleć nieszablonowo, w swoich kombinacjach uwzględniają całe złożone kombinacje elementów podczas gdy wynik często jest lepszy na podstawie prostszych kombinacji,
+  * Mamy bardzo ograniczoną wiedzę o tym, co dzieje się w naszym umyśle i nie doceniamy wpływu otoczenia na naszą ocenę sytuacji - wzory i algorytmy nie mają tego problemu.
+* Do opracowania użytecznego algorytmu nie potrzeba żadnych wcześniejszych badań statystycznych; proste wzory przypisujące czynnikom jednakową wagę, oparte na zdrowym rozsądku często okazują się bardzo dobre w prognozowaniu rezultatów:
+  * Stabilność małżeństwa można dobrze przewidzieć za pomocą następującego wzoru: *częstośc zbliżeń seksualnych minut częstość kłótni*; wynik nie powinien być ujemny.
+    * Źródło: Robyn Dawes, *The Robust Beauty of Improper Linear Models in Decision Making*
+  * Ocena stanu noworodka polega na przypianiu wartości [0,1,2] dla 5 czynników minutę po porodzie: tętno, oddychanie, reagowanie na bodźce, napięcie mięśniowe, kolor skóry.
+    * Autor: Virginia Apgar
+  * Więcej przykładów: Atul Gawande, *A Checklist Manifesto*
+* Nie można po prostu ufać ocenom intuicyjnym - czy to własnym, czy innych - ale nie można ich też lekceważyć:
+  * Eksperyment autora: Systematyczna ocena cech dobrego kandydata podczas rozmowy i dodanie na koniec oceny intuicyjnej okazała się lepsza niż intuicyjna ocena wydawana po 20-minutowej rozmowie z kandydatem.
+  * Heurystyka: Wybierz kilka cech koniecznych do sukcesu na danym stanowisku (ok. 6). Wybrane cechy powinny być jak najmniej powiązane ze sobą nawzajem, powinno je się dać trafnie ocenić na podstawie kilku pytań. Następnie dla każdej cechy przygotuj listę odpowiednich pytań i zastanów się, jak przypisywać im wartości - jakiego rodzaju odpowiedzi oznaczają "bardzo słabo", a jakie "bardzo dobrze". Informacje należy zbierać po kolei i z osobna, by uniknąć efektu halo. Pod koniec zsumuj oceny.
 
 # 4. Wybory
 # 5. Dwie jaźnie
