@@ -25,7 +25,7 @@
     * [3.1 Złudzenie zrozumienia](#31-Złudzenie-zrozumienia)
     * [3.2 Złudzenie trafności](#32-Złudzenie-trafności)
     * [3.3 Intuicja kontra wzory](#33-Intuicja-kontra-wzory)
-    * 3.4 Intuicja ekspertów: kiedy możemy jej ufać
+    * [3.4 Intuicja ekspertów: kiedy możemy jej ufać](#34-Intuicja-ekspertów-kiedy-możemy-jej-ufać)
     * 3.5 Spojrzenie z zewnątrz
     * 3.6 Motor kapitalizmu
 * [4. Wybory](#4-wybory)
@@ -437,6 +437,19 @@
 * Nie można po prostu ufać ocenom intuicyjnym - czy to własnym, czy innych - ale nie można ich też lekceważyć:
   * Eksperyment autora: Systematyczna ocena cech dobrego kandydata podczas rozmowy i dodanie na koniec oceny intuicyjnej okazała się lepsza niż intuicyjna ocena wydawana po 20-minutowej rozmowie z kandydatem.
   * Heurystyka: Wybierz kilka cech koniecznych do sukcesu na danym stanowisku (ok. 6). Wybrane cechy powinny być jak najmniej powiązane ze sobą nawzajem, powinno je się dać trafnie ocenić na podstawie kilku pytań. Następnie dla każdej cechy przygotuj listę odpowiednich pytań i zastanów się, jak przypisywać im wartości - jakiego rodzaju odpowiedzi oznaczają "bardzo słabo", a jakie "bardzo dobrze". Informacje należy zbierać po kolei i z osobna, by uniknąć efektu halo. Pod koniec zsumuj oceny.
+
+## 3.4 Intuicja ekspertów: kiedy możemy jej ufać
+
+* Model RPD (recognition-primed desision) - System 1 automatycznie podsuwa plan działania, następnie plan zostaje sprawdzony przez dokonanie symulacji
+* "Sytuacja dostarcza wskazówki; wskazówka daje ekspertowi dostęp do przechowywanych w pamięci informacji; informacje dostarczają odpowiedzi. Intuicja to ni mniej, ni więcej, tylko akt rozpoznania" - Herbert Simon
+  * Często wystarczy jedno doświadczenie, by wzbudzić długotrwałą awersję i lęk
+  * Każdy człowiek staje się napięty, zbliżając się do miejsca, w którym spotkało go coś nieprzyjemnego - nawet jeśli nie ma powodów sądzić, że przykre zdarzenie mogłoby się powtórzyć
+* Opanowanie tego, co nazywamy "wiedzą fachową" zajmuje zazwyczaj dużo czasu; jest zawiłym i powolnym procesem, dużym zbiorem drobnych umiejętności składowych.
+  * Wypracowanie intuicyjnej wiedzy fachowej zależy od tego, czy profesjonalista możwe odpowiednio długo ćwiczyć, oraz od tego, jak szybko i wyraźnie może oglądać skutki swoich działań.
+  * Nabranie fachowej wiedzy szachowej zajmuje dłużej niż nauka czytania, bo szachowy "alfabet" zawiera znacznie więcej liter, a szachowe "wyrazy" są o wiele dłuższe od normalnych.
+* Jest duża szansa, że mamy do czynienia z intuicją opartą na umiejętnościach, gdy:
+  * W środowisku istnieją regularne prawidłowości, które umożliwiają prognozowanie, i
+  * Te prawidłowości dają sie poznać dzięki długotrwałej praktyce. Na przykład: szachy, brydż, poker.
 
 # 4. Wybory
 # 5. Dwie jaźnie
