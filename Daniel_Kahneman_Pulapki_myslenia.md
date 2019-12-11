@@ -26,7 +26,7 @@
     * [3.2 Złudzenie trafności](#32-Złudzenie-trafności)
     * [3.3 Intuicja kontra wzory](#33-Intuicja-kontra-wzory)
     * [3.4 Intuicja ekspertów: kiedy możemy jej ufać](#34-Intuicja-ekspertów-kiedy-możemy-jej-ufać)
-    * 3.5 Spojrzenie z zewnątrz
+    * [3.5 Spojrzenie z zewnątrz](#35-Spojrzenie-z-zewnątrz)
     * 3.6 Motor kapitalizmu
 * [4. Wybory](#4-wybory)
     * 4.1 Błędy Bernoulliego
@@ -450,6 +450,46 @@
 * Jest duża szansa, że mamy do czynienia z intuicją opartą na umiejętnościach, gdy:
   * W środowisku istnieją regularne prawidłowości, które umożliwiają prognozowanie, i
   * Te prawidłowości dają sie poznać dzięki długotrwałej praktyce. Na przykład: szachy, brydż, poker.
+
+## 3.5 Spojrzenie z zewnątrz
+
+* Kiedy chcemy uzyskać jakąś użyteczną informację od grupy, nie można zaczynać od publicznej dyskusji, lecz należy po cichu zebrać opinie każdego z osobna.
+* Złudzenie planowania (planning fallacy) - szacunki okazują się nie tyle realistyczną oceną sytuacji, co najlepszym scenariuszem z możliwych:
+  * Zakładamy, że poziom entuzjazmu pozostanie taki sam do zakończenia,
+  * Zakładamy, że trudność nie wzrośnie (znacząco),
+  * Nie bierzemy pod uwagę "nieznajomych niewiadomych" - rozwodów, chorób, kryzysów w koordynowaniu pracy, biurokracji
+    * *"Istnieją znane rzeczy wiadome - kiedy wiemy, że coś wiemy. Istnieją też znane niewiadome - kiedy wiemy, że czegoś nie wiemy. Ale istnieją również nieznane niewiadome. To te rzeczy, o których nawet nie wiemy, że ich nie wiemy"* - Donald Rumsfeld
+  * Przykład 1: Planowanie kosztu budowy gmachu Parlamentu Szkocji w Edynburgu rozłożone w latach:
+    * Prognoza w 1997: 40 mln. funtów
+    * Prognoza w 1999: 109 mln. funtów
+    * Prognoza w 2000: 195 mln. funtów
+    * Prognoza w 2001: 241 mln. funtów
+    * Prognoza w 2002: 294.6 mln. funtów
+    * Prognoza w 2003: 375.8 mln. funtów
+    * Ukończony w 2004, koszt: 431 mln. funtów
+  * Przykład 2: W 2005 roku powstało opracowanie na temat światowych inwestycji kolejowych w latach 1969-1998:
+    * W 90% przypadków liczba pasażerów mająch korzystać z kolei została przeszacowana,
+    * Planiści przeszacowywali liczbę pasażerów o średnio 106%,
+    * Rzeczywiste koszty budowy były średnio o 45% wyższe od planowanych,
+    * Mimo rosnącej ilości danych na temat jakości prognoz, eksperci nie korzystali z nich częściej.
+  * Przykład 3: W 2002 roku przeprowadzono badanie wśród Amerykanów remontujących swoje kuchnie:
+    * Średni koszt szacowania remontu: 18 658 dolarów,
+    * Średni rzeczywisty koszt remontu: 38 769 dolarów.
+  * Autorzy nierealistycznych planów często kierują się pragnieniem uzyskania akceptacji przełożonego/klienta - inwestycje rzadko zostają porzucone dlatego, że przekroczono planowany budżet lub harmonogram. Największa odpowiedzialnośc za uniknięcie złudzenia należy do ludzi, którzy akceptują plan.
+  * Szacunki będą *lepsze*, gdy odniesie się je do statystyk dotyczących podobnych przypadków.
+* Spojrzenie z wewnątrz to na przykład zdanie zespołu na temat daty ukończenia projektu. Spojrzenie z zewnątrz to średni czas, jaki zajęło ukończenie projektu tej samej klasy przez zespół o kwalifikacjach podobnych tym, które ma nasz zespół.
+  * Spojrzenie z zewnątrz powinno być wartością bazową.
+* Bezosobowe informacje statystyczne są rutynowo odrzucane jeśli nie zgadzają się z osobistym wrażeniem na temat danego przypadku.
+* Prognozowanie na podstawie klasy referencyjnej (reference class forecasting) - heurystyka:
+  * Znajdź właściwą klasę referencyjną (kategorię odniesienia, np. remonty kuchni),
+  * Uzyskaj dane statystyczne na temat klasy referencyjnej. Na podstawie tych statystyk stwórz prognozę opartą na wartości bazowej,
+  * Jeśli sądzisz, że twój przypadek jest wyjątkowy i masz powody do optymizmu, wykorzystaj dane na temat tego przypadku by skorygować prognozę opartą na wartości bazowej.
+* Rezerwa na wypadek przekroczenia budżetu często staje się samospełniającą przepowiednią.
+* Dobrze zarządzająca organizacja powinna nagradzać za precyzyjne wyznaczanie planów i karać za nieuwzględnienie faktu, że mogą pojawić się "nieznane niewiadome".
+* Tendencyjność optymistyczna:
+  * Według standardowego modelu ekonomicznego, ludzie podejmują ryzyko mając korzystny układ szans - kosztowne niepowodzenie jest akceptowalne gdy towarzyszy mu odpowiednio wysokie prawdopodobieństwo sukcesu,
+  * Ludzie często podejmują ryzykowne przedsięwzięcia, bo mają zbyt optymistyczny pogląd na temat szans, jakimi dysponują.
+* Kierunek działania zmienia się łatwiej w sytuacji kryzysowej.
 
 # 4. Wybory
 # 5. Dwie jaźnie
