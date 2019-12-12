@@ -27,7 +27,7 @@
     * [3.3 Intuicja kontra wzory](#33-Intuicja-kontra-wzory)
     * [3.4 Intuicja ekspertów: kiedy możemy jej ufać](#34-Intuicja-ekspertów-kiedy-możemy-jej-ufać)
     * [3.5 Spojrzenie z zewnątrz](#35-Spojrzenie-z-zewnątrz)
-    * 3.6 Motor kapitalizmu
+    * [3.6 Motor kapitalizmu](#36-Motor-kapitalizmu)
 * [4. Wybory](#4-wybory)
     * 4.1 Błędy Bernoulliego
     * 4.2 Teoria perspektywy
@@ -490,6 +490,46 @@
   * Według standardowego modelu ekonomicznego, ludzie podejmują ryzyko mając korzystny układ szans - kosztowne niepowodzenie jest akceptowalne gdy towarzyszy mu odpowiednio wysokie prawdopodobieństwo sukcesu,
   * Ludzie często podejmują ryzykowne przedsięwzięcia, bo mają zbyt optymistyczny pogląd na temat szans, jakimi dysponują.
 * Kierunek działania zmienia się łatwiej w sytuacji kryzysowej.
+
+## 3.6 Motor kapitalizmu
+
+* Ludzie mają zakorzenioną tendencję do optymizmu. Tendencyjność optymistyczna może być zarówno plusem, jak i czynnikiem ryzyka. Mamy skłonność do uważania, że:
+  * świat jest łagodniejszy niż naprawdę,
+  * nasze cechy są korzystniejsze niż naprawdę,
+  * cele, które sobie stawiamy, są łatwiejsze do zrealizowania,
+  * przeceniamy naszą zdolność predykcji przyszłości, czemu sprzyja pewność siebie płynąca z optymizmu.
+* Optymizm jest w dużej mierze cechą dziedziczną, stanowiąc część ogólnej skłonności do dobrostanu. Plusy optymizmu dostępne są dla tych, u których tendencyjność optymistyczna jest łagodna - widzą pozytywy nie tracąc kontaktu z rzeczywistością:
+  * optymiści są zazwyczaj pogodni i szczęśliwi, a dzięki temu lubiani,
+  * lepiej wytrzymują porażki i trudności,
+  * mają niższe ryzyko zachorowania na depresję kliniczną i silniejszy system odpornościowy,
+  * czują się zdrowsi od innych i żyją zwykle dłużej,
+  * częściej zostają wynalazcami, przedsiębiorcami, liderami politycznymi i dowódcami wojskowymi,
+    * częściej podejmują ryzyko i nie boją się wyzwań,
+    * pozytywne nastawienie pomaga utrzymać wysokie morale wśród pracowników.
+* Z reguły optymiści zaniżają ryzyko niepowodzenia i wkładają zbyt mało wysiłku w ustalenie, jak wygląda faktyczy stan rzeczy:
+  * Prawdopodobieństwo, że firma przetrwa 5 lat na amerykańskim rynku wynosi 30%. Przedsiębiorcy zwykle uważają, że ta wartość ich nie dotyczy:
+    * statystycznie oceniają, że "szansa sukcesu dla dowolnej firmy podobnej do Państwa" wynosi 60%,
+    * 81% twierdzi, że szansa powodzenia ich firmy wynosi co najmniej 70%,
+    * 33% twierdzi, że ryzyko niepowodzenia jest zerowe.
+  * "Podstawą ryzykownych działań są śmiałe prognozy i nieśmiałe decyzje".
+* Optymizm potrafi być kosztowny. Analiza wyników Investor's Assistance Program, organizacji przygotowującej ocenę komercyjnego potencjału wynalazków na podstawie 37 kryteriów, takich jak zapotrzebowanie, koszt produkcji czy szacowany trend popytu:
+  * 70% wynalazków otrzymuje ocenę D lub E, każącą się spodziewać porażki
+    * z 411 przedsięwzięć, 5 dotarło do etapu komercjalizacji, 0 zakończyło się sukcesem
+    * 47% wynalazców kontynuowało prace rozwojowe po otrzymaniu negatywnej oceny
+* Rynek zazwyczaj regauje na przejęcie firmy zniżką cen akcji - integrowanie dużych firm zazwyczaj kończy się niepowodzeniem. Chybione przejęcia tłumaczy się "hipotezą hybris": kierownictwo spółki przejmującej jest mniej kompetentne, niż sądzi.
+* Złudzenie kontroli - wyjaśniając przeszłość i prognozując przyszłość skupiamy się na przyczynowo-skutkowej roli umiejętności, zaniedbując rolę ślepego trafu.
+* Badanie szacunku wzrostu indeksu Standard & Poor's w nadchodzącym roku przeprowadzone przez profesorów Duke University:
+  * Zebrano 11 600 prognoz,
+  * Korelacja pomiędzy prognozami a rzeczywistymi wartościami była nieco niższa od zera,
+  * Osoby prognozujące zdawały się nie wiedzieć, że ich prognozy są do niczego
+* Nietendencyjne uznanie niepewności jest jednym z fundamentów racjonalnego myślenia, jednak nie pomaga w budowaniu wizerunku kompetencji.
+* Da się ograniczyć (ale nie wyeliminować) nadmierną pewność siebie, biorąc pod uwagę konkurencyjną hipotezę.
+* Diagnoza premortem jako częściowe rozwiązanie problemu: kiedy organizacja ma podjąć ważną decyzję ale jeszcze formalnie nie zobowiązała się do niczego, osoby dysponujące wiedzą na temat decyzji spotykają się na krótką sesję, którą otwierają zagadnieniem: "Wyobraźmy sobie, że minął rok. Wdrożyliśmy plan, który mamy w tej chwili przed sobą. Rezultat okazał się katastrofą. Dajmy sobie 5-10 minut, żeby krótki napisać, jak doszło do tej katastrofy".
+  * pozwala przemóc myślenie stadne:
+    * kiedy zespół dochodzi do decyzji - zwłaszcza gdy wypowie się szef/szefowa - publiczne wyrażanie wątpliwości na temat roztropności planowanego ruchu jest tłumione i w końcu zaczyna być odbierane jako przejaw nielojalności wobec zespołu i lidera,
+    * jeśli w grupie mają głos jedynie osoby popierające decyzje, proces tłumenia wątpliwości owocuje nadmierną pewnością siebie,
+  * odpowiednio pobudza wyobraźnie dobrze poinformowanych osób,
+  * nie chroni przed nieprzyjemnymi niespodziankami, ale pozwala ograniczyć szkody spowodowane planami, w których nie wzięto poprawki na bezkrytyczny optymizm i zasadę, że "istnieje tylko to, co widzisz".
 
 # 4. Wybory
 # 5. Dwie jaźnie
