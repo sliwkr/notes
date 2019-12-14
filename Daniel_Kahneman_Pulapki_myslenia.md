@@ -30,7 +30,7 @@
     * [3.6 Motor kapitalizmu](#36-Motor-kapitalizmu)
 * [4. Wybory](#4-wybory)
     * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
-    * 4.2 Teoria perspektywy
+    * [4.2 Teoria perspektywy](#42-Teoria-perspektywy)
     * 4.3 Efekt posiadania
     * 4.4 Zdarzenia niekorzystne
     * 4.5 Cztery warianty stosunku do ryzyka
@@ -546,5 +546,25 @@
     * Jeśli przyjmujemy jakąś teorię i traktujemy ją jako narzędzie we własnym myśleniu, niezwykle trudno zauważyć jej braki.
       * Niedowierzanie wymaga ciężkiej pracy, a System 2 łatwo się męczy.
 * Źródło: *Prospect Theory: Analysis of Decision under Risk* (Teoria perspektywy: Analiza decyzji podejmowanych w warunkach ryzyka)
+
+## 4.2 Teoria perspektywy
+
+* Ludzie przejawiają większą skłonnośc do ryzyka wybierając pomiędzy niekorzystnymi opcjami.
+* Ocena dokonuje się względem neutralnego punktu odniesienia, zwanym "poziomem dostosowania":
+  * eksperyment: przygotuj 3 miski z wodą - jedna z zimną, druga z gorącą, trzecia o temperaturze pokojowej. Zanurz na minutę jedną rękę w gorącej, a drugą w zimnej wodzie. Następnie obie dłonie włóż do miski z letnią wodą.
+  * W przypadku rezultatów finansowych punktem odniesienia może być status quo lub element którego się spodziewasz / który uważasz, że ci się należy. Rezultaty lepsze od punktu odniesienia to zyski, a gorsze to straty.
+* Przy szacowaniu zmian w stanie posiadania - tak samo jak w przypadku wrażeń zmysłowych - stosuje się zasadę malejącej wrażliwości:
+  * Włączenie lampki w ciemnościach wywołuje duży efekt. Kiedy poziom światła powiększy się o tyle samo w jasno oświetlonym pokoju, możemy tego nie zauważyć. Tak samo subiektywna różnica pomiędzy sumą 900 a 1000 dolarów jest znacznie mniejsza niż różnica pomiędzy 100 a 200 dolarami.
+  * **Ból po utracie 900 dolarów jest większy niż 90% bólu po utracie 1000 dolarów**
+* Kiedy bezpośrednio ważymy i porównujemy zyski i straty, straty mają większe znaczenie niż zyski:
+  * Eksperyment: Zaproponowano ci zakład w formie rzutu monetą:
+    * Reszka oznacza stratę 100$,
+    * Orzeł oznacza wygraną 150$,
+    * Czy taki zakład jest atrakcyjny? Czy zgodzisz się na niego?
+    * Ile wynosi najniższa kwota potencjalnego zysku, który równoważyłby ryzyko utraty 100$?
+  * W przeprowadzonych badaniach mających ustalić, ile wynosi współczynnik niechęci do ponoszenia strat, wynik zwykle mieścił się w zakresie od 1.5 do 2.5.
+  * Organizmy, które traktują zagrożenia jako bardziej naglące niż okazje, mają większe szanse na przeżycie i wydanie potomstwa.
+* Teoria perspektywy nie uwzględnia sytuacji, w której stan negatywny oznacza brak zmiany stanu albo gdy alternatywa ma bardzo wysoką wartość (nagroda pocieszenia):
+  * Nieformalnie obiecana podwyżka ustanawia nowy punkt odniesienia. Niewywiązanie się z obietnicy (czyli brak zmian) skutkuje (w sprzeczności do teorii perspektywy) rozczarowaniem.
 
 # 5. Dwie jaźnie
