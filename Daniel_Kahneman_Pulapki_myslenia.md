@@ -29,7 +29,7 @@
     * [3.5 Spojrzenie z zewnątrz](#35-Spojrzenie-z-zewnątrz)
     * [3.6 Motor kapitalizmu](#36-Motor-kapitalizmu)
 * [4. Wybory](#4-wybory)
-    * 4.1 Błędy Bernoulliego
+    * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
     * 4.2 Teoria perspektywy
     * 4.3 Efekt posiadania
     * 4.4 Zdarzenia niekorzystne
@@ -532,4 +532,19 @@
   * nie chroni przed nieprzyjemnymi niespodziankami, ale pozwala ograniczyć szkody spowodowane planami, w których nie wzięto poprawki na bezkrytyczny optymizm i zasadę, że "istnieje tylko to, co widzisz".
 
 # 4. Wybory
+
+## 4.1 Błędy Bernoulliego
+
+* Teoria oczekiwanej użyteczności: logika wyborów oparta na aksjomatach (elementarnych zasadach) racjonalności, np. jeśli wolisz jabłko od banana, będziesz wolał 10% szansę wygrania jabłka niż 10% szansę wygrania banana.
+* Dla wielu wymiarów zależność pomiędzy wielkością fizyczną a subiektywnym doświadczeniem jest logarytmiczna:
+  * użyteczność jest funkcją logarytmiczną stanu posiadania, reakcja psychologiczna na zmianę stanu posiadania będzie odwrotnie proporcjonalna do jego pierwotnego stanu,
+    * stan posiadania podlega prawu malejących przychodów,
+
+* Większość ludzi nie lubi ryzyka (czyli możliwości uzyskania najniższego rezultatu z możliwych). Osoba niechętna wobec ryzyka jest skłonna do zapłacania za uniknięcie niepewności
+* Funkcja użyteczności Bernoulliego: Ludzkie wybory nie opierają się na wartości pieniężnej możliwych rezultatów, ale na ich wartości psychologicznej (użyteczności). Użyteczność każdego z rezultatów jest ważona na podstawie jego prawdopodobieństwa.
+  * Teoria zawiera kilka poważnych usterek, np. nie uwzględnia punktu odniesienia, z którego startujemy. Mimo to zdołała funkcjonować przez ponad 300 lat w analizie ekonomicznej.
+    * Jeśli przyjmujemy jakąś teorię i traktujemy ją jako narzędzie we własnym myśleniu, niezwykle trudno zauważyć jej braki.
+      * Niedowierzanie wymaga ciężkiej pracy, a System 2 łatwo się męczy.
+* Źródło: *Prospect Theory: Analysis of Decision under Risk* (Teoria perspektywy: Analiza decyzji podejmowanych w warunkach ryzyka)
+
 # 5. Dwie jaźnie
