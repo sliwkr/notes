@@ -31,7 +31,7 @@
 * [4. Wybory](#4-wybory)
     * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
     * [4.2 Teoria perspektywy](#42-Teoria-perspektywy)
-    * 4.3 Efekt posiadania
+    * [4.3 Efekt posiadania](43-Efekt-posiadania)
     * 4.4 Zdarzenia niekorzystne
     * 4.5 Cztery warianty stosunku do ryzyka
     * 4.6 Zdarzenia rzadkie
@@ -566,5 +566,19 @@
   * Organizmy, które traktują zagrożenia jako bardziej naglące niż okazje, mają większe szanse na przeżycie i wydanie potomstwa.
 * Teoria perspektywy nie uwzględnia sytuacji, w której stan negatywny oznacza brak zmiany stanu albo gdy alternatywa ma bardzo wysoką wartość (nagroda pocieszenia):
   * Nieformalnie obiecana podwyżka ustanawia nowy punkt odniesienia. Niewywiązanie się z obietnicy (czyli brak zmian) skutkuje (w sprzeczności do teorii perspektywy) rozczarowaniem.
+
+## 4.3 Efekt posiadania
+
+* Dokonując wyboru kierujemy się silnie niechęcią do ponoszenia strat - które definiujemy jako warunki gorsze **w stosunku do dotychczasowych**, do których jesteśmy przyzwyczajeni.
+* Fakt posiadania jakiegoś dobra podnosi jego wartość, zwłaszcza jeśli tym dobrem nie obraca się regularnie. Bierze się wtedy pod uwagę ból zrezygnowania z niego.
+* Przywiązujemy się do rzeczy inaczej w zależności od tego, czy myślimy o nich jako o rzeczach na wymianę za inne dobra, czy o rzeczach do użytku własnego.
+  * Sprzedaż dóbr użytkowanych osobiście aktywuje w mózgu obszary kojarzone z obrzydzeniem i bólem. Te same obszary są pobudzone przy zakupie wtedy, gdy cena jest zawyżona.
+* Eksperymenty:
+  * Pomiędzy uczestników rynku rozdzielamy ograniczoną liczbę żetonów. Na koniec eksperymentu każdy uczestnik rynku może wymienić żetony na gotówkę. Wartość spieniężenia żetonu jest różna dla poszczególnych osób - tak jak towary kupowane i sprzedawane nie mają jednakowej wartości dla wszystkich uczestników rynku. Wniosek: Osoby mające żeton przedstawiający dla nich niską wartość sprzedają go tym, dla których ma on wartość większą. Na koniec wymiany żetony mają ci, którzy mogą spieniężyć go za najlepszą cenę.
+  * Poproszono 2 grupy studentów o wypełnienie kwestionariusza i nagrodzono je upominkiem, który leżał przed nimi przez cały czas trwania eksperymentu. W jednej z grup nagrodą było drogie pióro, w drugiej tabliczka szwajcarskiej czekolady. Na koniec zajęć pokazywano każdemu upominek alternatywny i dawano możliwość zamiany (z pióra na czekoladę i odwrotnie). Z możliwości wymiany skorzystało tylko 10% uczestników.
+  * Badanie rynku mieszkaniowego w Bostonie w okresie spadku cen nieruchomości: sprawdzono jak zachowują się właściciele podobnych mieszkań, którzy kupili swoje mieszkania po różnych cenach. Właściciele którzy kupili swoje mieszkania po wyższej cenie, żądali wyższej ceny, dłużej czekali na nabywcę i ostatecznie zyskiwali więcej pieniędzy.
+  * Zbadano transakcje wymiany, do których dochodziło na konwentach kolekcjonerów kart z bejsbolistami. Początkujący kolekcjonerzy niechętnie rozstawali się z posiadanymi kartami, jednak w miarę doświadczenia niechęć w końcu znikała. Doświadczenie uzyskane w wymianie kart wywierało silny wpływ na efekt posiadania w stosunku do innych dóbr.
+  * Efekt posiadania nie występuje u osób biednych (żyjących poniżej własnego punktu odniesienia), którzy myślą w kategoriach straty. Mogą mieć też na niego wpływ różnice kulturowe, szczególnie jeśli chodzi o zachcianki i drobne przyjemności.
+
 
 # 5. Dwie jaźnie
