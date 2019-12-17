@@ -32,7 +32,7 @@
     * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
     * [4.2 Teoria perspektywy](#42-Teoria-perspektywy)
     * [4.3 Efekt posiadania](43-Efekt-posiadania)
-    * 4.4 Zdarzenia niekorzystne
+    * [4.4 Zdarzenia niekorzystne](44-Zdarzenia-niekorzystne)
     * 4.5 Cztery warianty stosunku do ryzyka
     * 4.6 Zdarzenia rzadkie
     * 4.7 Podejście do ryzyka
@@ -580,5 +580,18 @@
   * Zbadano transakcje wymiany, do których dochodziło na konwentach kolekcjonerów kart z bejsbolistami. Początkujący kolekcjonerzy niechętnie rozstawali się z posiadanymi kartami, jednak w miarę doświadczenia niechęć w końcu znikała. Doświadczenie uzyskane w wymianie kart wywierało silny wpływ na efekt posiadania w stosunku do innych dóbr.
   * Efekt posiadania nie występuje u osób biednych (żyjących poniżej własnego punktu odniesienia), którzy myślą w kategoriach straty. Mogą mieć też na niego wpływ różnice kulturowe, szczególnie jeśli chodzi o zachcianki i drobne przyjemności.
 
+## 4.4 Zdarzenia niekorzystne
+
+* Mózgi ludzi i innych zwierząt zawierają mechanizm służący do nadawania pierwszeństwa złym wiadomościom.
+* Wrażliwość na zagrożenia dotyczy także przetwarzania w umyśle słów nacechowanych emocjonalnie negatywnie, obrazów wywołujących obrzydzenie i zdań, z którymi się nie zgadzamy.
+  * Złe emocje, źli rodzice czy złe komentarze na nasz temat wywierają silniejszy wpływ niż ich dobre odpowiedniki, a złe informacje są przetwarzane dokładniej od dobrych.
+  * Długotrwały sukces w związku zależy dużo bardziej od unikania negatywów niż poszukiwania pozytywów. Dobre interakcje powinny być co najmniej 5 razy liczniejsze od złych - John Gottman.
+  * Jeden karaluch wystarczy, by zepsuć urok miseczki czereśni, za to jedna czereśnia w miseczce pełnej karaluchów nie zmienia nic - Paul Rozin.
+* Ludzi silniej motywuje pragnienie uniknięcia straty niż pragnienie zdobycia zysków.
+  * Wyznaczenie sobie celu jest wyznaczeniem sobie punktu odniesienia. Dążenie do zrealizowania celu jest motywowane pragnieniem uniknięcia straty, a dążenie ponad cel - pragnieniem zdobycia zysków.
+  * Przeanalizowano ponad 2.5mln uderzeń piłki w turniejach golfowych. Golfiści starali się o 3.6% bardziej uderzając na *par* (standardowa liczba uderzeń na dołek) niż na *birdie* (liczba uderzeń na dołek o 1 mniejsza od standardowej).
+  * Wiele komunikatów wymienianych przez negocjatorów to próby zakomunikowania punktu odniesienia i zakotwiczenia na nim drugiej strony.
+  * Zwierzęta broniące terytorium walczą zacieklej niż te, które atakują.
+  * Nasze mózgi są znacznie bardziej skłonne karać zachowania nie-fair niż nagradzać hojność.
 
 # 5. Dwie jaźnie
