@@ -31,9 +31,9 @@
 * [4. Wybory](#4-wybory)
     * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
     * [4.2 Teoria perspektywy](#42-Teoria-perspektywy)
-    * [4.3 Efekt posiadania](43-Efekt-posiadania)
-    * [4.4 Zdarzenia niekorzystne](44-Zdarzenia-niekorzystne)
-    * 4.5 Cztery warianty stosunku do ryzyka
+    * [4.3 Efekt posiadania](#43-Efekt-posiadania)
+    * [4.4 Zdarzenia niekorzystne](#44-Zdarzenia-niekorzystne)
+    * [4.5 Cztery warianty stosunku do ryzyka](#45-Cztery-warianty-stosunku-do-ryzyka)
     * 4.6 Zdarzenia rzadkie
     * 4.7 Podejście do ryzyka
     * 4.8 Mentalna punktuacja
@@ -545,6 +545,11 @@
   * Teoria zawiera kilka poważnych usterek, np. nie uwzględnia punktu odniesienia, z którego startujemy. Mimo to zdołała funkcjonować przez ponad 300 lat w analizie ekonomicznej.
     * Jeśli przyjmujemy jakąś teorię i traktujemy ją jako narzędzie we własnym myśleniu, niezwykle trudno zauważyć jej braki.
       * Niedowierzanie wymaga ciężkiej pracy, a System 2 łatwo się męczy.
+    * Zgodnie z teorią powinniśmy odebrać każdą z następujących opcji tak samo entuzjastycznie:
+      * Wzrost szans na wygranie 10000$ z 0% do 5%.
+      * Wzrost szans na wygranie 10000$ z 5% do 10%.
+      * Wzrost szans na wygranie 10000$ z 60% do 65%.
+      * Wzrost szans na wygranie 10000$ z 95% do 100%.
 * Źródło: *Prospect Theory: Analysis of Decision under Risk* (Teoria perspektywy: Analiza decyzji podejmowanych w warunkach ryzyka)
 
 ## 4.2 Teoria perspektywy
@@ -593,5 +598,18 @@
   * Wiele komunikatów wymienianych przez negocjatorów to próby zakomunikowania punktu odniesienia i zakotwiczenia na nim drugiej strony.
   * Zwierzęta broniące terytorium walczą zacieklej niż te, które atakują.
   * Nasze mózgi są znacznie bardziej skłonne karać zachowania nie-fair niż nagradzać hojność.
+
+## 4.5 Cztery warianty stosunku do ryzyka
+
+* Za każdym razem gdy dokonujemy całościowej oceny czegoś złożonego, każdemu z elementów nadajemy pewną wagę.
+* Wbrew zasadzie wartości oczekiwanej, wagi rzeczywiście nadawane rezultatom przy podejmowaniu decyzji nie są dokładnie takie same jak matematyczne prawdopodobieństwo tych zdarzeń:
+  * Efekt możliwości (possibility effect): rezultatom o znikomym prawdopodobieństwie nadajemy nieproporcjonalnie większą wagę, niż na to zasługują.
+    * Zwiększenie szansy na wygranie 7 mln w lotto z 0% do 3%.
+    * 5% ryzyko amputacji kończyny podczas operacji.
+  * Efekt pewności (certainty effect): rezultatom prawie pewnym nadajemy mniejszą wagę, niżby to wynikało z rachunku prawdopodobieństwa:
+    * Zmarły krewny zapisał ci w spadku 1 mln $, jednak twoja zachłanna siostra przyrodnia podważa testament przed sądem. Twój adwokat zapewnia, że masz 95% szans na wygranie sprawy, ale podkreśla że orzeczeń sądu nigdy nie da się przewidzieć w 100%. Kontaktuje się z tobą kancelaria prawna, która proponuje wykupienie twoich roszczeń od ręki za 910 000 $ - przyjmujesz, czy nie?
+  * Paradoks Maurice'a Allais: co wybierzesz w następujacych problemach:
+    * szansę 61% na wygranie 520 000$ czy szansę 63% na wygranie 500 000$,
+    * szansę 98% na wygranie 520 000$ czy szansę 100% na wygranie 500 000$.
 
 # 5. Dwie jaźnie
