@@ -611,5 +611,15 @@
   * Paradoks Maurice'a Allais: co wybierzesz w następujacych problemach:
     * szansę 61% na wygranie 520 000$ czy szansę 63% na wygranie 500 000$,
     * szansę 98% na wygranie 520 000$ czy szansę 100% na wygranie 500 000$.
+* Cztery warianty stosunku do ryzyka:
+  * Gdy prawdopodobieństwo zysków jest wysokie, jesteśmy niechętni do ryzyka i kierujemy się lękiem przed rozczarowaniem,
+    * efekt pewności, pójście na niekorzystną ugodę w sądzie,
+  * Gdy prawdopodobieństwo strat jest wysokie, jesteśmy skłonni do ryzyka i kierujemy się nadzieja uniknięcia straty,
+    * reakcja na utratę 900$ jest czymś silniejszym niż 90% reakcji na utratę 1000$ - myśl o pogodzeniu się z dużą stratą jest zbyt bolesna, a nadzieja na uzyskanie całkowitej ulgi zbyt ponętna, żeby podjąć rozsądną decyzję,
+  * Gdy istnieje niskie prawdopodobieństwo zysków, jesteśmy skłonni do ryzyka i kierujemy się nadzieją na dużą wygraną,
+    * efekt możliwości, kupowanie losów na loterii, wytaczanie niepoważnych pozwów w nadzieji na ugodę
+  * Gdy istnieje niskie prawdopodobieństwo strat, jesteśmy niechętni do ryzyka i kierujemy się lękiem przed dużą stratą,
+    * zakup ubezpieczenia z dodatkowymi opcjami.
+* Konsekwentne nadawanie nadmiernej wagi mało prawdopodobnym rezultatom - a tym charakteryzuje się intuicyjne podejmowanie decyzji - ostatecznie daje gorsze rezultaty. Systematyczne odchylenia od wartości oczekiwanej są kosztowne - niezależnie czy mówimy o niechęci czy o skłonności do ryzyka.
 
 # 5. Dwie jaźnie
