@@ -35,7 +35,7 @@
     * [4.4 Zdarzenia niekorzystne](#44-Zdarzenia-niekorzystne)
     * [4.5 Cztery warianty stosunku do ryzyka](#45-Cztery-warianty-stosunku-do-ryzyka)
     * [4.6 Zdarzenia rzadkie](#46-Zdarzenia-rzadkie)
-    * 4.7 Podejście do ryzyka
+    * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
     * 4.8 Mentalna punktuacja
     * 4.9 Odwracanie preferencji
     * 4.10 Ramy interpretacyjne(framing) a rzeczywistość
@@ -644,5 +644,14 @@
     * vs. "w tym roku straci w ten sposób życie 1 000 Amerykanów" (czyli 30 razy mniej niż w wyniku samobójstwa i około 40 razy mniej niż na raka krtani).
 * Prawdopodobieństwo zdarzenia rzadkiego zostaje często zawyżone ze względu na tendencję potwierdzającą (confirmatory bias) pamięci. Nadmierną wagę nadasz rzadkiemu zdarzeniu wtedy, gdy konkretnie zwróci twoją uwagę.
 * Czynniki wpływające na nadanie zdarzeniu nadmiernej wagi to obsesyjne obawy, wyraziste/szczegółowe obrazy, konkretne formy przedstawienia oraz wyraźna wzmianka o możliwości. Jeśli nie dojdzie do przeważenia prawdopodobieństwa, zdarzenie zostanie zignorowane.
+
+## 4.7 Podejście do ryzyka
+
+* Ludzie mają tendencję do wąskiego kadrowania problemów (rozbijania złożonego problemu na małe). Jest to nieoptymalne gdy rozważmy kilka decyzji łącznie.
+  * Problem Samuelsona: niechęć do pojedyńczego zakładu w rzucie monetą o stawce 100$ straty vs. 200$ wygranej, ale chętna akceptacja 100 takich zakładów.
+    * Agregacja korzystnych zakładów (szerokie kadrowanie) szybko ogranicza prawdopodobieństwo straty
+      * Szerokie kadrowanie problemu jest w stanie stłumić emocjonalną reakcje na straty i zwiększyć skłonność do podejmowania ryzyka
+* W podejściu do ryzyka dobrze jest kierować się spójną strategią reagowania (szerokim kadrowaniem) i brać pod uwagę statystyki (spojrzenie z zewnątrz)
+  * Richard Thaler poprosił osobno 25 dyrektorów dużej firmy o rozważenie ryzykownej opcji przedstawiającej jednakowe prawdopodobieństwo utraty dużej części kontrolowanego kapitału lub zyskania 2 razy większej kwoty. Żaden z dyrektorów nie był skłonny zaakceptować tak niebezpiecznego zakładu. Następnie spytano dyrektora generalnego - bez wahania stwierdził, że chciałby by każdy z 25 dyrektorów zaakceptował zakład.
 
 # 5. Dwie jaźnie
