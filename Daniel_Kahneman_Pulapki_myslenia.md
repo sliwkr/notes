@@ -34,7 +34,7 @@
     * [4.3 Efekt posiadania](#43-Efekt-posiadania)
     * [4.4 Zdarzenia niekorzystne](#44-Zdarzenia-niekorzystne)
     * [4.5 Cztery warianty stosunku do ryzyka](#45-Cztery-warianty-stosunku-do-ryzyka)
-    * 4.6 Zdarzenia rzadkie
+    * [4.6 Zdarzenia rzadkie](#46-Zdarzenia-rzadkie)
     * 4.7 Podejście do ryzyka
     * 4.8 Mentalna punktuacja
     * 4.9 Odwracanie preferencji
@@ -543,7 +543,7 @@
 * Większość ludzi nie lubi ryzyka (czyli możliwości uzyskania najniższego rezultatu z możliwych). Osoba niechętna wobec ryzyka jest skłonna do zapłacania za uniknięcie niepewności
 * Funkcja użyteczności Bernoulliego: Ludzkie wybory nie opierają się na wartości pieniężnej możliwych rezultatów, ale na ich wartości psychologicznej (użyteczności). Użyteczność każdego z rezultatów jest ważona na podstawie jego prawdopodobieństwa.
   * Teoria zawiera kilka poważnych usterek, np. nie uwzględnia punktu odniesienia, z którego startujemy. Mimo to zdołała funkcjonować przez ponad 300 lat w analizie ekonomicznej.
-    * Jeśli przyjmujemy jakąś teorię i traktujemy ją jako narzędzie we własnym myśleniu, niezwykle trudno zauważyć jej braki.
+    * Jeśli przyjmujemy jakąś teorię i traktujemy ją jako narzędzie we własnym myśleniu, niezwykle trudno zauważyć jej braki. ("zaślepienie teoretyczne")
       * Niedowierzanie wymaga ciężkiej pracy, a System 2 łatwo się męczy.
     * Zgodnie z teorią powinniśmy odebrać każdą z następujących opcji tak samo entuzjastycznie:
       * Wzrost szans na wygranie 10000$ z 0% do 5%.
@@ -621,5 +621,28 @@
   * Gdy istnieje niskie prawdopodobieństwo strat, jesteśmy niechętni do ryzyka i kierujemy się lękiem przed dużą stratą,
     * zakup ubezpieczenia z dodatkowymi opcjami.
 * Konsekwentne nadawanie nadmiernej wagi mało prawdopodobnym rezultatom - a tym charakteryzuje się intuicyjne podejmowanie decyzji - ostatecznie daje gorsze rezultaty. Systematyczne odchylenia od wartości oczekiwanej są kosztowne - niezależnie czy mówimy o niechęci czy o skłonności do ryzyka.
+
+## 4.6 Zdarzenia rzadkie
+
+* Terroryzm uruchamia kaskadę dostępności. Pobudzenie emocjonalne ma charakter skojarzeniowy, jest automatyczne i niekontrolowane oraz stanowi bodziec do podjęcia działań ochronnych. Systemu 1 nie da się wyłączyć.
+* Emocje i wyrazistość obrazu wpływają na płynność i dostępność skojarzeń, a przez to na oceny prawdopodobieństwa.
+* Kiedy ludzie przeszacowują prawdopodobieństwo zdarzeń mało prawdopodobnych lub podejmując decyzję nadają nadmierną wagę zdarzeniom mało prawdopodobnym, korzystają z tych samych mechanizmów psychologicznych: skupienie uwagi, błąd potwierdzenia i łatwość poznawcza.
+* Jeśli zdarzenie, o którym myślimy, jest bardzo prawdopodobne, oceniając jego prawdopodobieństwo skupimy się na alternatywie. Prawdopodobieństwo zostanie przeszacowane, jeśli alternatywa jest jasno określona.
+  * Poproszono fanów koszykówki, by oceniono prawdopodobieństwo zdobycia mistrzostwa przez każdy z 8 grających klubów - pytano po kolei o każdy klub. Suma prawdopodobieństw wyniosła 240% (zamiast 100%).
+    * Fani nie tylko przeszacowywali prawdopodobieństwo zdarzeń, ale byli skłonni stawiać na nie dużo pieniędzy.
+    * Efekt znikał, gdy proszono o ocenę prawdopodobieństwa zwycięstwa przez zespół z Konferencji Zachodniej czy Wschodniej - wynik sumował się do 100%.
+* Ignorowanie mianownika (denomination neglect):
+  * Eksperyment:
+    * Urna A zawiera 10 kulek, z czego 1 jest czerwona,
+    * Urna B zawiera 100 kulek, z czego 8 jest czerownych,
+    * Z której urny będziesz losować, jeśli chcesz wyciągnąć czerwoną kulkę?
+  * "Szczepionka chroniąca dzieci przed śmiertelną chorobą wiąże się z ryzykiem trwałego kalectwa wynoszącym 0,001%" vs. "Jedno ze 100 000 zaszczepionych dzieci ulegnie trwałemu kalectwu".
+  * "Choroba powodująca zgon u 1 286 osób na 10 000" vs. "Choroba, która wywołuje zgon u 24.14% populacji".
+  * "w skali całego kraju osoby poważnie chore umysłowo nieprzyjmujące lekarstw co roku dopuszczają się około 1 000 zabójstw"
+    * vs. "co roku ginie w ten sposób 1 000 na 273 000 000 Amerykanów",
+    * vs. "prawdopodobieństwo utraty życia w danym roku z rąk takiej osoby wynosi około 0,00036%",
+    * vs. "w tym roku straci w ten sposób życie 1 000 Amerykanów" (czyli 30 razy mniej niż w wyniku samobójstwa i około 40 razy mniej niż na raka krtani).
+* Prawdopodobieństwo zdarzenia rzadkiego zostaje często zawyżone ze względu na tendencję potwierdzającą (confirmatory bias) pamięci. Nadmierną wagę nadasz rzadkiemu zdarzeniu wtedy, gdy konkretnie zwróci twoją uwagę.
+* Czynniki wpływające na nadanie zdarzeniu nadmiernej wagi to obsesyjne obawy, wyraziste/szczegółowe obrazy, konkretne formy przedstawienia oraz wyraźna wzmianka o możliwości. Jeśli nie dojdzie do przeważenia prawdopodobieństwa, zdarzenie zostanie zignorowane.
 
 # 5. Dwie jaźnie
