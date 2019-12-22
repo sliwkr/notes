@@ -36,7 +36,7 @@
     * [4.5 Cztery warianty stosunku do ryzyka](#45-Cztery-warianty-stosunku-do-ryzyka)
     * [4.6 Zdarzenia rzadkie](#46-Zdarzenia-rzadkie)
     * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
-    * 4.8 Mentalna punktuacja
+    * [4.8 Mentalna punktacja](#48-Mentalna-punktacja)
     * 4.9 Odwracanie preferencji
     * 4.10 Ramy interpretacyjne(framing) a rzeczywistość
 * [5. Dwie jaźnie](#5-dwie-jaźnie)
@@ -653,5 +653,21 @@
       * Szerokie kadrowanie problemu jest w stanie stłumić emocjonalną reakcje na straty i zwiększyć skłonność do podejmowania ryzyka
 * W podejściu do ryzyka dobrze jest kierować się spójną strategią reagowania (szerokim kadrowaniem) i brać pod uwagę statystyki (spojrzenie z zewnątrz)
   * Richard Thaler poprosił osobno 25 dyrektorów dużej firmy o rozważenie ryzykownej opcji przedstawiającej jednakowe prawdopodobieństwo utraty dużej części kontrolowanego kapitału lub zyskania 2 razy większej kwoty. Żaden z dyrektorów nie był skłonny zaakceptować tak niebezpiecznego zakładu. Następnie spytano dyrektora generalnego - bez wahania stwierdził, że chciałby by każdy z 25 dyrektorów zaakceptował zakład.
+
+## 4.8 Mentalna punktacja
+
+* Z wyjątkiem osób bardzo biednych, dla których każdy przychód jest kwestią przeżycia, chęć zarabiania nie zawsze ma podłoże ekonomiczne - pieniądze funkcjonują czasami jak punkty na skali osiągnięć. Nagrody i kary, obietnice i zagrożenia - wszystko to istnieje tylko w naszych głowach, w których skrupulatnie je podliczamy. W ostatecznym rozrachunku to emocje są często walutą, w której rozliczamy otrzymywane kary i nagrody.
+* Ludzie prowadzą coś w rodzaju mentalnych rachunków bankowych:
+  * Dwie osoby mają jechać na mecz. Jedna kupiła bilet za swoje, druga chwilę przed kupnem dostała bilet w prezencie. Na wieczór, w który ma zostać rozegrany mecz, prognoza zapowiada śnieżycę. Która z osób z większym prawdopodobieństwem stawi czoło śnieżycy i pojedzie na mecz?
+    * Podczas gdy dla obu opuszczenie meczu jest stratą, osoba 1 odczuje ją bardziej niż druga, która "wyjdzie na 0".
+    * Aby System 2 mógł postąpić w racjonalny sposób, osoba 1 powinna zastanowić się "Czy pojechałbym na ten mecz, gdybym nie kupił biletu, tylko dostał go w prezencie?"
+  * Efekt dyspozycji (disposition effect): W sytuacji sprzedaży inwestycji, wykazujemy preferencje do sprzedawania inwestycji udanych
+    * W wyborze pomiędzy inwestycją A o wartości 500$ którą kupiliśmy za 700$ a inwestycją B o wartości 500$, którą kupiliśmy za 300$, mamy tendencję do sprzedaży B. Jest to nieopłacalne ze względu na podatek i fakt, że akcje, które ostatnio przyniosły zyski, statystycznie przez jakiś czas idą jeszcze w górę.
+  * Zamknięcie mentalnego rachunku z zyskiem jest przyjemnością, jednak za taką przyjemnośc trzeba zapłacić.
+* Efekt kosztów poniesionych (sunk cost fallacy): inwestowanie dodatkowych zasobów w rachunek przynoszący straty, mimo że można dokonać lepszej inwestycji.
+* Żal jest emocją kontrfaktyczną, czyli taką, która budzi się na myśl o alternatywnych wariantach rzeczywistości.
+* Ludzie spodziewają się silniejszej reakcji emocjonalnej, jeśli rezultat jest wynikiem działania niż zaniechania lub jeśli postępują w sposób odstępujący od normy.
+  * *Zetknąłeś się z chorobą, która w razie zarażenia wywołuje szybką i bezbolesną śmierć w ciągu tygodnia. Prawdopodobieństwo, że uległeś zarażeniu, wynosi 1:1000. Istnieje skuteczna szczepionka, jednak trzeba ją podać przed wystąpieniem objawów. Ile maksymalnie byłbyś skłonny zapłacić za szczepionkę?*
+  * *Poszukuje się ochotników do badania wspomnianej choroby. W badaniu wystarczy zetknąć się z chorobą, przy czym ryzyko zarażenia wynosi 1:1000. Jaka jest minimalna kwota, jakiej zażądałbyś za udział w badaniu (nie będziesz miał możliwości zakupu szczepionki)?*
 
 # 5. Dwie jaźnie
