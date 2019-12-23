@@ -37,7 +37,7 @@
     * [4.6 Zdarzenia rzadkie](#46-Zdarzenia-rzadkie)
     * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
     * [4.8 Mentalna punktacja](#48-Mentalna-punktacja)
-    * 4.9 Odwracanie preferencji
+    * [4.9 Odwracanie preferencji](#49-Odwracanie-preferencji)
     * 4.10 Ramy interpretacyjne(framing) a rzeczywistość
 * [5. Dwie jaźnie](#5-dwie-jaźnie)
     * 5.1 Dwie jaźnie
@@ -669,5 +669,14 @@
 * Ludzie spodziewają się silniejszej reakcji emocjonalnej, jeśli rezultat jest wynikiem działania niż zaniechania lub jeśli postępują w sposób odstępujący od normy.
   * *Zetknąłeś się z chorobą, która w razie zarażenia wywołuje szybką i bezbolesną śmierć w ciągu tygodnia. Prawdopodobieństwo, że uległeś zarażeniu, wynosi 1:1000. Istnieje skuteczna szczepionka, jednak trzeba ją podać przed wystąpieniem objawów. Ile maksymalnie byłbyś skłonny zapłacić za szczepionkę?*
   * *Poszukuje się ochotników do badania wspomnianej choroby. W badaniu wystarczy zetknąć się z chorobą, przy czym ryzyko zarażenia wynosi 1:1000. Jaka jest minimalna kwota, jakiej zażądałbyś za udział w badaniu (nie będziesz miał możliwości zakupu szczepionki)?*
+
+## 4.9 Odwracanie preferencji
+
+* Indywidualne wybory zależą od kontekstu, w którym do nich dochodzi.
+  * Sprzedawcy szybko przekonują się, że manipulowanie kontekstem, w którym klient ogląda produkt, może mieć wielki wpływ na preferencje.
+* Osądy i preferencje są spójne w obrębie jednej kategorii, jednak kiedy oceniamy obiekty należące do różnych kategorii, stają się potencjalnie niespójne.
+  * System kar administracyjnych jest konsekwentny i spójny w ramach poszczególnych agencji, jednak jako całość jest niespójny.
+* Osądy dokonywane w ocenie łą cznej i pojedyńczej często okazują się niekonsekwentne.
+  * Spróbowano określić kwotę, jaką ludzie są skłonni zapłacić za ochronę środowiska naturalnego delfinów oraz kwotę, jaką są skłonni zapłacić za dodatkowe badania farmerów narażonych na raka skóry. W ocenie pojedyńczej delfiny wygrały.
 
 # 5. Dwie jaźnie
