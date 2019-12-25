@@ -16,8 +16,8 @@
     * [2.2 Kotwice](#22-Kotwice)
     * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
     * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność,-emocje-i-ryzyko)
-    * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W.)
-    * [2.6 Linda: mniej znaczy więcej](#26-Linda:-mniej-znaczy-więcej)
+    * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W)
+    * [2.6 Linda: mniej znaczy więcej](#26-Linda-mniej-znaczy-więcej)
     * [2.7 Przyczyny mają pierwszeństwo przed statystykami](#27-Przyczyny-mają-pierwszeństwo-przed-statystykami)
     * [2.8 Powrót do średniej](#28-Powrót-do-średniej)
     * [2.9 Poskramianie prognoz intuicyjnych](#2-Poskramianie-prognoz-intuicyjnych)
@@ -302,7 +302,7 @@
     * Linda jest kasjerką bankową.
     * Linda jest kasjerką bankową i działa w ruchu feministycznym.
   * W kontekście tego błędu, znacznie trudniej wybrać właściwą odpowiedź gdy mamy do wyboru więcej opcji niż 2
-  * Podobnie jak w [2.5](#25-Co-studiuje-Tomasz-W.) zastępujemy problem określenia prawdopodobieństwa problemem reprezentatywności (podobieństwa do stereotypu / wiarygodności)
+  * Podobnie jak w [2.5](#25-Co-studiuje-Tomasz-W) zastępujemy problem określenia prawdopodobieństwa problemem reprezentatywności (podobieństwa do stereotypu / wiarygodności)
   * Podobne przykłady:
     * Dodanie taniego dodatku do drogiego prezentu sprawi, że prezent zostanie oceniony gorzej
     * Marek ma włosy / Marek ma włosy koloru blond.
@@ -652,7 +652,7 @@
     * Agregacja korzystnych zakładów (szerokie kadrowanie) szybko ogranicza prawdopodobieństwo straty
       * Szerokie kadrowanie problemu jest w stanie stłumić emocjonalną reakcje na straty i zwiększyć skłonność do podejmowania ryzyka
 * W podejściu do ryzyka dobrze jest kierować się spójną strategią reagowania (szerokim kadrowaniem) i brać pod uwagę statystyki (spojrzenie z zewnątrz)
-  * Richard Thaler poprosił osobno 25 dyrektorów dużej firmy o rozważenie ryzykownej opcji przedstawiającej jednakowe prawdopodobieństwo utraty dużej części kontrolowanego kapitału lub zyskania 2 razy większej kwoty. Żaden z dyrektorów nie był skłonny zaakceptować tak niebezpiecznego zakładu. Następnie spytano dyrektora generalnego - bez wahania stwierdził, że chciałby by każdy z 25 dyrektorów zaakceptował zakład.
+  * Richard Thaler poprosił osobno 25 dyrektorów dużej firmy o rozważenie ryzykownej opcji przedstawiającej jednakowe prawdopodobieństwo utraty dużej części kontrolowanego kapitału lub zyskania 2 razy większej kwoty. Żaden z dyrektorów nie był skłonny zaakceptować zakładu. Następnie spytano dyrektora generalnego - bez wahania stwierdził, że chciałby by każdy z 25 dyrektorów zaakceptował zakład.
 
 ## 4.8 Mentalna punktacja
 
