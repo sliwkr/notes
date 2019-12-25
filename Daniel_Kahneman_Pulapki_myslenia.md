@@ -38,7 +38,7 @@
     * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
     * [4.8 Mentalna punktacja](#48-Mentalna-punktacja)
     * [4.9 Odwracanie preferencji](#49-Odwracanie-preferencji)
-    * 4.10 Ramy interpretacyjne(framing) a rzeczywistość
+    * [4.10 Ramy interpretacyjne(framing) a rzeczywistość](#410-Ramy-interpretacyjne-framing-a-rzeczywistość)
 * [5. Dwie jaźnie](#5-dwie-jaźnie)
     * 5.1 Dwie jaźnie
     * 5.2 Życie jako opowieść
@@ -678,5 +678,28 @@
   * System kar administracyjnych jest konsekwentny i spójny w ramach poszczególnych agencji, jednak jako całość jest niespójny.
 * Osądy dokonywane w ocenie łą cznej i pojedyńczej często okazują się niekonsekwentne.
   * Spróbowano określić kwotę, jaką ludzie są skłonni zapłacić za ochronę środowiska naturalnego delfinów oraz kwotę, jaką są skłonni zapłacić za dodatkowe badania farmerów narażonych na raka skóry. W ocenie pojedyńczej delfiny wygrały.
+
+## 4.10 Ramy interpretacyjne(framing) a rzeczywistość
+
+* "Problem azjatyckiej choroby": Wyobraź sobie, że USA przygotowuje się na epidemię nietypowej azjatyckiej choroby, która przypuszczalnie spowoduje śmierć 600 osób. Zaproponowano 2 alternatywne programy walki z chorobą. Zakładasz, że skutki programów zostały dokładnie oszacowane w następujący sposób:
+  * *Jeśli zastosowany zostanie program A, uratowanych zostanie 200 osób.*
+  * *Jeśli zastosowany zostanie program B, istnieje szansa 1:3, że ocalonych zostanie wszystkie 600 osób, i ryzyko 2:3, że nie zostanie uratowany nikt.*
+  * Dylemat ujęty inaczej:
+  * *Jeśli zastosowany zostanie program A, umrze 400 osób.*
+  * *Jeśli zastosowany zostanie program B, istnieje szansa 1:3, że nikt nie umrze i ryzyko 2:3, że umrze 600 osób.*
+* Lekarzom wręczono statystyki dotyczące skutków dwóch sposobów leczenia raka płuc: radioterapii i chirurgicznego. Połowa dostała statystyki leczenia chirurgicznego w postaci wskaźnika przeżywalności, połowa - umieralności. Pomimo logicznej równoważności statystyk, badani wybierali inaczej w zależności od tego, z jakim wskaźnikiem mieli do czynienia:
+  * *W okresie jednego miesiąca przeżywalność wynosi 90%* vs. *W pierwszym miesiącu notuje się umieralność na poziomie 10%*
+  * Liczba osób, które wybrały leczenie chirurgiczne na podstawie wskaźnika przeżywalności: 84%
+  * Liczba osób, które wybrały leczenie chirurgiczne na podstawie wskaźnika umieralności: 50%
+* Jeśli żaden oczywisty powód nie każe nam zrobić inaczej, zaakceptujemy problem decyzyjny w nadanych ramach interpretacyjnych.
+* Unikanie lub skłonność do ryzyka nie są osadzone w rzeczywistości. Inne sformułowanie problemu sprawia, że odwracają się preferencje pomiędzy obiektywnie identycznymi rezultatami.
+  * System 1 ma wpływ nawet na ważne decyzje, a czasami kontroluje je wręcz całkowicie.
+* *Komu powinna przysługiwać większa ulga na dzieci: osobom bogatym czy biednym?*
+  * Powyższe prawo zakłada rodzinę z dziećmi jako domyślny przypadek. Jeśli przyjmiemy jako domyślną rodzinę bezdzietną, pytanie brzmi: *Czy biedne osoby bezdzietne powinny płacić tyle samo dodatkowego podatku co bogate osoby bezdzietne?*
+  * Jeśli chcesz, by w 1 przypadku biedni cieszyli się taką samą(albo większą) korzyścią jak bogaci, to w 2 wersji musisz chcieć, żeby biedni płacili za bezdzietność co najmniej taką samą karę jak bogaci.
+    * Kiedy nie wiadomo, co robić, stajemy po stronie biednych.
+  * Źródło: Thomas Schelling, *Choice and Consequence*
+* Ramy interpretacyjne nie służą maskowaniu autentycznej preferencji - bo nie istnieje żadna ukryta, autentyczna preferencja, którą mogłyby maskować. Nasze preferencje dotyczą problemów już ujętych w ramy interpretacyjne, a nasz instynkt moralny dotyczy opisów, a nie sedna rzeczywistości.
+  * W wielu krajach, w przypadku śmiertelnego wypadku samochodowego można oddać swoje narządy do przeszczepu. Ludzie wydają się podchodzić do tej decyzji bezmyślnie: istnieje gigantyczna różnica pomiędzy odsetkiem osób w krajach, które przy wyrabianiu prawa jazdy domyślnie zakładają zgodę wyrabiającego, a tymi, w których zgodę trzeba wyrazić poprzez zaznaczenie odpowiedniego pola.
 
 # 5. Dwie jaźnie
