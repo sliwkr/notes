@@ -40,8 +40,8 @@
     * [4.9 Odwracanie preferencji](#49-Odwracanie-preferencji)
     * [4.10 Ramy interpretacyjne(framing) a rzeczywistość](#410-Ramy-interpretacyjne-framing-a-rzeczywistość)
 * [5. Dwie jaźnie](#5-dwie-jaźnie)
-    * 5.1 Dwie jaźnie
-    * 5.2 Życie jako opowieść
+    * [5.1 Dwie jaźnie](#51-Dwie-jaźnie)
+    * [5.2 Życie jako opowieść](#52-Życie-jako-opowieść)
     * 5.3 Dobrostan doznawalny
     * 5.4 Jak myślimy o życiu
 
@@ -703,3 +703,28 @@
   * W wielu krajach, w przypadku śmiertelnego wypadku samochodowego można oddać swoje narządy do przeszczepu. Ludzie wydają się podchodzić do tej decyzji bezmyślnie: istnieje gigantyczna różnica pomiędzy odsetkiem osób w krajach, które przy wyrabianiu prawa jazdy domyślnie zakładają zgodę wyrabiającego, a tymi, w których zgodę trzeba wyrazić poprzez zaznaczenie odpowiedniego pola.
 
 # 5. Dwie jaźnie
+
+## 5.1 Dwie jaźnie
+
+* System 1 reprezentuje zbiory i zestawy za pomocą średnich, wzorców i norm. Każde doświadczenie jest zbiorem momentów, które pamięć zachowuje jako jeden moment wzorcowy.
+* Pomiar przyjemności / bólu z perspektywy czasu:
+  * Zasada szczytu i końca (peak-end rule): ewolucja tak ukształtowała naszą pamięć, że reprezentuje tylko najintensywniejszy moment epizodu oraz doznania pod koniec epizodu,
+  * Ignorowanie czasu trwania(duration neglect): Czas trwania wydarzenia nie miał wpływu na łączną ocenę doznawanego bólu.
+* Mylenie doznania ze wspomnieniem jest złudzeniem poznawczym. Lekcje, które czerpiemy z przeszłości, służą temu, żeby mieć jak najlepsze wspomnienia w przyszłości, a niekoniecznie temu, by mieć jak najlepsze doznania:
+  * Eksperyment: poproszono uczestników o trzymanie dłoni po nadgarstek w wodzie o temp. 14stopni Celsjusza (odbierane jako bolesne). Poinformowano, że eksperyment będzie składał się z 3 części. Każdy doświadczył 2 epizodów:
+    * 60 sekund ręki zanurzonej w wodzie, po czym wyjęcie dłoni z wody i podanie ciepłego ręcznika,
+    * 90 sekund ręki zanurzonej w wodzie - 60 sekund w takiej samej jak wyżej, po czym dyskretne zwiększenie temperatury wody o ok. 1 stopień na 30 sekund.
+  * Następnie poproszono o wybór, czy wolą doświadczenie 1 czy 2. Z perspektywy doznań dłuższy epizod był oczywiście gorszy, jednak to drugi powinien zostawić lepsze wspomnienie. Tak właśnie się stało - 80% uczestników wybierało powtorzenie drugiego. Po eksperymencie potwierdzono, że uczestnicy mieli świadomość tego, że drugi epizod trwał dłużej - czas trwania nie miał znaczenia, liczyła się tylko intensywność bodźca.
+
+## 5.2 Życie jako opowieść
+
+* Ignorowanie czasu trwania w opowieści jest czymś normalnym, a zakończenie często decyduje o całym jej charakterze.
+* Kiedy zależy nam na kimś, przywiązanie często przybiera formę troski o jakość jego życiowej opowieści, a nie o stan jego uczuć.
+* Eksperyment: Stworzono postać Jen, żyjącej w jednej wersji 30, w drugiej 60 lat. Jen miała satysfakcjonującą pracę, jeździła na wakacje, spędzała czas wolny z przyjaciółmi i na realizacji swoich hobby. Spytano badanych "Czy patrząc na życie Jen jako całość, sądzisz, że takie życie jest pożądane?" "Ile w sumie szczęścia oraz braku szczęścia doznała twoim zdaniem Jen przez całe życie?". Dwukrotne przedłużenie życia nie miało żadnego wpływu na ocenę atrakcyjności jej życia ani osąd o "całkowitej ilości szczęścia".
+  * Zwiększono długość życia Jen o 5 "szczęśliwych, ale już mniej" lat. Spowodowało to znaczny spadek oceny całkowitej ilości szczęścia doznawanego w życiu. 
+  * Badanymi byli ludzie młodzi, starsi, rodzice, bezdzietni. Badano opinię w grupie naprzemiennej (każdy uczestnik oceniał jedną wersję chwile po drugiej) i osobno - wyniki były jednakowe.
+  * Wnioski: ignorowanie czasu trwania, występowanie efektu szczytu i końca, występowanie efektu "mniej znaczy więcej" (suma zastąpiona średnią).
+* Ludzie zastanawiający się nad powtórzeniem doświadczenia, dokonują wyboru na podstawie wspomnienia.
+  * *Na koniec wakacji wszystkie zdjęcia i nagrania wideo zostaną zniszczone. Co więcej, wypijesz środek, który wymaże z twojej głowy wszelkie wspomnienie wakacji.*
+    * *Jak taka perspektywa wpłynie na twoje plany wakacyjne? Ile byłbyś gotowy za nie zapłacić w porównaniu z normalnymi, zapadającymi w pamięć wakacjami?*
+  * *Wyobraź sobie, że czeka cię bolesna operacja, w trakcie której masz zachować świadomość. Będziesz krzyczeć z bólu i błagać chirurga, by przestał. Jednak obiecano ci, że na koniec zabiegu zostanie podany ci lek wywołujący amnezję, który całkowicie wymaże wszelkie wspomnienie tego epizodu. Co sądzisz o takiej perspektywie?*
