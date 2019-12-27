@@ -42,7 +42,7 @@
 * [5. Dwie jaźnie](#5-dwie-jaźnie)
     * [5.1 Dwie jaźnie](#51-Dwie-jaźnie)
     * [5.2 Życie jako opowieść](#52-Życie-jako-opowieść)
-    * 5.3 Dobrostan doznawalny
+    * [5.3 Dobrostan doznawalny](#53-Dobrostan-doznawalny)
     * 5.4 Jak myślimy o życiu
 
 # 1. Dwa systemy
@@ -728,3 +728,19 @@
   * *Na koniec wakacji wszystkie zdjęcia i nagrania wideo zostaną zniszczone. Co więcej, wypijesz środek, który wymaże z twojej głowy wszelkie wspomnienie wakacji.*
     * *Jak taka perspektywa wpłynie na twoje plany wakacyjne? Ile byłbyś gotowy za nie zapłacić w porównaniu z normalnymi, zapadającymi w pamięć wakacjami?*
   * *Wyobraź sobie, że czeka cię bolesna operacja, w trakcie której masz zachować świadomość. Będziesz krzyczeć z bólu i błagać chirurga, by przestał. Jednak obiecano ci, że na koniec zabiegu zostanie podany ci lek wywołujący amnezję, który całkowicie wymaże wszelkie wspomnienie tego epizodu. Co sądzisz o takiej perspektywie?*
+
+## 5.3 Dobrostan doznawalny
+
+* o Helen można powiedzieć, że "w marcu była szczęśliwa", jeśli:
+  * *Przez większość czasu zajmowała się wtedy rzeczami, co do których wolałaby, żeby trwały niż by się skończyły*,
+  * *Niewiele czasu zabierały jej sytuacje, przed którymi pragnęła uciec*,
+  * *Niezbyt wiele czasu spędzała w stanie pośrednim, w którym było jej wszystko jedno*.
+* Wskaźnik U (unpleasant): Odsetek czasu, jaki spędzamy w stanie niezadowolenia
+* Wnioski z ponad 450 000 odpowiedzi udzielonych w badaniu Gallup-Healthways Well-Being Index (codzienne badanie przeprowadzane wśród 1000 Amerykanów):
+  * Stan emocjonalny zależy głównie od tego, na co zwracamy uwagę, a zazwyczaj skupiamy się na aktualnej czynności i bezpośrednim otoczeniu:
+    * Nie zawsze: gdy jesteśmy szczęśliwie zakochani, potrafimy odczuwać radość stojąc w korku,
+    * By czerpać przyjemność z jedzenia, trzeba zauważyć że spożywa się posiłek
+    * Doznania życiowe można poprawić rezygnując z biernych sposobów spędzania czasu (jak telewizji) na rzecz aktywnych form(np. życia towarzyskiego, ćwiczeń fizycznych, pochłaniającego hobby)
+  * Wyższe wykształcenie wiąże się z wyższą oceną własnego życia oraz z wyższym poziomem stresu, ale nie z wyższym poziomem doznawanego dobrostanu.
+  * Mieszkanie z dziećmi pod jednym dachem wiąże się ze znacznym kosztem emocjonalnym na co dzień, i niewielkim wpływem na ocenę życia.
+  * Religijność nie redukuje uczuć zmartwienia i przygnębienia, ale redukuje stres.
