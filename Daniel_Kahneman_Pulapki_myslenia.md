@@ -43,7 +43,7 @@
     * [5.1 Dwie jaźnie](#51-Dwie-jaźnie)
     * [5.2 Życie jako opowieść](#52-Życie-jako-opowieść)
     * [5.3 Dobrostan doznawalny](#53-Dobrostan-doznawalny)
-    * 5.4 Jak myślimy o życiu
+    * [5.4 Jak myślimy o życiu](#54-Jak-myslimy-o-zyciu)
 
 # 1. Dwa systemy
 ## 1.1 Poznaj bohaterów opowieści
@@ -735,6 +735,8 @@
   * *Przez większość czasu zajmowała się wtedy rzeczami, co do których wolałaby, żeby trwały niż by się skończyły*,
   * *Niewiele czasu zabierały jej sytuacje, przed którymi pragnęła uciec*,
   * *Niezbyt wiele czasu spędzała w stanie pośrednim, w którym było jej wszystko jedno*.
+* Skłonnośc do odczuwania dobrostanu jest dziedziczna, jak wzrost czy inteligencja.
+* Trwałe okoliczności życiowe słabo wpływają na dobrostan.
 * Wskaźnik U (unpleasant): Odsetek czasu, jaki spędzamy w stanie niezadowolenia
 * Wnioski z ponad 450 000 odpowiedzi udzielonych w badaniu Gallup-Healthways Well-Being Index (codzienne badanie przeprowadzane wśród 1000 Amerykanów):
   * Stan emocjonalny zależy głównie od tego, na co zwracamy uwagę, a zazwyczaj skupiamy się na aktualnej czynności i bezpośrednim otoczeniu:
@@ -744,3 +746,22 @@
   * Wyższe wykształcenie wiąże się z wyższą oceną własnego życia oraz z wyższym poziomem stresu, ale nie z wyższym poziomem doznawanego dobrostanu.
   * Mieszkanie z dziećmi pod jednym dachem wiąże się ze znacznym kosztem emocjonalnym na co dzień, i niewielkim wpływem na ocenę życia.
   * Religijność nie redukuje uczuć zmartwienia i przygnębienia, ale redukuje stres.
+
+## 5.4 Jak myślimy o życiu
+
+* Błąd prognozowania afektywnego - czytający nie wierzy, że statystyki dotyczą także jego:
+  * Pomimo wiedzy, jak duży jest odsetek rozwodów i jak duża jest liczba osób rozczarowanych małżeństwem, ludzie wciąż wchodzą w związki małżeńskie
+* Jednym z możliwych mechanizów u podłoża pytań o zadowolenie z życia jest heurystyka nastroju:
+  * Poproszono badanych o wypełnienie kwestionariusza dotyczącego zadowolenia z życia. Badanym polecono wcześniej skserowanie leżącej przed nimi kartki. Ci, którzy znaleźli na kopiarce podłożone przez eksperymentatora 10 centów, zgłaszali ogólnie wyższe zadowolenie z życia.
+    * Pojęcie szczęścia nie zmienia się nagle pod wpływem znalezienia drobnych w kserokopiarce, ale System 1 chętnie zastępuje to pojęcie jego drobną częścią.
+  * Nawet jeśli o ocenie nie decydują losowe okoliczności z danego momentu, to punktacja którą przyznajemy własnemu życiu zależy od wydarzeń, które najłatwiej nam sobie przypomnieć - a nie od starannego rozważenia poszczególnych sfer życia.
+* Cele, jakie stawiają sobie nastolatkowie, mają znaczący wpływ na to, co będzie się z nimi działo, dokąd zajdą i czy będą z siebie zadowoleni.
+* Błąd myślenia wyrywkowego (focusing illusion) - nic nie jest tak ważne, jak ci się wydaje, kiedy o tym myślisz.
+  * Ile przyjemności sprawia ci twój samochód?
+  * Kiedy twój samochód sprawia ci przyjemność?
+    * Samochód sprawia nam przyjemność, kiedy o nim myślimy. Odopowiadamy więc na pytanie "ile przyjemności sprawia ci twój samochód, kiedy o nim myślisz?"
+  * Myśli o konkretnym aspekcie życia stają się istotne wtedy, gdy łatwo nam przychodzi do głowy jego przeciwieństwo.
+  * Błąd sprawia, że preferujemy doświadczenia ekscytujące z początku i tracące urok z czasem. Przystosowanie do nowej stuacji polega w głównej mierze na tym, że przestajemy o niej myśleć.
+* Chybione pragnienia (miswantings) - Złe wybory, które popełniamy w wyniku błędu w prognozowaniu afektywnym.
+  * Przeszacowujemy konsekwencje poważnych zakupów lub zmian w okolicznościach życiowych.
+* Umysł nieźle radzi sobie z opowieściami, ale nie najlepiej rozumie pojęcie czasu.
