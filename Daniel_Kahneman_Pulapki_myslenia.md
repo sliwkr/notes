@@ -1,65 +1,72 @@
 # Daniel Kahneman - Pułapki Myślenia. O myśleniu szybkim i wolnym
 
-# Spis treści
-* [1. Dwa systemy](#1-dwa-systemy)
-    * [1.1 Poznaj bohaterów opowieści](#11-Poznaj-bohaterów-opowieści)
-    * [1.2 Uwaga i wysiłek](#12-Uwaga-i-wysiłek)
-    * [1.3 Leniwy kontroler](#13-Leniwy-kontroler)
-    * [1.4 Maszyneria skojarzeniowa](#14-Maszyneria-skojarzeniowa)
-    * [1.5 Łatwość poznawcza](#15-Łatwość-poznawcza)
-    * [1.6 Normy, niespodzianki i przyczyny](#16-Normy,-niespodzianki-i-przyczyny)
-    * [1.7 Maszyna do wyciągania pochopnych wniosków](#17-Maszyna-do-wyciągania-pochopnych-wniosków)
-    * [1.8 Skąd się biorą osądy](#18-Skąd-się-biorą-osądy)
-    * [1.9 Odpowiadanie na łatwiejsze pytanie](#19-Odpowiadanie-na-łatwiejsze-pytanie)
-* [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy(skrzywienia)-poznawcze)
-    * [2.1 Prawo małych liczb](#21-Prawo-małych-liczb)
-    * [2.2 Kotwice](#22-Kotwice)
-    * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
-    * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność,-emocje-i-ryzyko)
-    * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W)
-    * [2.6 Linda: mniej znaczy więcej](#26-Linda-mniej-znaczy-więcej)
-    * [2.7 Przyczyny mają pierwszeństwo przed statystykami](#27-Przyczyny-mają-pierwszeństwo-przed-statystykami)
-    * [2.8 Powrót do średniej](#28-Powrót-do-średniej)
-    * [2.9 Poskramianie prognoz intuicyjnych](#2-Poskramianie-prognoz-intuicyjnych)
-* [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
-    * [3.1 Złudzenie zrozumienia](#31-Złudzenie-zrozumienia)
-    * [3.2 Złudzenie trafności](#32-Złudzenie-trafności)
-    * [3.3 Intuicja kontra wzory](#33-Intuicja-kontra-wzory)
-    * [3.4 Intuicja ekspertów: kiedy możemy jej ufać](#34-Intuicja-ekspertów-kiedy-możemy-jej-ufać)
-    * [3.5 Spojrzenie z zewnątrz](#35-Spojrzenie-z-zewnątrz)
-    * [3.6 Motor kapitalizmu](#36-Motor-kapitalizmu)
-* [4. Wybory](#4-wybory)
-    * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
-    * [4.2 Teoria perspektywy](#42-Teoria-perspektywy)
-    * [4.3 Efekt posiadania](#43-Efekt-posiadania)
-    * [4.4 Zdarzenia niekorzystne](#44-Zdarzenia-niekorzystne)
-    * [4.5 Cztery warianty stosunku do ryzyka](#45-Cztery-warianty-stosunku-do-ryzyka)
-    * [4.6 Zdarzenia rzadkie](#46-Zdarzenia-rzadkie)
-    * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
-    * [4.8 Mentalna punktacja](#48-Mentalna-punktacja)
-    * [4.9 Odwracanie preferencji](#49-Odwracanie-preferencji)
-    * [4.10 Ramy interpretacyjne(framing) a rzeczywistość](#410-Ramy-interpretacyjne-framing-a-rzeczywistość)
-* [5. Dwie jaźnie](#5-dwie-jaźnie)
-    * [5.1 Dwie jaźnie](#51-Dwie-jaźnie)
-    * [5.2 Życie jako opowieść](#52-Życie-jako-opowieść)
-    * [5.3 Dobrostan doznawalny](#53-Dobrostan-doznawalny)
-    * [5.4 Jak myślimy o życiu](#54-Jak-myslimy-o-zyciu)
+## Spis treści
 
-# 1. Dwa systemy
-## 1.1 Poznaj bohaterów opowieści
+* [1. Dwa systemy](#1-dwa-systemy)
+  * [1.1 Poznaj bohaterów opowieści](#11-Poznaj-bohaterów-opowieści)
+  * [1.2 Uwaga i wysiłek](#12-Uwaga-i-wysiłek)
+  * [1.3 Leniwy kontroler](#13-Leniwy-kontroler)
+  * [1.4 Maszyneria skojarzeniowa](#14-Maszyneria-skojarzeniowa)
+  * [1.5 Łatwość poznawcza](#15-Łatwość-poznawcza)
+  * [1.6 Normy, niespodzianki i przyczyny](#16-Normy,-niespodzianki-i-przyczyny)
+  * [1.7 Maszyna do wyciągania pochopnych wniosków](#17-Maszyna-do-wyciągania-pochopnych-wniosków)
+  * [1.8 Skąd się biorą osądy](#18-Skąd-się-biorą-osądy)
+  * [1.9 Odpowiadanie na łatwiejsze pytanie](#19-Odpowiadanie-na-łatwiejsze-pytanie)
+* [2. Heurystyki i błędy (skrzywienia) poznawcze](#2-heurystyki-i-błędy-skrzywienia-poznawcze)
+  * [2.1 Prawo małych liczb](#21-Prawo-małych-liczb)
+  * [2.2 Kotwice](#22-Kotwice)
+  * [2.3 Naukowe badanie dostępności umysłowej](#23-naukowe-badanie-dostępności-umysłowej)
+  * [2.4 Umysłowa dostępność, emocje i ryzyko](#24-Umysłowa-dostępność-emocje-i-ryzyko)
+  * [2.5 Co studiuje Tomasz W.](#25-Co-studiuje-Tomasz-W)
+  * [2.6 Linda: mniej znaczy więcej](#26-Linda-mniej-znaczy-więcej)
+  * [2.7 Przyczyny mają pierwszeństwo przed statystykami](#27-Przyczyny-mają-pierwszeństwo-przed-statystykami)
+  * [2.8 Powrót do średniej](#28-Powrót-do-średniej)
+  * [2.9 Poskramianie prognoz intuicyjnych](#2-Poskramianie-prognoz-intuicyjnych)
+* [3. Nadmierna pewność siebie](#3-nadmierna-pewność-siebie)
+  * [3.1 Złudzenie zrozumienia](#31-Złudzenie-zrozumienia)
+  * [3.2 Złudzenie trafności](#32-Złudzenie-trafności)
+  * [3.3 Intuicja kontra wzory](#33-Intuicja-kontra-wzory)
+  * [3.4 Intuicja ekspertów: kiedy możemy jej ufać](#34-Intuicja-ekspertów-kiedy-możemy-jej-ufać)
+  * [3.5 Spojrzenie z zewnątrz](#35-Spojrzenie-z-zewnątrz)
+  * [3.6 Motor kapitalizmu](#36-Motor-kapitalizmu)
+* [4. Wybory](#4-wybory)
+  * [4.1 Błędy Bernoulliego](#41-Błędy-Bernoulliego)
+  * [4.2 Teoria perspektywy](#42-Teoria-perspektywy)
+  * [4.3 Efekt posiadania](#43-Efekt-posiadania)
+  * [4.4 Zdarzenia niekorzystne](#44-Zdarzenia-niekorzystne)
+  * [4.5 Cztery warianty stosunku do ryzyka](#45-Cztery-warianty-stosunku-do-ryzyka)
+  * [4.6 Zdarzenia rzadkie](#46-Zdarzenia-rzadkie)
+  * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
+  * [4.8 Mentalna punktacja](#48-Mentalna-punktacja)
+  * [4.9 Odwracanie preferencji](#49-Odwracanie-preferencji)
+  * [4.10 Ramy interpretacyjne(framing) a rzeczywistość](#410-Ramy-interpretacyjne-framing-a-rzeczywistość)
+* [5. Dwie jaźnie](#5-dwie-jaźnie)
+  * [5.1 Dwie jaźnie](#51-Dwie-jaźnie)
+  * [5.2 Życie jako opowieść](#52-Życie-jako-opowieść)
+  * [5.3 Dobrostan doznawalny](#53-Dobrostan-doznawalny)
+  * [5.4 Jak myślimy o życiu](#54-Jak-myślimy-o-życiu)
+
+## 1. Dwa systemy
+
+### 1.1 Poznaj bohaterów opowieści
+
 * Można wyobrazić sobie, że człowiek używając mózgu korzysta z niego według dwóch systemów:
-    * System 1 - szybki, automatyczny, intuicja, bez poczucia świadomej kontroli
-    * System 2 - wolny, analityczny, subiektywne poczucie skupienia, wysiłku, wolności wyboru i świadomego działania
+  * System 1 - szybki, automatyczny, intuicja, bez poczucia świadomej kontroli
+  * System 2 - wolny, analityczny, subiektywne poczucie skupienia, wysiłku, wolności wyboru i świadomego działania
 * System 2 w ograniczonym stopniu może wpływać na działanie Systemu 1 (np. poprzez sterowanie uwagą, zapamiętywanie)
 * W złudzniu Muller-Lyera(google it) System 1 odpowiada za postrzeganie jednej z linii za którszą, pomimo że System 2 "wie", że są równe. W podobny sposób działają złudzenia kognitywne
-## 1.2 Uwaga i wysiłek
+
+### 1.2 Uwaga i wysiłek
+
 * System 2 jest niechętny do wysiłku większego, niż to konieczne
 * Podczas myślenia według Systemu 2 źrenice rozszerzają się tym bardziej, im trudniejsze zadanie
 * Eksperyment "The Invisible Gorilla"(liczenie liczby podań)
 * System 2 potrafi przestrzegać zasad, porównywać rzeczy pod kątem kilku cech albo dokonywać przemyślanego wyboru
 * System 1 wykrywa proste prawidłowości(np. przedmioty są takie same) i dobrze radzi sobie z integrowaniem informacji dotyczących jednej rzeczy. Nie potrafi za to korzystać z informacji czysto statystycznych
 * System 1 wykryje, że stereotyp osoby "potulna, porządna, odczuwająca potrzebę porządku" to prawdopodobnie bibliotekarz. System 2 potrafi tę intuicję połączyć z wiedzą, jak nieliczna część populacji to bibliotekarze.
-## 1.3 Leniwy kontroler
+
+### 1.3 Leniwy kontroler
+
 * Osoby obciążone poznawczo mają obniżoną samokontrolę, większą skłonność do zachowań samolubnych, korzystania ze stereotypów. Samokontrola wymaga uwagi i wysiłku - jednym z zadań Systemu 2 jest kontrolowanie myśli i zachowań.
 * Ego depletion - jeśli przymusisz się(czyli stłumisz naturalną skłonność) do czegoś raz, to stając przed tym samym wyzwaniem ponownie, będziez mniej zdolny i chętny do samokontroli (eksperymenty Roya Baumeistera). Można opierać się skutkom wyczerpywania ego, o ile mamy wystarczającą zachętę (np. zwiększającą poziom glukozy we krwi, która jest głównym odpowiedzialnym za spadek chęci).
 * Zbadano wyroki wydawane przez 8 sędziów i skoorelowano czas ich wydawania z czasem przerwy na posiłek - śniadaniowy, obiadowy i poobiedni. Odsetek wyroków pozytywnych po posiłku wynosił 65%, następnie stopniowo malał, aż tuż przed posiłkiem odrzucane były prawie wszystkie.
@@ -67,80 +74,88 @@
 * "Wszystkie róże to kwiaty. Niektóre kwiaty szybko więdną. Zatem niektóre róże szybko więdną." - Kiedy uznajemy wnioski płynące z jakiegoś rozumowania za prawdziwe, prawdopodobnie uwierzymy też w przemawiające za nim argumenty
 * Ciastko teraz lub 2 ciastka za 15 minut - eksperyment Waltera Mischela
 * Inteligencja pomaga rozwiązywać problemy i myśleć w sposób algorytmiczny. Racjonalność(pracowitość Systemu 2) to umiejętność która chroni przez błędami poznawczymi.
-## 1.4 Maszyneria skojarzeniowa
+
+### 1.4 Maszyneria skojarzeniowa
+
 * Umysł odbiera idee jako reprezentacje rzeczywistości, dlatego napotykając jakąś możesz poczuć pewne objawy somatyczne.
 * Pojęcie idei można wyrazić jako węzeł w sieci zwanej "pamięcią skojarzeniową", gdzie każda idea łączy się z wieloma innymi.
 * Kojarzenie(myślenie asocjacyjne) to proces aktywowania połączeń między ideami, gdzie aktywowana idea aktywuje wiele kolejnych, rozchodząc się jak kręgi po powierzchni wody. Świadomie rejestrujemy tylko niektóre z tych aktywacji.
 * Efekt torowania to zjawisko łatwiejszego kojarzenia idei należących do tej samej kategorii co poprzednio napotkana.
 * Torowanie nie dotyczy tylko wyrazów i pojęć, ale może wpływać też na zachowanie kojarzące się z ideami, poddając w wątpliwość pogląd jakoby ludzie byli świadomymi i autonomicznymi autorami swoich osądów:
-    * Efekt florydy: Student układa czterowyrazowe zdanie mając do wyboru 5 wyrazów. Następnie przechodzi korytarzem do drugiego pokoju. Jeśli student trafi na zbiór wyrazów zawierający słowa kojarzące się ze starością, przejście korytarzem zajmie mu znacznie więcej czasu.
-    * Osoby zaciskające w zębach ołówek w poprzek uznają żarty za śmieszniejsze.
-    * Badanym dano do przetestowania słuchawki, puszczając im felieton. Osoby kiwające głową na "tak" zwykle zgadzały się z usłyszanymi informacjami, zaś osoby kiwające na "nie" - zwykle nie.
-    * Utorowanie idei pieniędzy(poprzez pokazanie badanym wygaszacza ekranu z pieniędzmi) sprawia że badani stają się bardziej niezależni/samodzielni i nieskłonni do pomocy:
-        * mając do rozwiązania trudne zadanie, prawie 2 razy dłużej próbują je rozgryźć bez zwracania się o pomoc,
-        * kiedy prowadzącemu spadła na podłogę garść ołówków, podnosili mniej ołówków niż osoby z nieutorowaną ideą  pieniędzy
+  * Efekt florydy: Student układa czterowyrazowe zdanie mając do wyboru 5 wyrazów. Następnie przechodzi korytarzem do drugiego pokoju. Jeśli student trafi na zbiór wyrazów zawierający słowa kojarzące się ze starością, przejście korytarzem zajmie mu znacznie więcej czasu.
+  * Osoby zaciskające w zębach ołówek w poprzek uznają żarty za śmieszniejsze.
+  * Badanym dano do przetestowania słuchawki, puszczając im felieton. Osoby kiwające głową na "tak" zwykle zgadzały się z usłyszanymi informacjami, zaś osoby kiwające na "nie" - zwykle nie.
+  * Utorowanie idei pieniędzy(poprzez pokazanie badanym wygaszacza ekranu z pieniędzmi) sprawia że badani stają się bardziej niezależni/samodzielni i nieskłonni do pomocy:
+    * mając do rozwiązania trudne zadanie, prawie 2 razy dłużej próbują je rozgryźć bez zwracania się o pomoc,
+    * kiedy prowadzącemu spadła na podłogę garść ołówków, podnosili mniej ołówków niż osoby z nieutorowaną ideą  pieniędzy
 * Efekt Lady Makbet: Poczucie winy wywołuje pragnienie oczyszczenia ciała.
-    * Myśl o dźgnięciu kolegi nożem w plecy sprawia, że badani byli bardziej skłonni do zakupu środków dezynfekcyjnych.
-    * Osoby które właśnie skłamały przez telefon, chętniej kupią płyn do ust niż mydło.
-    * Osoby które właśnie skłamały przez e-mail, chętniej kupią mydło niż płyn do ust.
+  * Myśl o dźgnięciu kolegi nożem w plecy sprawia, że badani byli bardziej skłonni do zakupu środków dezynfekcyjnych.
+  * Osoby które właśnie skłamały przez telefon, chętniej kupią płyn do ust niż mydło.
+  * Osoby które właśnie skłamały przez e-mail, chętniej kupią mydło niż płyn do ust.
 * Ludzie działają w sposób mniej logiczny niż nam się wydaje.
-## 1.5 Łatwość poznawcza
-* Brak łatwości poznawczej sygnalizuje, że istnieje problem, który będzie wymagał zwiększonego wysiłku Systemu 2. 
-    * Większy wysiłek poznawczy oznacza zmianę podejścia do problemu na bardziej zaangażowane i analityczne oraz większy sceptyzm.
+
+### 1.5 Łatwość poznawcza
+
+* Brak łatwości poznawczej sygnalizuje, że istnieje problem, który będzie wymagał zwiększonego wysiłku Systemu 2.
+  * Większy wysiłek poznawczy oznacza zmianę podejścia do problemu na bardziej zaangażowane i analityczne oraz większy sceptyzm.
 * Doświadczenie powtarzające się, przejrzysta szata graficzna, utorowana idea, dobry nastrój -> **łatwość** -> uczucie znajomości, prawdziwości, przyjemności, łatwości:
-    * Sprawdzoną metodą przekonywania ludzi o prawdziwości kłamstwa jest jego częste powtarzanie,
-    * Użycie rymów zwiększa szanse uznania komunikatu za prawdziwy(aforyzmy),
-    * Prace autorów badań z łatwym do wymówienia nazwiskiem są częściej uznawane za wiarygodne,
-    * W pierwszym tygodniu po wejściu na giełde akcje spółek o nazwach łatwych do wymówienia radzą sobie lepiej od innych (z czasem ten efekt zanika, chyba że skrót nazwy spółki[KAR vs PXG] jest również łatwy do wymówienia).
+  * Sprawdzoną metodą przekonywania ludzi o prawdziwości kłamstwa jest jego częste powtarzanie,
+  * Użycie rymów zwiększa szanse uznania komunikatu za prawdziwy(aforyzmy),
+  * Prace autorów badań z łatwym do wymówienia nazwiskiem są częściej uznawane za wiarygodne,
+  * W pierwszym tygodniu po wejściu na giełde akcje spółek o nazwach łatwych do wymówienia radzą sobie lepiej od innych (z czasem ten efekt zanika, chyba że skrót nazwy spółki[KAR vs PXG] jest również łatwy do wymówienia).
 * "Consequences of Erudite Vernacular Utilized Irrespective of Necessity: Problems with Using Long Words Needlessly" - znajome idee sformułowane w skomplikowany sposób są odbierane jako oznaka niskiej inteligencji i małej wiarygodności.
 * Cognitive Reflection Test(3 zagadki) na próbie 40 studentów: 90% popełniło co najmniej 1 błąd; gdy zmieniono czcionkę na mniej czytelną, odsetek spadł do 35%(większy wysiłek poznawczy -> zmiana podejścia do problemu).
 * Robert Zajonc, Efekt czystej ekspozycji: znajome słowa, twarze ludzkie, przypadkowe wielokąty czy chińskie ideogramy są odbierane jako oznaczające coś dobrego(wystarczy że znajoma idea pojawia się regularnie i nie dzieje się nic złego).
-    * W przypadku idei których świadomie nie zarejestrowaliśmy, efekt jest silniejszy.
-    * Wytłumaczenie: Zwierze, które nie obawia się nieznanych bodźców w swoim środowisku ma marne szanse na przeżycie.
-    * *"Skutki powtarzającej się ekpozycji na bodziec przynoszą organizmowi korzyści w kontaktach zarówno ze środowiskiem ożywionym jak i nieożywionym. Pozwalają mu odróżniać bezpieczne obiekty i habitaty od niebezpiecznych, budując najpierwotniejsze podstawy powiązań społecznych. Są więc one podstawą spójności i organizacji społecznej, czyli podstawowych źródeł stabilności psychologicznej i społecznej."*
+  * W przypadku idei których świadomie nie zarejestrowaliśmy, efekt jest silniejszy.
+  * Wytłumaczenie: Zwierze, które nie obawia się nieznanych bodźców w swoim środowisku ma marne szanse na przeżycie.
+  * *"Skutki powtarzającej się ekpozycji na bodziec przynoszą organizmowi korzyści w kontaktach zarówno ze środowiskiem ożywionym jak i nieożywionym. Pozwalają mu odróżniać bezpieczne obiekty i habitaty od niebezpiecznych, budując najpierwotniejsze podstawy powiązań społecznych. Są więc one podstawą spójności i organizacji społecznej, czyli podstawowych źródeł stabilności psychologicznej i społecznej."*
 * Będąc wystarczająco zmotywowani jesteśmy zdolni przełamać wþływ powierzchownych czynników wywołujących złudzenie prawdziwości - jednak w większości przypadków System 2 przyjmuje sugestie Systemu 1 i idzie dalej.
 * Dobry nastrój, łatwośc poznawczą oraz intuicje spójności łączy korelacja (ale nie przyczynowość):
-    * Dobry nastroj rozluźnia kontrolę Systemu 2 nad wykonywanymi zadaniami, dzięki czemu sprzyja myśleniu intuicyjnemu, wymyślaniu skojarzeń i kreatywności.
-## 1.6 Normy, niespodzianki i przyczyny
+  * Dobry nastroj rozluźnia kontrolę Systemu 2 nad wykonywanymi zadaniami, dzięki czemu sprzyja myśleniu intuicyjnemu, wymyślaniu skojarzeń i kreatywności.
+
+### 1.6 Normy, niespodzianki i przyczyny
+
 * Główną funkcją Systemu 1 jest utrzymywanie i aktualizowanie modelu twojej osobistej rzeczywistości. Zaburzenie modelu owocuje wrażeniem zaskoczenia i aktualizacją kategorii do której należy idea wywołująca zaburzenie.
 * System 1 jest również odpowiedzialny za wrażenie przyczynowości, które wywołuje kiedy znajdzie związek przyczynowo skutkowy w danej sytacji; korzysta przy tym z sieci skojarzeń, by zaspokoić potrzebę spójności.
-    * Przykład: "Rodzice Freda przyjechali spóźnieni. Niedługo mieli przyjechać ludzie z firmy cateringowej. Fred był wściekły" - na podstawie skojarzeń rozumie się, że przyczyną wściekłości było spóźnienie, a nie spodziewane przybycie firmy cateringowej.
+  * Przykład: "Rodzice Freda przyjechali spóźnieni. Niedługo mieli przyjechać ludzie z firmy cateringowej. Fred był wściekły" - na podstawie skojarzeń rozumie się, że przyczyną wściekłości było spóźnienie, a nie spodziewane przybycie firmy cateringowej.
 * Postrzeganie przyczynowości intencjonalnej
-    * Przykład: *Experimental study of apparent behavior* - Fritz Heider, Marianne Simmel, 1944
-        * Film w którym figury geometyczne poruszają się po ekranie w taki sposób, że odbieramy je jako ścigające się nawzajem
-        * Osoby autystyczne nie dostrzegają *intencjonalności* figur
-    * Przykład: Personifikacja różniących się procesów myślowych(System 1, System 2) by ułatwić ich zrozumienie
-    * https://www.granicenauki.pl/intencjonalnosc-czyli-co-odroznia-szekspira-od-szympansa-25965
-## 1.7 Maszyna do wyciągania pochopnych wniosków
+  * Przykład: *Experimental study of apparent behavior* - Fritz Heider, Marianne Simmel, 1944
+    * Film w którym figury geometyczne poruszają się po ekranie w taki sposób, że odbieramy je jako ścigające się nawzajem
+    * Osoby autystyczne nie dostrzegają *intencjonalności* figur
+  * Przykład: Personifikacja różniących się procesów myślowych(System 1, System 2) by ułatwić ich zrozumienie
+  * [intencjonalnosc-czyli-co-odroznia-szekspira-od-szympansa](https://www.granicenauki.pl/intencjonalnosc-czyli-co-odroznia-szekspira-od-szympansa-25965)
+
+### 1.7 Maszyna do wyciągania pochopnych wniosków
+
 * Wyciąganie pochopnych wniosków jest korzystne w sytuacji, w której koszt ewentualnego błędu jest do przyjęcia, a odpowiedź intuicyjna zapewni dużą oszczędność czasu. Nie powinno się za to przeskakiwać do odpowiedzi intuicyjnej w nieznanych sytuacjach i kiedy stawka jest wysoka.
 * System 1 jest niezdolny do świadomych wątpliwości - wymaga to równoczesnego przechowywania w pamięci sprzecznych interpretacji, a to z kolei wymaga wysiłku. Niepewność i wątpliwości to domena Systemu 2.
 * Daniel Gilbert, *How mental Systems Believe*: Gdy System 2 jest zajęty / gdy mamy wyczerpane ego, jesteśmy skłonni wierzyć prawie we wszystko.
-    * Ludzie zmęczeni łatwiej ulegają pustej perswazji(reklamom).
+  * Ludzie zmęczeni łatwiej ulegają pustej perswazji(reklamom).
 * Błędy poznawcze wynikające z faktu, że System 1 poszukuje połączeń w sieci skojarzeniowej:
-    * Efekt potwierdzenia (confirmation bias): Znajdowanie argumentów potwierdzających postawioną hipotezę / wyznawany pogląd
-        * Jeśli uda nam się wystarczająco łatwo znaleźć argumenty, umocnimy się w wierze w daną hipotezę. Jeśli napotkamy trudności, przeciwnie.
-            * Przypomnij sobie 3 sytuacje, w których zachowałeś się asertywnie
-            * Przypomnij sobie 9 sytuacji, w których uległeś wpływowi otoczenia
+  * Efekt potwierdzenia (confirmation bias): Znajdowanie argumentów potwierdzających postawioną hipotezę / wyznawany pogląd
+    * Jeśli uda nam się wystarczająco łatwo znaleźć argumenty, umocnimy się w wierze w daną hipotezę. Jeśli napotkamy trudności, przeciwnie.
+      * Przypomnij sobie 3 sytuacje, w których zachowałeś się asertywnie
+      * Przypomnij sobie 9 sytuacji, w których uległeś wpływowi otoczenia
         * Broń: Hipotezy należy sprawdzać poprzez próby ich obalenia.
     * Efekt halo: skłonność do (nie)lubienia wszystkich aspektów danej osoby - nawet tych, których nie zauważamy.
-        * Jeśli odpowiadają Ci poglądy polityczne premiera, pewnie podoba Ci się też jego wygląd i głos
-        * Nadajemy większą wagę cechom, które zauważymy jako pierwsze (pierwsze wrażenie)
-            * Alan: Inteligeny, pracowity, impulsywny, krytyczny, uparty, zazdrosny
-            * Ben: Zazdrosny, uparty, krytyczny, impulsywny, pracowity, inteligentny
-            * Nauczyciel oceniający test składający się z kilku zadań jest skłonny przymknąć oko na błędy w dalszej części egzaminu, jeśli pierwsze zadania zostały doskonale rozwiązane
-        * Kolejność, w której zauważamy cechy osoby, jest często przypadkowa
-        * Broń: Usuwanie korelacji między błędami poprzez:
-            * Fragmentacja i rozpatrywanie cech/zadań niezależnie,
-            * Korzystanie z niezależnych od siebie źródeł,
-            * W przypadku wielu źródeł informacji, wyeliminowanie źródeł dublujących się.
+      * Jeśli odpowiadają Ci poglądy polityczne premiera, pewnie podoba Ci się też jego wygląd i głos
+      * Nadajemy większą wagę cechom, które zauważymy jako pierwsze (pierwsze wrażenie)
+        * Alan: Inteligeny, pracowity, impulsywny, krytyczny, uparty, zazdrosny
+        * Ben: Zazdrosny, uparty, krytyczny, impulsywny, pracowity, inteligentny
+        * Nauczyciel oceniający test składający się z kilku zadań jest skłonny przymknąć oko na błędy w dalszej części egzaminu, jeśli pierwsze zadania zostały doskonale rozwiązane
+      * Kolejność, w której zauważamy cechy osoby, jest często przypadkowa
+      * Broń: Usuwanie korelacji między błędami poprzez:
+        * Fragmentacja i rozpatrywanie cech/zadań niezależnie,
+        * Korzystanie z niezależnych od siebie źródeł,
+        * W przypadku wielu źródeł informacji, wyeliminowanie źródeł dublujących się.
 * Maszyneria skojarzeniowa podsuwa umysłowi tylko te idee, które zostały wcześniej aktywowane - informacje, które nie zostały choćby nieświadomie przywołane z pamięci, praktycznie mogą nie istnieć.
 * Dla Systemu 1 miarą sukcesu jest spójność opowieści, jaką udaje mu się stworzyć - niezależnie od ilości i wiarygodności danych. ***What you see is all there is.***
-    * Pewność, że mamy rację, zależy głównie od tego, cz umiemy połączyć to, co widzimy, w spójną opowieść - nawet jeśli widzimy niewiele.
+  * Pewność, że mamy rację, zależy głównie od tego, cz umiemy połączyć to, co widzimy, w spójną opowieść - nawet jeśli widzimy niewiele.
 * Efekt ram interpretacyjnych (framing effect): te same informacje przedstawione w różny sposób mogą budzić różne emocje u odbiorców:
-    * Szansa przeżycia w miesiąc po operacji wynosi 90%
-    * Wpółczynnik umieralności w ciagu miesiąca od operacji wynosi 10%
+  * Szansa przeżycia w miesiąc po operacji wynosi 90%
+  * Wpółczynnik umieralności w ciagu miesiąca od operacji wynosi 10%
 
-## 1.8 Skąd się biorą osądy
+### 1.8 Skąd się biorą osądy
 
 * System 2 poszukuje odpowiedzi na pytania w pamięci. System 1 monitoruje otoczenie i bez przerwy(oraz wysiłku i intencji) generuje oceny rozmaitych aspektów sytuacji
 * System 2 potrafi analizować zbiory, System 1 - prototypy
@@ -164,7 +179,7 @@
   * Badanie: Uczestnicy słuchali par słów, mając za zadanie jak najszybciej nacisnąć klawisz gdy usłyszą słowa rymujące się. Badani, mimo że tylko słyszeli słowa, naciskali klawisz wyraźnie wolniej, gdy rymy miały różną pisownie (vote - note vs. vote - goat)
   * Badanie: Uczestnicy mieli nacisnąć czerwony przycisk gdy zdanie było prawdziwe w sensie dosłownym, albo niebieski, gdy zdanie było nieprawdziwe w sensie dosłownym. Uczestnicy mieli dłuższy czas reakcji gdy zdanie było dosłownie nieprawdziwe, ale miało sens w przenośni.
 
-## 1.9 Odpowiadanie na łatwiejsze pytanie
+### 1.9 Odpowiadanie na łatwiejsze pytanie
 
 * W naszym życiu umysłowym statystycznie rzadko czujemy się zbici z tropu. W normalnym stanie umysłu prawie nie ma rzeczy, co do której nie mamy jakichś intuicyjnych odczuć albo opinii.
 
@@ -202,9 +217,9 @@
     * Twoje poglądy i postawa emocjonalna zmienią się(przynajmniej trochę), jeśli dowiesz się, że ryzyko związane z budzącą niechęć kwestią jest mniejsze niż sądziłeś. Uznasz też, że korzyści są większe, nawet jeśli nowe informacje nie zawierają o nich wzmianki.
     * W konktekście postaw emocjonalnych System 2 raczej usprawiedliwia emocje Systemu 1 niż je krytykuje; poszukuje informacji i argumentów nie po to, by dowiedzieć się czy jego przekonania są słuszne, ale by znaleźć informacje i argumenty zgodne z przekonaniami.
 
-# 2. Heurystyki i błędy (skrzywienia) poznawcze
+## 2. Heurystyki i błędy (skrzywienia) poznawcze
 
-## 2.1 Prawo małych liczb
+### 2.1 Prawo małych liczb
 
 * Statystyki i koorelacje
   * *Badanie zapadalności na raka nerek przeprowadzone we wszystkich 3 141 hrabstwach USA wykazało, że zapadalność jest najniższa na wiejskich, rzadko zaludnionych obszarach stanów Środkowego Zachodu, Zachodu i Południa, gdzie tradycyjnie głosuje się na Partię Republikańską. Badanie wykazało również, że tereny w których zapadalnośc jest najwyższa, to również obszary Środkowego Zachodu, Zachodu i Południa, gdzie tradycyjnie głosuje się na Partię Republikańską*
@@ -225,7 +240,7 @@
       * Świadomość wyników badań nie likwiduje tego złudzenia.
 * Nadmierne zaufanie do małych prób statystycznych to jeden z przykładów złudzenia poznawczego polegającego na tym, że bardziej skupiamy się na treści komunikatu niż na jakości źródła, z jakiego pochodzi.
 
-## 2.2 Kotwice
+### 2.2 Kotwice
 
 * Jesteśmy o wiele bardziej podatni na sugestie, niżbyśmy sobie tego życzyli, a całkiem sporo ludzi che i potrafi zrobić użytej z naszej łatwowierności.
 * Aktualny stan naszego otoczenia wpływa na nasze myśli i zachowania o wiele bardziej, niż sobie to uświadamiamy.
@@ -257,7 +272,7 @@
 * Każdy komunikat niezależnie od miarodajności wpływa na system skojarzeniowy, chyba że zostanie natychmiast odrzucony jako fałsz. Zakotwiczenie wynika właśnie z tej aktywacji skojarzeń, a skrajnym przykładem jest silne działanie niepowiązanych lub losowych wartości kotwiczących.
   * Widzisz kotwicę i zwracasz na nią uwagę, ale nie jesteś w stanie wyobrazić sobie własnych myśli, gdyby jej nie było lub gdyby była inna.
 
-## 2.3 Naukowe badanie dostępności umysłowej
+### 2.3 Naukowe badanie dostępności umysłowej
 
 * Heurystyka dostępności - ocena częstości występowania na podstawie tego, jak łatwo nam przypomnieć sobie sytuacje z danej kategorii. Angażuje obydwa systemy.
   * Badani uważają, że rzadziej korzystają z roweru gdy mają sobie przypomnieć wiele przykładów zamiast kilku;
@@ -276,17 +291,18 @@
   * W dobrym nastroju wynikającm z przypomnienia sobie szczęśliwego zdarzenia z własnego życia
   * Wykonuje w tym samym czasie inne zadanie wymagające wysiłku umysłowego
 
-## 2.4 Umysłowa dostępność, emocje i ryzyko
-  * Umysł ma trudności z wyobrażeniem sobie katastrofy gorszej niż te, które miały miejsce do tej pory
-  * Świat istniejący w naszej głowie nie jest dokładną repliką rzeczywistości; oczekiwania na temat częstotliwości konkretnych zdarzeń są zniekształcone przez dostępność umysłową danego zdarzenia (częstość i emocjonalną intensywność przekazów, z którymi się spotykamy)
-    * Ocenimy ryzyko jako niższe, jeśli jesteśmy przychylnie nastawieni do danego wydarzenia lub widzimy płynące z niego korzyści
-    * Szczególnie silne są obrazy budzące lęk, przy czym lęk wzmaga się tym bardziej im bardziej myśli o konkretnym zdarzeniu są wyraźne i płynne
-  * Badanie *Antonio Damasio*: Zdolność podejmowania dobrych decyzji jest osłabiona u osób, które przy podejmowaniu decyzji nie wykazują odpowiednich emocji
-  * Ocena ryzyka wśród ekspertów oraz reszty ludzi może się różnić; wynika to z różnicy wartości oraz obranej miary 
-    * **"Ryzyko" nie istnieje niezależnie od ludzkich umysłów i kultur i nie czeka biernie, aż je zmierzymy. Ludzie wymyślili pojęcie "ryzyka" po to, żeby im pomagało w zrozumieniu życiowych niebezpieczeństw i niepewności oraz w radzeniu sobie z nimi. Niebezpieczeństwa są realne, jednak nie istnieje coś takiego jak "realne" czy "obiektywne" ryzyko.** - Paul Slovic
-    * O ile rozsądną miarą ryzyka wydaje się liczba utraconych istnień ludzkich lub lat życia, stosowane są też inne miary jak "liczba istnień utraconych przy wytworzeniu produktu o wartości 1mln USD". Należy zwracać uwagę na jednostkę pomiaru.
+### 2.4 Umysłowa dostępność, emocje i ryzyko
 
-## 2.5 Co studiuje Tomasz W.
+* Umysł ma trudności z wyobrażeniem sobie katastrofy gorszej niż te, które miały miejsce do tej pory
+* Świat istniejący w naszej głowie nie jest dokładną repliką rzeczywistości; oczekiwania na temat częstotliwości konkretnych zdarzeń są zniekształcone przez dostępność umysłową danego zdarzenia (częstość i emocjonalną intensywność przekazów, z którymi się spotykamy)
+  * Ocenimy ryzyko jako niższe, jeśli jesteśmy przychylnie nastawieni do danego wydarzenia lub widzimy płynące z niego korzyści
+  * Szczególnie silne są obrazy budzące lęk, przy czym lęk wzmaga się tym bardziej im bardziej myśli o konkretnym zdarzeniu są wyraźne i płynne
+* Badanie *Antonio Damasio*: Zdolność podejmowania dobrych decyzji jest osłabiona u osób, które przy podejmowaniu decyzji nie wykazują odpowiednich emocji
+* Ocena ryzyka wśród ekspertów oraz reszty ludzi może się różnić; wynika to z różnicy wartości oraz obranej miary
+  * **"Ryzyko" nie istnieje niezależnie od ludzkich umysłów i kultur i nie czeka biernie, aż je zmierzymy. Ludzie wymyślili pojęcie "ryzyka" po to, żeby im pomagało w zrozumieniu życiowych niebezpieczeństw i niepewności oraz w radzeniu sobie z nimi. Niebezpieczeństwa są realne, jednak nie istnieje coś takiego jak "realne" czy "obiektywne" ryzyko.** - Paul Slovic
+  * O ile rozsądną miarą ryzyka wydaje się liczba utraconych istnień ludzkich lub lat życia, stosowane są też inne miary jak "liczba istnień utraconych przy wytworzeniu produktu o wartości 1mln USD". Należy zwracać uwagę na jednostkę pomiaru.
+
+### 2.5 Co studiuje Tomasz W
 
 * Wartość bazowa - wielkość opisująca proporcjonalny stosunek podzbiorów wobec nadzbioru, np. wartość bazowa dla czarnych kulek w urnie z kulkami białymi i czarnymi.
 * Reprezentatywność - podobieństwo podmiotu do stereotypu.
@@ -294,7 +310,7 @@
 * W przewidywaniach statystycznych oprócz reprezentatywności znaczącą rolę odgrywa wartość bazowa:
   * Ludzie mają tendencję do ignorowania wartości bazowej i problem określenia prawdopodobieństwa zastępują problemem podobieństwa.
 
-## 2.6 Linda: mniej znaczy więcej
+### 2.6 Linda: mniej znaczy więcej
 
 * Błąd koniunkcji - błąd polegający na przypisaniu koniunkcji zdarzeń wyższego prawdopodobieństwa niż pojedyńczym zdarzeniom należącym do tej koniunkcji.
   * *Linda ma trzydzieści jeden lat, jest niezamężna, wygadana i bardzo inteligentna. Skończyła filozofię. Na studiach bardzo się angażowała w zwalczanie dyskryminacji i promowanie sprawiedliwości społecznej, a także brała udział w demonstracjach przeciw energii jądrowej.*
@@ -314,7 +330,7 @@
     * diagram Venna
     * prośba o logiczne zastanowienie się
 
-## 2.7 Przyczyny mają pierwszeństwo przed statystykami
+### 2.7 Przyczyny mają pierwszeństwo przed statystykami
 
 * Statystyczna wartość bazowa - fakty, które dotyczą populacji, do której należy dany przypadek, ale które nie są odbierane jako istotne dla konkretnego przypadku (myślenie o kategorii)
 * Przyczynowe wartości bazowe - zmieniają pogląd na temat tego, jak doszło do zaistnienia konkretnego przypadku: (myślenie o konkretnych przypadkach)
@@ -333,7 +349,7 @@
     * (!) Zarówno grupa znająca jak i nieznająca wyników jednoznacznie stwierdziły, że osoby należały do tych, które pomogły cierpiącemu
   * Rozwiązanie: studentom wytłumaczono na czym polega eksperyment bez ujawniania wyników. Następnie pokazano film i powiedziano, że żadna z osób nie pomogła cierpiącemu, i poproszono o odgadnięcie jaki był wynik eksperymentu - oceny studentów okazały się niezmiernie trafne.
 
-## 2.8 Powrót do średniej
+### 2.8 Powrót do średniej
 
 * U ludzi, podczas uczenia umiejętności, nagradzanie za poprawę wyników jest skuteczniejsze niż karanie za błędy
   * Gdy ktoś popełni spory błąd i dostanie karę, następnym razem zazwyczaj wychodzi mu lepiej. Tak samo, gdy ćwiczenie pójdzie komuś wyjątkowo dobrze i zostanie pochwalony, następnym razem zazwyczaj pójdzie mu słabiej. Ta obserwacja nie jest zaprzeczeniem poprzedniego punktu, a przykładem nieuniknionych wahań losowego procesu (w którym wynik dąży do średniej)
@@ -350,7 +366,7 @@
   * Zawsze kiedy korelacja między dwiema miarami nie jest idealna, pojawi się zjawisko powrotu do średniej
 * Aby móc stwierdzić, że dany lek ma rzekomy skutek, musimy porównać przyjmującą go grupę z grupą kontrolną (która go nie przyjmuje lub przyjmuje placebo). Należy sądzić, że grupa kontrolna dozna poprawy dzięki powrotowi do średniej; eksperyment ma ustalić, czy grupa przyjmująca lek doświadcza większej poprawy, niżby to wynikało z samego powrotu do średniej
 
-## 2.9 Poskramianie prognoz intuicyjnych
+### 2.9 Poskramianie prognoz intuicyjnych
 
 * Prognozy intuicyjne są prawie niewrażliwe na jakość danych oraz tak samo skrajne jak dane, na których się opierają (zgodnie z zasadą "Istnieje tylko to, co widzisz")
   * Im mniej danych, tym większa spójność, tym większa skrajność w prognozie
@@ -372,9 +388,9 @@
 * Prognozy intuicyjne są nadmiernie optymistyczne wobec osób, którym na początku poszło dobrze, i nadmiernie pesymistyczne wobec tych, którzy zaczeli kiepsko.
 * By prognozy miały przyzwoitą trafność, należy unikać prognozowania zdarzeń rzadkich albo odległych od średniej. Kiedy twoje prognozy nie są obarczone błędem, możesz pożegnać się z przyjemnym poczuciem płynącym z mówienia "Spodziewałem się tego". Niektórzy ludzie potrzebują poczucia bezpieczeństwa płynącego z obarczonej błędem prognozy; jeśli chcesz się łudzić i oszukiwać, przyjmując skrajne prognozy, miej świadomość że jest to folgowanie sobie, a nie racjonalny wybór.
 
-# 3. Nadmierna pewność siebie
+## 3. Nadmierna pewność siebie
 
-## 3.1 Złudzenie zrozumienia
+### 3.1 Złudzenie zrozumienia
 
 * Błąd narracji - poglądy na temat teraźniejszości i oczekiwania na przyszłość kształtujemy na podstawie nieprawdziwych mentalnych opowieści na temat przeszłości. Opowieści są wynikiem potrzeby wyjaśnienia rzeczywistości, są raczej proste niż złożone, raczej konkretne niż abstrakcyjne, przypisują większą rolę talentowi, głupocie, zamiarom ludzkim niż ślepemu trafowi; skupiają się na niewielkiej liczbie istotnych wydarzeń, które miały miejsce, a nie na niezliczonych wydarzeniach, które nie nastąpiły, mimo że mogły.
 * Umysł ludzki jest niedoskonały w rekonstruowaniu minionych stanów wiedzy oraz poglądów, które uległy zmianie. Kiedy przyjmujesz nowy pogląd na temat rzeczywistości, natychmiast w dużej mierze tracisz możliwość przypomnienia sobie swoich wcześniejszych przekonań (zjawisko zastępowania).
@@ -397,7 +413,7 @@
 * Opowieści o sukcesach i porażkach regularnie przeceniają wpływ stylu przywództwa i praktyki zarządzania na wyniki spółki - zatem ich przesłanie jest rzadko przydatne. Uderzają jednak w czułą strunę czytelników, bo zapewniają coś, czego umysł potrzebuje - proste przesłanie na temat triumfu i klęski, jasno wskazujące przyczyny oraz ignorujące decyzyjną rolę trafu i nieuniknionego powrotu do średniej.
   * Źródło: Philip Rosenzweig, *The Halo Effect*
 
-## 3.2 Złudzenie trafności
+### 3.2 Złudzenie trafności
 
 * Poczucie zaufania do wydawanych osądów zależy od spójności opowieści, którą wspólnymi siłami tworzą System 1 i System 2. W przypadku niektórych najważniejszych przekonań nie mamy absolutnie żadnych danych które by za nimi przemawiały - poza tym, że tak samo myślą ludzie, których kochamy lub którym ufamy.
   * Jeśli ktoś jest bardzo pewnym swojego zdania, znaczy to że skonstruował sobie bardzo spójną opowieść - ale już niekoniecznie, że taka opowieść jest prawdziwa
@@ -418,7 +434,7 @@
 * Błędy w przewidywaniach są nieuniknione, bo rzeczywistośc jest nieprzewidywalna.
   * Nie wiemy, gdzie dokładnie leży linia oddzielająca przyszłośc w miarę przewidywalną od przyszłości odległej i nieprzewidywalnej.
 
-## 3.3 Intuicja kontra wzory
+### 3.3 Intuicja kontra wzory
 
 * Eksperyment: 14 doradców zawodowych miało za zadanie przewidzieć oceny studentów na koniec pierwszego roku na podstawie wyników świadectw ze szkoły średniej, wynikami kilku testów zdolnościowych i 4-stronnicowym listem motywacyjnym każdego studenta. Porównano predykcje doradców z algorytmem statystycznym, który operował na ocenach z liceum i wynikiem jednego testu zdolnościowego. Wyniki wzoru statystycznego okazały się trafniejsze od prognoz 11 z 14 doradców.
   * Kontrowersyjny eksperyment zapoczątkował liczne badania, na dziś dzień jest ich ponad 200 z przeróżnych dziedzin. Około 60% badań wskazuje, że algorytmy są znacząco trafniejsze, inne badania wskazują na remis (na korzyść wzoru statystycznego, bo jest tańszy niż doradca). Nie udało się w przekonujący sposób udokumentować ani jednego wyjątku.
@@ -438,7 +454,7 @@
   * Eksperyment autora: Systematyczna ocena cech dobrego kandydata podczas rozmowy i dodanie na koniec oceny intuicyjnej okazała się lepsza niż intuicyjna ocena wydawana po 20-minutowej rozmowie z kandydatem.
   * Heurystyka: Wybierz kilka cech koniecznych do sukcesu na danym stanowisku (ok. 6). Wybrane cechy powinny być jak najmniej powiązane ze sobą nawzajem, powinno je się dać trafnie ocenić na podstawie kilku pytań. Następnie dla każdej cechy przygotuj listę odpowiednich pytań i zastanów się, jak przypisywać im wartości - jakiego rodzaju odpowiedzi oznaczają "bardzo słabo", a jakie "bardzo dobrze". Informacje należy zbierać po kolei i z osobna, by uniknąć efektu halo. Pod koniec zsumuj oceny.
 
-## 3.4 Intuicja ekspertów: kiedy możemy jej ufać
+### 3.4 Intuicja ekspertów: kiedy możemy jej ufać
 
 * Model RPD (recognition-primed desision) - System 1 automatycznie podsuwa plan działania, następnie plan zostaje sprawdzony przez dokonanie symulacji
 * "Sytuacja dostarcza wskazówki; wskazówka daje ekspertowi dostęp do przechowywanych w pamięci informacji; informacje dostarczają odpowiedzi. Intuicja to ni mniej, ni więcej, tylko akt rozpoznania" - Herbert Simon
@@ -451,7 +467,7 @@
   * W środowisku istnieją regularne prawidłowości, które umożliwiają prognozowanie, i
   * Te prawidłowości dają sie poznać dzięki długotrwałej praktyce. Na przykład: szachy, brydż, poker.
 
-## 3.5 Spojrzenie z zewnątrz
+### 3.5 Spojrzenie z zewnątrz
 
 * Kiedy chcemy uzyskać jakąś użyteczną informację od grupy, nie można zaczynać od publicznej dyskusji, lecz należy po cichu zebrać opinie każdego z osobna.
 * Złudzenie planowania (planning fallacy) - szacunki okazują się nie tyle realistyczną oceną sytuacji, co najlepszym scenariuszem z możliwych:
@@ -531,9 +547,9 @@
   * odpowiednio pobudza wyobraźnie dobrze poinformowanych osób,
   * nie chroni przed nieprzyjemnymi niespodziankami, ale pozwala ograniczyć szkody spowodowane planami, w których nie wzięto poprawki na bezkrytyczny optymizm i zasadę, że "istnieje tylko to, co widzisz".
 
-# 4. Wybory
+## 4. Wybory
 
-## 4.1 Błędy Bernoulliego
+### 4.1 Błędy Bernoulliego
 
 * Teoria oczekiwanej użyteczności: logika wyborów oparta na aksjomatach (elementarnych zasadach) racjonalności, np. jeśli wolisz jabłko od banana, będziesz wolał 10% szansę wygrania jabłka niż 10% szansę wygrania banana.
 * Dla wielu wymiarów zależność pomiędzy wielkością fizyczną a subiektywnym doświadczeniem jest logarytmiczna:
@@ -552,7 +568,7 @@
       * Wzrost szans na wygranie 10000$ z 95% do 100%.
 * Źródło: *Prospect Theory: Analysis of Decision under Risk* (Teoria perspektywy: Analiza decyzji podejmowanych w warunkach ryzyka)
 
-## 4.2 Teoria perspektywy
+### 4.2 Teoria perspektywy
 
 * Ludzie przejawiają większą skłonnośc do ryzyka wybierając pomiędzy niekorzystnymi opcjami.
 * Ocena dokonuje się względem neutralnego punktu odniesienia, zwanym "poziomem dostosowania":
@@ -572,7 +588,7 @@
 * Teoria perspektywy nie uwzględnia sytuacji, w której stan negatywny oznacza brak zmiany stanu albo gdy alternatywa ma bardzo wysoką wartość (nagroda pocieszenia):
   * Nieformalnie obiecana podwyżka ustanawia nowy punkt odniesienia. Niewywiązanie się z obietnicy (czyli brak zmian) skutkuje (w sprzeczności do teorii perspektywy) rozczarowaniem.
 
-## 4.3 Efekt posiadania
+### 4.3 Efekt posiadania
 
 * Dokonując wyboru kierujemy się silnie niechęcią do ponoszenia strat - które definiujemy jako warunki gorsze **w stosunku do dotychczasowych**, do których jesteśmy przyzwyczajeni.
 * Fakt posiadania jakiegoś dobra podnosi jego wartość, zwłaszcza jeśli tym dobrem nie obraca się regularnie. Bierze się wtedy pod uwagę ból zrezygnowania z niego.
@@ -585,7 +601,7 @@
   * Zbadano transakcje wymiany, do których dochodziło na konwentach kolekcjonerów kart z bejsbolistami. Początkujący kolekcjonerzy niechętnie rozstawali się z posiadanymi kartami, jednak w miarę doświadczenia niechęć w końcu znikała. Doświadczenie uzyskane w wymianie kart wywierało silny wpływ na efekt posiadania w stosunku do innych dóbr.
   * Efekt posiadania nie występuje u osób biednych (żyjących poniżej własnego punktu odniesienia), którzy myślą w kategoriach straty. Mogą mieć też na niego wpływ różnice kulturowe, szczególnie jeśli chodzi o zachcianki i drobne przyjemności.
 
-## 4.4 Zdarzenia niekorzystne
+### 4.4 Zdarzenia niekorzystne
 
 * Mózgi ludzi i innych zwierząt zawierają mechanizm służący do nadawania pierwszeństwa złym wiadomościom.
 * Wrażliwość na zagrożenia dotyczy także przetwarzania w umyśle słów nacechowanych emocjonalnie negatywnie, obrazów wywołujących obrzydzenie i zdań, z którymi się nie zgadzamy.
@@ -599,7 +615,7 @@
   * Zwierzęta broniące terytorium walczą zacieklej niż te, które atakują.
   * Nasze mózgi są znacznie bardziej skłonne karać zachowania nie-fair niż nagradzać hojność.
 
-## 4.5 Cztery warianty stosunku do ryzyka
+### 4.5 Cztery warianty stosunku do ryzyka
 
 * Za każdym razem gdy dokonujemy całościowej oceny czegoś złożonego, każdemu z elementów nadajemy pewną wagę.
 * Wbrew zasadzie wartości oczekiwanej, wagi rzeczywiście nadawane rezultatom przy podejmowaniu decyzji nie są dokładnie takie same jak matematyczne prawdopodobieństwo tych zdarzeń:
@@ -622,7 +638,7 @@
     * zakup ubezpieczenia z dodatkowymi opcjami.
 * Konsekwentne nadawanie nadmiernej wagi mało prawdopodobnym rezultatom - a tym charakteryzuje się intuicyjne podejmowanie decyzji - ostatecznie daje gorsze rezultaty. Systematyczne odchylenia od wartości oczekiwanej są kosztowne - niezależnie czy mówimy o niechęci czy o skłonności do ryzyka.
 
-## 4.6 Zdarzenia rzadkie
+### 4.6 Zdarzenia rzadkie
 
 * Terroryzm uruchamia kaskadę dostępności. Pobudzenie emocjonalne ma charakter skojarzeniowy, jest automatyczne i niekontrolowane oraz stanowi bodziec do podjęcia działań ochronnych. Systemu 1 nie da się wyłączyć.
 * Emocje i wyrazistość obrazu wpływają na płynność i dostępność skojarzeń, a przez to na oceny prawdopodobieństwa.
@@ -645,7 +661,7 @@
 * Prawdopodobieństwo zdarzenia rzadkiego zostaje często zawyżone ze względu na tendencję potwierdzającą (confirmatory bias) pamięci. Nadmierną wagę nadasz rzadkiemu zdarzeniu wtedy, gdy konkretnie zwróci twoją uwagę.
 * Czynniki wpływające na nadanie zdarzeniu nadmiernej wagi to obsesyjne obawy, wyraziste/szczegółowe obrazy, konkretne formy przedstawienia oraz wyraźna wzmianka o możliwości. Jeśli nie dojdzie do przeważenia prawdopodobieństwa, zdarzenie zostanie zignorowane.
 
-## 4.7 Podejście do ryzyka
+### 4.7 Podejście do ryzyka
 
 * Ludzie mają tendencję do wąskiego kadrowania problemów (rozbijania złożonego problemu na małe). Jest to nieoptymalne gdy rozważmy kilka decyzji łącznie.
   * Problem Samuelsona: niechęć do pojedyńczego zakładu w rzucie monetą o stawce 100$ straty vs. 200$ wygranej, ale chętna akceptacja 100 takich zakładów.
@@ -654,7 +670,7 @@
 * W podejściu do ryzyka dobrze jest kierować się spójną strategią reagowania (szerokim kadrowaniem) i brać pod uwagę statystyki (spojrzenie z zewnątrz)
   * Richard Thaler poprosił osobno 25 dyrektorów dużej firmy o rozważenie ryzykownej opcji przedstawiającej jednakowe prawdopodobieństwo utraty dużej części kontrolowanego kapitału lub zyskania 2 razy większej kwoty. Żaden z dyrektorów nie był skłonny zaakceptować zakładu. Następnie spytano dyrektora generalnego - bez wahania stwierdził, że chciałby by każdy z 25 dyrektorów zaakceptował zakład.
 
-## 4.8 Mentalna punktacja
+### 4.8 Mentalna punktacja
 
 * Z wyjątkiem osób bardzo biednych, dla których każdy przychód jest kwestią przeżycia, chęć zarabiania nie zawsze ma podłoże ekonomiczne - pieniądze funkcjonują czasami jak punkty na skali osiągnięć. Nagrody i kary, obietnice i zagrożenia - wszystko to istnieje tylko w naszych głowach, w których skrupulatnie je podliczamy. W ostatecznym rozrachunku to emocje są często walutą, w której rozliczamy otrzymywane kary i nagrody.
 * Ludzie prowadzą coś w rodzaju mentalnych rachunków bankowych:
@@ -670,7 +686,7 @@
   * *Zetknąłeś się z chorobą, która w razie zarażenia wywołuje szybką i bezbolesną śmierć w ciągu tygodnia. Prawdopodobieństwo, że uległeś zarażeniu, wynosi 1:1000. Istnieje skuteczna szczepionka, jednak trzeba ją podać przed wystąpieniem objawów. Ile maksymalnie byłbyś skłonny zapłacić za szczepionkę?*
   * *Poszukuje się ochotników do badania wspomnianej choroby. W badaniu wystarczy zetknąć się z chorobą, przy czym ryzyko zarażenia wynosi 1:1000. Jaka jest minimalna kwota, jakiej zażądałbyś za udział w badaniu (nie będziesz miał możliwości zakupu szczepionki)?*
 
-## 4.9 Odwracanie preferencji
+### 4.9 Odwracanie preferencji
 
 * Indywidualne wybory zależą od kontekstu, w którym do nich dochodzi.
   * Sprzedawcy szybko przekonują się, że manipulowanie kontekstem, w którym klient ogląda produkt, może mieć wielki wpływ na preferencje.
@@ -679,7 +695,7 @@
 * Osądy dokonywane w ocenie łą cznej i pojedyńczej często okazują się niekonsekwentne.
   * Spróbowano określić kwotę, jaką ludzie są skłonni zapłacić za ochronę środowiska naturalnego delfinów oraz kwotę, jaką są skłonni zapłacić za dodatkowe badania farmerów narażonych na raka skóry. W ocenie pojedyńczej delfiny wygrały.
 
-## 4.10 Ramy interpretacyjne(framing) a rzeczywistość
+### 4.10 Ramy interpretacyjne(framing) a rzeczywistość
 
 * "Problem azjatyckiej choroby": Wyobraź sobie, że USA przygotowuje się na epidemię nietypowej azjatyckiej choroby, która przypuszczalnie spowoduje śmierć 600 osób. Zaproponowano 2 alternatywne programy walki z chorobą. Zakładasz, że skutki programów zostały dokładnie oszacowane w następujący sposób:
   * *Jeśli zastosowany zostanie program A, uratowanych zostanie 200 osób.*
@@ -702,9 +718,9 @@
 * Ramy interpretacyjne nie służą maskowaniu autentycznej preferencji - bo nie istnieje żadna ukryta, autentyczna preferencja, którą mogłyby maskować. Nasze preferencje dotyczą problemów już ujętych w ramy interpretacyjne, a nasz instynkt moralny dotyczy opisów, a nie sedna rzeczywistości.
   * W wielu krajach, w przypadku śmiertelnego wypadku samochodowego można oddać swoje narządy do przeszczepu. Ludzie wydają się podchodzić do tej decyzji bezmyślnie: istnieje gigantyczna różnica pomiędzy odsetkiem osób w krajach, które przy wyrabianiu prawa jazdy domyślnie zakładają zgodę wyrabiającego, a tymi, w których zgodę trzeba wyrazić poprzez zaznaczenie odpowiedniego pola.
 
-# 5. Dwie jaźnie
+## 5. Dwie jaźnie
 
-## 5.1 Dwie jaźnie
+### 5.1 Dwie jaźnie
 
 * System 1 reprezentuje zbiory i zestawy za pomocą średnich, wzorców i norm. Każde doświadczenie jest zbiorem momentów, które pamięć zachowuje jako jeden moment wzorcowy.
 * Pomiar przyjemności / bólu z perspektywy czasu:
@@ -716,12 +732,12 @@
     * 90 sekund ręki zanurzonej w wodzie - 60 sekund w takiej samej jak wyżej, po czym dyskretne zwiększenie temperatury wody o ok. 1 stopień na 30 sekund.
   * Następnie poproszono o wybór, czy wolą doświadczenie 1 czy 2. Z perspektywy doznań dłuższy epizod był oczywiście gorszy, jednak to drugi powinien zostawić lepsze wspomnienie. Tak właśnie się stało - 80% uczestników wybierało powtorzenie drugiego. Po eksperymencie potwierdzono, że uczestnicy mieli świadomość tego, że drugi epizod trwał dłużej - czas trwania nie miał znaczenia, liczyła się tylko intensywność bodźca.
 
-## 5.2 Życie jako opowieść
+### 5.2 Życie jako opowieść
 
 * Ignorowanie czasu trwania w opowieści jest czymś normalnym, a zakończenie często decyduje o całym jej charakterze.
 * Kiedy zależy nam na kimś, przywiązanie często przybiera formę troski o jakość jego życiowej opowieści, a nie o stan jego uczuć.
 * Eksperyment: Stworzono postać Jen, żyjącej w jednej wersji 30, w drugiej 60 lat. Jen miała satysfakcjonującą pracę, jeździła na wakacje, spędzała czas wolny z przyjaciółmi i na realizacji swoich hobby. Spytano badanych "Czy patrząc na życie Jen jako całość, sądzisz, że takie życie jest pożądane?" "Ile w sumie szczęścia oraz braku szczęścia doznała twoim zdaniem Jen przez całe życie?". Dwukrotne przedłużenie życia nie miało żadnego wpływu na ocenę atrakcyjności jej życia ani osąd o "całkowitej ilości szczęścia".
-  * Zwiększono długość życia Jen o 5 "szczęśliwych, ale już mniej" lat. Spowodowało to znaczny spadek oceny całkowitej ilości szczęścia doznawanego w życiu. 
+  * Zwiększono długość życia Jen o 5 "szczęśliwych, ale już mniej" lat. Spowodowało to znaczny spadek oceny całkowitej ilości szczęścia doznawanego w życiu.
   * Badanymi byli ludzie młodzi, starsi, rodzice, bezdzietni. Badano opinię w grupie naprzemiennej (każdy uczestnik oceniał jedną wersję chwile po drugiej) i osobno - wyniki były jednakowe.
   * Wnioski: ignorowanie czasu trwania, występowanie efektu szczytu i końca, występowanie efektu "mniej znaczy więcej" (suma zastąpiona średnią).
 * Ludzie zastanawiający się nad powtórzeniem doświadczenia, dokonują wyboru na podstawie wspomnienia.
@@ -729,7 +745,7 @@
     * *Jak taka perspektywa wpłynie na twoje plany wakacyjne? Ile byłbyś gotowy za nie zapłacić w porównaniu z normalnymi, zapadającymi w pamięć wakacjami?*
   * *Wyobraź sobie, że czeka cię bolesna operacja, w trakcie której masz zachować świadomość. Będziesz krzyczeć z bólu i błagać chirurga, by przestał. Jednak obiecano ci, że na koniec zabiegu zostanie podany ci lek wywołujący amnezję, który całkowicie wymaże wszelkie wspomnienie tego epizodu. Co sądzisz o takiej perspektywie?*
 
-## 5.3 Dobrostan doznawalny
+### 5.3 Dobrostan doznawalny
 
 * o Helen można powiedzieć, że "w marcu była szczęśliwa", jeśli:
   * *Przez większość czasu zajmowała się wtedy rzeczami, co do których wolałaby, żeby trwały niż by się skończyły*,
@@ -747,7 +763,7 @@
   * Mieszkanie z dziećmi pod jednym dachem wiąże się ze znacznym kosztem emocjonalnym na co dzień, i niewielkim wpływem na ocenę życia.
   * Religijność nie redukuje uczuć zmartwienia i przygnębienia, ale redukuje stres.
 
-## 5.4 Jak myślimy o życiu
+### 5.4 Jak myślimy o życiu
 
 * Błąd prognozowania afektywnego - czytający nie wierzy, że statystyki dotyczą także jego:
   * Pomimo wiedzy, jak duży jest odsetek rozwodów i jak duża jest liczba osób rozczarowanych małżeństwem, ludzie wciąż wchodzą w związki małżeńskie
@@ -759,7 +775,7 @@
 * Błąd myślenia wyrywkowego (focusing illusion) - nic nie jest tak ważne, jak ci się wydaje, kiedy o tym myślisz.
   * Ile przyjemności sprawia ci twój samochód?
   * Kiedy twój samochód sprawia ci przyjemność?
-    * Samochód sprawia nam przyjemność, kiedy o nim myślimy. Odopowiadamy więc na pytanie "ile przyjemności sprawia ci twój samochód, kiedy o nim myślisz?"
+    * Samochód sprawia nam przyjemność, kiedy o nim myślimy. Odpowiadamy więc na pytanie "ile przyjemności sprawia ci twój samochód, kiedy o nim myślisz?"
   * Myśli o konkretnym aspekcie życia stają się istotne wtedy, gdy łatwo nam przychodzi do głowy jego przeciwieństwo.
   * Błąd sprawia, że preferujemy doświadczenia ekscytujące z początku i tracące urok z czasem. Przystosowanie do nowej stuacji polega w głównej mierze na tym, że przestajemy o niej myśleć.
 * Chybione pragnienia (miswantings) - Złe wybory, które popełniamy w wyniku błędu w prognozowaniu afektywnym.
