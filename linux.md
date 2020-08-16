@@ -10,6 +10,7 @@
 - [raspberry cpu & gpu temperature](#raspberry-pi-temperature)
 - [create swap file](#create-swap-file)
 - [ssh config](#ssh)
+- [find](#find)
 
 ## snippets
 
@@ -107,4 +108,18 @@ Host maszyna-zaglady
 ```sh
 ssh-keygen  # create new key, only if needed
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
+```
+
+### find
+
+```sh
+find folder  # all files in . and subdirectories
+find folder -type f  # files only (no directories)
+find folder -type d  # directories only (no files)
+find -iname 'name.txt'  # files with case-insensitive name.txt
+find -iname 'name*'  # files which name starts with 'name'
+find -iname '*.txt' -or -iname '*.png'  # txt or png files
+find -iname 'sebastian' -and -type d  # directories named 'sebastian'
+find -iname '*.js' -delete  # delete all files that end with .js
+find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
 ```
