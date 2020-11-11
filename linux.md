@@ -123,3 +123,10 @@ find -iname 'sebastian' -and -type d  # directories named 'sebastian'
 find -iname '*.js' -delete  # delete all files that end with .js
 find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
 ```
+
+### curl
+```sh
+-H "x-api-key: 1234" -H "x-api-user: admin"  # each header given separately 
+-X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
+```
+
