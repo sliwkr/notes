@@ -130,3 +130,9 @@ find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
 -X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
 ```
 
+### grep
+```sh
+grep -E 'pattern1|pattern2' log_file  # search multiple patterns, words
+docker-compose logs | grep -E 'ERROR|INFO'  # output can be piped into
+grep -e pattern1 -e pattern2 log_file  # patterns can be passed separately without quotes
+```
