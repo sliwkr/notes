@@ -136,3 +136,8 @@ grep -E 'pattern1|pattern2' log_file  # search multiple patterns, words
 docker-compose logs | grep -E 'ERROR|INFO'  # output can be piped into
 grep -e pattern1 -e pattern2 log_file  # patterns can be passed separately without quotes
 ```
+
+### tree
+```sh
+tree -a -I '.git|*~'  # list all files excluding .git folder and files ending with ~
+```
