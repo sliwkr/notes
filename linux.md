@@ -126,7 +126,7 @@ find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
 
 ### curl
 ```sh
--H "x-api-key: 1234" -H "x-api-user: admin"  # each header given separately 
+-H "x-api-key: 1234" -H "x-api-user: admin"  # each header given separately
 -X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
 ```
 
@@ -141,4 +141,24 @@ grep -E 'pattern' -C 3  # print 3 lines around the found pattern, use -A for abo
 ### tree
 ```sh
 tree -a -I '.git|*~'  # list all files excluding .git folder and files ending with ~
+```
+
+### gpg
+```sh
+gpg --encrypt --armor -R recpient@email.com the_file  # encrypt a file with anonymous recipient
+gpg --output decrypted_file --decrypt encrypted_file.asc  # read encrypted file, write output to decrypted_file
+gpg --gen-key  # configure new keys, --full-gen-key for more options like RSA length
+# --armor for ASCII output, -r known recipient, -R anonymous recipient
+# --sign known author, --local-user <ID> to choose author
+# good idea to create multiple revocation certificates for various revocation reasons
+# make sure its chmod 600
+gpg --output revocation.crt --gen-revoke mail@domain.com
+gpg --keyserver pgp.mit.edu  --search-keys search_parameters  # search popular keyserver for keys
+gpg --import name_of_public_key_file  # import public key into local keychain
+gpg --fingerprint mail@domain.com  # brief info about imported key
+gpg --sign-key mail@domain.com  # sign/trust imported key, number of signs can be seen when importing
+gpg --output my.key --armor --export mail@domain.com
+gpg --list-keys  # list fingerprints of imported keys
+gpg --send-keys --keyserver pgp.mit.edu --fingerprint mail@domain.com  # send public key to a keyserver
+gpg --edit-key mail@domain.com  # open menu for editing the key
 ```
