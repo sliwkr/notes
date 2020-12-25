@@ -161,4 +161,7 @@ gpg --output my.key --armor --export mail@domain.com
 gpg --list-keys  # list fingerprints of imported keys
 gpg --send-keys --keyserver pgp.mit.edu --fingerprint mail@domain.com  # send public key to a keyserver
 gpg --edit-key mail@domain.com  # open menu for editing the key
+gpg --export > public-keys.pgp  # export public keys
+gpg --export-secret-keys > private-keys.pgp  # export private keys
+gpg --import < public-keys.pgp  # import key from file
 ```
