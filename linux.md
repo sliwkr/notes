@@ -11,6 +11,10 @@
 - [create swap file](#create-swap-file)
 - [ssh config](#ssh)
 - [find](#find)
+- [curl](#curl)
+- [grep](#grep)
+- [tree](#tree)
+- [gpg](#gpg)
 
 ## snippets
 
