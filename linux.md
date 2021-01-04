@@ -23,6 +23,8 @@
 ```sh
 useradd -G sudo tom  # add user named tom and add tom to sudoers
 usermod -a -G secret tom  # add tom to secret group
+gpasswd -d tom secret  # remove tom from secret group
+newgrp secret  # log into a new group, removes the need to relogin after modifying groups
 passwd -e tom  # choose password for tom; -e for expire
 cat /etc/passwd  # tom should be here now
 ```
