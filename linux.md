@@ -15,6 +15,7 @@
 - [grep](#grep)
 - [tree](#tree)
 - [gpg](#gpg)
+- [cups](#cups)
 
 ## snippets
 
@@ -170,4 +171,9 @@ gpg --edit-key mail@domain.com  # open menu for editing the key
 gpg --export > public-keys.pgp  # export public keys
 gpg --export-secret-keys > private-keys.pgp  # export private keys
 gpg --import < public-keys.pgp  # import key from file
+```
+
+### cups
+```sh
+system-config-printer  # grahical interface for cups
 ```
