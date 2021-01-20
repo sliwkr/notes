@@ -16,6 +16,7 @@
 - [tree](#tree)
 - [gpg](#gpg)
 - [cups](#cups)
+- [logging](#log)
 
 ## snippets
 
@@ -176,4 +177,13 @@ gpg --import < public-keys.pgp  # import key from file
 ### cups
 ```sh
 system-config-printer  # grahical interface for cups
+```
+
+### log
+```sh
+journalctl -f  # logs from running daemons afaiu, /var/log/daemon.log 
+journalctl -fep err  # get all errors from the last boot
+tail -f /var/log/{messages, syslog}  # verbose
+tail -f /var/log/kern.log  # kernel logs
+grep "Failed password" /var/log/auth.log  # login attempts, commands requiring sudo
 ```
