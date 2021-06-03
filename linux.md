@@ -182,7 +182,8 @@ system-config-printer  # grahical interface for cups
 ### log
 ```sh
 journalctl -f  # logs from running daemons afaiu, /var/log/daemon.log 
-journalctl -fep err  # get all errors from the last boot
+journalctl -ep {emerg, alert, crit, err, warning, notice, info, debug}  # get all errors of particular category
+journalctl -xefb 0 -p err  # x explanations, e jump to end pager, f follow, b 0 last boot, -p err errors only
 tail -f /var/log/{messages, syslog}  # verbose
 tail -f /var/log/kern.log  # kernel logs
 grep "Failed password" /var/log/auth.log  # login attempts, commands requiring sudo
