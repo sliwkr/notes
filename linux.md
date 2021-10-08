@@ -17,6 +17,8 @@
 - [gpg](#gpg)
 - [cups](#cups)
 - [logging](#log)
+- [pdb](#python-pdb)
+- [format disk](#disk)
 
 ## snippets
 
@@ -187,4 +189,33 @@ journalctl -xefb 0 -p err  # x explanations, e jump to end pager, f follow, b 0 
 tail -f /var/log/{messages, syslog}  # verbose
 tail -f /var/log/kern.log  # kernel logs
 grep "Failed password" /var/log/auth.log  # login attempts, commands requiring sudo
+```
+
+### pdb
+```sh
+s - step into function
+n - next line
+r - return from function
+c - continue execution
+l - show code context
+a - args for the current function
+
+ipdb - debugger with auto completion
+```
+
+### disk
+```sh
+
+fdisk /dev/sdX
+  p - list existing partitions
+  i - info about partitions
+  n - new partition
+  t - change partition type
+    HPFS/NTFS/exFAT - exFAT, FAT32
+  w - save changes
+
+mkfs.exfat -n Devicelabel /dev/sdXY
+mkfs.ext4 /dev/sdXY
+
+e2label /dev/sdXY device-label
 ```
