@@ -19,6 +19,8 @@
 - [logging](#log)
 - [pdb](#python-pdb)
 - [format disk](#disk)
+- [networking](#networking)
+- [package managers](#package-managers)
 
 ## snippets
 
@@ -183,7 +185,7 @@ system-config-printer  # grahical interface for cups
 
 ### log
 ```sh
-journalctl -f  # logs from running daemons afaiu, /var/log/daemon.log 
+journalctl -f  # logs from running daemons afaiu, /var/log/daemon.log
 journalctl -ep {emerg, alert, crit, err, warning, notice, info, debug}  # get all errors of particular category
 journalctl -xefb 0 -p err  # x explanations, e jump to end pager, f follow, b 0 last boot, -p err errors only
 tail -f /var/log/{messages, syslog}  # verbose
@@ -218,4 +220,14 @@ mkfs.exfat -n Devicelabel /dev/sdXY
 mkfs.ext4 /dev/sdXY
 
 e2label /dev/sdXY device-label
+```
+
+### networking
+```sh
+iwconfig  # list network interfaces
+```
+
+### package managers
+```sh
+apt install --only-upgrade <packagename>  # upgrade single package
 ```
