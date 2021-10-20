@@ -21,6 +21,7 @@
 - [format disk](#disk)
 - [networking](#networking)
 - [package managers](#package-managers)
+- [wake-on-lan](#wake-on-lan)
 
 ## snippets
 
@@ -230,4 +231,35 @@ iwconfig  # list network interfaces
 ### package managers
 ```sh
 apt install --only-upgrade <packagename>  # upgrade single package
+```
+
+### wake-on-lan
+
+The feature has to be enabled in BIOS/UEFI first.
+
+#### host setup - NetworkManager
+
+https://networkmanager.dev/docs/api/1.32.8/settings-802-3-ethernet.html
+
+```sh
+# on host:
+nmcli connection show <name>  # get wired connection properties
+nmcli connection modify <name> 802-11-wireless.wake-on-wlan 64  # or just 'magic'
+# important, shutting down or rebooting will put the card in whatever mode it was before and you'll need to power up the host manually (once)
+service NetworkManager restart
+```
+
+#### host setup - ethtool
+
+```sh
+# on host
+ethtool -s <device-name> wol g
+# you'll need a way to preserve the setting on debian-based distros.
+# Probably a script with the command above in /etc/rc.0 or /etc/rc.6 will do, but haven't checked
+```
+
+#### client setup - wakeonlan
+
+```sh
+wakeonlan <mac-address>
 ```
