@@ -22,6 +22,7 @@
 - [networking](#networking)
 - [package managers](#package-managers)
 - [wake-on-lan](#wake-on-lan)
+- [bc (calculator)](#bc)
 
 ## snippets
 
@@ -276,3 +277,10 @@ ethtool -s <device-name> wol g
 ```sh
 wakeonlan <mac-address>
 ```
+
+#### bc 
+
+```sh
+scale=2  # set calculation precision to 2 digits
+```
+
