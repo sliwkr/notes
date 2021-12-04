@@ -180,8 +180,20 @@ gpg --import < public-keys.pgp  # import key from file
 ```
 
 ### cups
+
+- For HP LaserJet 1020, just use hplip-gui or hp-setup, honestly, avoid the pain.
+
 ```sh
+sudo apt install printer-driver-foo2zjs cups  # driver & interface for laserjet 1020
 system-config-printer  # grahical interface for cups
+lpstat -t  # show cups status information, play with the arguments to see other info
+cancel $(lpstat | cut -f 1 -d ' ') # cancel currently pending print jobs
+lpadmin
+lpinfo -m  # extensive list of all printers possible to handle
+cupsctl  # configure cups daemon options
+http://localhost:631/help/options.html  # info about printing from the console
+https://wiki.archlinux.org/index.php/CUPS/Troubleshooting  # good troubleshooting ref
+sudo usermod -a -G lp $USER && newgrp lp  # add user to lp group and login to it
 ```
 
 ### log
@@ -231,6 +243,7 @@ iwconfig  # list network interfaces
 ### package managers
 ```sh
 apt install --only-upgrade <packagename>  # upgrade single package
+apt-get clean  # clear /var/cache/apt/archives folder
 ```
 
 ### wake-on-lan
