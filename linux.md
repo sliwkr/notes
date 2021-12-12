@@ -23,6 +23,7 @@
 - [package managers](#package-managers)
 - [wake-on-lan](#wake-on-lan)
 - [bc (calculator)](#bc)
+- [qemu](#qemu)
 
 ## snippets
 
@@ -278,9 +279,23 @@ ethtool -s <device-name> wol g
 wakeonlan <mac-address>
 ```
 
-#### bc 
+### bc
 
 ```sh
 scale=2  # set calculation precision to 2 digits
 ```
 
+### qemu
+
+#### create a virtual machine
+
+```sh
+qemu-img create -f qcow2 test-img.qcow2 2G  # create image file
+qemu-system-x86_64 -nographic -enable-kvm -cdrom ISO_IMAGE -hda test-img.qcow2 -m 2G # install the OS
+qemu-system-x86_64 -cdrom ISO_IMAGE -cpu host -enable-kvm -m RAM_SIZE -smp NUMBER_OF_CORES -drive file=test-img.qcow2,format=qcow2  # fancy
+```
+
+#### keyboard shortcuts
+
+`Ctrl` + `Alt` + `G` - release grab/focus
+`Ctrl` + `Alt` + `+/-` - zoom/unzoom
