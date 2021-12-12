@@ -39,7 +39,7 @@
   * [4.7 Podejście do ryzyka](#47-Podejście-do-ryzyka)
   * [4.8 Mentalna punktacja](#48-Mentalna-punktacja)
   * [4.9 Odwracanie preferencji](#49-Odwracanie-preferencji)
-  * [4.10 Ramy interpretacyjne(framing) a rzeczywistość](#410-Ramy-interpretacyjne-framing-a-rzeczywistość)
+  * [4.10 Ramy interpretacyjne(framing) a rzeczywistość](#410-Ramy-interpretacyjne-\(framing\)-a-rzeczywistość)
 * [5. Dwie jaźnie](#5-dwie-jaźnie)
   * [5.1 Dwie jaźnie](#51-Dwie-jaźnie)
   * [5.2 Życie jako opowieść](#52-Życie-jako-opowieść)
@@ -54,7 +54,7 @@
   * System 1 - szybki, automatyczny, intuicja, bez poczucia świadomej kontroli
   * System 2 - wolny, analityczny, subiektywne poczucie skupienia, wysiłku, wolności wyboru i świadomego działania
 * System 2 w ograniczonym stopniu może wpływać na działanie Systemu 1 (np. poprzez sterowanie uwagą, zapamiętywanie)
-* W złudzniu Muller-Lyera(google it) System 1 odpowiada za postrzeganie jednej z linii za którszą, pomimo że System 2 "wie", że są równe. W podobny sposób działają złudzenia kognitywne
+* W złudzeniu Muller-Lyera(google it) System 1 odpowiada za postrzeganie jednej z linii za którszą, pomimo że System 2 "wie", że są równe. W podobny sposób działają złudzenia kognitywne
 
 ### 1.2 Uwaga i wysiłek
 
@@ -202,7 +202,7 @@
 | Określ wielkość osoby na zdjęciu    | Jakiego wzrostu jest ta osoba?    |
 | w formie liczbowej                  | lub: Ile waży ta osoba?           |
 
-* Pytania heurystyczne często prowadzą do poważnych) błędów, ale czasami sprawdzają się całkiem nieźle:
+* Pytania heurystyczne często prowadzą do poważnych błędów, ale czasami sprawdzają się całkiem nieźle:
   * Heurystyka trójwymiarowości - złudzenia optyczne.
   * Heurstyka nastroju a ocena poziomu szczęścia.
     * Poziom szczęścia "w ostatnim czasie" nie poddaje się łatwej ani naturalnej ocenie. Aktualny stan umysłu silnie wpływa na jego ocenę.
