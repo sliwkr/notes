@@ -24,6 +24,7 @@
 - [wake-on-lan](#wake-on-lan)
 - [bc (calculator)](#bc)
 - [qemu](#qemu)
+- [NetworkManager](#networkmanager)
 
 ## snippets
 
@@ -299,3 +300,14 @@ qemu-system-x86_64 -cdrom ISO_IMAGE -cpu host -enable-kvm -m RAM_SIZE -smp NUMBE
 
 `Ctrl` + `Alt` + `G` - release grab/focus
 `Ctrl` + `Alt` + `+/-` - zoom/unzoom
+
+### networkmanager
+
+#### show wifi password for a known network
+
+```sh
+nmcli c show <SSID> --show-secrets \
+  | grep wireless-security.psk: \
+  | tr -d ' ' \
+  | cut -d ':' -f 2
+```
