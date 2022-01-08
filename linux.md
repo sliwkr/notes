@@ -25,6 +25,7 @@
 - [bc (calculator)](#bc)
 - [qemu](#qemu)
 - [NetworkManager](#networkmanager)
+- [bluetooth](#bluetooth)
 
 ## snippets
 
@@ -310,4 +311,10 @@ nmcli c show <SSID> --show-secrets \
   | grep wireless-security.psk: \
   | tr -d ' ' \
   | cut -d ':' -f 2
+```
+
+### bluetooth
+
+```sh
+/var/lib/bluetooth/<listening-device-id>/<paired-device-id>
 ```
