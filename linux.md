@@ -297,6 +297,20 @@ qemu-system-x86_64 -nographic -enable-kvm -cdrom ISO_IMAGE -hda test-img.qcow2 -
 qemu-system-x86_64 -cdrom ISO_IMAGE -cpu host -enable-kvm -m RAM_SIZE -smp NUMBER_OF_CORES -drive file=test-img.qcow2,format=qcow2  # fancy
 ```
 
+#### networking
+
+10.0.2.2 - gateway, host ip from guest perspective
+
+##### ssh from host to guest
+
+```sh
+# guest accessible from host on localhost:5555, external network accessible from guest
+qemu-system-x86_64 \
+  -device e1000,netdev=net0 \
+  -netdev user,id=net0,hostfwd=tcp::5555-:22 \
+  -nographic -enable-kvm -hda test-alpine.qcow2 -m 2G
+```
+
 #### keyboard shortcuts
 
 `Ctrl` + `Alt` + `G` - release grab/focus
