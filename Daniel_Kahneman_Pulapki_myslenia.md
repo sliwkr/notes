@@ -540,7 +540,7 @@
   * Osoby prognozujące zdawały się nie wiedzieć, że ich prognozy są do niczego
 * Nietendencyjne uznanie niepewności jest jednym z fundamentów racjonalnego myślenia, jednak nie pomaga w budowaniu wizerunku kompetencji.
 * Da się ograniczyć (ale nie wyeliminować) nadmierną pewność siebie, biorąc pod uwagę konkurencyjną hipotezę.
-* Diagnoza premortem jako częściowe rozwiązanie problemu: kiedy organizacja ma podjąć ważną decyzję ale jeszcze formalnie nie zobowiązała się do niczego, osoby dysponujące wiedzą na temat decyzji spotykają się na krótką sesję, którą otwierają zagadnieniem: "Wyobraźmy sobie, że minął rok. Wdrożyliśmy plan, który mamy w tej chwili przed sobą. Rezultat okazał się katastrofą. Dajmy sobie 5-10 minut, żeby krótki napisać, jak doszło do tej katastrofy".
+* Diagnoza premortem jako częściowe rozwiązanie problemu: kiedy organizacja ma podjąć ważną decyzję ale jeszcze formalnie nie zobowiązała się do niczego, osoby dysponujące wiedzą na temat decyzji spotykają się na krótką sesję, którą otwierają zagadnieniem: "Wyobraźmy sobie, że minął rok. Wdrożyliśmy plan, który mamy w tej chwili przed sobą. Rezultat okazał się katastrofą. Dajmy sobie 5-10 minut, żeby krótko napisać, jak doszło do tej katastrofy".
   * pozwala przemóc myślenie stadne:
     * kiedy zespół dochodzi do decyzji - zwłaszcza gdy wypowie się szef/szefowa - publiczne wyrażanie wątpliwości na temat roztropności planowanego ruchu jest tłumione i w końcu zaczyna być odbierane jako przejaw nielojalności wobec zespołu i lidera,
     * jeśli w grupie mają głos jedynie osoby popierające decyzje, proces tłumenia wątpliwości owocuje nadmierną pewnością siebie,
@@ -556,7 +556,7 @@
   * użyteczność jest funkcją logarytmiczną stanu posiadania, reakcja psychologiczna na zmianę stanu posiadania będzie odwrotnie proporcjonalna do jego pierwotnego stanu,
     * stan posiadania podlega prawu malejących przychodów,
 
-* Większość ludzi nie lubi ryzyka (czyli możliwości uzyskania najniższego rezultatu z możliwych). Osoba niechętna wobec ryzyka jest skłonna do zapłacania za uniknięcie niepewności
+* Większość ludzi nie lubi ryzyka (czyli możliwości uzyskania najniższego rezultatu z możliwych). Osoba niechętna wobec ryzyka jest skłonna do zapłacenia za uniknięcie niepewności
 * Funkcja użyteczności Bernoulliego: Ludzkie wybory nie opierają się na wartości pieniężnej możliwych rezultatów, ale na ich wartości psychologicznej (użyteczności). Użyteczność każdego z rezultatów jest ważona na podstawie jego prawdopodobieństwa.
   * Teoria zawiera kilka poważnych usterek, np. nie uwzględnia punktu odniesienia, z którego startujemy. Mimo to zdołała funkcjonować przez ponad 300 lat w analizie ekonomicznej.
     * Jeśli przyjmujemy jakąś teorię i traktujemy ją jako narzędzie we własnym myśleniu, niezwykle trudno zauważyć jej braki. ("zaślepienie teoretyczne")
@@ -570,7 +570,7 @@
 
 ### 4.2 Teoria perspektywy
 
-* Ludzie przejawiają większą skłonnośc do ryzyka wybierając pomiędzy niekorzystnymi opcjami.
+* Ludzie przejawiają większą skłonność do ryzyka wybierając pomiędzy niekorzystnymi opcjami.
 * Ocena dokonuje się względem neutralnego punktu odniesienia, zwanym "poziomem dostosowania":
   * eksperyment: przygotuj 3 miski z wodą - jedna z zimną, druga z gorącą, trzecia o temperaturze pokojowej. Zanurz na minutę jedną rękę w gorącej, a drugą w zimnej wodzie. Następnie obie dłonie włóż do miski z letnią wodą.
   * W przypadku rezultatów finansowych punktem odniesienia może być status quo lub element którego się spodziewasz / który uważasz, że ci się należy. Rezultaty lepsze od punktu odniesienia to zyski, a gorsze to straty.
