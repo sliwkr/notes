@@ -26,6 +26,7 @@
 - [qemu](#qemu)
 - [NetworkManager](#networkmanager)
 - [bluetooth](#bluetooth)
+- [ImageMagick](#imagemagick)
 
 ## snippets
 
@@ -331,4 +332,27 @@ nmcli c show <SSID> --show-secrets \
 
 ```sh
 /var/lib/bluetooth/<listening-device-id>/<paired-device-id>
+```
+
+### imagemagick
+
+policy.xml location: `identify -list configure | grep CONFIGURE_PATH` (usually /etc/ImageMagick-6)
+
+#### strip metadata
+
+```sh
+convert -strip input.png output.png
+identify -verbose output.png  # to see what's been removed
+```
+
+#### join multiple images horizontally
+
+```sh
+montage input-1.png input-2.png -tile 1x2 -geometry +0+0 output.png
+```
+
+#### convert pdf to png
+
+```sh
+convert -density 300 input.pdf -resize 25% output.png
 ```
