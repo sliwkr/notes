@@ -19,7 +19,6 @@
 - [logging](#log)
 - [pdb](#python-pdb)
 - [format disk](#disk)
-- [networking](#networking)
 - [package managers](#package-managers)
 - [wake-on-lan](#wake-on-lan)
 - [bc (calculator)](#bc)
@@ -143,12 +142,14 @@ find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
 ```
 
 ### curl
+
 ```sh
 -H "x-api-key: 1234" -H "x-api-user: admin"  # each header given separately
 -X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
 ```
 
 ### grep
+
 ```sh
 grep -E 'pattern1|pattern2' log_file  # search multiple patterns, words
 docker-compose logs | grep -E 'ERROR|INFO'  # output can be piped into
@@ -157,11 +158,13 @@ grep -E 'pattern' -C 3  # print 3 lines around the found pattern, use -A for abo
 ```
 
 ### tree
+
 ```sh
 tree -a -I '.git|*~'  # list all files excluding .git folder and files ending with ~
 ```
 
 ### gpg
+
 ```sh
 gpg --encrypt --armor -R recpient@email.com the_file  # encrypt a file with anonymous recipient
 gpg --output decrypted_file --decrypt encrypted_file.asc  # read encrypted file, write output to decrypted_file
@@ -202,6 +205,7 @@ sudo usermod -a -G lp $USER && newgrp lp  # add user to lp group and login to it
 ```
 
 ### log
+
 ```sh
 journalctl -f  # logs from running daemons afaiu, /var/log/daemon.log
 journalctl -ep {emerg, alert, crit, err, warning, notice, info, debug}  # get all errors of particular category
@@ -212,6 +216,7 @@ grep "Failed password" /var/log/auth.log  # login attempts, commands requiring s
 ```
 
 ### pdb
+
 ```sh
 s - step into function
 n - next line
@@ -224,6 +229,7 @@ ipdb - debugger with auto completion
 ```
 
 ### disk
+
 ```sh
 
 fdisk /dev/sdX
@@ -240,12 +246,8 @@ mkfs.ext4 /dev/sdXY
 e2label /dev/sdXY device-label
 ```
 
-### networking
-```sh
-iwconfig  # list network interfaces
-```
-
 ### package managers
+
 ```sh
 apt install --only-upgrade <packagename>  # upgrade single package
 apt-get clean  # clear /var/cache/apt/archives folder
@@ -310,6 +312,12 @@ qemu-system-x86_64 \
   -device e1000,netdev=net0 \
   -netdev user,id=net0,hostfwd=tcp::5555-:22 \
   -nographic -enable-kvm -hda test-alpine.qcow2 -m 2G
+```
+
+##### list network interfaces
+
+```sh
+iwconfig
 ```
 
 #### keyboard shortcuts
