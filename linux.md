@@ -26,6 +26,8 @@
 - [NetworkManager](#networkmanager)
 - [bluetooth](#bluetooth)
 - [ImageMagick](#imagemagick)
+- [ansible](#ansible)
+- [vim](#vim)
 
 ## snippets
 
@@ -363,4 +365,47 @@ montage input-1.png input-2.png -tile 1x2 -geometry +0+0 output.png
 
 ```sh
 convert -density 300 input.pdf -resize 25% output.png
+```
+
+### ansible
+
+#### inventory
+
+https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html#build-your-inventory
+
+##### see the inventory as ansible sees it
+
+```sh
+ansible-inventory -i inventory.yml --list
+```
+
+#### vault
+
+https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html#network-vault
+
+vault id, vault identity - ?
+
+##### Encrypt a variable with a prompt for encryption password
+
+```sh
+ansible-vault encrypt_string \
+  --vault-id $USER@prompt 'thepassword' \
+  --name 'variable_name'
+```
+
+##### Encrypt a variable with encryption password stored as text in a file
+
+```sh
+ansible-vault encrypt_string \
+  --vault-id $USER@path_to_the_file 'thepassword' \
+  --name 'variable_name'
+```
+
+### vim
+
+#### format .json
+
+```sh
+  :%!jq .
+  :%!python -m json.tool
 ```
