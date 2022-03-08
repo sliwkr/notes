@@ -5,7 +5,9 @@
 - [Disable password expiration](#Disable-password-expiration)
 - [Change user password](#Change-user-password)
 - [Disable windows defender](#Disable-windows-defender)
-- [Dont't ask for password on start](#Enable-autologin)
+- [Enable autologin](#Enable-autologin)
+- [Enable remote desktop](#Enable-RDP)
+
 
 ## snippets
 
@@ -69,4 +71,12 @@ $regpath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
 Set-ItemProperty $regpath "AutoAdminLogon" -Value "1" -type String
 Set-ItemProperty $regpath "DefaultUsername" -Value "$defaultUsername" -type String
 Set-ItemProperty $regpath "DefaultPassword" -Value "$defaultPassword" -type String
+```
+
+### Enable RDP
+
+```powershell
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
+# TODO: confirm if necesarry
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 ```
