@@ -49,6 +49,15 @@ cat /etc/passwd  # tom should be here now
 |root     :x        :0   :0    :root      :/root    :/bin/bash
 ```
 
+#### disable account (e.g. disable root account)
+
+```sh
+diff
+< root:x:0:0:root:/root:/bin/bash
+---
+> root:x:0:0:root:/root:/sbin/nologin
+```
+
 ### change hostname
 
 ```sh
@@ -60,6 +69,7 @@ sudo echo 'maszyna-zaglady' > /etc/hostname
 
 ```sh
 ip -br a
+hostname -I
 ```
 
 ### reboot
