@@ -167,6 +167,7 @@ grep -E 'pattern1|pattern2' log_file  # search multiple patterns, words
 docker-compose logs | grep -E 'ERROR|INFO'  # output can be piped into
 grep -e pattern1 -e pattern2 log_file  # patterns can be passed separately without quotes
 grep -E 'pattern' -C 3  # print 3 lines around the found pattern, use -A for above and -B for below
+grep -r 'pattern' dir  # search for a pattern through all files in a given directory
 ```
 
 ### tree
@@ -177,26 +178,51 @@ tree -a -I '.git|*~'  # list all files excluding .git folder and files ending wi
 
 ### gpg
 
+#### glossary
+
+key name - refers to the key ID visible on `--list-keys`
+
+#### create a new key
+
+The first step is to have a key to sign files with. It's a good idea to have multiple
+revocation certificates depending on the reason of revocation.  Make sure that the certificate is `chmod 600`.
+
+```sh
+gpg --gen-key  #  pass in your name & email and use the defaults
+gpg --full-gen-key  # more options: RSA length, expiry date, key comment
+```
+
+#### read created and imported keys
+
+```sh
+gpg --list-keys  # list fingerprints of imported keys
+```
+
+#### sign a file
+
 ```sh
 gpg --encrypt --armor -R recpient@email.com the_file  # encrypt a file with anonymous recipient
+```
+
+
+```sh
 gpg --output decrypted_file --decrypt encrypted_file.asc  # read encrypted file, write output to decrypted_file
-gpg --gen-key  # configure new keys, --full-gen-key for more options like RSA length
-# --armor for ASCII output, -r known recipient, -R anonymous recipient
-# --sign known author, --local-user <ID> to choose author
-# good idea to create multiple revocation certificates for various revocation reasons
-# make sure its chmod 600
 gpg --output revocation.crt --gen-revoke mail@domain.com
-gpg --keyserver pgp.mit.edu  --search-keys search_parameters  # search popular keyserver for keys
+gpg --keyserver pgp.mit.edu --search-keys mail@domain.com  # search popular keyserver for keys
 gpg --import name_of_public_key_file  # import public key into local keychain
 gpg --fingerprint mail@domain.com  # brief info about imported key
 gpg --sign-key mail@domain.com  # sign/trust imported key, number of signs can be seen when importing
 gpg --output my.key --armor --export mail@domain.com
-gpg --list-keys  # list fingerprints of imported keys
 gpg --send-keys --keyserver pgp.mit.edu --fingerprint mail@domain.com  # send public key to a keyserver
 gpg --edit-key mail@domain.com  # open menu for editing the key
 gpg --export > public-keys.pgp  # export public keys
 gpg --export-secret-keys > private-keys.pgp  # export private keys
 gpg --import < public-keys.pgp  # import key from file
+--armor  # ASCII output
+-r <recipent> # known recipient
+-R  # anonymous recipient
+--sign  # known author
+--local-user <ID>  # choose author
 ```
 
 ### cups
@@ -276,6 +302,8 @@ https://networkmanager.dev/docs/api/1.32.8/settings-802-3-ethernet.html
 ```sh
 # on host:
 nmcli connection show <name>  # get wired connection properties
+
+# '802-11-wireless.wake-on-wlan' or '802-3-ethernet.wake-on-lan'
 nmcli connection modify <name> 802-11-wireless.wake-on-wlan 64  # or just 'magic'
 # important, shutting down or rebooting will put the card in whatever mode it was before and you'll need to power up the host manually (once)
 service NetworkManager restart
