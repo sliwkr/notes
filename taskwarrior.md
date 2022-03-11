@@ -164,6 +164,8 @@ task '! ( project:Home or project:Garden )' list  # get all that are not project
 ### reports
 
 - each report has a default filter
+- by default, each report is affected by the current context
+- current context can be ignored by report.<name>.context=0
 
 ```sh
 task show  # show configuration values
@@ -237,6 +239,7 @@ context.home=project:Personal
 ```sh
 task @ home  # no tasks from projects other than Personal shown
 task context none  # unset whichever context was set
+task context define newContextName 'project:smProject +TAG_FILTER'  # create new context
 ```
 
 ## UDA - user defined attributes
@@ -288,4 +291,4 @@ task _get 1.description  # return description from task with ID 1
 - taskopen
 
 ## consider contributing
-
+
