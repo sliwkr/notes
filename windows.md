@@ -7,6 +7,7 @@
 - [Disable windows defender](#Disable-windows-defender)
 - [Enable autologin](#Enable-autologin)
 - [Enable remote desktop](#Enable-RDP)
+- [Change hostname](#Change-hostname)
 
 
 ## snippets
@@ -79,4 +80,10 @@ Set-ItemProperty $regpath "DefaultPassword" -Value "$defaultPassword" -type Stri
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
 # TODO: confirm if necesarry
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+```
+
+### Change hostname
+
+```powershell
+Rename-Computer -NewName "Server044" -Restart
 ```
