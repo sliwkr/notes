@@ -405,7 +405,25 @@ montage input-1.png input-2.png -tile 1x2 -geometry +0+0 output.png
 convert -density 300 input.pdf -resize 25% output.png
 ```
 
+
 ### ansible
+
+https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
+
+```ssh
+ansible-doc --type connection --list  # list modules for given category
+ansible-config list
+```
+
+#### run ad-hoc command
+
+`--diff` can be used as sort of a dry-run to see command outcome
+
+```sh
+ansible localhost -m ping
+ansible localhost -m gather_facts
+ansible --diff -m copy -a "src=master.gitconfig dest=~/.gitconfig" localhost
+```
 
 #### inventory
 
@@ -415,6 +433,7 @@ https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.
 
 ```sh
 ansible-inventory -i inventory.yml --list
+ansible-inventory -i inventory.yml --graph  # tree-like
 ```
 
 #### vault
@@ -438,6 +457,31 @@ ansible-vault encrypt_string \
   --vault-id $USER@path_to_the_file 'thepassword' \
   --name 'variable_name'
 ```
+
+#### playbook
+
+```sh
+- hosts: localhost
+  gather_facts: false
+  handlers:
+    - name: restart stuff
+      become: yes
+      service:
+        name: stuff
+        state: restarted
+      listen: "restart stuff"
+  roles:
+    - foo
+    - role: baz
+      variable: bar
+  tasks:
+    - name: do stuff
+      ping:
+      notify: "restart stuff"
+    - fail: msg="Bailing out"
+      when: bar is undefined
+```
+
 
 ### vim
 
