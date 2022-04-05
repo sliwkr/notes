@@ -8,6 +8,7 @@
 - [Enable autologin](#Enable-autologin)
 - [Enable remote desktop](#Enable-RDP)
 - [Change hostname](#Change-hostname)
+- [Find out which AD groups you're in](#AD-groups-lookup)
 
 
 ## snippets
@@ -86,4 +87,9 @@ Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 ```powershell
 Rename-Computer -NewName "Server044" -Restart
+```
+
+### AD groups lookup
+```batch
+gpresult /V
 ```
