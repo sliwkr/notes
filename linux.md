@@ -28,6 +28,7 @@
 - [ImageMagick](#imagemagick)
 - [ansible](#ansible)
 - [vim](#vim)
+- [colorized tree | less output](#colorized-tree-less-output)
 
 ## snippets
 
@@ -491,3 +492,13 @@ ansible-vault encrypt_string \
   :%!jq .
   :%!python -m json.tool
 ```
+
+### colorized tree less output
+
+tree -C - do not reset text colouring when passing output through a pipe
+less -R - interpret color sequences
+
+```sh
+tree -C | less -R
+```
+
