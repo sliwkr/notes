@@ -29,6 +29,7 @@
 - [ansible](#ansible)
 - [vim](#vim)
 - [colorized tree | less output](#colorized-tree-less-output)
+- [associating application with a given extension through xdg mimetypes](#xdg)
 
 ## snippets
 
@@ -502,3 +503,22 @@ less -R - interpret color sequences
 tree -C | less -R
 ```
 
+### xdg
+
+#### Find out which application handles a given filetype
+
+```sh
+# the .desktop files can be found in /usr/share/applications and ~/.local/share/applications
+$ xdg-mime query default application/json
+code.desktop
+```
+
+#### Change default application for a given file extension
+
+```sh
+$ xdg-mime query filetype <a-file-that-has-the-extension-of-interest.json>
+application/json
+
+# associate another .desktop file with the mimetype
+$ xdg-mime default <TAB-to-autocomplete> application/json
+```
