@@ -30,6 +30,10 @@
 - [vim](#vim)
 - [colorized tree | less output](#colorized-tree-less-output)
 - [associating application with a given extension through xdg mimetypes](#xdg)
+- [tar](#tar)
+- [X11](#X11)
+- [rsync](#rsync)
+- [7zip](#7zip)
 
 ## snippets
 
@@ -407,6 +411,11 @@ montage input-1.png input-2.png -tile 1x2 -geometry +0+0 output.png
 convert -density 300 input.pdf -resize 25% output.png
 ```
 
+#### rotate image
+
+```sh
+convert -rotate {90,180,270} input.jpg output.jpg
+```
 
 ### ansible
 
@@ -521,4 +530,47 @@ application/json
 
 # associate another .desktop file with the mimetype
 $ xdg-mime default <TAB-to-autocomplete> application/json
+```
+
+### tar
+
+```sh
+tar -xf file.tar.xz
+tar -xzvf file.tar.gz
+```
+
+### rsync
+
+```sh
+rsync -r local_dir remote_location  # copy local_dir with contents to remote_location
+rsync -r local_dir/ remote_location  # copy contents of local_dir, not the directory itself
+rsync -p original copy  # keep permissions
+rsync -t original copy  # keep timestamps
+rsync local_dir/ remote_location --exclude=secrets  # exclude file
+rsync local_dir/ remote_location --exclude-from=secrets_list  # exclude files from list
+```
+
+#### useful flags & arguments
+
+```sh
+--progress
+--remove-source-files  # remove source after copying to remote
+-n  # --dry-run
+
+-a # --archive mode:
+   # recurse directories
+   # copy symlinks
+   # preserve permissions
+   # preserve timestamps
+   # preserve file group
+   # preserve owner
+   # preserve device files
+```
+
+### 7zip
+
+#### Archive a folder
+
+```sh
+7z a archive.7z ./folder_name
 ```
