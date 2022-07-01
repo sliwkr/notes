@@ -15,6 +15,12 @@ aws ec2 start-instances --instance-ids <id>
 aws ec2 stop-instances --instance-ids <id>
 ```
 
+#### Get instance ip
+
+```sh
+aws ec2 describe-instances --instance-ids <id> --query 'Reservations [*].Instances [*].PublicIpAddress' --output text
+```
+
 #### Check instance status
 
 ```sh
