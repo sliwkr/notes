@@ -494,6 +494,34 @@ ansible-vault encrypt_string \
 ```
 
 
+#### console
+
+```sh
+# execute 'setup' module on localhost with arguments 'filter=ansible_selinux' to filter the output
+ansible -m setup localhost -a 'filter=ansible_selinux'
+```
+
+
+##### using sudo results in SUDO_USER variable
+
+```sh
+$ sudo su
+# ansible -m setup localhost | grep USER
+            "SUDO_USER": "sliwkr",
+            "USER": "root",
+```
+
+##### changing user to root doesn't
+
+```sh
+$ su root
+Password:
+# ansible -m setup localhost | grep USER
+[WARNING]: No inventory was parsed, only implicit localhost is available
+            "USER": "sliwkr",
+```
+
+
 ### vim
 
 #### format .json
