@@ -29,11 +29,17 @@
 - [ansible](#ansible)
 - [vim](#vim)
 - [colorized tree | less output](#colorized-tree-less-output)
+- [colorized jq | less output](#colorized-jq-less-output)
 - [associating application with a given extension through xdg mimetypes](#xdg)
 - [tar](#tar)
 - [X11](#X11)
 - [rsync](#rsync)
 - [7zip](#7zip)
+- [irssi](#irssi)
+- [Linux-wifi](#linux-wifi-management-interfaces)
+- [Device details](#device-details)
+- [Battery](#battery)
+- [rclone, s3fs](#rclone)
 
 ## snippets
 
@@ -247,6 +253,23 @@ http://localhost:631/help/options.html  # info about printing from the console
 https://wiki.archlinux.org/index.php/CUPS/Troubleshooting  # good troubleshooting ref
 sudo usermod -a -G lp $USER && newgrp lp  # add user to lp group and login to it
 ```
+
+#### allow access to cups interface
+
+- open /etc/cups/cupsd.conf
+- change Listen localhost:631 to Port 631
+- scroll down to sections <Location> for /, /admin/ and /admin/conf
+- extend access for these sections like so:
+
+```html
+<Location />
+    Order allow,deny
+    Allow all
+</Location>
+```
+
+- restart cups service
+
 
 ### log
 
@@ -493,6 +516,17 @@ ansible-vault encrypt_string \
       when: bar is undefined
 ```
 
+##### Errors
+
+```sh
+[WARNING]: Platform linux on host host1 is using the discovered Python interpreter at /usr/bin/python3.9, but future installation of another Python interpreter could change the meaning of that path. See https://docs.ansible.com/ansible-
+core/2.12/reference_appendices/interpreter_discovery.html for more information.
+```
+
+Option 1: Set `ANSIBLE_PYTHON_INTERPRETER=auto_silent` (https://docs.ansible.com/ansible/latest/reference_appendices/config.html#interpreter-python)
+Option 2: At ansible.cfg, set `interpreter_python = auto_silent` or to a specific python path
+
+
 
 #### console
 
@@ -524,6 +558,8 @@ Password:
 
 ### vim
 
+newline character: `\r`
+
 #### format .json
 
 ```sh
@@ -538,6 +574,15 @@ less -R - interpret color sequences
 
 ```sh
 tree -C | less -R
+```
+
+### colorized jq less output
+
+jq -C - do not reset text colouring
+less -R - interpret color sequences
+
+```sh
+ip -j a | jq -C .[0] | less -R
 ```
 
 ### xdg
@@ -601,4 +646,74 @@ rsync local_dir/ remote_location --exclude-from=secrets_list  # exclude files fr
 
 ```sh
 7z a archive.7z ./folder_name
+```
+
+### irssi
+
+#### Connect to a new network through soju bouncer
+
+```sh
+/network add -user sliwkr/irc.libera.chat libera
+/server add -auto -tls -network libera chat.sr.ht 6697 <the-oauth-token>
+```
+
+#### Connect to a channel on a given network
+
+```sh
+/join -libera #irssi,#python
+```
+
+### linux wifi management interfaces
+
+- NetworkManager
+- iwd - iNet Wireless Daemon
+   - relies on functionality integrated into the kernel, avoids usage of external libraries
+   - can be used together with NetworkManager
+   - can be a substitute of wpa_supplicant
+   - can be used in standalone mode, without neither NetworkManager nor wpa_supplicant
+- wpa_supplicant
+
+
+### device details
+
+#### hard drive info
+
+```sh
+blkid
+hdparm -I /dev/sdX
+```
+
+#### hard drive - change label
+
+```sh
+e2label /dev/sdX "NEW_LABEL"
+blkid  # to see the label
+```
+
+### battery
+
+#### Check status
+
+```sh
+/sys/class/power_supply/BAT1  # directory with various battery property files
+upower --dump  # output contains other devices than the battery 
+upower --dump | grep 'Device.*BAT' | cut -f 2 -d ' '  # get upower device name from the output
+upower -i <device-name>  # output about a particular device
+```
+
+### rclone
+
+#### list buckets available on a remote
+
+```sh
+rclone lsd remotename:
+```
+
+#### mount a s3-compatible bucket as a filesystem in userspace
+
+```sh
+# find s3ApiUrl
+curl https://api.backblazeb2.com/b2api/v2/b2_authorize_account -u "<keyID>:<applicationKey>"
+# mount s3 as a filesystem
+s3fs 'bucket-name' 'mount/point' -o passwd_file=$HOME/.passwd-s3fs -o url="<s3ApiUrl>" -o use_path_request_style
 ```
