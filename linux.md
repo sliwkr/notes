@@ -254,6 +254,14 @@ https://wiki.archlinux.org/index.php/CUPS/Troubleshooting  # good troubleshootin
 sudo usermod -a -G lp $USER && newgrp lp  # add user to lp group and login to it
 ```
 
+#### command-line printing
+
+```sh
+lpstat -t  # get device name of the printer, e.g. HP_LaserJet_1020
+sudo lpadmin -d HP_LaserJet_1020  # set a given printer as default
+lp somefile.pdf  # print the file
+```
+
 #### allow access to cups interface
 
 - open /etc/cups/cupsd.conf
