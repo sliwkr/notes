@@ -318,6 +318,8 @@ e2label /dev/sdXY device-label
 ```sh
 apt install --only-upgrade <packagename>  # upgrade single package
 apt-get clean  # clear /var/cache/apt/archives folder
+apt-cache depends <packagename>  # list dependencies
+apt-cache rdepends <packagname>  # list reverse dependencies
 ```
 
 ### wake-on-lan
