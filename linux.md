@@ -727,3 +727,9 @@ curl https://api.backblazeb2.com/b2api/v2/b2_authorize_account -u "<keyID>:<appl
 # mount s3 as a filesystem
 s3fs 'bucket-name' 'mount/point' -o passwd_file=$HOME/.passwd-s3fs -o url="<s3ApiUrl>" -o use_path_request_style
 ```
+
+#### copy files from local directory to the bucket, show progress
+
+```sh
+rclone copy Pictures backblaze:pudelko/Pictures -P --dry-run
+```
