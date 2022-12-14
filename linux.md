@@ -40,6 +40,7 @@
 - [Device details](#device-details)
 - [Battery](#battery)
 - [rclone, s3fs](#rclone)
+- [alpine - build broadcom wifi driver](alpine-build-broadcom-wifi-driver)
 
 ## snippets
 
@@ -733,3 +734,12 @@ s3fs 'bucket-name' 'mount/point' -o passwd_file=$HOME/.passwd-s3fs -o url="<s3Ap
 ```sh
 rclone copy Pictures backblaze:pudelko/Pictures -P --dry-run
 ```
+
+### alpine - build broadcom wifi driver
+
+```sh
+doas apk add alpine-sdk git
+doas addgroup $(whoami) abuild
+git clone git://git.alpinelinux.org/aports
+```
+
