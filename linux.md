@@ -41,6 +41,7 @@
 - [Battery](#battery)
 - [rclone, s3fs](#rclone)
 - [alpine - build broadcom wifi driver](alpine-build-broadcom-wifi-driver)
+- [monitoring](#monitoring)
 
 ## snippets
 
@@ -743,3 +744,34 @@ doas addgroup $(whoami) abuild
 git clone git://git.alpinelinux.org/aports
 ```
 
+### monitoring
+
+#### cpu
+
+```sh
+uptime | mailx -s "cpu" root
+```
+
+#### memory
+
+```sh
+free | mailx -s "mem" root
+```
+
+#### disk
+
+```sh
+(df -h; du -sh /home/*) | mailx -s "disk" root
+```
+
+#### process aliveness
+
+```sh
+ps -ef | grep theprocess | mailx -s "theprocess" root
+```
+
+#### system aliveness
+
+```sh
+ping -c 4 wp.pl | mailx -s "aliveness" root
+```
