@@ -166,6 +166,7 @@ find -iname '*.txt' -or -iname '*.png'  # txt or png files
 find -iname 'sebastian' -and -type d  # directories named 'sebastian'
 find -iname '*.js' -delete  # delete all files that end with .js
 find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
+find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print a list of sizes in bytes and filenames
 ```
 
 ### curl
