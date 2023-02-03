@@ -42,6 +42,7 @@
 - [rclone, s3fs](#rclone)
 - [alpine - build broadcom wifi driver](alpine-build-broadcom-wifi-driver)
 - [monitoring](#monitoring)
+- [wget](#wget)
 
 ## snippets
 
@@ -774,4 +775,13 @@ ps -ef | grep theprocess | mailx -s "theprocess" root
 
 ```sh
 ping -c 4 wp.pl | mailx -s "aliveness" root
+```
+
+### wget
+
+#### Download a file
+
+```sh
+wget https://website.com/file.txt
+wget -O filename.txt https://website.com/file.txt
 ```
