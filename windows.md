@@ -9,6 +9,7 @@
 - [Enable remote desktop](#Enable-RDP)
 - [Change hostname](#Change-hostname)
 - [Find out which AD groups you're in](#AD-groups-lookup)
+- [Download a file with CLI](#Download-file-through-CLI)
 
 
 ## snippets
@@ -92,4 +93,12 @@ Rename-Computer -NewName "Server044" -Restart
 ### AD groups lookup
 ```batch
 gpresult /V
+whoami /groups
+```
+
+### Download file through CLI
+
+```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Invoke-WebRequest -Uri "https://download.website.com/file.exe" -OutFile "C:\Users\user\Desktop\file.exe"
 ```
