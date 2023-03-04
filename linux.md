@@ -43,6 +43,7 @@
 - [alpine - build broadcom wifi driver](alpine-build-broadcom-wifi-driver)
 - [monitoring](#monitoring)
 - [wget](#wget)
+- [mpv](#mpv)
 
 ## snippets
 
@@ -785,4 +786,12 @@ ping -c 4 wp.pl | mailx -s "aliveness" root
 ```sh
 wget https://website.com/file.txt
 wget -O filename.txt https://website.com/file.txt
+```
+
+### mpv
+
+#### Run with subtitles
+
+```sh
+mpv video.mkv --sub-file=video-subtitles.txt
 ```
