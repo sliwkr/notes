@@ -13,6 +13,7 @@ task add Do this thing
 ```sh
 task  # same as 'task next'
 task all  # show all tasks, including deleted, done
+task all project:Dom  # list all tasks belonging to a given project
 task completed  # list done tasks
 task 1 export  # get ID 1 task as a json
 ```
@@ -30,9 +31,9 @@ task 1 delete  # remove task from 'task next', by changing its status
 
 ## Basic anatomy of a task
 
-- Description
-- Status
-- Tags
+### Description
+### Status
+### Tags
     - Arbitrary words associated with a task
     - Use + to add a tag and - to remove a tag:
        - task add +home +work Water the flowers
@@ -59,12 +60,12 @@ task 1 delete  # remove task from 'task next', by changing its status
     - due:ISO timestamp
     - due:{tomorrow,friday,yesterday,today,now}
     - due:{3wks,1day, 23rd, 9hrs}
-    - due:{sow,eow}  # start of the week, end of the week
-    - due:soww  # start of the work week
+    - due:{sow,eow}  # start of the next week, end of the week
+    - due:soww  # start of the next work week
     - due:socw  # start of the current week
-    - due:som  # start of the month
-    - due:som  # start of the quarter
-    - due:soy  # start of the year
+    - due:som  # start of the next month
+    - due:soq  # start of the next quarter
+    - due:soy  # start of the next year
     - due:goodfriday
     - due:easter
     - due:today+18h  # tomorrow in the middle of the day
@@ -182,11 +183,14 @@ task show report.list.filter
 
 ## recurrence, repeating
 
+See [Tags] for adjusting recurrence times
+
 - create recurrence template from which further tasks will be generated
 ```sh
 task add Take out the trash due:friday recur:weekly  # creates a template and, if parameters allow for that, a task
 ## Created task 7 (recurrence template)
 task 7 8 mod wait:eoww  # modify recurrence template and the current task to wait til end of the work week
+task add Kalistenika project:dzik due:tomorrow recur:2d  # create a task that has a due date and occurs every second day
 ```
 
 ## timetracking
@@ -224,6 +228,17 @@ task +LATEST  # useful virtual tag
 
 ```sh
 task sync
+```
+
+## scheduling & waiting, due date, until date
+
+- When a task is `scheduled`, it appears on `task` and `task ready` lists. The date marks the earliest opportunity to work on it,
+- When a task is `wait`ing, it is hidden on the above lists until the date comes. Can still be viewed by `task waiting`
+- When a task has a `due` date, it's self-explanatory,
+- When it has an `until` date, it is removed from the list after the date should i not complete it
+
+```sh
+task add Zakupy wait:tomorrow due:tomorrow+1d  # add a task which will appear on the list and will have to be done tomorrow
 ```
 
 ## context
