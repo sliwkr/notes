@@ -4,6 +4,7 @@
 ## table of contents
 
 - [subprocess - capture output](#subprocess---capture-output)
+- [cProfile - profile a process](#cProfile)
 
 ## snippets
 
@@ -11,4 +12,11 @@
 
 ```python3
 subprocess.run(["ls -l"], shell=True, capture_output=True, text=True)
+```
+
+### cProfile
+
+```sh
+pip install cprofilev  # cProfile wrapper, allows to view output in the browser
+cprofilev ~/.local/bin/pytest <pytest-args> tests/some_test.py::TestClass::test_method
 ```
