@@ -44,6 +44,7 @@
 - [monitoring](#monitoring)
 - [wget](#wget)
 - [mpv](#mpv)
+- [git](#git)
 
 ## snippets
 
@@ -794,4 +795,12 @@ wget -O filename.txt https://website.com/file.txt
 
 ```sh
 mpv video.mkv --sub-file=video-subtitles.txt
+```
+
+### git
+
+#### Compare feature branch $HEAD with a common ancestor of the master and feature branch
+
+```sh
+git diff master...feature
 ```
