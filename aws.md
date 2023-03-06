@@ -3,6 +3,7 @@
 ## table of contents
 
 - [EC2](#ec2)
+- [IAM](#iam)
 
 ## snippets
 
@@ -49,5 +50,13 @@ docker tag sm_image:TAG <ecr-repository-name>/sm_image:TAG
 
 ```sh
 docker push <ecr-repository-name>/sm_image:TAG
+```
+
+### IAM
+
+#### Set maximum role duration
+
+```sh
+aws iam update-role --role-name therolename --max-session-duration 28800
 ```
 
