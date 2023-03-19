@@ -45,6 +45,7 @@
 - [wget](#wget)
 - [mpv](#mpv)
 - [git](#git)
+- [icloudpd](#icloudpd)
 
 ## snippets
 
@@ -805,4 +806,12 @@ mpv video.mkv --sub-file=video-subtitles.txt
 
 ```sh
 git diff master...feature
+```
+
+### icloudpd
+
+#### Sync all photos and videos from iCloud to a directory
+
+```sh
+icloudpd -u my.email@mail.com -d target_dir
 ```
