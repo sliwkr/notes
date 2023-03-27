@@ -46,6 +46,7 @@
 - [mpv](#mpv)
 - [git](#git)
 - [icloudpd](#icloudpd)
+- [full system info](#inxi)
 
 ## snippets
 
@@ -814,4 +815,12 @@ git diff master...feature
 
 ```sh
 icloudpd -u my.email@mail.com -d target_dir
+```
+
+### inxi
+
+#### Get full system information
+
+```sh
+inxi -Fxxxzrc0
 ```
