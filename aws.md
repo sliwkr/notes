@@ -29,6 +29,12 @@ aws ec2 describe-instance-status --instance-ids <id> <id> \
   | jq '.InstanceStatuses[] | .InstanceId, .InstanceState.Name'
 ```
 
+#### List running instances and their IP's
+
+```sh
+aws ec2 describe-instances --filters "Name=instance-state-name,Values=running" | jq '.Reservations[].Instances[] | .InstanceId, .PrivateIpAddress'
+```
+
 #### Get ec2 details by Name tag
 
 ```sh
