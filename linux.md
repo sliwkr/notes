@@ -324,6 +324,7 @@ fdisk /dev/sdX
   w - save changes
 
 mkfs.exfat -n Devicelabel /dev/sdXY
+mkfs.vfat /dev/sdXY
 mkfs.ext4 /dev/sdXY
 
 e2label /dev/sdXY device-label
@@ -585,6 +586,11 @@ newline character: `\r`
   :%!python -m json.tool
 ```
 
+#### run vimscript for a given file
+
+```sh
+vim -s script.vim file.txt
+```
 ### colorized tree less output
 
 tree -C - do not reset text colouring when passing output through a pipe
