@@ -63,7 +63,8 @@ task 1 delete  # remove task from 'task next', by changing its status
     - due:{sow,eow}  # start of the next week, end of the week
     - due:soww  # start of the next work week
     - due:socw  # start of the current week
-    - due:som  # start of the next month
+    - due:som  # start of the current month
+    - due:eom  # end of the current month
     - due:soq  # start of the next quarter
     - due:soy  # start of the next year
     - due:goodfriday
