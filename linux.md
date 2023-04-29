@@ -26,6 +26,7 @@
 - [NetworkManager](#networkmanager)
 - [bluetooth](#bluetooth)
 - [ImageMagick](#imagemagick)
+- [Working with pdf's](#pdf)
 - [ansible](#ansible)
 - [vim](#vim)
 - [colorized tree | less output](#colorized-tree-less-output)
@@ -458,6 +459,42 @@ convert -density 300 input.pdf -resize 25% output.png
 ```sh
 convert -rotate {90,180,270} input.jpg output.jpg
 ```
+
+### pdf
+
+#### rotate
+
+* GUI `pdfarrange`, CTRL+arrow key for rotating the page
+
+#### crop
+
+* GUI `krop`, painful
+
+#### compress/optimize/reduce size
+
+https://www.digitalocean.com/community/tutorials/reduce-pdf-file-size-in-linux
+
+```sh
+ghostscript -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+```
+
+#### merge
+
+https://pikepdf.readthedocs.io/en/latest/topics/pages.html
+
+```python
+from pikepdf import Pdf
+from glob import glob
+
+pdf = Pdf.new()
+
+for file in glob('*.pdf'):
+    src = Pdf.open(file)
+    pdf.pages.extend(src.pages)
+
+pdf.save('output.pdf')
+```
+
 
 ### ansible
 
