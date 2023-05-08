@@ -4,6 +4,8 @@
 
 - [EC2](#ec2)
 - [IAM](#iam)
+- [CloudFormation](#CloudFormation)
+- [S3 Bucket](#s3)
 
 ## snippets
 
@@ -66,3 +68,24 @@ docker push <ecr-repository-name>/sm_image:TAG
 aws iam update-role --role-name therolename --max-session-duration 28800
 ```
 
+
+### CloudFormation
+
+#### Check stack deployment status
+
+```sh
+aws cloudformation describe-stacks --stack-name the-stack-name | jq .Stacks[].StackStatus
+aws --region us-east-1 cloudformation describe-stacks --stack-name the-stack-name | jq .Stacks[].StackStatus
+```
+
+
+### S3
+
+#### Get / download object from a bucket
+
+```sh
+aws s3api get-object \
+    --bucket bucket-name \
+    --key folder-or-prefix/object.gz \
+    output.gz
+```
