@@ -182,6 +182,13 @@ find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print 
 -X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
 ```
 
+#### get request headers
+
+```sh
+curl -v -s hostname.com  # request & response headers
+curl -i hostname.com  # response headers only
+```
+
 ### grep
 
 ```sh
