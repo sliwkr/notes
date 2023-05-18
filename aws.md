@@ -6,6 +6,7 @@
 - [IAM](#iam)
 - [CloudFormation](#CloudFormation)
 - [S3 Bucket](#s3)
+- [Parameter Store](#ssm)
 
 ## snippets
 
@@ -78,6 +79,12 @@ aws cloudformation describe-stacks --stack-name the-stack-name | jq .Stacks[].St
 aws --region us-east-1 cloudformation describe-stacks --stack-name the-stack-name | jq .Stacks[].StackStatus
 ```
 
+#### Deploy stack
+
+```sh
+aws --region eu-west-1 cloudformation deploy --template-file template.yaml --stack-name ew1-stack-name
+```
+
 
 ### S3
 
@@ -88,4 +95,44 @@ aws s3api get-object \
     --bucket bucket-name \
     --key folder-or-prefix/object.gz \
     output.gz
+```
+
+### SSM
+
+#### Get parameter properties
+
+```sh
+$ aws ssm describe-parameters --parameter-filters "Key=Name,Values=PARAM_NAME"
+{
+    "Parameters": [
+        {
+            "Name": "PARAM_NAME",
+            "Type": "String",
+            "LastModifiedDate": 1684329692.873,
+            "LastModifiedUser": "arn:aws:sts::ffffffffffff:assumed-role/fffffffffffffffff/ffffff",
+            "Version": 1,
+            "Tier": "Standard",
+            "Policies": [],
+            "DataType": "text"
+        }
+    ]
+}
+```
+
+```sh
+$ aws ssm get-parameters --names "PARAM_NAME"
+{
+    "Parameters": [
+        {
+            "Name": "PARAM_NAME",
+            "Type": "String",
+            "Value": "theparamvalue",
+            "Version": 1,
+            "LastModifiedDate": 1684329692.873,
+            "ARN": "arn:aws:ssm:eu-west-1:ffffffffffff:parameter/PARAM_NAME",
+            "DataType": "text"
+        }
+    ],
+    "InvalidParameters": []
+}
 ```
