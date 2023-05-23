@@ -20,6 +20,7 @@ timew summary Programming sow - now
 timew summary :ids  # show ID column
 timew summary 2022-08-16  # show entries from a given date
 timew summary som - now  # summary for the current month
+timew summary :week :ids  # show entries for the current week with @ID
 timew delete @ID  # delete an entry
 ```
 
