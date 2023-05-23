@@ -240,6 +240,7 @@ task sync
 
 ```sh
 task add Zakupy wait:tomorrow due:tomorrow+1d  # add a task which will appear on the list and will have to be done tomorrow
+task project:X +READY mod wait:+30d  # select project X, delay all current tasks by 30d
 ```
 
 ## context
@@ -291,7 +292,12 @@ task _get 1.description  # return description from task with ID 1
 
 ## specifying dependencies
 
-- is kind of untintuitive, weren't explained but is possible to do
+```sh
+task 49 mod deps:48  # modify 49 as being blocked by 48
+task +BLOCKING  # show all blocking tasks
+task +BLOCKED  # show all blocked tasks
+task +BLOCKING -BLOCKED  # show blocking tasks which are not blocked by others
+```
 
 ## taskwiki
 
