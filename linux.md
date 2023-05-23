@@ -49,6 +49,7 @@
 - [git](#git)
 - [icloudpd](#icloudpd)
 - [full system info](#inxi)
+- [tmux](#tmux)
 
 ## snippets
 
@@ -883,4 +884,15 @@ icloudpd -u my.email@mail.com -d target_dir
 
 ```sh
 inxi -Fxxxzrc0
+```
+
+### tmux
+
+#### Sessions
+
+```sh
+tmux new-session -s ansible  # create a new session called 'ansible' (C-, to rename)
+C-), C-(  # switch between sessions
+C-d  # detach
+tmux ls  # list active sessions
 ```
