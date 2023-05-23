@@ -681,6 +681,8 @@ tar -xf file.tar.xz  # extract .tar.xz
 tar -xzvf file.tar.gz  # extract .tar.gz
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file  # -c = create archive, -z = compress with gz, -v = show progress, -f = specify filename
 find . -maxdepth 1 -iname "*.html" | xargs tar -czvf tw.tar.gz  # find all html files in $PWD without recursing & tar 'em
+tar -tvf name-of-archive.tar.gz  # list archive contents
+tar -tf name-of-archive.tar.gz --wildcards '*Filename*' # search for file in archive
 ```
 
 ### gzip
@@ -723,6 +725,7 @@ rsync local_dir/ remote_location --exclude-from=secrets_list  # exclude files fr
 
 ```sh
 7z a archive.7z ./folder_name
+7a a -p file.7z file.txt
 ```
 
 ### irssi
