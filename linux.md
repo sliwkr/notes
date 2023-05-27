@@ -50,6 +50,7 @@
 - [icloudpd](#icloudpd)
 - [full system info](#inxi)
 - [tmux](#tmux)
+- [reset terminal settings](#reset-terminal-settings)
 
 ## snippets
 
@@ -895,4 +896,12 @@ tmux new-session -s ansible  # create a new session called 'ansible' (C-, to ren
 C-), C-(  # switch between sessions
 C-d  # detach
 tmux ls  # list active sessions
+```
+
+### reset terminal settings
+
+```sh
+printf "\033c"  # <ESC>c
+# \033 == \x1B == 27 == ESC
+# https://web.archive.org/web/20191222201924/http://www.termsys.demon.co.uk/vtansi.htm
 ```
