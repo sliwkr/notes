@@ -199,6 +199,7 @@ docker-compose logs | grep -E 'ERROR|INFO'  # output can be piped into
 grep -e pattern1 -e pattern2 log_file  # patterns can be passed separately without quotes
 grep -E 'pattern' -C 3  # print 3 lines around the found pattern, use -A for above and -B for below
 grep -r 'pattern' dir  # search for a pattern through all files in a given directory
+ls -a | xargs grep 'pattern' {} \; 2>/dev/null  # limit the search to the current dir
 ```
 
 ### tree
@@ -681,6 +682,7 @@ $ xdg-mime default <TAB-to-autocomplete> application/json
 ```sh
 tar -xf file.tar.xz  # extract .tar.xz
 tar -xzvf file.tar.gz  # extract .tar.gz
+tar -xjvf file.tar.bz  # extract .tar.bz
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file  # -c = create archive, -z = compress with gz, -v = show progress, -f = specify filename
 find . -maxdepth 1 -iname "*.html" | xargs tar -czvf tw.tar.gz  # find all html files in $PWD without recursing & tar 'em
 tar -tvf name-of-archive.tar.gz  # list archive contents
