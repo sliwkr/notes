@@ -88,6 +88,12 @@ aws --region eu-west-1 cloudformation deploy --template-file template.yaml --sta
 
 ### S3
 
+#### List contents
+
+```sh
+aws s3 ls bucket-name/folder-name/
+```
+
 #### Get / download object from a bucket
 
 ```sh
@@ -95,6 +101,12 @@ aws s3api get-object \
     --bucket bucket-name \
     --key folder-or-prefix/object.gz \
     output.gz
+```
+
+#### Delete object from a bucket
+
+```sh
+aws s3 rm s3://bucket-name/object
 ```
 
 ### SSM
