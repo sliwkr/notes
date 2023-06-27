@@ -873,6 +873,17 @@ mpv video.mkv --sub-file=video-subtitles.txt
 git diff master...feature
 ```
 
+#### Sparse checkout
+
+```sh
+git clone --no-checkout https://therepo.git
+cd therepo
+git sparse-checkout init --cone
+git sparse-checkout set onedir/ofinterest another/dir
+git checkout master
+
+```
+
 ### icloudpd
 
 #### Sync all photos and videos from iCloud to a directory
