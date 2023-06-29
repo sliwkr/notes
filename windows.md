@@ -10,6 +10,7 @@
 - [Change hostname](#Change-hostname)
 - [Find out which AD groups you're in](#AD-groups-lookup)
 - [Download a file with CLI](#Download-file-through-CLI)
+- [Test network connection](#Test-network-connection)
 
 
 ## snippets
@@ -101,4 +102,10 @@ whoami /groups
 ```powershell
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest -Uri "https://download.website.com/file.exe" -OutFile "C:\Users\user\Desktop\file.exe"
+```
+
+### Test network connection
+
+```powershell
+Test-NetConnection -ComputerName 192.168.92.128 -Port 8080
 ```
