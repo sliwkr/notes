@@ -51,6 +51,7 @@
 - [full system info](#inxi)
 - [tmux](#tmux)
 - [reset terminal settings](#reset-terminal-settings)
+- [bash](#bash)
 
 ## snippets
 
@@ -917,4 +918,14 @@ tmux ls  # list active sessions
 printf "\033c"  # <ESC>c
 # \033 == \x1B == 27 == ESC
 # https://web.archive.org/web/20191222201924/http://www.termsys.demon.co.uk/vtansi.htm
+```
+
+### bash
+
+#### Useful flags
+
+```bash
+set -e  # exit immediately on error
+set -x  # be verbose (also set -v)
+set -u  # throw error on undefined variable instead of assuming it's empty
 ```
