@@ -7,6 +7,7 @@
 - [CloudFormation](#CloudFormation)
 - [S3 Bucket](#s3)
 - [Parameter Store](#ssm)
+- [Route53](#Route53)
 
 ## snippets
 
@@ -147,4 +148,16 @@ $ aws ssm get-parameters --names "PARAM_NAME"
     ],
     "InvalidParameters": []
 }
+```
+
+### Route53
+
+#### Get records of a given hosted zone
+
+```sh
+# list existing hosted zone names and Id's
+aws route53 list-hosted-zones --query 'HostedZones[].[Name, Id]'
+
+# get interesting values of the records
+aws route53 list-resource-record-sets --hosted-zone-id "/hostedzone/hostedzoneId" --query 'ResourceRecordSets[] .[Type,Name,TTL, ResourceRecords[].Value]'
 ```
