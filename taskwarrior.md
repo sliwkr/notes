@@ -17,6 +17,13 @@ task all project:Dom  # list all tasks belonging to a given project
 task completed  # list done tasks
 task 1 export  # get ID 1 task as a json
 ```
+
+- completed within a given time range
+
+```sh
+task end.after:2023-06-01 end.before:2023-07-01 completed
+```
+
 ## Completing tasks
 
 ```sh
