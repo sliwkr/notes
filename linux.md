@@ -910,6 +910,7 @@ tmux new-session -s ansible  # create a new session called 'ansible' (C-, to ren
 C-), C-(  # switch between sessions
 C-d  # detach
 tmux ls  # list active sessions
+:attach -c ~  # change default new window directory to ~
 ```
 
 ### reset terminal settings
