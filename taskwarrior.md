@@ -16,6 +16,7 @@ task all  # show all tasks, including deleted, done
 task all project:Dom  # list all tasks belonging to a given project
 task completed  # list done tasks
 task 1 export  # get ID 1 task as a json
+task end.after:today completed  # list tasks completed since yesterday
 ```
 
 - completed within a given time range
