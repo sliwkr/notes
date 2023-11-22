@@ -30,7 +30,6 @@
 - [ansible](#ansible)
 - [vim](#vim)
 - [colorized tree | less output](#colorized-tree-less-output)
-- [colorized jq | less output](#colorized-jq-less-output)
 - [associating application with a given extension through xdg mimetypes](#xdg)
 - [tar](#tar)
 - [gzip](#gzip)
@@ -52,6 +51,7 @@
 - [tmux](#tmux)
 - [reset terminal settings](#reset-terminal-settings)
 - [bash](#bash)
+- [jq](#jq)
 
 ## snippets
 
@@ -649,15 +649,6 @@ less -R - interpret color sequences
 tree -C | less -R
 ```
 
-### colorized jq less output
-
-jq -C - do not reset text colouring
-less -R - interpret color sequences
-
-```sh
-ip -j a | jq -C .[0] | less -R
-```
-
 ### xdg
 
 #### Find out which application handles a given filetype
@@ -930,3 +921,24 @@ set -e  # exit immediately on error
 set -x  # be verbose (also set -v)
 set -u  # throw error on undefined variable instead of assuming it's empty
 ```
+
+### jq
+
+https://zwischenzugs.com/2023/06/27/learn-jq-the-hard-way-part-i-json/
+
+#### Get more than 1 field from a list of dictionaries
+
+```sh
+jq '.ResourceRecordSets[]
+  | [.Name, .Type]' sample.json
+```
+
+#### colorized jq | less output
+
+jq -C - do not reset text colouring
+less -R - interpret color sequences
+
+```sh
+ip -j a | jq -C .[0] | less -R
+```
+
