@@ -447,11 +447,16 @@ nmcli c show <SSID> --show-secrets \
 
 policy.xml location: `identify -list configure | grep CONFIGURE_PATH` (usually /etc/ImageMagick-6)
 
+#### see metadata (geometry, resolution, date taken if present, geolocation if present, etc.)
+
+```sh
+identify -verbose output.png
+```
+
 #### strip metadata
 
 ```sh
 convert -strip input.png output.png
-identify -verbose output.png  # to see what's been removed
 ```
 
 #### join multiple images horizontally
@@ -472,6 +477,14 @@ convert -density 300 input.pdf -resize 25% output.png
 convert -rotate {90,180,270} input.jpg output.jpg
 ```
 
+#### resize - make smaller
+
+```sh
+convert input.jpg -resize 640x480 output.jpg  # resize to a certain size
+convert input.jpg -resize 640 output.jpg  # resize and preserve the aspect ratio
+convert input.jpg -resize 50% output.jpg  # make smaller by 50%
+convert input.jpg -resize 640x480\< output.jpg  # make large images smaller, leave smaller untouched
+```
 ### pdf
 
 #### rotate
@@ -640,6 +653,13 @@ newline character: `\r`
 ```sh
 vim -s script.vim file.txt
 ```
+
+#### open man page for highlighted text
+
+* Highlight the phrase
+* Press Shift+K
+
+
 ### colorized tree less output
 
 tree -C - do not reset text colouring when passing output through a pipe
@@ -876,6 +896,19 @@ git checkout master
 
 ```
 
+#### List branches containing / not containing a specific commit id
+
+```sh
+git branch --contains <commit>
+git branch --no-contains <commit>
+```
+
+#### See commit history for a given file
+
+```sh
+git log --follow -- path/to/file
+```
+
 ### icloudpd
 
 #### Sync all photos and videos from iCloud to a directory
@@ -926,7 +959,7 @@ set -u  # throw error on undefined variable instead of assuming it's empty
 
 https://zwischenzugs.com/2023/06/27/learn-jq-the-hard-way-part-i-json/
 
-#### Get more than 1 field from a list of dictionaries
+#### Get multiple keys from a list of dictionaries
 
 ```sh
 jq '.ResourceRecordSets[]
@@ -941,4 +974,3 @@ less -R - interpret color sequences
 ```sh
 ip -j a | jq -C .[0] | less -R
 ```
-
