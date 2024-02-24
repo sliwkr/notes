@@ -453,6 +453,13 @@ policy.xml location: `identify -list configure | grep CONFIGURE_PATH` (usually /
 identify -verbose output.png
 ```
 
+#### take a screenshot of a window
+
+```sh
+xwininfo  # determine window id on X11
+import -window <window id> "screenshot.png"
+```
+
 #### strip metadata
 
 ```sh
@@ -469,6 +476,12 @@ montage input-1.png input-2.png -tile 1x2 -geometry +0+0 output.png
 
 ```sh
 convert -density 300 input.pdf -resize 25% output.png
+```
+
+#### convert png to jpg
+
+```sh
+convert picture.png picture.jpg
 ```
 
 #### rotate image
@@ -513,7 +526,7 @@ from glob import glob
 
 pdf = Pdf.new()
 
-for file in glob('*.pdf'):
+for file in sorted(glob('*.pdf')):
     src = Pdf.open(file)
     pdf.pages.extend(src.pages)
 
