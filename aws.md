@@ -58,7 +58,11 @@ docker tag sm_image:TAG <ecr-repository-name>/sm_image:TAG
 
 #### Push image to ECR
 
+Note: docker-credential-ecr-login can be configured as well - then, it's sufficient to login using an aws profile
+
 ```sh
+aws ecr get-login --no-include-email --profile <aws-profile> # aws cliv1
+aws ecr get-login-password --region region | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.region.amazonaws.com # aws cliv2
 docker push <ecr-repository-name>/sm_image:TAG
 ```
 
