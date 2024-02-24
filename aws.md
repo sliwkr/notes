@@ -88,6 +88,12 @@ aws --region us-east-1 cloudformation describe-stacks --stack-name the-stack-nam
 
 ```sh
 aws --region eu-west-1 cloudformation deploy --template-file template.yaml --stack-name ew1-stack-name
+aws cloudformation create-stack \
+    --stack-name <stack-name> \
+    --template-body file://cfn.yaml \
+    --parameters ParameterKey=<foo-name>,ParameterValue=<foo-value> ParameterKey=<bar-name>,ParameterValue=<bar-value> \
+    --profile <aws-cli-profile> \
+    --capabilities CAPABILITY_IAM
 ```
 
 
