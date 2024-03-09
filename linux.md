@@ -987,3 +987,11 @@ less -R - interpret color sequences
 ```sh
 ip -j a | jq -C .[0] | less -R
 ```
+
+### sort
+
+#### get tab-separated text sorted by given field
+
+```sh
+cat file.txt | sort --key=3  # also see KEYDEF in man for additional sorting options
+```
