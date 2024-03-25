@@ -57,6 +57,8 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [reset terminal settings](#reset-terminal-settings)
 - [bash](#bash)
 - [jq](#jq)
+- [expect](#expect)
+- [systemd](#systemd)
 
 ## snippets
 
@@ -338,12 +340,15 @@ fdisk /dev/sdX
   i - info about partitions
   n - new partition
   t - change partition type
-    HPFS/NTFS/exFAT - exFAT, FAT32
+    7 - HPFS/NTFS/exFAT - exFAT, FAT32, NTFS
+
   w - save changes
 
 mkfs.exfat -n Devicelabel /dev/sdXY
 mkfs.vfat /dev/sdXY
 mkfs.ext4 /dev/sdXY
+mkfs.ntfs /dev/sdXY
+mkfs.ntfs -f /dev/sdXY # skip writing 0's at the start
 
 e2label /dev/sdXY device-label
 ```
@@ -700,7 +705,7 @@ code.desktop
 #### Change default application for a given file extension
 
 ```sh
-$ xdg-mime query filetype <a-file-that-has-the-extension-of-interest.json>
+$ xdg-mime query filetype file.json  # determine filetype (mimetype)
 application/json
 
 # associate another .desktop file with the mimetype
@@ -970,6 +975,7 @@ printf "\033c"  # <ESC>c
 ```bash
 set -e  # exit immediately on error
 set -x  # be verbose (also set -v)
+set +x  # stop being verbose
 set -u  # throw error on undefined variable instead of assuming it's empty
 ```
 
@@ -999,4 +1005,61 @@ ip -j a | jq -C .[0] | less -R
 
 ```sh
 cat file.txt | sort --key=3  # also see KEYDEF in man for additional sorting options
+```
+
+### expect
+
+`send "\r"` - Enter
+`expect "text"` - wait for "text" being visible on the terminal screen
+
+#### Automate an action executed in a TUI over ssh session
+
+```tcl
+#!/usr/bin/expect -f
+
+log_user 0
+spawn ssh myremotehost
+expect "myusername"
+send "botany \r"
+expect "options"
+send "\r"
+send "q\r"
+expect "myusername"
+send "exit\r"
+```
+
+### systemd
+
+#### Oneshot service
+
+```sh
+# $HOME/.config/systemd/user/foo.service
+
+[Unit]
+Description=Unit to Fooify the Bazoor
+Wants=foo.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/username/scripts/script.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+
+#### Timer
+
+```sh
+# $HOME/.config/systemd/user/foo.timer
+
+[Unit]
+Description=Timer which starts foo.service unit every 24h
+Requires=foo.service
+
+[Timer]
+Unit=foo.service
+OnUnitInactiveSec=86400
+
+[Install]
+WantedBy=timers.target
 ```
