@@ -1,5 +1,10 @@
 # Linux snippet cookbook
 
+## Heads up
+
+Hello there, thanks for stopping by.
+You may get a better mileage by using https://www.mankier.com/ or https://tldr.sh/
+
 ## table of contents
 
 - [New user](#New-user)
