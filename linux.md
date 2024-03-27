@@ -59,6 +59,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [jq](#jq)
 - [expect](#expect)
 - [systemd](#systemd)
+- [clipboard](#clipboard)
 
 ## snippets
 
@@ -697,6 +698,19 @@ vim -s script.vim file.txt
 * Highlight the phrase
 * Press Shift+K
 
+#### start with no config
+
+```sh
+vim --clean
+HOME=$(mktemp -d) vim -u NONE  # prior to 8.0.1554
+```
+
+#### clipboard / registers
+
+Note: On [X11](#X11), a clipboard usually refers to *CLIPBOARD selection*
+
+* `"+y` in visual mode, copy selection to clipboard register
+* `"+p` paste from clipboard register
 
 ### colorized tree less output
 
@@ -743,6 +757,20 @@ tar -tf name-of-archive.tar.gz --wildcards '*Filename*' # search for file in arc
 
 ```sh
 gzip -d file.gz  # unzip file.gz into the file which was archived & remove the .gz
+```
+
+### X11
+
+#### clipboard
+
+* Note: X11 clipboard consists of a few parts called `selections`.
+There's `PRIMARY`, `SECONDARY`, and `CLIPBOARD`:
+    * `PRIMARY` a default on linux. Try highlighting a text in the console, then pressing the middle mouse button - you're using `PRIMARY` that way
+    * `SECONDARY` no idea. I don't think it's being used often
+    * `CLIPBOARD` the one we're all used to from Windows. If you're using a virtual machine, this is the one to go for having a clipboard that's shared with the host.
+
+```sh
+echo 'stuff to be copied' | xsel -ib  # pipe stdout of a command into the CLIPBOARD selection
 ```
 
 ### rsync
