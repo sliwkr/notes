@@ -96,6 +96,22 @@ aws cloudformation create-stack \
     --capabilities CAPABILITY_IAM
 ```
 
+#### List stacks with a given status
+
+```sh
+# list stacks which do not have "DELETE_" stack status
+STACK='foo-suffix'
+DEPLOYMENT='cf-stack-prefix'
+
+RESULT=$( aws cloudformation list-stacks --query "StackSummaries[?contains(StackName, '${DEPLOYMENT}')]" \
+    | jq '.[] | select(.StackStatus | contains("DELETE_") | not)' \
+    | jq .StackName \
+)
+
+if grep -q "${DEPLOYMENT}-${STACK}" <<< $RESULT; then
+    echo "doing smth"
+fi
+```
 
 ### S3
 
