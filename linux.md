@@ -170,6 +170,21 @@ ssh-keygen  # create new key, only if needed
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
 ```
 
+#### jumpbox config
+
+```sh
+Host jumpbox
+    Hostname 12.34.56.78
+    User username
+    IdentityFile ~/.ssh/key.pem
+
+Host priv
+    Hostname 172.17.0.91
+    User username
+    IdentityFile ~/.ssh/key.pem
+    ProxyJump jumpbox
+```
+
 ### find
 
 ```sh
@@ -960,7 +975,9 @@ tmux ls  # list active sessions
 :attach -c ~  # change default new window directory to ~
 ```
 
-### reset terminal settings
+### bash
+
+#### reset terminal settings
 
 ```sh
 printf "\033c"  # <ESC>c
@@ -968,13 +985,11 @@ printf "\033c"  # <ESC>c
 # https://web.archive.org/web/20191222201924/http://www.termsys.demon.co.uk/vtansi.htm
 ```
 
-### bash
-
 #### Useful flags
 
 ```bash
 set -e  # exit immediately on error
-set -x  # be verbose (also set -v)
+set -x  # be verbose (also set -v), e.g. print commands being executed
 set +x  # stop being verbose
 set -u  # throw error on undefined variable instead of assuming it's empty
 ```
