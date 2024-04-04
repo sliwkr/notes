@@ -975,6 +975,18 @@ git branch --no-contains <commit>
 git log --follow -- path/to/file
 ```
 
+#### See diff with more surrounding lines
+
+```sh
+git diff -U6  # show 6 lines surrounding a change
+```
+
+#### Get root path of a repository
+
+```sh
+git rev-parse --show-toplevel
+```
+
 ### icloudpd
 
 #### Sync all photos and videos from iCloud to a directory
@@ -1020,6 +1032,15 @@ set -e  # exit immediately on error
 set -x  # be verbose (also set -v), e.g. print commands being executed
 set +x  # stop being verbose
 set -u  # throw error on undefined variable instead of assuming it's empty
+```
+
+#### Read file line by line
+
+```sh
+# IFS is blank so filenames with spaces won't get treated as separate files
+while IFS= read -r line; do
+    echo "Text read from file: $line"
+done < my_filename.txt
 ```
 
 ### jq
