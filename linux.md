@@ -54,6 +54,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [icloudpd](#icloudpd)
 - [full system info](#inxi)
 - [tmux](#tmux)
+- [screen](#screen)
 - [reset terminal settings](#reset-terminal-settings)
 - [bash](#bash)
 - [jq](#jq)
@@ -1014,6 +1015,24 @@ C-d  # detach
 tmux ls  # list active sessions
 :attach -c ~  # change default new window directory to ~
 ```
+
+### screen
+
+#### split screen
+
+* `Ctrl+a |` split vertically
+* `Ctrl+a S` split horizontally
+* `Ctrl+a TAB` switch between splits
+* `Ctrl+a Q` unsplit
+
+#### new window
+
+* `Ctrl+a c` create new window
+* `Ctrl+a n` / `Ctrl+a p` / `Ctrl+a Ctrl+a` switch between windows
+
+#### scroll
+
+* `Ctrl+a [` enter copy mode, then Pgup and Pgdn
 
 ### bash
 
