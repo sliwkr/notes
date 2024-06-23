@@ -725,6 +725,15 @@ Note: On [X11](#X11), a clipboard usually refers to *CLIPBOARD selection*
 * `"+y` in visual mode, copy selection to clipboard register
 * `"+p` paste from clipboard register
 
+#### edit a file on a remote host
+
+# just so you know - if you find yourself doing this on prd,
+# you're doing something wrong
+
+```sh
+nvim scp://sliwkr@192.168.0.1//etc/nginx/conf.d/file.conf
+```
+
 ### colorized tree less output
 
 tree -C - do not reset text colouring when passing output through a pipe
