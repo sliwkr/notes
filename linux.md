@@ -350,6 +350,8 @@ ipdb - debugger with auto completion
 
 ### disk
 
+#### format
+
 ```sh
 
 fdisk /dev/sdX
@@ -368,6 +370,16 @@ mkfs.ntfs /dev/sdXY
 mkfs.ntfs -f /dev/sdXY # skip writing 0's at the start
 
 e2label /dev/sdXY device-label
+```
+
+#### mount permanently (fstab)
+
+* `blkid` to know the disk UUID an filesystem type
+* edit /etc/fstab afterwards, e.g. like so:
+
+```fstab
+# <file system>           <mount point>  <type>  <options>    <dump>  <pass>
+UUID=123-123-123-123-123  /mnt/storage   ext4    user,noauto  0       0
 ```
 
 ### package managers
