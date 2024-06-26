@@ -61,6 +61,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [expect](#expect)
 - [systemd](#systemd)
 - [clipboard](#clipboard)
+- [fonts](#fonts)
 
 ## snippets
 
@@ -1072,6 +1073,7 @@ set -e  # exit immediately on error
 set -x  # be verbose (also set -v), e.g. print commands being executed
 set +x  # stop being verbose
 set -u  # throw error on undefined variable instead of assuming it's empty
+set -o pipefail  # if a command in a pipeline fails, makes the pipeline return the exit status of the failed command (as opposed to returning the last command status by default)
 ```
 
 #### Read file line by line
@@ -1081,6 +1083,39 @@ set -u  # throw error on undefined variable instead of assuming it's empty
 while IFS= read -r line; do
     echo "Text read from file: $line"
 done < my_filename.txt
+```
+
+#### tables, arrays
+
+```bash
+# declare an "associative array variable" ACCOUNT_IDS
+declare -A ACCOUNT_IDS=(
+    ["ci"]="123"
+    ["stg"]="456"
+    ["prd"]="789"
+)
+
+
+# declare an "indexed array variable" ACCOUNT_LIST
+declare -a ACCOUNT_LIST=("123" "456" "789")
+
+# get all values of an array
+echo ${ACCOUNT_IDS[*]}  # '@' can be used and differ in case of values within double quotes, see 'Arrays' in man
+
+# get value of array member
+echo ${ACCOUNT_IDS[ci]}
+echo ${ACCOUNT_LIST[1]}
+echo ${ACCOUNT_LIST}  # equal to ${ACCOUNT_LIST[0]}
+
+# get keys of an array
+echo ${!ACCOUNT_IDS[@]}
+
+# delete an array member
+unset ACCOUNT_IDS[ci]
+
+# delete an array
+unset ACCOUNT_LIST
+
 ```
 
 ### jq
@@ -1101,6 +1136,16 @@ less -R - interpret color sequences
 
 ```sh
 ip -j a | jq -C .[0] | less -R
+```
+
+#### replace key value in place (sort of)
+
+https://stackoverflow.com/a/42718624
+
+```sh
+tmp=$(mktemp)
+jq '.address = "abcde"' test.json > "$tmp"
+mv "$tmp" test.json
 ```
 
 ### sort
@@ -1167,3 +1212,10 @@ OnUnitInactiveSec=86400
 [Install]
 WantedBy=timers.target
 ```
+
+### fonts
+
+#### Debian (https://wiki.debian.org/Fonts)
+
+* `/usr/share/fonts` / `~/.local/share/fonts` font location
+* `fc-cache -v` update font cache, (config at /etc/fonts/fonts.conf)
