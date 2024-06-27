@@ -62,6 +62,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [systemd](#systemd)
 - [clipboard](#clipboard)
 - [fonts](#fonts)
+- [sed](#sed)
 
 ## snippets
 
@@ -1116,6 +1117,11 @@ unset ACCOUNT_IDS[ci]
 # delete an array
 unset ACCOUNT_LIST
 
+# iterate over an array
+for account in "${ACCOUNT_IDS[@]}"; do
+    echo "${account}"
+done
+
 ```
 
 ### jq
@@ -1219,3 +1225,12 @@ WantedBy=timers.target
 
 * `/usr/share/fonts` / `~/.local/share/fonts` font location
 * `fc-cache -v` update font cache, (config at /etc/fonts/fonts.conf)
+
+
+### sed
+
+#### Find a line that starts with a word. Add another word to the end of that line
+
+```sh
+sed 's/^line_starts_with_me.*/& line_will_end_with_me/' file.txt  #  -i for in-place
+```
