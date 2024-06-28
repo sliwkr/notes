@@ -1154,6 +1154,13 @@ jq '.address = "abcde"' test.json > "$tmp"
 mv "$tmp" test.json
 ```
 
+#### get a key that contains a value
+
+```sh
+aws iam list-roles --profile myprofile \
+    | jq -r '.Roles[].Arn | select(contains("power-user-access"))'
+```
+
 ### sort
 
 #### get tab-separated text sorted by given field
