@@ -63,6 +63,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [clipboard](#clipboard)
 - [fonts](#fonts)
 - [sed](#sed)
+- [cryptsetup](#cryptsetup)
 
 ## snippets
 
@@ -1240,4 +1241,17 @@ WantedBy=timers.target
 
 ```sh
 sed 's/^line_starts_with_me.*/& line_will_end_with_me/' file.txt  #  -i for in-place
+```
+
+### cryptsetup
+
+#### mount & unmount an encrypted partition
+
+```sh
+# as root
+blkid | grep crypto_LUKS  # find out the partition
+cryptsetup open --type luks /dev/sdc3 the_partition_name  # setup unencrypted mapping to encrypted partition; requires passphrase
+mount /dev/mapper/the_part_name /mnt/the_mountpoint  # mount an unencrypted partition
+umount /dev/mapper/the_part_name
+cryptsetup close the_part_name  # remove the unencrypted mapping and wipe the encryption key from memory
 ```
