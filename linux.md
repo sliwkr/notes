@@ -472,6 +472,18 @@ iwconfig
 
 ### networkmanager
 
+#### power off the wifi card (rfkill)
+
+```sh
+nmcli radio wifi off
+```
+
+#### show wifi password for the current network
+
+```sh
+nmcli d wifi show-password
+```
+
 #### show wifi password for a known network
 
 ```sh
