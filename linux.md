@@ -64,6 +64,8 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [fonts](#fonts)
 - [sed](#sed)
 - [cryptsetup](#cryptsetup)
+- [firewalld](#firewalld)
+- [iso creation](#iso-cd)
 
 ## snippets
 
@@ -1254,4 +1256,23 @@ cryptsetup open --type luks /dev/sdc3 the_partition_name  # setup unencrypted ma
 mount /dev/mapper/the_part_name /mnt/the_mountpoint  # mount an unencrypted partition
 umount /dev/mapper/the_part_name
 cryptsetup close the_part_name  # remove the unencrypted mapping and wipe the encryption key from memory
+```
+
+
+### firewalld
+
+
+#### Get list of open ports
+
+```sh
+for s in $(firewall-cmd --list-services); do firewall-cmd --permanent --service "$s" --get-ports; done;
+```
+
+### iso cd
+
+#### Create an .iso from a CD or a DVD
+
+```sh
+# cat can be actually used to create one
+cat /dev/sr0 > iso_name.iso
 ```
