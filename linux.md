@@ -66,6 +66,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [cryptsetup](#cryptsetup)
 - [firewalld](#firewalld)
 - [iso creation](#iso-cd)
+- [dpkg](#dpkg)
 
 ## snippets
 
@@ -1275,9 +1276,7 @@ umount /dev/mapper/the_part_name
 cryptsetup close the_part_name  # remove the unencrypted mapping and wipe the encryption key from memory
 ```
 
-
 ### firewalld
-
 
 #### Get list of open ports
 
@@ -1292,4 +1291,46 @@ for s in $(firewall-cmd --list-services); do firewall-cmd --permanent --service 
 ```sh
 # cat can be actually used to create one
 cat /dev/sr0 > iso_name.iso
+```
+
+### dpkg
+
+#### What's the name of that package from which my tool comes from?
+
+```sh
+dpkg -S ip | grep '/bin/ip'
+```
+
+### dig
+
+#### Fetch the new value for the record, ignoring TTL cache (recursive lookup being done)
+
+```sh
+dig ddg.co +trace
+```
+
+#### Ask a resolver for the cached value of a record
+
+```sh
+dig @9.9.9.9 ddg.co +norecurse
+```
+
+#### better output
+
+```sh
+dig ddg.co +short
+dig ddg.co +yaml
+```
+
+#### how long do i have to wait for a negative value to expire?
+
+```sh
+$ dig +all void.ddg.co
+(...)
+;; AUTHORITY SECTION:
+ddg.co.  5  IN  SOA  dns1.p03.nsone.net. hostmaster.nsone.net. 1617736126 7200 7200 1209600 3600
+         ^                                                                                    ^
+    A minimum value of this...                                                      ...and this
+
+(...)
 ```
