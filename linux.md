@@ -67,6 +67,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [firewalld](#firewalld)
 - [iso creation](#iso-cd)
 - [dpkg](#dpkg)
+- [dig](#dig)
 
 ## snippets
 
@@ -990,6 +991,15 @@ mpv video.mkv --sub-file=video-subtitles.txt
 
 ### git
 
+#### Tag a commit
+
+```sh
+git tag tagname commit  # create a new tag locally
+git push origin tag tagname  # push the tag to remote
+git tag --delete tagname  # remove a wrong tag locally
+git push --delete origin tagname  # remove a wrong tag on remote
+```
+
 #### Compare feature branch $HEAD with a common ancestor of the master and feature branch
 
 ```sh
@@ -1107,6 +1117,12 @@ while IFS= read -r line; do
 done < my_filename.txt
 ```
 
+#### replace file extension on mass
+
+```sh
+for f in *.pem; do mv -- "$f"  "${f%.pem}.crt"; done
+```
+
 #### tables, arrays
 
 ```bash
@@ -1180,6 +1196,12 @@ mv "$tmp" test.json
 ```sh
 aws iam list-roles --profile myprofile \
     | jq -r '.Roles[].Arn | select(contains("power-user-access"))'
+```
+
+#### do not wrap output in quotes
+
+```sh
+jq .items[].metadata.name stuff.json -r
 ```
 
 ### sort
