@@ -34,7 +34,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [Working with pdf's](#pdf)
 - [ansible](#ansible)
 - [vim](#vim)
-- [colorized tree | less output](#colorized-tree-less-output)
+- [colorized less output when piping](#colorized-less-output-through-pipe)
 - [associating application with a given extension through xdg mimetypes](#xdg)
 - [tar](#tar)
 - [gzip](#gzip)
@@ -751,14 +751,19 @@ Note: On [X11](#X11), a clipboard usually refers to *CLIPBOARD selection*
 nvim scp://sliwkr@192.168.0.1//etc/nginx/conf.d/file.conf
 ```
 
-### colorized tree less output
+### colorized less output through pipe
 
-tree -C - do not reset text colouring when passing output through a pipe
-less -R - interpret color sequences
+* A matter of telling the first program not to reset text colouring when passing its output through a pipe,
+then telling the second program to interpret color sequences
 
 ```sh
 tree -C | less -R
 ```
+
+```sh
+jq -C '.' file.json | less -R
+```
+
 
 ### xdg
 
