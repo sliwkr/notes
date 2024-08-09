@@ -216,6 +216,12 @@ find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print 
 -X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
 ```
 
+#### use ssh bastion host as a proxy (socks5)
+
+```sh
+curl --proxy socks5h://localhost:8081 https://rabbit.mq.us-east-1.amazonaws.com/
+```
+
 #### get request headers
 
 ```sh
@@ -1164,6 +1170,12 @@ done
 ### jq
 
 https://zwischenzugs.com/2023/06/27/learn-jq-the-hard-way-part-i-json/
+
+#### Get an object that has a key with a matching value
+
+```sh
+cat ecr.output | jq '.repositories[] | select(.repositoryName=="shenanigans/takeover")'
+```
 
 #### Get multiple keys from a list of dictionaries
 
