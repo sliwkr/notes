@@ -68,6 +68,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [iso creation](#iso-cd)
 - [dpkg](#dpkg)
 - [dig](#dig)
+- [creating files](#files)
 
 ## snippets
 
@@ -1367,4 +1368,14 @@ ddg.co.  5  IN  SOA  dns1.p03.nsone.net. hostmaster.nsone.net. 1617736126 7200 7
     A minimum value of this...                                                      ...and this
 
 (...)
+```
+
+
+### files
+
+#### Create a 1KiB file
+
+```sh
+truncate --size 1K file.txt  # empty 1KiB file (du -k = 0)
+tr -dc A-Za-z0-9 </dev/urandom | head -c 1K > file.txt  # 1KiB file with alphanumeric content
 ```
