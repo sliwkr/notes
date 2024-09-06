@@ -1005,6 +1005,8 @@ git tag tagname commit  # create a new tag locally
 git push origin tag tagname  # push the tag to remote
 git tag --delete tagname  # remove a wrong tag locally
 git push --delete origin tagname  # remove a wrong tag on remote
+git fetch --tags  # get a list of tags from remote
+git tag  # list tags on local
 ```
 
 #### Compare feature branch $HEAD with a common ancestor of the master and feature branch
@@ -1066,6 +1068,16 @@ inxi -Fxxxzrc0
 ```
 
 ### tmux
+
+#### Windows / panes
+
+```sh
+# Rotate panes in the current window
+:rotate-window
+# Switch pane split layout (e.g. horiontal -> vertical)
+C-b space
+:next-layout
+```
 
 #### Sessions
 
