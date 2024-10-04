@@ -1049,6 +1049,7 @@ git diff -U6  # show 6 lines surrounding a change
 
 ```sh
 git rev-parse --show-toplevel
+git rev-parse --show-superproject-working-tree  # submodules only
 ```
 
 ### icloudpd
