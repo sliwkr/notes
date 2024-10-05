@@ -1311,6 +1311,13 @@ WantedBy=timers.target
 sed 's/^line_starts_with_me.*/& line_will_end_with_me/' file.txt  #  -i for in-place
 ```
 
+#### Replace a word in a line
+
+```sh
+# Replace <Flag>false</Flag> to <Flag>true</Flag>
+sed -i 's/<Flag>false<\/Flag>/<Flag>true<\/Flag>/' config.xml
+```
+
 ### cryptsetup
 
 #### mount & unmount an encrypted partition
@@ -1330,6 +1337,24 @@ cryptsetup close the_part_name  # remove the unencrypted mapping and wipe the en
 
 ```sh
 for s in $(firewall-cmd --list-services); do firewall-cmd --permanent --service "$s" --get-ports; done;
+```
+
+#### Get list of predefined services
+
+```sh
+firewall-cmd --get-services
+```
+
+#### Enable predefined service
+
+```sh
+firewall-cmd --add-service grafana  # --permanent for persistence after --reload
+```
+
+#### List enabled predefined services
+
+```sh
+firewall-cmd --list-services
 ```
 
 ### iso cd
