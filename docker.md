@@ -65,3 +65,26 @@ docker image inspect --format '{{json .RootFS.Layers}}' <image-id> | jq .
 ```sh
 docker image history 426d9fce83f2 --format 'table{{.ID}}\t{{.CreatedSince}}\t{{.CreatedBy}}\t{{.Size}}' | less
 ```
+
+### Mounting different kinds of volumes
+
+```sh
+# named bind mount
+$ docker volume create --driver local \
+      --opt type=none \
+      --opt device=/home/user/test \
+      --opt o=bind \
+      test_vol
+
+# nfs
+$ docker volume create --driver local \
+      --opt type=nfs \
+      --opt o=nfsvers=4,addr=nfs.example.com,rw \
+      --opt device=:/path/to/dir \
+      foo
+
+# overlay
+$ docker volume create --driver local --opt type=overlay \
+    --opt o=lowerdir=${PWD}/ro-data,upperdir=${PWD}/upper1,workdir=${PWD}/work1 \
+    --opt device=overlay overlay1
+```
