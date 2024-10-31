@@ -253,6 +253,12 @@ tree -a -I '.git|*~'  # list all files excluding .git folder and files ending wi
 
 key name - refers to the key ID visible on `--list-keys`
 
+#### encrypt a file with a passphrase
+
+```sh
+gpg --batch -c --cipher-algo AES256 --passphrase qwe123 my_file.txt
+```
+
 #### create a new key
 
 The first step is to have a key to sign files with. It's a good idea to have multiple
