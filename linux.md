@@ -1423,3 +1423,10 @@ ddg.co.  5  IN  SOA  dns1.p03.nsone.net. hostmaster.nsone.net. 1617736126 7200 7
 truncate --size 1K file.txt  # empty 1KiB file (du -k = 0)
 tr -dc A-Za-z0-9 </dev/urandom | head -c 1K > file.txt  # 1KiB file with alphanumeric content
 ```
+
+#### Get absolute path of a file
+
+```sh
+readlink -f file.txt
+realpath -f file.txt
+```
