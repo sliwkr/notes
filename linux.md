@@ -69,6 +69,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [dpkg](#dpkg)
 - [dig](#dig)
 - [creating files](#files)
+- [kernel parameters](#kernel)
 
 ## snippets
 
@@ -215,6 +216,12 @@ find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print 
 ```sh
 -H "x-api-key: 1234" -H "x-api-user: admin"  # each header given separately
 -X POST -H "Content-Type: Application/Json" -d '{"key": "value"}'  # json post
+```
+
+#### download, follow redirects
+
+```sh
+curl -Lo file.yml https://example.org/file.yml
 ```
 
 #### use ssh bastion host as a proxy (socks5)
@@ -1357,6 +1364,12 @@ firewall-cmd --get-services
 firewall-cmd --add-service grafana  # --permanent for persistence after --reload
 ```
 
+#### Open a selected port if there's no predefined service for it
+
+```sh
+firewall-cmd --add-port=8096/tcp  # --permanent for persistence after --reload
+```
+
 #### List enabled predefined services
 
 ```sh
@@ -1364,6 +1377,13 @@ firewall-cmd --list-services
 ```
 
 ### iso cd
+
+#### flash an .iso to an USB drive
+
+```sh
+# use lsblk or ls /dev/sd* to find out the device
+sudo dd if=image.iso of=/dev/sdb bs=1024k status=progress
+```
 
 #### Create an .iso from a CD or a DVD
 
@@ -1429,4 +1449,22 @@ tr -dc A-Za-z0-9 </dev/urandom | head -c 1K > file.txt  # 1KiB file with alphanu
 ```sh
 readlink -f file.txt
 realpath -f file.txt
+```
+
+#### montior / watch for filesystem changes
+
+```sh
+# inotify-tools
+inotifywait -m -r /path/to/your/directory  # -m monitor, -r recursive
+```
+
+### kernel
+
+#### sysctl
+
+https://linuxconfig.org/how-to-read-and-change-the-value-of-kernel-parameters-using-sysctl
+
+```sh
+sysctl -a  # list all kernel parameters and their values
+sysctl -w fs.inotify.max_user_watches=800000  # set a value, don't persist
 ```
