@@ -1065,6 +1065,15 @@ git rev-parse --show-toplevel
 git rev-parse --show-superproject-working-tree  # submodules only
 ```
 
+#### apply a patch
+
+```sh
+git apply --stat a_file.patch  # see stats
+git apply --check a_file.patch # see if it applies
+
+git apply a_file.patch  # apply & add to staging without committing
+git am --signoff < a_file.patch  # apply & commit & signoff
+```
 ### icloudpd
 
 #### Sync all photos and videos from iCloud to a directory
