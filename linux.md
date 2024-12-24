@@ -70,6 +70,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [dig](#dig)
 - [creating files](#files)
 - [kernel parameters](#kernel)
+- [nmap](#nmap)
 
 ## snippets
 
@@ -1476,4 +1477,47 @@ https://linuxconfig.org/how-to-read-and-change-the-value-of-kernel-parameters-us
 ```sh
 sysctl -a  # list all kernel parameters and their values
 sysctl -w fs.inotify.max_user_watches=800000  # set a value, don't persist
+```
+
+### nmap
+
+#### ICMP (ping) scan
+
+* When only ip needed
+
+```sh
+sudo nmap -sn 192.168.0.0/24
+```
+
+* Not nmap, but clever
+
+```sh
+#!/bin/sh
+# originally posted by Sergiy Kolodyazhnyy at https://askubuntu.com/a/655942
+#set -x
+pingf(){
+    if ping -w 2 -q -c 1 192.168.0."$1" > /dev/null ;
+    then
+        printf "IP %s is up\n" 192.168.0."$1"
+    fi
+}
+
+main(){
+
+    NUM=1
+    while [ $NUM -lt 255  ];do
+        pingf "$NUM" &
+        NUM=$(expr "$NUM" + 1)
+    done
+    wait
+}
+main
+```
+
+#### TCP SYN scan
+
+* Quite fast, 15s for /24 subnet
+
+```sh
+sudo nmap -sS 192.168.0.0/24
 ```
