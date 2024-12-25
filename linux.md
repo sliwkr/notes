@@ -1447,6 +1447,14 @@ ddg.co.  5  IN  SOA  dns1.p03.nsone.net. hostmaster.nsone.net. 1617736126 7200 7
 
 ### files
 
+#### Given an absolute path to a file, get the directory / filename
+
+```sh
+VAR=/mnt/disk/backup/2022/11/12/file.png
+basename $VAR  # file.png
+dirname $VAR  # /mnt/disk/backup/2022/11/12
+```
+
 #### Create a 1KiB file
 
 ```sh
