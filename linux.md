@@ -210,6 +210,10 @@ find -iname 'sebastian' -and -type d  # directories named 'sebastian'
 find -iname '*.js' -delete  # delete all files that end with .js
 find -iname '*.py' | xargs wc -l  # starts wc -l ./foo.py; wc -l ./bar.py; etc
 find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print a list of sizes in bytes and filenames
+# find all .txt files conaining 'hello', and read them; https://unix.stackexchange.com/a/389706
+find . -type f -name '*.txt'      \
+   -exec grep -q 'hello' {} ';'   \
+   -exec cat {} ';'
 ```
 
 ### curl
@@ -1446,6 +1450,29 @@ ddg.co.  5  IN  SOA  dns1.p03.nsone.net. hostmaster.nsone.net. 1617736126 7200 7
 
 
 ### files
+
+#### Update modified timestamp
+
+```sh
+touch -a -m -t 201604301451.58 file.jpg  # YYYYMMDDHHmm.ss
+```
+
+#### Renaming / filenames using parameter expansion
+
+* https://mywiki.wooledge.org/BashGuide/Parameters#Parameter_Expansion
+* Works for simple names, sucks for complex ones; prepare your files first
+* Keep in mind filenames with spaces, filenames with no extension, filenames with dots in the name
+
+```sh
+VAR=2024.05.tar.gz
+echo "$VAR"             # 2024.05.tar.gz
+echo "${VAR%.*}"        # 2024.05.tar
+echo "${VAR%.*}.log"    # 2024.05.tar.log
+echo "${VAR#*.}"        # 05.tar.gz
+echo "${VAR##*.}"       # gz
+echo "newname.${VAR#*.}"    # newname.05.tar.gz
+echo "newname.${VAR##*.}"   # newname.gz
+```
 
 #### Given an absolute path to a file, get the directory / filename
 
