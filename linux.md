@@ -1016,6 +1016,20 @@ mpv video.mkv --sub-file=video-subtitles.txt
 
 ### git
 
+#### Show filenames modified by a diff
+
+```sh
+git diff --compact-summary HEAD~1 HEAD
+```
+
+#### Remove a directory
+
+```sh
+git rm -r directoryname  # removes from the filesystem
+git rm -r --cached directoryname  # removes from git repository, keeps the directory in the filesystem
+git commit -m 'delete directoryname' && git push origin mybranchname
+```
+
 #### Tag a commit
 
 ```sh
