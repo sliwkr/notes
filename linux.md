@@ -818,6 +818,7 @@ $ xdg-mime default <TAB-to-autocomplete> application/json
 tar -xf file.tar.xz  # extract .tar.xz
 tar -xzvf file.tar.gz  # extract .tar.gz
 tar -xjvf file.tar.bz  # extract .tar.bz
+tar --zstd -xvf file.tar.zst  # extract .tar.zst
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file  # -c = create archive, -z = compress with gz, -v = show progress, -f = specify filename
 find . -maxdepth 1 -iname "*.html" | xargs tar -czvf tw.tar.gz  # find all html files in $PWD without recursing & tar 'em
 tar -tvf name-of-archive.tar.gz  # list archive contents
