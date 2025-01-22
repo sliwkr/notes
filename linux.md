@@ -71,6 +71,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [creating files](#files)
 - [kernel parameters](#kernel)
 - [nmap](#nmap)
+- [lvm](#lvm)
 
 ## snippets
 
@@ -1570,4 +1571,32 @@ main
 
 ```sh
 sudo nmap -sS 192.168.0.0/24
+```
+
+### lvm
+
+* https://www.baeldung.com/linux/lvm-add-disk
+
+```sh
+pvdisplay  # list physical volumes
+vgdisplay  # list volume groups
+lvdisplay  # list logical volumes
+```
+
+#### Add a physical volume to LVM
+
+```sh
+lsblk # get the device identifier
+pvcreate /dev/sdX
+pvdisplay  # see it added
+vgextend rl /dev/sdX  # add physical volume /dev/sdX to volume group rl (expanding claimable space)
+```
+
+#### Resize - expand existing logical volume
+
+```sh
+# expand existing-lv with 95% of the available free space
+lvresize --extents +95%FREE --resizefs rl/existing-lv
+# expand existing-lv by 10GB
+lvresize --size +10G --resizefs rl/existing-lv
 ```
