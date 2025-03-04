@@ -72,12 +72,14 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [kernel parameters](#kernel)
 - [nmap](#nmap)
 - [lvm](#lvm)
+- [network](#network)
 
 ## snippets
 
 ### new user
 
 ```sh
+adduser tom --disabled-password  # passwordless user, able to login with ssh key
 useradd -G sudo tom  # add user named tom and add tom to sudoers
 usermod -a -G secret tom  # add tom to secret group
 gpasswd -d tom secret  # remove tom from secret group
@@ -1573,6 +1575,7 @@ main
 sudo nmap -sS 192.168.0.0/24
 ```
 
+
 ### lvm
 
 * https://www.baeldung.com/linux/lvm-add-disk
@@ -1599,4 +1602,15 @@ vgextend rl /dev/sdX  # add physical volume /dev/sdX to volume group rl (expandi
 lvresize --extents +95%FREE --resizefs rl/existing-lv
 # expand existing-lv by 10GB
 lvresize --size +10G --resizefs rl/existing-lv
+```
+
+
+### network
+
+#### List all tcp connections
+
+```sh
+conntrack -L
+conntrack -E -s 192.168.1.100 # listen for connections from a given ip address
+conntrack -E -d 192.168.1.200 # listen for connections towards a given ip address
 ```
