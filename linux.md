@@ -73,6 +73,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [nmap](#nmap)
 - [lvm](#lvm)
 - [network](#network)
+- [x11 display and resolution](x11screen)
 
 ## snippets
 
@@ -229,6 +230,8 @@ find . -type f -name '*.txt'      \
 #### download, follow redirects
 
 ```sh
+# -L - follow 3xx redirects
+# -o - output file
 curl -Lo file.yml https://example.org/file.yml
 ```
 
@@ -1008,6 +1011,7 @@ ping -c 4 wp.pl | mailx -s "aliveness" root
 ```sh
 wget https://website.com/file.txt
 wget -O filename.txt https://website.com/file.txt
+wget -i fielist.txt  # download a list of files
 ```
 
 ### mpv
@@ -1190,6 +1194,8 @@ for f in *.pem; do mv -- "$f"  "${f%.pem}.crt"; done
 
 #### tables, arrays
 
+* Arrays cannot be passed as function arguments; instead, an array would be passed expanded as a list of arguments - which can be concatenated back through `$@`.
+
 ```bash
 # declare an "associative array variable" ACCOUNT_IDS
 declare -A ACCOUNT_IDS=(
@@ -1198,12 +1204,13 @@ declare -A ACCOUNT_IDS=(
     ["prd"]="789"
 )
 
-
 # declare an "indexed array variable" ACCOUNT_LIST
 declare -a ACCOUNT_LIST=("123" "456" "789")
+# another way
+ACCOUNT_LIST=("123" "456" "789")
 
 # get all values of an array
-echo ${ACCOUNT_IDS[*]}  # '@' can be used and differ in case of values within double quotes, see 'Arrays' in man
+echo ${ACCOUNT_IDS[@]}  # '*' can be used and differ in case of values within double quotes, see 'Arrays' in man
 
 # get value of array member
 echo ${ACCOUNT_IDS[ci]}
@@ -1223,6 +1230,10 @@ unset ACCOUNT_LIST
 for account in "${ACCOUNT_IDS[@]}"; do
     echo "${account}"
 done
+
+# copy an array
+arr=$("123" "456")
+anotherarr=( "${arr[@]}" )
 
 ```
 
@@ -1613,4 +1624,13 @@ lvresize --size +10G --resizefs rl/existing-lv
 conntrack -L
 conntrack -E -s 192.168.1.100 # listen for connections from a given ip address
 conntrack -E -d 192.168.1.200 # listen for connections towards a given ip address
+```
+
+
+### x11screen
+
+```sh
+xrandr --addmode VIRTUAL1 1280x720
+xrandr --output VIRTUAL1 --mode 1280x720 --left-of HDMI1
+xrandr --delmode VIRTUAL1 1280x720
 ```
