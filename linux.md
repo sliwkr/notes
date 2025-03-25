@@ -233,6 +233,7 @@ find . -type f -name '*.txt'      \
 # -L - follow 3xx redirects
 # -o - output file
 curl -Lo file.yml https://example.org/file.yml
+curl -LO https://example.org/file.yml # when no need to rename
 ```
 
 #### use ssh bastion host as a proxy (socks5)
@@ -1107,6 +1108,8 @@ git am --signoff < a_file.patch  # apply & commit & signoff
 
 ```sh
 icloudpd -u my.email@mail.com -d target_dir
+# move to "Recently deleted" after downloading
+icloudpd -u my.email@mail.com -d target_dir --delete-after-download
 ```
 
 ### inxi
