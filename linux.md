@@ -74,6 +74,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [lvm](#lvm)
 - [network](#network)
 - [x11 display and resolution](x11screen)
+- [date and time](dates)
 
 ## snippets
 
@@ -1636,4 +1637,22 @@ conntrack -E -d 192.168.1.200 # listen for connections towards a given ip addres
 xrandr --addmode VIRTUAL1 1280x720
 xrandr --output VIRTUAL1 --mode 1280x720 --left-of HDMI1
 xrandr --delmode VIRTUAL1 1280x720
+```
+
+
+### dates
+
+#### Convert unix timestamp to human-readable format
+
+```sh
+date -d @1743078901
+```
+
+#### Create unix timetamp of a given date
+
+```python
+import datetime
+int(
+  (datetime.datetime.now() + datetime.timedelta(days=3)).timestamp()
+)
 ```
