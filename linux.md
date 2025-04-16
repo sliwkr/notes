@@ -233,6 +233,7 @@ find . -type f -name '*.txt'      \
 ```sh
 # -L - follow 3xx redirects
 # -o - output file
+# --insecure - skip TLS verification
 curl -Lo file.yml https://example.org/file.yml
 curl -LO https://example.org/file.yml # when no need to rename
 ```
@@ -1025,6 +1026,26 @@ mpv video.mkv --sub-file=video-subtitles.txt
 ```
 
 ### git
+
+#### worktrees / multiple branches checked out at the same time
+
+```sh
+git clone --bare ssh://git@forge.com/myrepo.git myrepo
+cd myrepo
+git worktree add ci  # add linked worktree
+git worktree add stg
+git worktree list
+git worktree remove stg  # remove local linked worktree
+```
+
+#### what's the upstream the branch is tracking?
+
+```sh
+git remote show origin  # porcelain/slow
+git remote get-url origin  # show the url of this repo
+git rev-parse --abbrev-ref branchname@{upstream}  # returns branch if set, errors if not
+git branch -u originname/foo foo  # set local branch to track a remote branch originname/foo
+```
 
 #### Show filenames modified by a diff
 
