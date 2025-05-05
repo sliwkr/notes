@@ -851,6 +851,7 @@ There's `PRIMARY`, `SECONDARY`, and `CLIPBOARD`:
     * `CLIPBOARD` the one we're all used to from Windows. If you're using a virtual machine, this is the one to go for having a clipboard that's shared with the host.
 
 ```sh
+# xclip alternative
 echo 'stuff to be copied' | xsel -ib  # pipe stdout of a command into the CLIPBOARD selection
 ```
 
