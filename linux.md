@@ -202,6 +202,11 @@ Host priv
     ProxyJump jumpbox
 ```
 
+#### escape stuck connection
+
+* `<enter>~.`
+* `~?` in a live terminal for more
+
 ### find
 
 ```sh
