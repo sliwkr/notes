@@ -416,6 +416,8 @@ mkfs.ntfs /dev/sdXY
 mkfs.ntfs -f /dev/sdXY # skip writing 0's at the start
 
 e2label /dev/sdXY device-label
+
+tune2fs -m 1 /dev/sda1  # allocate 2% of storage for root-reserved blocks on ext4 filesystem
 ```
 
 #### mount permanently (fstab)
