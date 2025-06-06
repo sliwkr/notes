@@ -1192,6 +1192,12 @@ tmux ls  # list active sessions
 
 ### bash
 
+#### set multiple variables at once
+
+```sh
+read -r foo bar baz <<< $(echo fooval barval bazval)
+```
+
 #### reset terminal settings
 
 ```sh
@@ -1311,6 +1317,8 @@ mv "$tmp" test.json
 ```sh
 aws iam list-roles --profile myprofile \
     | jq -r '.Roles[].Arn | select(contains("power-user-access"))'
+
+aws iam list-roles | jq '.Roles[] | select(.RoleName=="rolename") | .Arn'
 ```
 
 #### do not wrap output in quotes
