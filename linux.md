@@ -224,6 +224,8 @@ find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print 
 find . -type f -name '*.txt'      \
    -exec grep -q 'hello' {} ';'   \
    -exec cat {} ';'
+# all files excluding 'backup' and '.git' directory
+find . -type f -not -path '*/backup/*' -not -path '*/.git/*'
 ```
 
 ### curl
@@ -274,6 +276,8 @@ tree -a -I '.git|*~'  # list all files excluding .git folder and files ending wi
 ```
 
 ### gpg
+
+* Don't, https://www.latacora.com/blog/2019/07/16/the-pgp-problem/
 
 #### glossary
 
@@ -1656,6 +1660,12 @@ lvresize --extents +95%FREE --resizefs rl/existing-lv
 lvresize --size +10G --resizefs rl/existing-lv
 ```
 
+#### Resize - shrink existing logical volume
+
+```sh
+# reduce size of a volume by 10GB
+lvresize --size -10G --resizefs rl/existing-lv
+```
 
 ### network
 
