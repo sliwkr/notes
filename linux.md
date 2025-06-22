@@ -224,8 +224,8 @@ find -iname *.mp4 -printf '%s %p \n'  # find all .mp4 in the current dir, print 
 find . -type f -name '*.txt'      \
    -exec grep -q 'hello' {} ';'   \
    -exec cat {} ';'
-# all files excluding 'backup' and '.git' directory
-find . -type f -not -path '*/backup/*' -not -path '*/.git/*'
+# all files excluding 'foo' and '.git' directory
+find . -type f -not -path '*/foo/*' -not -path '*/.git/*'
 ```
 
 ### curl
@@ -1552,9 +1552,9 @@ echo "newname.${VAR##*.}"   # newname.gz
 #### Given an absolute path to a file, get the directory / filename
 
 ```sh
-VAR=/mnt/disk/backup/2022/11/12/file.png
+VAR=/mnt/disk/foo/2022/11/12/file.png
 basename $VAR  # file.png
-dirname $VAR  # /mnt/disk/backup/2022/11/12
+dirname $VAR  # /mnt/disk/foo/2022/11/12
 ```
 
 #### Create a 1KiB file
@@ -1635,6 +1635,7 @@ sudo nmap -sS 192.168.0.0/24
 
 ### lvm
 
+* https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/configuring_and_managing_logical_volumes/overview-of-logical-volume-management#lvm-architecture
 * https://www.baeldung.com/linux/lvm-add-disk
 
 ```sh
@@ -1662,6 +1663,9 @@ lvresize --size +10G --resizefs rl/existing-lv
 ```
 
 #### Resize - shrink existing logical volume
+
+* xfs filesystem: reducing logical volumes is not supported.
+Workarounds are described https://dannyda.com/2021/10/08/how-to-shrink-reduce-xfs-partition-size-on-lvm/
 
 ```sh
 # reduce size of a volume by 10GB
