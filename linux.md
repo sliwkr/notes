@@ -82,7 +82,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 
 ```sh
 adduser tom --disabled-password  # passwordless user, able to login with ssh key
-useradd -G sudo tom  # add user named tom and add tom to sudoers
+useradd -G sudo tom  # add user named tom and add tom to sudoers. exit 9 if the user exists
 usermod -a -G secret tom  # add tom to secret group
 gpasswd -d tom secret  # remove tom from secret group
 newgrp secret  # log into a new group, removes the need to relogin after modifying groups
