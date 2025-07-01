@@ -254,7 +254,7 @@ curl --proxy socks5h://localhost:8081 https://rabbit.mq.us-east-1.amazonaws.com/
 #### get request headers
 
 ```sh
-curl -v -s hostname.com  # request & response headers
+curl -v -s hostname.com  # be verbose. request & response headers
 curl -i hostname.com  # response headers only
 ```
 
@@ -1126,6 +1126,12 @@ git diff -U6  # show 6 lines surrounding a change
 ```sh
 git rev-parse --show-toplevel
 git rev-parse --show-superproject-working-tree  # submodules only
+```
+
+#### create a patch
+
+```sh
+git diff > a_file.patch
 ```
 
 #### apply a patch
