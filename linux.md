@@ -840,8 +840,10 @@ tar -xzvf file.tar.gz  # extract .tar.gz
 tar -xjvf file.tar.bz  # extract .tar.bz
 tar -xaf file.tar.xz  # extract .tar.zst
 tar --zstd -xvf file.tar.zst  # extract .tar.zst
+
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file  # -c = create archive, -z = compress with gz, -v = show progress, -f = specify filename
 find . -maxdepth 1 -iname "*.html" | xargs tar -czvf tw.tar.gz  # find all html files in $PWD without recursing & tar 'em
+
 tar -tvf name-of-archive.tar.gz  # list archive contents
 tar -tf name-of-archive.tar.gz --wildcards '*Filename*' # search for file in archive
 ```
@@ -1593,6 +1595,7 @@ https://linuxconfig.org/how-to-read-and-change-the-value-of-kernel-parameters-us
 ```sh
 sysctl -a  # list all kernel parameters and their values
 sysctl -w fs.inotify.max_user_watches=800000  # set a value, don't persist
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p  # set a value, persist after reboot
 ```
 
 ### nmap
