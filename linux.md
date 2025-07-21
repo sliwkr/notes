@@ -1045,12 +1045,12 @@ mpv video.mkv --sub-file=video-subtitles.txt
 #### worktrees / multiple branches checked out at the same time
 
 ```sh
-git clone --bare ssh://git@forge.com/myrepo.git myrepo
-cd myrepo
-git worktree add ci  # add linked worktree
-git worktree add stg
+# --bare could be used, but git isn't really designed to work this way
+git clone ssh://git@forge.com/myrepo.git myrepo/main  # main as in the 'main' branch
+cd myrepo/main
+git worktree add ../ci ci  # adds 'ci' worktree which tracks 'ci' branch
 git worktree list
-git worktree remove stg  # remove local linked worktree
+git worktree remove ../ci  # remove local linked 'ci' worktree
 ```
 
 #### what's the upstream the branch is tracking?
