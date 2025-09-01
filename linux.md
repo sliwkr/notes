@@ -227,6 +227,7 @@ find . -type f -name '*.txt'      \
    -exec cat {} ';'
 # all files excluding 'foo' and '.git' directory
 find . -type f -not -path '*/foo/*' -not -path '*/.git/*'
+find . -type d -name tests -exec rm -r {} +  # find tests directory underneath current, delete the folder
 ```
 
 ### curl
