@@ -73,8 +73,9 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 - [nmap](#nmap)
 - [lvm](#lvm)
 - [network](#network)
-- [x11 display and resolution](x11screen)
-- [date and time](dates)
+- [x11 display and resolution](#x11screen)
+- [date and time](#dates)
+- [xargs](#xargs)
 
 ## snippets
 
@@ -1718,4 +1719,12 @@ import datetime
 int(
   (datetime.datetime.now() + datetime.timedelta(days=3)).timestamp()
 )
+```
+
+### xargs
+
+#### (subshell) execute a command within each directory that's under pwd
+
+```sh
+find . -maxdepth 1 -type d | tail -n +2 | xargs -I '{}' bash -c 'cd {}; git status'
 ```
