@@ -1343,6 +1343,12 @@ aws iam list-roles | jq '.Roles[] | select(.RoleName=="rolename") | .Arn'
 jq .items[].metadata.name stuff.json -r
 ```
 
+#### grab just top-level keys
+
+```
+jq '.|keys' stuff.json
+```
+
 ### sort
 
 #### get tab-separated text sorted by given field
