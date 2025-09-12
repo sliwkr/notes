@@ -1568,18 +1568,18 @@ basename $VAR  # file.png
 dirname $VAR  # /mnt/disk/foo/2022/11/12
 ```
 
-#### Create a 1KiB file
-
-```sh
-truncate --size 1K file.txt  # empty 1KiB file (du -k = 0)
-tr -dc A-Za-z0-9 </dev/urandom | head -c 1K > file.txt  # 1KiB file with alphanumeric content
-```
-
 #### Get absolute path of a file
 
 ```sh
 readlink -f file.txt
 realpath -f file.txt
+```
+
+#### Create a 1KiB file
+
+```sh
+truncate --size 1K file.txt  # empty 1KiB file (du -k = 0)
+tr -dc A-Za-z0-9 </dev/urandom | head -c 1K > file.txt  # 1KiB file with alphanumeric content
 ```
 
 #### montior / watch for filesystem changes
