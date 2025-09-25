@@ -1347,6 +1347,7 @@ jq .items[].metadata.name stuff.json -r
 
 ```
 jq '.|keys' stuff.json
+jq 'keys[]' stuff.json
 ```
 
 ### sort
