@@ -1045,6 +1045,13 @@ mpv video.mkv --sub-file=video-subtitles.txt
 
 ### git
 
+#### cloning
+
+```sh
+git clone --depth=1 myrepo.git  # shallow clone
+git clone --shallow-since="5 months ago" myrepo.git
+```
+
 #### worktrees / multiple branches checked out at the same time
 
 ```sh
@@ -1176,6 +1183,7 @@ inxi -Fxxxzrc0
 # Switch pane split layout (e.g. horiontal -> vertical)
 C-b space
 :next-layout
+:move-window -t another  # move current window to another session
 ```
 
 #### Sessions
