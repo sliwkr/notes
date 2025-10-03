@@ -85,6 +85,7 @@ You may get a better mileage by using https://www.mankier.com/ or https://tldr.s
 adduser tom --disabled-password  # passwordless user, able to login with ssh key
 getent group  # list groups created so far
 useradd -G sudo tom  # add user named tom and add tom to sudoers. exit 9 if the user exists
+usermod -a -G sudo tom  # add existing user to a group
 gpasswd -a tom secret  # add tom to secret group; also usermod -a -G secret tom
 gpasswd -d tom secret  # remove tom from secret group
 newgrp secret  # log into a new group, removes the need to relogin after modifying groups
@@ -1183,7 +1184,7 @@ inxi -Fxxxzrc0
 # Switch pane split layout (e.g. horiontal -> vertical)
 C-b space
 :next-layout
-:move-window -t another  # move current window to another session
+:move-window -t another  # move current window to another sess
 ```
 
 #### Sessions
